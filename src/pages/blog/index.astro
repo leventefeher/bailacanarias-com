@@ -22,7 +22,7 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft && data.lan
     <div class="container">
       {posts.length === 0 ? (
         <p style="text-align:center;color:var(--color-text);font-size:1.05rem;">
-          Blog posts coming soon. <a href="/contact">Get in touch</a> if you have suggestions!
+          Blog posts coming soon. <a href="/contact/">Get in touch</a> if you have suggestions!
         </p>
       ) : (
         <div class="blog-grid">

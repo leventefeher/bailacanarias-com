@@ -26,8 +26,8 @@ const hp = await reader.singletons.homepage.read();
       <h1>{hp?.heroTitleEn ?? 'Start the year dancing'}</h1>
       <p>{hp?.heroSubtitleEn}</p>
       <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
-        <a href="/dance-with-us" class="btn btn-primary">See our schedule</a>
-        <a href="/our-dance-styles" class="btn btn-outline">Explore dance styles</a>
+        <a href="/dance-with-us/" class="btn btn-primary">See our schedule</a>
+        <a href="/our-dance-styles/" class="btn btn-outline">Explore dance styles</a>
       </div>
     </div>
   </section>
@@ -101,7 +101,7 @@ const hp = await reader.singletons.homepage.read();
             {hp?.aboutSubtitleEn ?? 'Social dancers by heart'}
           </h3>
           {(hp?.aboutBodyEn ?? '').split('\n\n').map((para) => <p>{para}</p>)}
-          <a href="/who-we-are" class="btn btn-outline-primary" style="margin-top:0.5rem;"
+          <a href="/who-we-are/" class="btn btn-outline-primary" style="margin-top:0.5rem;"
             >Meet the team</a
           >
         </div>
@@ -121,7 +121,7 @@ const hp = await reader.singletons.homepage.read();
     <div class="container">
       <h2>Ready to dance?</h2>
       <p>Check out our current classes and upcoming events.</p>
-      <a href="/dance-with-us" class="btn btn-primary">See classes &amp; schedule</a>
+      <a href="/dance-with-us/" class="btn btn-primary">See classes &amp; schedule</a>
     </div>
   </section>
 

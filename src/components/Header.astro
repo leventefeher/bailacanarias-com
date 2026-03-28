@@ -6,38 +6,38 @@ interface Props {
 
 const { lang = 'en', currentPath = '' } = Astro.props;
 
-// Normalise path: remove trailing slash (except root "/")
-const path = currentPath.length > 1 && currentPath.endsWith('/')
-  ? currentPath.slice(0, -1)
-  : currentPath;
+// Normalise path: ensure trailing slash (except bare root "/")
+const path = currentPath && !currentPath.endsWith('/')
+  ? currentPath + '/'
+  : currentPath || '/';
 
 // Map every EN path → its ES equivalent, and vice versa
 const enToEs: Record<string, string> = {
-  '/':                            '/es/',
-  '/dance-with-us':               '/es/aprende-a-bailar-con-nosotros',
-  '/where-to-dance-in-tenerife':  '/es/donde-bailar-sbk-in-tenerife-salsa-bachata-kizomba',
-  '/our-dance-styles':            '/es/nuestros-estilos-de-baile',
-  '/who-we-are':                  '/es/quienes-somos',
-  '/contact':                     '/es/contacto',
-  '/resources':                   '/es/recursos',
-  '/levente-feher':               '/es/levente-feher',
-  '/our-partners':                '/es/nuestros-socios',
-  '/what-is-bachata':             '/es/que-es-la-bachata',
-  '/privacy-policy':              '/es/politica-de-privacidad',
+  '/':                             '/es/',
+  '/dance-with-us/':               '/es/aprende-a-bailar-con-nosotros/',
+  '/where-to-dance-in-tenerife/':  '/es/donde-bailar-sbk-in-tenerife-salsa-bachata-kizomba/',
+  '/our-dance-styles/':            '/es/nuestros-estilos-de-baile/',
+  '/who-we-are/':                  '/es/quienes-somos/',
+  '/contact/':                     '/es/contacto/',
+  '/resources/':                   '/es/recursos/',
+  '/levente-feher/':               '/es/levente-feher/',
+  '/our-partners/':                '/es/nuestros-socios/',
+  '/what-is-bachata/':             '/es/que-es-la-bachata/',
+  '/privacy-policy/':              '/es/politica-de-privacidad/',
 };
 
 const esToEn: Record<string, string> = {
-  '/es':                                                            '/',
-  '/es/aprende-a-bailar-con-nosotros':                             '/dance-with-us',
-  '/es/donde-bailar-sbk-in-tenerife-salsa-bachata-kizomba':       '/where-to-dance-in-tenerife',
-  '/es/nuestros-estilos-de-baile':                                 '/our-dance-styles',
-  '/es/quienes-somos':                                             '/who-we-are',
-  '/es/contacto':                                                  '/contact',
-  '/es/recursos':                                                  '/resources',
-  '/es/levente-feher':                                             '/levente-feher',
-  '/es/nuestros-socios':                                           '/our-partners',
-  '/es/que-es-la-bachata':                                         '/what-is-bachata',
-  '/es/politica-de-privacidad':                                    '/privacy-policy',
+  '/es/':                                                             '/',
+  '/es/aprende-a-bailar-con-nosotros/':                              '/dance-with-us/',
+  '/es/donde-bailar-sbk-in-tenerife-salsa-bachata-kizomba/':        '/where-to-dance-in-tenerife/',
+  '/es/nuestros-estilos-de-baile/':                                  '/our-dance-styles/',
+  '/es/quienes-somos/':                                              '/who-we-are/',
+  '/es/contacto/':                                                   '/contact/',
+  '/es/recursos/':                                                   '/resources/',
+  '/es/levente-feher/':                                              '/levente-feher/',
+  '/es/nuestros-socios/':                                            '/our-partners/',
+  '/es/que-es-la-bachata/':                                          '/what-is-bachata/',
+  '/es/politica-de-privacidad/':                                     '/privacy-policy/',
 };
 
 const altHref = lang === 'en'
@@ -45,21 +45,21 @@ const altHref = lang === 'en'
   : (esToEn[path] ?? '/');
 
 const navEn = [
-  { label: 'Dance styles',   href: '/our-dance-styles' },
-  { label: 'Learn to dance', href: '/dance-with-us' },
-  { label: 'Parties',        href: '/where-to-dance-in-tenerife' },
-  { label: 'Resources',      href: '/resources' },
-  { label: 'Who we are',     href: '/who-we-are' },
-  { label: 'Contact',        href: '/contact' },
+  { label: 'Dance styles',   href: '/our-dance-styles/' },
+  { label: 'Learn to dance', href: '/dance-with-us/' },
+  { label: 'Parties',        href: '/where-to-dance-in-tenerife/' },
+  { label: 'Resources',      href: '/resources/' },
+  { label: 'Who we are',     href: '/who-we-are/' },
+  { label: 'Contact',        href: '/contact/' },
 ];
 
 const navEs = [
-  { label: 'Estilos de baile', href: '/es/nuestros-estilos-de-baile' },
-  { label: 'Aprende a bailar', href: '/es/aprende-a-bailar-con-nosotros' },
-  { label: 'Fiestas',          href: '/es/donde-bailar-sbk-in-tenerife-salsa-bachata-kizomba' },
-  { label: 'Recursos',         href: '/es/recursos' },
-  { label: 'Quiénes somos',    href: '/es/quienes-somos' },
-  { label: 'Contacto',         href: '/es/contacto' },
+  { label: 'Estilos de baile', href: '/es/nuestros-estilos-de-baile/' },
+  { label: 'Aprende a bailar', href: '/es/aprende-a-bailar-con-nosotros/' },
+  { label: 'Fiestas',          href: '/es/donde-bailar-sbk-in-tenerife-salsa-bachata-kizomba/' },
+  { label: 'Recursos',         href: '/es/recursos/' },
+  { label: 'Quiénes somos',    href: '/es/quienes-somos/' },
+  { label: 'Contacto',         href: '/es/contacto/' },
 ];
 
 const nav = lang === 'es' ? navEs : navEn;
