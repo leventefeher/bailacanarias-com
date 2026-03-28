@@ -1,7 +1,4 @@
 ---
-// Replace MAILCHIMP_ACTION_URL with your MailChimp form action URL.
-// Find it in MailChimp: Audience → Signup forms → Embedded forms → copy the action="" URL.
-// It looks like: https://yourdomain.us1.list-manage.com/subscribe/post?u=XXXX&id=YYYY
 interface Props {
   lang?: 'en' | 'es';
   actionUrl?: string;
@@ -24,7 +21,11 @@ const t = {
     follower: 'Follower',
     styles: 'Styles interested in',
     subscribe: 'Subscribe',
+    loading: 'Subscribing…',
     privacy: 'You can unsubscribe at any time.',
+    success: "You're subscribed! Check your inbox to confirm.",
+    error: 'Something went wrong. Please try again.',
+    alreadySubscribed: "You're already subscribed.",
   },
   es: {
     heading: 'Mantengámonos en contacto',
@@ -37,7 +38,11 @@ const t = {
     follower: 'Follower',
     styles: 'Estilos de interés',
     subscribe: 'Suscribirse',
+    loading: 'Suscribiendo…',
     privacy: 'Puedes darte de baja en cualquier momento.',
+    success: '¡Te has suscrito! Revisa tu bandeja de entrada para confirmar.',
+    error: 'Algo salió mal. Por favor, inténtalo de nuevo.',
+    alreadySubscribed: 'Ya estás suscrito.',
   },
 };
 
@@ -56,8 +61,11 @@ const text = t[lang];
         id="mc-embedded-subscribe-form"
         name="mc-embedded-subscribe-form"
         class="mc-form"
-        target="_blank"
         novalidate
+        data-success={text.success}
+        data-error={text.error}
+        data-already={text.alreadySubscribed}
+        data-loading={text.loading}
       >
         <div class="form-row">
           <div class="form-group">
@@ -96,8 +104,10 @@ const text = t[lang];
 
         <!-- MailChimp bot protection — do not remove -->
         <div style="position:absolute;left:-5000px;" aria-hidden="true">
-          <input type="text" name="b_PLACEHOLDER" tabindex="-1" value="" />
+          <input type="text" name="b_6eb20492e217d3d8c4d8b0b7f_3ccaf47767" tabindex="-1" value="" />
         </div>
+
+        <div id="mc-status" role="alert" aria-live="polite" style="display:none;text-align:center;font-weight:600;padding:0.75rem;border-radius:6px;margin-top:0.5rem;"></div>
 
         <button type="submit" name="subscribe" class="btn btn-primary">{text.subscribe}</button>
 
@@ -108,3 +118,77 @@ const text = t[lang];
     </div>
   </div>
 </section>
+
+<style>
+  @keyframes mc-spin {
+    to { transform: rotate(360deg); }
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    var form = document.getElementById('mc-embedded-subscribe-form');
+    if (!form) return;
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      var statusEl = document.getElementById('mc-status');
+      var btn = form.querySelector('button[type="submit"]');
+      var successMsg = form.dataset.success || 'Subscribed!';
+      var errorMsg = form.dataset.error || 'Something went wrong.';
+      var alreadyMsg = form.dataset.already || "You're already subscribed.";
+      var loadingMsg = form.dataset.loading || 'Subscribing…';
+
+      // Swap /post → /post-json for JSONP
+      var jsonpUrl = form.action.replace('/post?', '/post-json?');
+
+      // Serialise form data manually (avoids TS cast issues)
+      var formData = new FormData(form);
+      var params = new URLSearchParams();
+      formData.forEach(function (value, key) {
+        params.append(key, String(value));
+      });
+
+      var callbackName = '__mcCallback_' + Date.now();
+      var src = jsonpUrl + '&' + params.toString() + '&c=' + callbackName;
+
+      // Loading state
+      var originalLabel = btn.textContent;
+      btn.disabled = true;
+      btn.innerHTML =
+        '<svg style="display:inline-block;vertical-align:middle;margin-right:6px;animation:mc-spin 0.8s linear infinite" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>'
+        + loadingMsg;
+
+      // Register callback on window so JSONP response can find it
+      window[callbackName] = function (data) {
+        btn.disabled = false;
+        btn.textContent = originalLabel;
+        statusEl.style.display = 'block';
+        if (data.result === 'success') {
+          statusEl.style.background = 'rgba(255,255,255,0.15)';
+          statusEl.style.color = '#fff';
+          statusEl.textContent = successMsg;
+          form.reset();
+        } else if (data.msg && data.msg.includes('already subscribed')) {
+          statusEl.style.background = 'rgba(255,255,255,0.15)';
+          statusEl.style.color = '#fff';
+          statusEl.textContent = alreadyMsg;
+        } else {
+          statusEl.style.background = 'rgba(255,100,100,0.3)';
+          statusEl.style.color = '#fff';
+          statusEl.textContent = errorMsg;
+        }
+        // Tidy up
+        delete window[callbackName];
+        var scriptEl = document.getElementById(callbackName);
+        if (scriptEl) scriptEl.remove();
+      };
+
+      var script = document.createElement('script');
+      script.id = callbackName;
+      script.src = src;
+      document.body.appendChild(script);
+    });
+  })();
+</script>
