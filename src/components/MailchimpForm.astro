@@ -9,7 +9,7 @@ interface Props {
 
 const {
   lang = 'en',
-  actionUrl = 'YOUR_MAILCHIMP_ACTION_URL',
+  actionUrl = 'https://bailacanarias.us21.list-manage.com/subscribe/post?u=6eb20492e217d3d8c4d8b0b7f&id=3ccaf47767&v_id=340&f_id=0004bde6f0',
 } = Astro.props;
 
 const t = {
@@ -44,7 +44,7 @@ const t = {
 const text = t[lang];
 ---
 
-<section class="section">
+<section class="section mc-section">
   <div class="container">
     <div class="mc-form-wrap">
       <h2>{text.heading}</h2>
@@ -101,7 +101,7 @@ const text = t[lang];
 
         <button type="submit" name="subscribe" class="btn btn-primary">{text.subscribe}</button>
 
-        <p style="text-align:center;font-size:0.8rem;color:var(--color-text);margin-top:0.25rem;">
+        <p style="text-align:center;font-size:0.8rem;color:rgba(255,255,255,0.7);margin-top:0.25rem;">
           {text.privacy}
         </p>
       </form>

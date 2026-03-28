@@ -1,0 +1,12 @@
+{
+  "name": "Baila Canarias",
+  "short_name": "Baila Canarias",
+  "description": "Latin dance school in Tenerife. Salsa, bachata and kizomba classes.",
+  "icons": [
+    { "src": "/favicon-32x32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/favicon-192x192.png", "sizes": "192x192", "type": "image/png" }
+  ],
+  "theme_color": "#aa0726",
+  "background_color": "#f3ebdd",
+  "display": "browser"
+}

@@ -17,12 +17,16 @@ const hp = await reader.singletons.homepage.read();
 >
   <!-- Hero -->
   <section class="hero">
-    <div class="hero-bg" style={`background-image:url('${hp?.heroImage ?? '/images/2024/03/DSC_6420.jpg'}');`}></div>
+    <div
+      class="hero-bg"
+      style={`background-image:url('${hp?.heroImage ?? '/images/DSC_6420.jpg'}');`}
+    >
+    </div>
     <div class="container">
       <h1>{hp?.heroTitleEn ?? 'Start the year dancing'}</h1>
       <p>{hp?.heroSubtitleEn}</p>
       <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
-        <a href="/dance-with-us" class="btn btn-amber">See our schedule</a>
+        <a href="/dance-with-us" class="btn btn-primary">See our schedule</a>
         <a href="/our-dance-styles" class="btn btn-outline">Explore dance styles</a>
       </div>
     </div>
@@ -96,11 +100,7 @@ const hp = await reader.singletons.homepage.read();
           <h3 style="color:var(--color-primary);font-weight:600;margin-bottom:1rem;">
             {hp?.aboutSubtitleEn ?? 'Social dancers by heart'}
           </h3>
-          {
-            (hp?.aboutBodyEn ?? '').split('\n\n').map((para) => (
-              <p>{para}</p>
-            ))
-          }
+          {(hp?.aboutBodyEn ?? '').split('\n\n').map((para) => <p>{para}</p>)}
           <a href="/who-we-are" class="btn btn-outline-primary" style="margin-top:0.5rem;"
             >Meet the team</a
           >
@@ -121,7 +121,7 @@ const hp = await reader.singletons.homepage.read();
     <div class="container">
       <h2>Ready to dance?</h2>
       <p>Check out our current classes and upcoming events.</p>
-      <a href="/dance-with-us" class="btn btn-outline">See classes &amp; schedule</a>
+      <a href="/dance-with-us" class="btn btn-primary">See classes &amp; schedule</a>
     </div>
   </section>
 

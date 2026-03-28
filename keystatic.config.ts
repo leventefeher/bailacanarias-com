@@ -151,10 +151,10 @@ export default config({
               label: 'Note for this day (ES, optional)',
               multiline: true,
             }),
-            // Events encoded as one per line: "Name | Location | Styles EN | Styles ES"
+            // Events encoded as one per line: "Name | Location | Styles EN | Styles ES | URL (optional)"
             // Nested arrays are not supported in Keystatic — use this text format instead.
             eventsRaw: fields.text({
-              label: 'Events — one per line: Name | Location | Styles (EN) | Styles (ES)',
+              label: 'Events — one per line: Name | Location | Styles (EN) | Styles (ES) | URL (optional)',
               multiline: true,
             }),
           }),

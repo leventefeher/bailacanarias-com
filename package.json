@@ -5,12 +5,14 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "build:prod": "astro build --config astro.config.prod.mjs",
     "preview": "astro preview",
     "format": "prettier --write ."
   },
   "dependencies": {
     "@astrojs/node": "^10.0.4",
     "@astrojs/react": "^5.0.2",
+    "@astrojs/sitemap": "^3.7.2",
     "@keystatic/astro": "^5.0.6",
     "@keystatic/core": "^0.5.50",
     "astro": "^6.1.1",

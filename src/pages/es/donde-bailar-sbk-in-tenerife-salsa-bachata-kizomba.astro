@@ -14,10 +14,10 @@ function parseEvents(raw: string) {
     .map((line) => line.trim())
     .filter(Boolean)
     .map((line) => {
-      const [name = '', location = '', stylesEn = '', stylesEs = ''] = line
+      const [name = '', location = '', stylesEn = '', stylesEs = '', url = ''] = line
         .split('|')
         .map((s) => s.trim());
-      return { name, location, stylesEn, stylesEs };
+      return { name, location, stylesEn, stylesEs, url };
     });
 }
 ---
@@ -31,7 +31,7 @@ function parseEvents(raw: string) {
 >
   <div class="page-header" style={`--page-hero-img: url('${data?.heroImage ?? '/images/2024/01/320A0372.jpg'}')`}>
     <div class="container">
-      <h1>¿Dónde Bailar SBK en Tenerife?</h1>
+      <h1>¿Dónde bailar SBK en Tenerife?</h1>
       <p>Salsa, Bachata y Kizomba en toda la isla</p>
     </div>
   </div>
@@ -48,40 +48,45 @@ function parseEvents(raw: string) {
 
       <h2 style="margin-bottom:1.5rem;">Fiestas de Baile Semanales</h2>
 
-      <div class="parties-list">
-        {
-          parties.map((group) => {
-            const events = parseEvents(group.eventsRaw ?? '');
-            return (
-              <div class="day-group">
-                <div class="day-label">{group.dayEs}</div>
-                {group.dayNoteEs && <p>{group.dayNoteEs}</p>}
-                {events.map((event, i) => (
-                  <div class="party-item" style={i < events.length - 1 ? 'margin-bottom:1rem;' : ''}>
-                    <span class="party-name">{event.name}</span>
-                    <span class="party-location">{event.location}</span>
-                    <span class="party-styles">{event.stylesEs}</span>
-                  </div>
-                ))}
-              </div>
-            );
-          })
-        }
-      </div>
+      <div class="parties-with-sidebar">
+        <div class="parties-list">
+          {
+            parties.map((group) => {
+              const events = parseEvents(group.eventsRaw ?? '');
+              return (
+                <div class="day-group">
+                  <div class="day-label">{group.dayEs}</div>
+                  {group.dayNoteEs && <p>{group.dayNoteEs}</p>}
+                  {events.map((event) => (
+                    <div class="party-item">
+                      {event.url
+                        ? <a href={event.url} class="party-name" target="_blank" rel="noopener">{event.name}</a>
+                        : <span class="party-name">{event.name}</span>
+                      }
+                      <span class="party-location">{event.location}</span>
+                      <span class="party-styles">{event.stylesEs}</span>
+                    </div>
+                  ))}
+                </div>
+              );
+            })
+          }
+        </div>
 
-      <div style="background:var(--color-bg-light);border-radius:8px;padding:1.5rem 2rem;margin-top:2.5rem;">
-        <h3 style="margin-bottom:0.5rem;">Mantente al día</h3>
-        <p>
-          Síguenos en Instagram para ver las fiestas y eventos sociales más actualizados en Tenerife.
-          También hay muchos eventos adicionales ad hoc — consulta
-          <a href="https://www.instagram.com/bailacanarias" target="_blank" rel="noopener">Sociales en Tenerife</a>
-          para los más recientes.
-        </p>
-        <p style="margin-bottom:1rem;">
-          ¿Buscas bailar en Gran Canaria? Visita
-          <a href="https://www.livegrancanaria.com" target="_blank" rel="noopener">Live Gran Canaria</a>.
-        </p>
-        <a href="https://www.instagram.com/bailacanarias" target="_blank" rel="noopener" class="btn btn-primary">Síguenos en Instagram</a>
+        <aside class="parties-sidebar">
+          <h3 style="margin-bottom:0.75rem;">Mantente al día</h3>
+          <p style="margin-bottom:0.75rem;">
+            Síguenos en Instagram para ver las fiestas y eventos sociales más actualizados en Tenerife.
+            También hay muchos eventos adicionales ad hoc — consulta
+            <a href="https://www.instagram.com/bailacanarias" target="_blank" rel="noopener">Sociales en Tenerife</a>
+            para los más recientes.
+          </p>
+          <p style="margin-bottom:1rem;">
+            ¿Buscas bailar en Gran Canaria? Visita
+            <a href="https://www.livegrancanaria.com" target="_blank" rel="noopener">Live Gran Canaria</a>.
+          </p>
+          <a href="https://www.instagram.com/bailacanarias" target="_blank" rel="noopener" class="btn btn-primary">Síguenos en Instagram</a>
+        </aside>
       </div>
     </div>
   </section>
