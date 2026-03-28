@@ -100,7 +100,7 @@ const homeHref = lang === 'es' ? '/es/' : '/';
       {nav.map(item => (
         <a
           href={item.href}
-          class={currentPath === item.href ? 'active' : ''}
+          class={path === item.href ? 'active' : ''}
         >
           {item.label}
         </a>
