@@ -1,0 +1,93 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import MailchimpForm from '../../components/MailchimpForm.astro';
+---
+
+<Layout
+  title="Recursos para Bailarines"
+  description="Libros, apps y música para ayudarte a ser mejor bailarín de salsa, bachata y kizomba. Seleccionados por Baila Canarias."
+  lang="es"
+  hreflangEN="https://www.bailacanarias.com/resources"
+  hreflangES="https://www.bailacanarias.com/es/recursos"
+>
+  <div class="page-header">
+    <div class="container">
+      <h1>Recursos y Herramientas para Bailarines</h1>
+      <p>Libros, apps y música seleccionados para mejorar tu baile</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <p style="font-size:1.05rem;max-width:700px;margin-bottom:3rem;">
+        ¿Buscas recursos que te ayuden a ser mejor bailarín? Consulta nuestra lista de
+        herramientas que puedes usar para mejorar tu comprensión de la música, el baile,
+        la cultura y mucho más.
+      </p>
+
+      <h2 style="margin-bottom:1.5rem;">Libros</h2>
+      <div class="cards-grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr));margin-bottom:3rem;">
+        <div class="card card-accent">
+          <h3>Bachata and Dominican Identity</h3>
+          <p style="font-size:0.9rem;color:var(--color-text-light);margin-bottom:0.5rem;font-style:italic;">La bachata y la identidad dominicana</p>
+          <p>por Julie A. Sellers</p>
+          <p style="font-size:0.85rem;color:var(--color-text-light);">ISBN: B00NPAXMXO</p>
+        </div>
+
+        <div class="card card-accent">
+          <h3>Bachata: Social History of a Dominican Popular Music</h3>
+          <p>por Deborah Pacini Hernandez</p>
+          <p style="font-size:0.85rem;color:var(--color-text-light);">ISBN: 978-1566392990</p>
+        </div>
+      </div>
+
+      <h2 style="margin-bottom:1.5rem;">Aplicaciones</h2>
+      <div class="cards-grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr));margin-bottom:3rem;">
+        <div class="card card-accent">
+          <h3>E-musicality por Pierre Henry</h3>
+          <p>
+            Una excelente aplicación web que te permite descomponer la música por instrumentos
+            y seguir el compás y el fraseo. Herramienta muy útil para enseñar o aprender
+            musicalidad que todos los profesores deberían utilizar.
+          </p>
+        </div>
+      </div>
+
+      <h2 style="margin-bottom:1.5rem;">Música</h2>
+
+      <div style="margin-bottom:2.5rem;">
+        <iframe
+          style="border-radius:12px;display:block;width:100%;"
+          src="https://open.spotify.com/embed/playlist/2MtUnoxldJNjFIpV6M3fnX?utm_source=generator"
+          height="352"
+          frameborder="0"
+          allowfullscreen
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+      </div>
+
+      <div class="cards-grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr));">
+        <div class="card card-accent">
+          <h3>Colección Bachata en Spotify</h3>
+          <p>Una colección curada de temas esenciales de bachata.</p>
+        </div>
+
+        <div class="card card-accent">
+          <h3>Bachata Breakdown</h3>
+          <p style="font-size:0.9rem;color:var(--color-text-light);margin-bottom:0.75rem;font-style:italic;">por Carlos Cinta y Joan Soriano</p>
+          <p>
+            Un excelente CD didáctico de bachata que descompone la música instrumento por
+            instrumento — Bongó, Bajo, Guitarra Principal, Guitarra Rítmica, Güira. Incluye
+            también cuentas sobre la música de bachata. Muy recomendado para estudiantes y profesores.
+          </p>
+          <p style="font-size:0.85rem;font-style:italic;color:var(--color-text-light);">
+            "El único de su tipo que conozco." – Adam Taub, IASO Records
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <MailchimpForm lang="es" />
+</Layout>

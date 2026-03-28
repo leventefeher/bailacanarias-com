@@ -1,0 +1,66 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import MailchimpForm from '../../components/MailchimpForm.astro';
+import { createReader } from '@keystatic/core/reader';
+import keystaticConfig from '../../../keystatic.config';
+
+const reader = createReader(process.cwd(), keystaticConfig);
+const data = await reader.singletons.team.read();
+const members = data?.members ?? [];
+---
+
+<Layout
+  title="Quiénes Somos"
+  description="Conoce al equipo de Baila Canarias — bailarines sociales apasionados que enseñan salsa, bachata y kizomba en Tenerife desde 2022."
+  lang="es"
+  hreflangEN="https://www.bailacanarias.com/who-we-are"
+  hreflangES="https://www.bailacanarias.com/es/quienes-somos"
+>
+  <div class="page-header" style={`--page-hero-img: url('${data?.heroImage ?? '/images/2024/01/320A0544-edited-1.jpg'}')`}>
+    <div class="container">
+      <h1>Quiénes Somos</h1>
+      <p>Bailarines sociales apasionados que comparten la alegría del baile latino en Tenerife</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div style="max-width:760px;margin:0 auto 3rem;">
+        {
+          (data?.introEs ?? '').split('\n\n').map((para) => (
+            <p style="font-size:1.05rem;">{para}</p>
+          ))
+        }
+      </div>
+
+      <h2 style="text-align:center;margin-bottom:2.5rem;">Conoce al equipo</h2>
+
+      <div class="team-grid">
+        {
+          members.map((member) => (
+            <div class="team-card">
+              <img src={member.photo} alt={member.name} class="team-card-img" />
+              <div class="team-card-body">
+                <h3>{member.name}</h3>
+                <p>{member.bioEs}</p>
+                {member.profileLinkEs && (
+                  <a href={member.profileLinkEs} class="read-more">Leer más sobre {member.name.split(' ')[0]} →</a>
+                )}
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <h2>¿Quieres bailar con nosotros?</h2>
+      <p>Consulta nuestras clases y próximos eventos.</p>
+      <a href="/es/aprende-a-bailar-con-nosotros" class="btn btn-outline">Ver clases</a>
+    </div>
+  </section>
+
+  <MailchimpForm lang="es" />
+</Layout>

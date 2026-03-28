@@ -1,0 +1,73 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MailchimpForm from '../components/MailchimpForm.astro';
+import { createReader } from '@keystatic/core/reader';
+import keystaticConfig from '../../keystatic.config';
+
+const reader = createReader(process.cwd(), keystaticConfig);
+const data = await reader.singletons.danceStyles.read();
+const styles = data?.styles ?? [];
+---
+
+<Layout
+  title="Our Dance Styles"
+  description="Explore salsa, bachata, merengue and kizomba at Baila Canarias in Tenerife. Learn about each style and find the one for you."
+  lang="en"
+  hreflangEN="https://www.bailacanarias.com/our-dance-styles"
+  hreflangES="https://www.bailacanarias.com/es/"
+>
+  <div class="page-header">
+    <div class="container">
+      <h1>Our Dance Styles</h1>
+      <p>The thrill of expression &amp; the joy of connection</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <p>{data?.introEn}</p>
+        <p>{data?.intro2En}</p>
+      </div>
+
+      <div class="cards-grid">
+        {
+          styles.map((style) => (
+            <div class="team-card" id={style.id}>
+              <img
+                src={style.image}
+                alt={style.nameEn}
+                class="team-card-img team-card-img--landscape"
+              />
+              <div class="team-card-body" style="text-align:left;">
+                <h3>{style.nameEn}</h3>
+                {style.tagline && (
+                  <p style="color:var(--color-primary);font-style:italic;font-size:0.9rem;margin-bottom:0.75rem;">
+                    {style.tagline}
+                  </p>
+                )}
+                <p>{style.descriptionEn}</p>
+                {style.learnMoreLinkEn && (
+                  <a href={style.learnMoreLinkEn} style="font-weight:600;font-size:0.9rem;">Learn more →</a>
+                )}
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <h2>Ready to start your journey?</h2>
+      <p>See our classes and upcoming events, or find out where to social dance in Tenerife.</p>
+      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+        <a href="/dance-with-us" class="btn btn-outline">See classes</a>
+        <a href="/where-to-dance-in-tenerife" class="btn btn-outline">Where to dance</a>
+      </div>
+    </div>
+  </section>
+
+  <MailchimpForm lang="en" />
+</Layout>

@@ -1,0 +1,106 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import MailchimpForm from '../../components/MailchimpForm.astro';
+import { createReader } from '@keystatic/core/reader';
+import keystaticConfig from '../../../keystatic.config';
+
+const reader = createReader(process.cwd(), keystaticConfig);
+const hp = await reader.singletons.homepage.read();
+---
+
+<Layout
+  title="Baila Canarias"
+  description="Escuela de baile latino en Tenerife. Clases de salsa, bachata y kizomba en Los Gigantes y Puerto Santiago. ¡Principiantes bienvenidos!"
+  lang="es"
+  hreflangEN="https://www.bailacanarias.com/"
+  hreflangES="https://www.bailacanarias.com/es/"
+>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg" style={`background-image:url('${hp?.heroImage ?? '/images/2024/03/DSC_6354-slider.jpg'}');`}></div>
+    <div class="container">
+      <h1>{hp?.heroTitleEs ?? 'Aprende a bailar con nosotros'}</h1>
+      <p>{hp?.heroSubtitleEs}</p>
+      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+        <a href="/es/aprende-a-bailar-con-nosotros" class="btn btn-primary">Ver horarios</a>
+        <a href="/our-dance-styles" class="btn btn-outline">Nuestros estilos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Estilos -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>¿Listo para empezar tu viaje de baile?</h2>
+        <p>
+          Ofrecemos una variedad de estilos de baile. ¿Quieres perderte en el fascinante
+          círculo social de una Rueda Cubana? ¿Mover tus caderas al ritmo de la conga?
+          ¿Encontrar tu alma en las guitarras de la Bachata? Lo que sea que necesites, lo tenemos.
+        </p>
+      </div>
+
+      <div class="cards-grid">
+        <a href="/es/nuestros-estilos-de-baile#salsa" class="team-card" style="text-decoration:none;">
+          <img src="/images/2024/01/320A0372.jpg" alt="Salsa" class="team-card-img team-card-img--landscape" />
+          <div class="team-card-body" style="text-align:left;">
+            <h3>Salsa</h3>
+            <p>Cubano, Timba, Casino, Rueda. ¿Qué son? Ven a descubrirlo y da tus primeros pasos con nosotros.</p>
+          </div>
+        </a>
+        <a href="/es/nuestros-estilos-de-baile#bachata" class="team-card" style="text-decoration:none;">
+          <img src="/images/2023/11/Levi-Jade-Thumbnail.jpg" alt="Bachata" class="team-card-img team-card-img--landscape" />
+          <div class="team-card-body" style="text-align:left;">
+            <h3>Bachata</h3>
+            <p>Música del Amargue. Amargura, tristeza, amor, desamor — ¿qué más podría describir la Bachata?</p>
+          </div>
+        </a>
+        <a href="/es/nuestros-estilos-de-baile#kizomba" class="team-card" style="text-decoration:none;">
+          <img src="/images/2024/03/DSC_6354-slider.jpg" alt="Kizomba" class="team-card-img team-card-img--landscape" />
+          <div class="team-card-body" style="text-align:left;">
+            <h3>Kizomba</h3>
+            <p>Con su rica cultura, historia y música aún más hermosa; no podrás resistirte a enamorarte de la Kizomba.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre nosotros -->
+  <section class="section section--cream">
+    <div class="container">
+      <div class="two-col">
+        <div>
+          <h2>{hp?.aboutTitleEs ?? '¡Hola, somos Baila Canarias!'}</h2>
+          <h3 style="color:var(--color-primary);font-weight:600;margin-bottom:1rem;">
+            {hp?.aboutSubtitleEs ?? 'Bailarines sociales de corazón'}
+          </h3>
+          {
+            (hp?.aboutBodyEs ?? '').split('\n\n').map((para) => (
+              <p>{para}</p>
+            ))
+          }
+          <a href="/who-we-are" class="btn btn-outline-primary" style="margin-top:0.5rem;">Conoce al equipo</a>
+        </div>
+        <div>
+          <img
+            src={hp?.aboutImage ?? '/images/2023/06/Us-three.jpg'}
+            alt="Baila Canarias bailarines"
+            style="border-radius:8px;width:100%;object-fit:cover;max-height:400px;"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band">
+    <div class="container">
+      <h2>¿Listo para bailar?</h2>
+      <p>Consulta nuestras clases y próximos eventos.</p>
+      <a href="/es/aprende-a-bailar-con-nosotros" class="btn btn-outline">Ver clases y horarios</a>
+    </div>
+  </section>
+
+  <MailchimpForm lang="es" />
+</Layout>

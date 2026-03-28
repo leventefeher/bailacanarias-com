@@ -1,0 +1,44 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MailchimpForm from '../components/MailchimpForm.astro';
+---
+
+<Layout
+  title="What is Bachata?"
+  description="Learn about Bachata — a genre of music and social dance from the Dominican Republic. Now a global phenomenon danced all around the world."
+  lang="en"
+>
+  <div class="page-header" style="--page-hero-img: url('/images/2024/04/320A0509-social-thumbnail.jpg')">
+    <div class="container">
+      <h1>What is Bachata?</h1>
+      <p>A genre of music and dance from the Dominican Republic</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="bio-content">
+        <p style="font-size:1.1rem;">
+          Bachata is a genre of music and social dance originating from the Dominican Republic.
+          Nowadays, Bachata is a global phenomenon danced all around the world.
+        </p>
+        <p>
+          Bachata has evolved from bolero, son and merengue and is usually danced with partners.
+          The music is characterised by its distinctive guitar sound and the way the rhythm
+          guides your movement.
+        </p>
+        <p>
+          There are several styles of Bachata danced today — from the original Traditional style
+          (also called Dominican Bachata), to Bachata Moderna and Bachata Sensual, each with its
+          own flavour, technique and music.
+        </p>
+
+        <div style="margin-top:2rem;">
+          <a href="/dance-with-us" class="btn btn-primary">Learn to dance with us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <MailchimpForm lang="en" />
+</Layout>

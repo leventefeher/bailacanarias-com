@@ -1,0 +1,66 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MailchimpForm from '../components/MailchimpForm.astro';
+import { createReader } from '@keystatic/core/reader';
+import keystaticConfig from '../../keystatic.config';
+
+const reader = createReader(process.cwd(), keystaticConfig);
+const data = await reader.singletons.team.read();
+const members = data?.members ?? [];
+---
+
+<Layout
+  title="Who We Are"
+  description="Meet the Baila Canarias team. Passionate social dancers teaching salsa, bachata, and kizomba in Tenerife since 2022."
+  lang="en"
+  hreflangEN="https://www.bailacanarias.com/who-we-are"
+  hreflangES="https://www.bailacanarias.com/es/quienes-somos"
+>
+  <div class="page-header" style={`--page-hero-img: url('${data?.heroImage ?? '/images/2024/01/320A0544-edited-1.jpg'}')`}>
+    <div class="container">
+      <h1>Who We Are</h1>
+      <p>Passionate social dancers sharing the joy of Latin dance in Tenerife</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div style="max-width:760px;margin:0 auto 3rem;">
+        {
+          (data?.introEn ?? '').split('\n\n').map((para) => (
+            <p style="font-size:1.05rem;">{para}</p>
+          ))
+        }
+      </div>
+
+      <h2 style="text-align:center;margin-bottom:2.5rem;">Meet the team</h2>
+
+      <div class="team-grid">
+        {
+          members.map((member) => (
+            <div class="team-card">
+              <img src={member.photo} alt={member.name} class="team-card-img" />
+              <div class="team-card-body">
+                <h3>{member.name}</h3>
+                <p>{member.bioEn}</p>
+                {member.profileLinkEn && (
+                  <a href={member.profileLinkEn} class="read-more">Read more about {member.name.split(' ')[0]} →</a>
+                )}
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <h2>Want to dance with us?</h2>
+      <p>Check out our current classes and upcoming events.</p>
+      <a href="/dance-with-us" class="btn btn-outline">See classes</a>
+    </div>
+  </section>
+
+  <MailchimpForm lang="en" />
+</Layout>

@@ -1,0 +1,90 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import MailchimpForm from '../../components/MailchimpForm.astro';
+import { createReader } from '@keystatic/core/reader';
+import keystaticConfig from '../../../keystatic.config';
+
+const reader = createReader(process.cwd(), keystaticConfig);
+const data = await reader.singletons.whereToDance.read();
+const parties = data?.parties ?? [];
+
+function parseEvents(raw: string) {
+  return raw
+    .split('\n')
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line) => {
+      const [name = '', location = '', stylesEn = '', stylesEs = ''] = line
+        .split('|')
+        .map((s) => s.trim());
+      return { name, location, stylesEn, stylesEs };
+    });
+}
+---
+
+<Layout
+  title="¿Dónde Bailar SBK en Tenerife? Salsa, Bachata, Kizomba"
+  description="Encuentra las mejores fiestas semanales de salsa, bachata y kizomba en Tenerife. Hay fiestas SBK casi todos los días de la semana."
+  lang="es"
+  hreflangEN="https://www.bailacanarias.com/where-to-dance-in-tenerife"
+  hreflangES="https://www.bailacanarias.com/es/donde-bailar-sbk-in-tenerife-salsa-bachata-kizomba"
+>
+  <div class="page-header" style={`--page-hero-img: url('${data?.heroImage ?? '/images/2024/01/320A0372.jpg'}')`}>
+    <div class="container">
+      <h1>¿Dónde Bailar SBK en Tenerife?</h1>
+      <p>Salsa, Bachata y Kizomba en toda la isla</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <p style="font-size:1.05rem;max-width:700px;margin-bottom:0.75rem;">
+        {data?.introEs}
+      </p>
+      <p style="max-width:700px;margin-bottom:3rem;font-style:italic;color:var(--color-text);">
+        {data?.noteEs} Si deseas aprender a bailar, puedes consultar nuestras
+        <a href="/es/aprende-a-bailar-con-nosotros">clases y cursos de baile</a>.
+      </p>
+
+      <h2 style="margin-bottom:1.5rem;">Fiestas de Baile Semanales</h2>
+
+      <div class="parties-list">
+        {
+          parties.map((group) => {
+            const events = parseEvents(group.eventsRaw ?? '');
+            return (
+              <div class="day-group">
+                <div class="day-label">{group.dayEs}</div>
+                {group.dayNoteEs && <p>{group.dayNoteEs}</p>}
+                {events.map((event, i) => (
+                  <div class="party-item" style={i < events.length - 1 ? 'margin-bottom:1rem;' : ''}>
+                    <span class="party-name">{event.name}</span>
+                    <span class="party-location">{event.location}</span>
+                    <span class="party-styles">{event.stylesEs}</span>
+                  </div>
+                ))}
+              </div>
+            );
+          })
+        }
+      </div>
+
+      <div style="background:var(--color-bg-light);border-radius:8px;padding:1.5rem 2rem;margin-top:2.5rem;">
+        <h3 style="margin-bottom:0.5rem;">Mantente al día</h3>
+        <p>
+          Síguenos en Instagram para ver las fiestas y eventos sociales más actualizados en Tenerife.
+          También hay muchos eventos adicionales ad hoc — consulta
+          <a href="https://www.instagram.com/bailacanarias" target="_blank" rel="noopener">Sociales en Tenerife</a>
+          para los más recientes.
+        </p>
+        <p style="margin-bottom:1rem;">
+          ¿Buscas bailar en Gran Canaria? Visita
+          <a href="https://www.livegrancanaria.com" target="_blank" rel="noopener">Live Gran Canaria</a>.
+        </p>
+        <a href="https://www.instagram.com/bailacanarias" target="_blank" rel="noopener" class="btn btn-primary">Síguenos en Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <MailchimpForm lang="es" />
+</Layout>

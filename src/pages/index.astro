@@ -1,0 +1,130 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MailchimpForm from '../components/MailchimpForm.astro';
+import { createReader } from '@keystatic/core/reader';
+import keystaticConfig from '../../keystatic.config';
+
+const reader = createReader(process.cwd(), keystaticConfig);
+const hp = await reader.singletons.homepage.read();
+---
+
+<Layout
+  title="Baila Canarias"
+  description="Latin dance school in Tenerife. Salsa, bachata and kizomba classes in Los Gigantes and Puerto Santiago. Beginners welcome!"
+  lang="en"
+  hreflangEN="https://www.bailacanarias.com/"
+  hreflangES="https://www.bailacanarias.com/es/"
+>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg" style={`background-image:url('${hp?.heroImage ?? '/images/2024/03/DSC_6420.jpg'}');`}></div>
+    <div class="container">
+      <h1>{hp?.heroTitleEn ?? 'Start the year dancing'}</h1>
+      <p>{hp?.heroSubtitleEn}</p>
+      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+        <a href="/dance-with-us" class="btn btn-amber">See our schedule</a>
+        <a href="/our-dance-styles" class="btn btn-outline">Explore dance styles</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Are you ready -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Are you ready to start your dance journey?</h2>
+        <p>
+          We offer a variety of dance styles. Do you want to get lost in the mesmerising social
+          circle of a Cuban Rueda? Move your hips to the rhythm of the conga? Find your soul in the
+          guitars of Bachata? Whatever your needs, we got you.
+        </p>
+      </div>
+
+      <div class="cards-grid">
+        <a href="/our-dance-styles#salsa" class="team-card" style="text-decoration:none;">
+          <img
+            src="/images/2024/01/320A0372.jpg"
+            alt="Salsa"
+            class="team-card-img team-card-img--landscape"
+          />
+          <div class="team-card-body" style="text-align:left;">
+            <h3>Salsa</h3>
+            <p>
+              Cubano, Timba, Casino, Rueda. What are they you wonder? Come find out and take your
+              first steps with us.
+            </p>
+          </div>
+        </a>
+        <a href="/our-dance-styles#bachata" class="team-card" style="text-decoration:none;">
+          <img
+            src="/images/2023/11/Levi-Jade-Thumbnail.jpg"
+            alt="Bachata"
+            class="team-card-img team-card-img--landscape"
+          />
+          <div class="team-card-body" style="text-align:left;">
+            <h3>Bachata</h3>
+            <p>
+              Música del Amargue. Bitterness, sadness, love, heartbreak, and the love of your life
+              (for this week) — what else could describe Bachata?
+            </p>
+          </div>
+        </a>
+        <a href="/our-dance-styles#kizomba" class="team-card" style="text-decoration:none;">
+          <img
+            src="/images/2024/03/DSC_6354-slider.jpg"
+            alt="Kizomba"
+            class="team-card-img team-card-img--landscape"
+          />
+          <div class="team-card-body" style="text-align:left;">
+            <h3>Kizomba</h3>
+            <p>
+              With its rich culture, history, and even more beautiful music; you won't be able to
+              resist falling in love with Kizomba.
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About us -->
+  <section class="section section--cream">
+    <div class="container">
+      <div class="two-col">
+        <div>
+          <h2>{hp?.aboutTitleEn ?? 'Hi, we are Baila Canarias!'}</h2>
+          <h3 style="color:var(--color-primary);font-weight:600;margin-bottom:1rem;">
+            {hp?.aboutSubtitleEn ?? 'Social dancers by heart'}
+          </h3>
+          {
+            (hp?.aboutBodyEn ?? '').split('\n\n').map((para) => (
+              <p>{para}</p>
+            ))
+          }
+          <a href="/who-we-are" class="btn btn-outline-primary" style="margin-top:0.5rem;"
+            >Meet the team</a
+          >
+        </div>
+        <div>
+          <img
+            src={hp?.aboutImage ?? '/images/2023/06/Us-three.jpg'}
+            alt="Baila Canarias dancers"
+            style="border-radius:8px;width:100%;object-fit:cover;max-height:400px;"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band">
+    <div class="container">
+      <h2>Ready to dance?</h2>
+      <p>Check out our current classes and upcoming events.</p>
+      <a href="/dance-with-us" class="btn btn-outline">See classes &amp; schedule</a>
+    </div>
+  </section>
+
+  <!-- Mailchimp -->
+  <MailchimpForm lang="en" />
+</Layout>

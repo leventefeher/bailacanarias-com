@@ -1,0 +1,59 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import MailchimpForm from '../../components/MailchimpForm.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  return posts.map(post => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+const lang = post.data.lang ?? 'en';
+---
+
+<Layout
+  title={post.data.title}
+  description={post.data.description}
+  lang={lang}
+>
+  <div class="page-header">
+    <div class="container">
+      <h1>{post.data.title}</h1>
+      <p style="color:rgba(255,255,255,0.7);font-size:0.9rem;">
+        {post.data.pubDate.toLocaleDateString(lang === 'es' ? 'es-ES' : 'en-GB', {
+          year: 'numeric', month: 'long', day: 'numeric'
+        })}
+        {post.data.author && ` · ${post.data.author}`}
+      </p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <article class="bio-content" style="max-width:760px;margin:0 auto;">
+        <Content />
+
+        {post.data.tags.length > 0 && (
+          <div style="margin-top:2rem;display:flex;gap:0.5rem;flex-wrap:wrap;">
+            {post.data.tags.map(tag => (
+              <span style="background:var(--color-bg-light);border:1px solid var(--color-border);padding:0.25rem 0.75rem;border-radius:20px;font-size:0.8rem;color:var(--color-text);">
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
+
+        <div style="margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid var(--color-border);">
+          <a href="/blog" style="font-weight:600;">← Back to blog</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <MailchimpForm lang={lang} />
+</Layout>

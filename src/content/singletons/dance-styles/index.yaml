@@ -1,0 +1,83 @@
+introEn: >-
+  Embark on a dance journey like no other at Baila Canarias, where passion meets
+  rhythm and every step tells a story. Our dance school is a vibrant hub for
+  enthusiasts seeking to explore the diverse tapestry of Latin dance. Get ready
+  to discover the magic of movement, the thrill of expression, and the joy of
+  connection.
+introEs: >-
+  Embárcate en un viaje de baile único en Baila Canarias, donde la pasión se
+  encuentra con el ritmo y cada paso cuenta una historia. Nuestra escuela de
+  baile es un centro vibrante para los entusiastas que buscan explorar la
+  diversidad del baile latino. Prepárate para descubrir la magia del movimiento,
+  la emoción de la expresión y la alegría de la conexión.
+intro2En: >-
+  At Baila Canarias, we celebrate the richness of dance through a variety of
+  styles that cater to every taste and skill level.
+intro2Es: >-
+  En Baila Canarias, celebramos la riqueza del baile a través de una variedad
+  de estilos que se adaptan a todos los gustos y niveles.
+styles:
+  - id: bachata
+    nameEn: Bachata
+    nameEs: Bachata
+    tagline: Música del Amargue
+    descriptionEn: >-
+      Bitterness, sadness, love, heartbreak, and the love of your life (for this
+      week). What else could describe Bachata? A beautiful genre of music and
+      dance originating from the Dominican Republic, now danced all around the
+      world.
+    descriptionEs: >-
+      Amargura, tristeza, amor, desamor y el amor de tu vida (por esta semana).
+      ¿Qué más podría describir la Bachata? Un hermoso género musical y de baile
+      originario de la República Dominicana, que ahora se baila en todo el mundo.
+    image: /images/2023/12/320A0424-1024x683.jpg
+    learnMoreLinkEn: /what-is-bachata
+    learnMoreLinkEs: ''
+  - id: merengue
+    nameEn: Merengue
+    nameEs: Merengue
+    tagline: ''
+    descriptionEn: >-
+      One of the funnest dance styles that can be found anywhere in the world.
+      Also originating from the Dominican Republic, it is danced from the moment
+      you take your first steps as a child. Super easy to get started and take
+      your first steps.
+    descriptionEs: >-
+      Uno de los estilos de baile más divertidos del mundo. También originario
+      de la República Dominicana, se baila desde que das tus primeros pasos de
+      niño. Muy fácil para comenzar y dar tus primeros pasos.
+    image: /images/2023/12/320A0386-1024x768.jpg
+    learnMoreLinkEn: ''
+    learnMoreLinkEs: ''
+  - id: salsa
+    nameEn: Salsa
+    nameEs: Salsa
+    tagline: ''
+    descriptionEn: >-
+      Everyone has heard about Salsa, but few really know about its diverse and
+      rich culture. The word "Salsa" is an umbrella term that represents a huge
+      variety of different styles and rhythms. Dive right in and explore the
+      amazing world it has to offer.
+    descriptionEs: >-
+      Todo el mundo ha oído hablar de la Salsa, pero pocos conocen realmente su
+      diversa y rica cultura. La palabra "Salsa" es un término paraguas que
+      representa una enorme variedad de estilos y ritmos. Sumérgete y explora el
+      increíble mundo que tiene para ofrecer.
+    image: /images/2023/12/320A0525-1024x768.jpg
+    learnMoreLinkEn: ''
+    learnMoreLinkEs: ''
+  - id: kizomba
+    nameEn: Kizomba
+    nameEs: Kizomba
+    tagline: ''
+    descriptionEn: >-
+      All the way from Angola, a beautiful, romantic genre of music and one of
+      the most popular styles danced around the world. Slow, or upbeat, it will
+      find its way into your heart.
+    descriptionEs: >-
+      Llegando desde Angola, un hermoso y romántico género musical y uno de los
+      estilos más populares bailados en todo el mundo. Lento o animado, encontrará
+      su camino hacia tu corazón.
+    image: /images/2023/12/320A0432-1024x768.jpg
+    learnMoreLinkEn: ''
+    learnMoreLinkEs: ''

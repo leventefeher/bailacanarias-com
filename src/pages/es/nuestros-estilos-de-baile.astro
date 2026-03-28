@@ -1,0 +1,101 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import MailchimpForm from '../../components/MailchimpForm.astro';
+---
+
+<Layout
+  title="Nuestros Estilos de Baile"
+  description="Explora salsa, bachata, merengue y kizomba en Baila Canarias, Tenerife. Descubre cada estilo y encuentra el que más te guste."
+  lang="es"
+  hreflangEN="https://www.bailacanarias.com/our-dance-styles"
+  hreflangES="https://www.bailacanarias.com/es/nuestros-estilos-de-baile"
+>
+  <div class="page-header">
+    <div class="container">
+      <h1>Nuestros Estilos de Baile</h1>
+      <p>La emoción de la expresión y la alegría de la conexión</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <p>
+          Embárcate en un viaje de baile único en Baila Canarias, donde la pasión se encuentra
+          con el ritmo y cada paso cuenta una historia. Nuestra escuela de baile es un centro
+          vibrante para los entusiastas que buscan explorar la diversa variedad de bailes latinos.
+          Prepárate para descubrir la magia del movimiento, la emoción de la expresión y la
+          alegría de la conexión.
+        </p>
+        <p>
+          En Baila Canarias, celebramos la riqueza del baile a través de una variedad de estilos
+          que se adaptan a todos los gustos y niveles.
+        </p>
+      </div>
+
+      <div class="cards-grid">
+        <div class="team-card" id="bachata">
+          <img src="/images/2023/12/320A0424-1024x683.jpg" alt="Bachata" class="team-card-img team-card-img--landscape" />
+          <div class="team-card-body" style="text-align:left;">
+            <h3>Bachata</h3>
+            <p style="color:var(--color-primary);font-style:italic;font-size:0.9rem;margin-bottom:0.75rem;">Música del Amargue</p>
+            <p>
+              Amargura, tristeza, amor, desamor y el amor de tu vida (por esta semana).
+              ¿Qué más podría describir la Bachata? Un hermoso género de música y baile originario
+              de la República Dominicana, que ahora se baila en todo el mundo.
+            </p>
+            <a href="/es/que-es-la-bachata" style="font-weight:600;font-size:0.9rem;">Saber más →</a>
+          </div>
+        </div>
+
+        <div class="team-card" id="merengue">
+          <img src="/images/2023/12/320A0386-1024x768.jpg" alt="Merengue" class="team-card-img team-card-img--landscape" />
+          <div class="team-card-body" style="text-align:left;">
+            <h3>Merengue</h3>
+            <p>
+              Uno de los estilos de baile más divertidos que se pueden encontrar en cualquier
+              parte del mundo. También originario de la República Dominicana, se baila desde
+              que das tus primeros pasos. Súper fácil para empezar.
+            </p>
+          </div>
+        </div>
+
+        <div class="team-card" id="salsa">
+          <img src="/images/2023/12/320A0525-1024x768.jpg" alt="Salsa" class="team-card-img team-card-img--landscape" />
+          <div class="team-card-body" style="text-align:left;">
+            <h3>Salsa</h3>
+            <p>
+              Todo el mundo ha oído hablar de la Salsa, pero pocos conocen realmente su diversa y
+              rica cultura. La palabra "Salsa" es un término que engloba una gran variedad de
+              estilos y ritmos diferentes. Sumérgete y explora el increíble mundo que tiene para ofrecer.
+            </p>
+          </div>
+        </div>
+
+        <div class="team-card" id="kizomba">
+          <img src="/images/2023/12/320A0432-1024x768.jpg" alt="Kizomba" class="team-card-img team-card-img--landscape" />
+          <div class="team-card-body" style="text-align:left;">
+            <h3>Kizomba</h3>
+            <p>
+              Desde Angola, un hermoso y romántico género musical y uno de los estilos más
+              populares bailados en todo el mundo. Lento o animado, se abrirá camino en tu corazón.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <h2>¿Listo para empezar tu viaje?</h2>
+      <p>Consulta nuestras clases y próximos eventos, o descubre dónde bailar en Tenerife.</p>
+      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+        <a href="/es/aprende-a-bailar-con-nosotros" class="btn btn-outline">Ver clases</a>
+        <a href="/es/donde-bailar-sbk-in-tenerife-salsa-bachata-kizomba" class="btn btn-outline">Dónde bailar</a>
+      </div>
+    </div>
+  </section>
+
+  <MailchimpForm lang="es" />
+</Layout>

@@ -1,0 +1,110 @@
+---
+// Replace MAILCHIMP_ACTION_URL with your MailChimp form action URL.
+// Find it in MailChimp: Audience → Signup forms → Embedded forms → copy the action="" URL.
+// It looks like: https://yourdomain.us1.list-manage.com/subscribe/post?u=XXXX&id=YYYY
+interface Props {
+  lang?: 'en' | 'es';
+  actionUrl?: string;
+}
+
+const {
+  lang = 'en',
+  actionUrl = 'YOUR_MAILCHIMP_ACTION_URL',
+} = Astro.props;
+
+const t = {
+  en: {
+    heading: "Let's keep in touch",
+    sub: "Sign up for our mailing list to hear about upcoming classes, courses, parties and events. We take your privacy seriously and will never spam you.",
+    firstName: 'First Name',
+    email: 'Email',
+    role: 'Main dance role',
+    rolePlaceholder: 'Select...',
+    leader: 'Leader',
+    follower: 'Follower',
+    styles: 'Styles interested in',
+    subscribe: 'Subscribe',
+    privacy: 'You can unsubscribe at any time.',
+  },
+  es: {
+    heading: 'Mantengámonos en contacto',
+    sub: 'Suscríbete a nuestra lista de correo para enterarte de próximas clases, cursos, fiestas y eventos. Nos tomamos muy en serio tu privacidad.',
+    firstName: 'Nombre',
+    email: 'Correo electrónico',
+    role: 'Rol principal',
+    rolePlaceholder: 'Seleccionar...',
+    leader: 'Leader',
+    follower: 'Follower',
+    styles: 'Estilos de interés',
+    subscribe: 'Suscribirse',
+    privacy: 'Puedes darte de baja en cualquier momento.',
+  },
+};
+
+const text = t[lang];
+---
+
+<section class="section">
+  <div class="container">
+    <div class="mc-form-wrap">
+      <h2>{text.heading}</h2>
+      <p class="subtitle">{text.sub}</p>
+
+      <form
+        action={actionUrl}
+        method="post"
+        id="mc-embedded-subscribe-form"
+        name="mc-embedded-subscribe-form"
+        class="mc-form"
+        target="_blank"
+        novalidate
+      >
+        <div class="form-row">
+          <div class="form-group">
+            <label for="mce-FNAME">{text.firstName}</label>
+            <input type="text" name="FNAME" id="mce-FNAME" autocomplete="given-name" />
+          </div>
+          <div class="form-group">
+            <label for="mce-EMAIL">{text.email} *</label>
+            <input type="email" name="EMAIL" id="mce-EMAIL" required autocomplete="email" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="mce-ROLE">{text.role}</label>
+          <select name="ROLE" id="mce-ROLE">
+            <option value="">{text.rolePlaceholder}</option>
+            <option value="Leader">{text.leader}</option>
+            <option value="Follower">{text.follower}</option>
+          </select>
+        </div>
+
+        <div>
+          <span class="checkboxes-label">{text.styles}</span>
+          <div class="checkboxes">
+            <label>
+              <input type="checkbox" name="group[STYLES][1]" value="1" /> Salsa
+            </label>
+            <label>
+              <input type="checkbox" name="group[STYLES][2]" value="2" /> Bachata
+            </label>
+            <label>
+              <input type="checkbox" name="group[STYLES][4]" value="4" /> Kizomba
+            </label>
+          </div>
+        </div>
+
+        <!-- MailChimp bot protection — do not remove -->
+        <div style="position:absolute;left:-5000px;" aria-hidden="true">
+          <input type="text" name="b_PLACEHOLDER" tabindex="-1" value="" />
+        </div>
+
+        <button type="submit" name="subscribe" class="btn btn-primary">{text.subscribe}</button>
+
+        <p style="text-align:center;font-size:0.8rem;color:var(--color-text);margin-top:0.25rem;">
+          {text.privacy}
+        </p>
+      </form>
+    </div>
+  </div>
+</section>

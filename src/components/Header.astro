@@ -1,0 +1,133 @@
+---
+interface Props {
+  lang?: 'en' | 'es';
+  currentPath?: string;
+}
+
+const { lang = 'en', currentPath = '' } = Astro.props;
+
+// Normalise path: remove trailing slash (except root "/")
+const path = currentPath.length > 1 && currentPath.endsWith('/')
+  ? currentPath.slice(0, -1)
+  : currentPath;
+
+// Map every EN path → its ES equivalent, and vice versa
+const enToEs: Record<string, string> = {
+  '/':                            '/es/',
+  '/dance-with-us':               '/es/aprende-a-bailar-con-nosotros',
+  '/where-to-dance-in-tenerife':  '/es/donde-bailar-sbk-in-tenerife-salsa-bachata-kizomba',
+  '/our-dance-styles':            '/es/nuestros-estilos-de-baile',
+  '/who-we-are':                  '/es/quienes-somos',
+  '/contact':                     '/es/contacto',
+  '/resources':                   '/es/recursos',
+  '/levente-feher':               '/es/levente-feher',
+  '/our-partners':                '/es/nuestros-socios',
+  '/what-is-bachata':             '/es/que-es-la-bachata',
+  '/privacy-policy':              '/es/politica-de-privacidad',
+};
+
+const esToEn: Record<string, string> = {
+  '/es':                                                            '/',
+  '/es/aprende-a-bailar-con-nosotros':                             '/dance-with-us',
+  '/es/donde-bailar-sbk-in-tenerife-salsa-bachata-kizomba':       '/where-to-dance-in-tenerife',
+  '/es/nuestros-estilos-de-baile':                                 '/our-dance-styles',
+  '/es/quienes-somos':                                             '/who-we-are',
+  '/es/contacto':                                                  '/contact',
+  '/es/recursos':                                                  '/resources',
+  '/es/levente-feher':                                             '/levente-feher',
+  '/es/nuestros-socios':                                           '/our-partners',
+  '/es/que-es-la-bachata':                                         '/what-is-bachata',
+  '/es/politica-de-privacidad':                                    '/privacy-policy',
+};
+
+const altHref = lang === 'en'
+  ? (enToEs[path] ?? '/es/')
+  : (esToEn[path] ?? '/');
+
+const navEn = [
+  { label: 'Dance styles',   href: '/our-dance-styles' },
+  { label: 'Learn to dance', href: '/dance-with-us' },
+  { label: 'Parties',        href: '/where-to-dance-in-tenerife' },
+  { label: 'Resources',      href: '/resources' },
+  { label: 'Who we are',     href: '/who-we-are' },
+  { label: 'Contact',        href: '/contact' },
+];
+
+const navEs = [
+  { label: 'Estilos de baile', href: '/es/nuestros-estilos-de-baile' },
+  { label: 'Aprende a bailar', href: '/es/aprende-a-bailar-con-nosotros' },
+  { label: 'Fiestas',          href: '/es/donde-bailar-sbk-in-tenerife-salsa-bachata-kizomba' },
+  { label: 'Recursos',         href: '/es/recursos' },
+  { label: 'Quiénes somos',    href: '/es/quienes-somos' },
+  { label: 'Contacto',         href: '/es/contacto' },
+];
+
+const nav = lang === 'es' ? navEs : navEn;
+const homeHref = lang === 'es' ? '/es/' : '/';
+---
+
+<!-- Top contact bar -->
+<div class="top-bar">
+  <div class="top-bar-inner">
+    <a href="tel:+34629178242">
+      <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l1.27-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      +34 629 17 82 42
+    </a>
+    <a href="mailto:contact@bailacanarias.com">
+      <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      contact@bailacanarias.com
+    </a>
+    <a href="https://www.instagram.com/bailacanarias" target="_blank" rel="noopener">
+      <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+      @bailacanarias
+    </a>
+  </div>
+</div>
+
+<!-- Main header -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href={homeHref} class="header-logo">
+      <img
+        src="/images/2024/03/Baila_Canarias_logo_square_black.png"
+        alt="Baila Canarias"
+        height="108"
+        style="width:auto;"
+      />
+    </a>
+
+    <nav class="header-nav" id="main-nav" aria-label="Main navigation">
+      {nav.map(item => (
+        <a
+          href={item.href}
+          class={currentPath === item.href ? 'active' : ''}
+        >
+          {item.label}
+        </a>
+      ))}
+    </nav>
+
+    <div style="display:flex;align-items:center;gap:0.75rem;">
+      <div class="lang-switcher">
+        <a href={lang === 'es' ? altHref : path || '/'} class={lang === 'en' ? 'active' : ''}>🇬🇧 EN</a>
+        <a href={lang === 'en' ? altHref : path || '/es/'} class={lang === 'es' ? 'active' : ''}>🇪🇸 ES</a>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<script>
+  const toggle = document.getElementById('nav-toggle');
+  const nav    = document.getElementById('main-nav');
+  toggle?.addEventListener('click', () => {
+    const isOpen = nav?.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', String(isOpen));
+  });
+</script>

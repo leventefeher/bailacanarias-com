@@ -1,0 +1,100 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  lang?: 'en' | 'es';
+  canonicalURL?: string;
+  hreflangEN?: string;
+  hreflangES?: string;
+  currentPath?: string;
+  ogImage?: string;
+}
+
+const {
+  title,
+  description = 'Latin dance school in Tenerife. Salsa, bachata and kizomba classes in Los Gigantes and Puerto Santiago.',
+  lang = 'en',
+  canonicalURL = Astro.url.href,
+  hreflangEN,
+  hreflangES,
+  currentPath = Astro.url.pathname,
+  ogImage = '/images/og-image.jpg',
+} = Astro.props;
+
+const siteName = 'Baila Canarias';
+const fullTitle = title === siteName ? title : `${title} - ${siteName}`;
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+
+    <!-- Canonical & hreflang -->
+    <link rel="canonical" href={canonicalURL} />
+    {hreflangEN && <link rel="alternate" hreflang="en" href={hreflangEN} />}
+    {hreflangES && <link rel="alternate" hreflang="es" href={hreflangES} />}
+    {hreflangEN && hreflangES && <link rel="alternate" hreflang="x-default" href={hreflangEN} />}
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:image" content={`https://www.bailacanarias.com${ogImage}`} />
+    <meta property="og:locale" content={lang === 'es' ? 'es_ES' : 'en_GB'} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={`https://www.bailacanarias.com${ogImage}`} />
+
+    <!-- Local Business structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "DanceSchool",
+        "name": "Baila Canarias",
+        "description": "Latin dance school in Tenerife offering salsa, bachata and kizomba classes.",
+        "url": "https://www.bailacanarias.com",
+        "telephone": "+34629178242",
+        "email": "contact@bailacanarias.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Puerto Santiago",
+          "addressRegion": "Tenerife",
+          "addressCountry": "ES"
+        },
+        "sameAs": [
+          "https://www.facebook.com/bailacanarias",
+          "https://www.instagram.com/bailacanarias"
+        ]
+      }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/images/logo.png" />
+    <link rel="apple-touch-icon" href="/images/logo.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <Header lang={lang} currentPath={currentPath} />
+    <main>
+      <slot />
+    </main>
+    <Footer lang={lang} />
+  </body>
+</html>

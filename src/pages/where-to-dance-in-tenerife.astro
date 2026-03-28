@@ -1,0 +1,91 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MailchimpForm from '../components/MailchimpForm.astro';
+import { createReader } from '@keystatic/core/reader';
+import keystaticConfig from '../../keystatic.config';
+
+const reader = createReader(process.cwd(), keystaticConfig);
+const data = await reader.singletons.whereToDance.read();
+const parties = data?.parties ?? [];
+
+// Parse "Name | Location | Styles EN | Styles ES" lines into event objects
+function parseEvents(raw: string) {
+  return raw
+    .split('\n')
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line) => {
+      const [name = '', location = '', stylesEn = '', stylesEs = ''] = line
+        .split('|')
+        .map((s) => s.trim());
+      return { name, location, stylesEn, stylesEs };
+    });
+}
+---
+
+<Layout
+  title="Where to Social Dance in Tenerife"
+  description="Find the best weekly salsa, bachata, and kizomba parties in Tenerife. SBK parties most days of the week around the island."
+  lang="en"
+  hreflangEN="https://www.bailacanarias.com/where-to-dance-in-tenerife"
+  hreflangES="https://www.bailacanarias.com/es/donde-bailar-sbk-in-tenerife-salsa-bachata-kizomba"
+>
+  <div class="page-header" style={`--page-hero-img: url('${data?.heroImage ?? '/images/2024/01/320A0372.jpg'}')`}>
+    <div class="container">
+      <h1>Where to Social Dance SBK in Tenerife?</h1>
+      <p>Salsa, Bachata &amp; Kizomba parties across the island</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <p style="font-size:1.05rem;max-width:700px;margin-bottom:0.75rem;">
+        {data?.introEn}
+      </p>
+      <p style="max-width:700px;margin-bottom:3rem;font-style:italic;color:var(--color-text);">
+        {data?.noteEn} If you would like to learn to dance, check out our
+        <a href="/dance-with-us">dance classes and courses</a>.
+      </p>
+
+      <h2 style="margin-bottom:1.5rem;">Weekly Dance Parties</h2>
+
+      <div class="parties-list">
+        {
+          parties.map((group) => {
+            const events = parseEvents(group.eventsRaw ?? '');
+            return (
+              <div class="day-group">
+                <div class="day-label">{group.dayEn}</div>
+                {group.dayNoteEn && <p>{group.dayNoteEn}</p>}
+                {events.map((event, i) => (
+                  <div class="party-item" style={i < events.length - 1 ? 'margin-bottom:1rem;' : ''}>
+                    <span class="party-name">{event.name}</span>
+                    <span class="party-location">{event.location}</span>
+                    <span class="party-styles">{event.stylesEn}</span>
+                  </div>
+                ))}
+              </div>
+            );
+          })
+        }
+      </div>
+
+      <div style="background:var(--color-bg-light);border-radius:8px;padding:1.5rem 2rem;margin-top:2.5rem;">
+        <h3 style="margin-bottom:0.5rem;">Stay up to date</h3>
+        <p>
+          Follow us on Instagram for the most up-to-date parties and socials in Tenerife.
+          There are also many additional ad-hoc events — check
+          <a href="https://www.instagram.com/bailacanarias" target="_blank" rel="noopener">Sociales en Tenerife</a>
+          for the latest.
+        </p>
+        <p style="margin-bottom:1rem;">
+          Looking to dance in Gran Canaria? Check out
+          <a href="https://www.livegrancanaria.com" target="_blank" rel="noopener">Live Gran Canaria</a>.
+        </p>
+        <a href="https://www.instagram.com/bailacanarias" target="_blank" rel="noopener" class="btn btn-primary">Follow on Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <MailchimpForm lang="en" />
+</Layout>

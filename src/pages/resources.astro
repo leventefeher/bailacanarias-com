@@ -1,0 +1,105 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MailchimpForm from '../components/MailchimpForm.astro';
+---
+
+<Layout
+  title="Resources for Dancers"
+  description="Books, apps, music and tools to help you become a better salsa, bachata and kizomba dancer. Curated by Baila Canarias."
+  lang="en"
+>
+  <div class="page-header">
+    <div class="container">
+      <h1>Resources &amp; Tools for Dancers</h1>
+      <p>Curated books, apps, and music to improve your dancing</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <p style="font-size:1.05rem;max-width:700px;margin-bottom:3rem;">
+        Are you looking for resources to help you be a better dancer? Read through our list of tools
+        you can use to improve your understanding of music, dancing, culture and much more.
+      </p>
+
+      <h2 style="margin-bottom:1.5rem;">Books</h2>
+      <div
+        class="cards-grid"
+        style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr));margin-bottom:3rem;"
+      >
+        <div class="card card-accent">
+          <h3>Bachata and Dominican Identity</h3>
+          <p
+            style="font-size:0.9rem;color:var(--color-text);margin-bottom:0.5rem;font-style:italic;"
+          >
+            La bachata y la identidad dominicana
+          </p>
+          <p>by Julie A. Sellers</p>
+          <p style="font-size:0.85rem;color:var(--color-text);">ISBN: B00NPAXMXO</p>
+        </div>
+
+        <div class="card card-accent">
+          <h3>Bachata: Social History of a Dominican Popular Music</h3>
+          <p>by Deborah Pacini Hernandez</p>
+          <p style="font-size:0.85rem;color:var(--color-text);">ISBN: 978-1566392990</p>
+        </div>
+      </div>
+
+      <h2 style="margin-bottom:1.5rem;">Apps</h2>
+      <div
+        class="cards-grid"
+        style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr));margin-bottom:3rem;"
+      >
+        <div class="card card-accent">
+          <h3>E-musicality by Pierre Henry</h3>
+          <p>
+            A great web app allowing you to break music down by instruments and follow along with
+            timing and phrasing. Super useful tool for teaching or learning musicality that all
+            teachers should be using.
+          </p>
+        </div>
+      </div>
+
+      <h2 style="margin-bottom:1.5rem;">Music</h2>
+
+      <div style="margin-bottom:2.5rem;">
+        <iframe
+          style="border-radius:12px;display:block;width:100%;"
+          src="https://open.spotify.com/embed/playlist/2MtUnoxldJNjFIpV6M3fnX?utm_source=generator"
+          height="352"
+          frameborder="0"
+          allowfullscreen
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+      </div>
+
+      <div class="cards-grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr));">
+        <div class="card card-accent">
+          <h3>Bachata Collection on Spotify</h3>
+          <p>A curated collection of essential bachata tracks.</p>
+        </div>
+
+        <div class="card card-accent">
+          <h3>Bachata Breakdown</h3>
+          <p
+            style="font-size:0.9rem;color:var(--color-text);margin-bottom:0.75rem;font-style:italic;"
+          >
+            by Carlos Cinta and Joan Soriano
+          </p>
+          <p>
+            A great Bachata instructional CD that breaks down bachata instrument by instrument —
+            Bongo, Bass, Lead Guitar, Rhythm Guitar, Güira. Each broken down so you can hear the
+            role of each instrument. Also includes counts over the top of bachata music. Highly
+            recommended for both students and teachers.
+          </p>
+          <p style="font-size:0.85rem;font-style:italic;color:var(--color-text);">
+            "The only one of its kind that I know of." – Adam Taub, IASO Records
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <MailchimpForm lang="en" />
+</Layout>

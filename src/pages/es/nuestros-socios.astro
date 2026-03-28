@@ -1,0 +1,55 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import MailchimpForm from '../../components/MailchimpForm.astro';
+import { createReader } from '@keystatic/core/reader';
+import keystaticConfig from '../../../keystatic.config';
+
+const reader = createReader(process.cwd(), keystaticConfig);
+const data = await reader.singletons.partners.read();
+const partnersList = data?.partners ?? [];
+---
+
+<Layout
+  title="Nuestros Socios"
+  description="Organizaciones con las que trabajamos y recomendamos en Tenerife — socios de la escuela de baile Baila Canarias."
+  lang="es"
+  hreflangEN="https://www.bailacanarias.com/our-partners"
+  hreflangES="https://www.bailacanarias.com/es/nuestros-socios"
+>
+  <div class="page-header" style={`--page-hero-img: url('${data?.heroImage ?? '/images/2023/12/320A0424.jpg'}')`}>
+    <div class="container">
+      <h1>Nuestros Socios</h1>
+      <p>Organizaciones con las que trabajamos y recomendamos en Tenerife</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <p style="font-size:1.05rem;max-width:700px;margin-bottom:3rem;">
+        {data?.introEs} Si quieres asociarte con nosotros o colaborar de alguna forma,
+        <a href="/es/contacto">ponte en contacto con nosotros</a>.
+      </p>
+
+      <div class="cards-grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr));">
+        {
+          partnersList.map((partner) => (
+            <div class="card card-accent">
+              <h3>{partner.name}</h3>
+              <p>{partner.descriptionEs}</p>
+            </div>
+          ))
+        }
+      </div>
+
+      <div style="text-align:center;margin-top:3rem;">
+        <h2 style="margin-bottom:1rem;">¿Interesado en colaborar?</h2>
+        <p style="max-width:500px;margin:0 auto 1.5rem;">
+          ¿Te interesa trabajar con nosotros o colaborar de alguna manera? Contáctanos ahora.
+        </p>
+        <a href="/es/contacto" class="btn btn-primary">Contactar con Baila Canarias</a>
+      </div>
+    </div>
+  </section>
+
+  <MailchimpForm lang="es" />
+</Layout>
