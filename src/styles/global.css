@@ -251,7 +251,7 @@ li {
 .lang-switcher a {
   font-size: 0.78rem;
   font-weight: 700;
-  color: var(--color-text-light);
+  color: var(--color-heading);
   padding: 0.2rem 0.5rem;
   border-radius: 3px;
   border: 1px solid rgba(170, 7, 38, 0.3);
@@ -785,7 +785,7 @@ a.party-name:hover {
 /* ===== Footer ===== */
 .site-footer {
   background: var(--color-footer);
-  color: rgba(255, 255, 255, 0.65);
+  color: rgba(255, 255, 255, 0.85);
   padding: 3.5rem 0 1.5rem;
 }
 .footer-inner {
@@ -795,7 +795,7 @@ a.party-name:hover {
   margin-bottom: 2.5rem;
 }
 .footer-brand p {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.8);
   font-size: 0.9rem;
   margin-top: 0.75rem;
   margin-bottom: 1.25rem;
@@ -820,7 +820,7 @@ a.party-name:hover {
   background: var(--color-primary);
 }
 
-.footer-col h4 {
+.footer-col-label {
   color: #fff;
   margin-bottom: 1rem;
   font-size: 0.82rem;
@@ -836,7 +836,7 @@ a.party-name:hover {
   margin-bottom: 0.5rem;
 }
 .footer-col ul li a {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.8);
   font-size: 0.875rem;
   transition: color 0.2s;
 }
@@ -845,7 +845,7 @@ a.party-name:hover {
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
   padding-top: 1.5rem;
   display: flex;
   justify-content: space-between;
@@ -853,10 +853,10 @@ a.party-name:hover {
   flex-wrap: wrap;
   gap: 0.5rem;
   font-size: 0.8rem;
-  color: rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.7);
 }
 .footer-bottom a {
-  color: rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.7);
 }
 .footer-bottom a:hover {
   color: var(--color-accent);
