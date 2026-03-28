@@ -171,6 +171,7 @@ li {
   display: flex;
   align-items: center;
   gap: 0.35rem;
+  font-weight: 600;
 }
 .top-bar a svg {
   display: block;
@@ -863,6 +864,18 @@ a.party-name:hover {
 }
 
 /* ===== Responsive ===== */
+
+/* Top bar: hide Instagram on mobile to prevent squashing */
+@media (max-width: 768px) {
+  .top-bar-inner a:nth-child(3) {
+    display: none; /* hide Instagram */
+  }
+  .top-bar-inner {
+    gap: 1rem;
+    justify-content: center;
+  }
+}
+
 @media (max-width: 900px) {
   .footer-inner {
     grid-template-columns: 1fr 1fr;
