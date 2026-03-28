@@ -6,6 +6,7 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://www.bailacanarias.com',
   output: 'static',
+  trailingSlash: 'never',
   integrations: [react(), sitemap()],
   i18n: {
     defaultLocale: 'en',
