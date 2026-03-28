@@ -21,7 +21,7 @@
 
   /* Neutral */
   --color-text: #302a2b; /* near-black body text */
-  --color-text-light: #929899; /* light / muted text */
+  --color-text-light: #767676; /* muted text — min 4.5:1 on white (WCAG AA) */
   --color-heading: #302a2b; /* heading text */
   --color-white: #ffffff;
   --color-bg: #ffffff;
@@ -74,6 +74,21 @@ a {
 }
 a:hover {
   color: var(--color-primary-dark);
+}
+
+/* Links inside body copy get an underline for accessibility */
+p a,
+li a,
+.bio-content a,
+.prose a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+p a:hover,
+li a:hover,
+.bio-content a:hover,
+.prose a:hover {
+  text-decoration-thickness: 2px;
 }
 
 /* ===== Typography ===== */
