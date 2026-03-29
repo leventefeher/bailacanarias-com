@@ -16,7 +16,7 @@ interface Props {
 
 const {
   title,
-  description = 'Latin dance school in Tenerife. Salsa, bachata and kizomba classes in Los Gigantes and Puerto Santiago.',
+  description = 'Baila Canarias Dance Academy offers salsa, bachata and kizomba classes in Puerto Santiago, Tenerife. All levels from complete beginners welcome.',
   lang = 'en',
   canonicalURL = Astro.url.href,
   hreflangEN,
@@ -25,8 +25,8 @@ const {
   ogImage = '/images/og-image.jpg',
 } = Astro.props;
 
-const siteName = 'Baila Canarias';
-const fullTitle = title === siteName ? title : `${title} - ${siteName}`;
+const siteName = 'Baila Canarias Dance Academy';
+const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
 ---
 
 <!doctype html>
@@ -64,7 +64,7 @@ const fullTitle = title === siteName ? title : `${title} - ${siteName}`;
         "@context": "https://schema.org",
         "@type": "DanceSchool",
         "name": "Baila Canarias",
-        "description": "Latin dance school in Tenerife offering salsa, bachata and kizomba classes.",
+        "description": "Baila Canarias Dance Academy offers salsa, bachata and kizomba classes in Puerto Santiago, Tenerife. All levels from complete beginners welcome.",
         "url": "https://www.bailacanarias.com",
         "telephone": "+34629178242",
         "email": "contact@bailacanarias.com",
