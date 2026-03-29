@@ -33,7 +33,7 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft && data.lan
                   {post.data.pubDate.toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' })}
                   {post.data.author && ` · ${post.data.author}`}
                 </div>
-                <h3><a href={`/blog/${post.slug}`}>{post.data.title}</a></h3>
+                <h2><a href={`/blog/${post.slug}`}>{post.data.title}</a></h2>
                 <p style="font-size:0.95rem;">{post.data.description}</p>
                 <a href={`/blog/${post.slug}`} style="font-weight:600;font-size:0.9rem;">Read more →</a>
               </div>
