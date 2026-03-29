@@ -12,6 +12,7 @@ interface Props {
   hreflangES?: string;
   currentPath?: string;
   ogImage?: string;
+  lcpImage?: string;
 }
 
 const {
@@ -23,6 +24,7 @@ const {
   hreflangES,
   currentPath = Astro.url.pathname,
   ogImage = '/images/og-image.jpg',
+  lcpImage,
 } = Astro.props;
 
 const siteName = 'Baila Canarias Dance Academy';
@@ -36,6 +38,11 @@ const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
+
+    <!-- LCP image preload — must be first so browser discovers it immediately -->
+    {lcpImage && (
+      <link rel="preload" as="image" href={lcpImage} fetchpriority="high" />
+    )}
 
     <!-- Canonical & hreflang -->
     <link rel="canonical" href={canonicalURL} />
@@ -93,6 +100,15 @@ const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&display=swap" rel="stylesheet" />
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TLV9HG7E2N" is:inline></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-TLV9HG7E2N');
+    </script>
   </head>
   <body>
     <Header lang={lang} currentPath={currentPath} />

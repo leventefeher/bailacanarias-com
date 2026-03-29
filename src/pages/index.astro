@@ -6,6 +6,7 @@ import keystaticConfig from '../../keystatic.config';
 
 const reader = createReader(process.cwd(), keystaticConfig);
 const hp = await reader.singletons.homepage.read();
+const lcpImage = hp?.heroImage ?? '/images/DSC_6420.jpg';
 ---
 
 <Layout
@@ -14,6 +15,7 @@ const hp = await reader.singletons.homepage.read();
   lang="en"
   hreflangEN="https://www.bailacanarias.com/"
   hreflangES="https://www.bailacanarias.com/es/"
+  lcpImage={lcpImage}
 >
   <!-- Hero -->
   <section class="hero">
