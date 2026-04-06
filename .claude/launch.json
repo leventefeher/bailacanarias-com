@@ -4,8 +4,8 @@
     {
       "name": "dev",
       "runtimeExecutable": "/Users/leventefeher/.nvm/versions/node/v23.7.0/bin/node",
-      "runtimeArgs": ["./node_modules/.bin/astro", "dev"],
-      "port": 4321
+      "runtimeArgs": ["./node_modules/.bin/astro", "dev", "--port", "4320"],
+      "port": 4320
     }
   ]
 }

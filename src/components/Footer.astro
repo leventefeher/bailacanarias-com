@@ -71,9 +71,17 @@ const year = new Date().getFullYear();
 
     <div class="footer-bottom">
       <span>&copy; {year} Baila Canarias. {lang === 'es' ? 'Todos los derechos reservados.' : 'All rights reserved.'}</span>
-      <a href={lang === 'es' ? '/es/politica-de-privacidad' : '/privacy-policy'}>
-        {lang === 'es' ? 'Política de privacidad' : 'Privacy Policy'}
-      </a>
+      <div style="display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap;justify-content:flex-end;">
+        <a href={lang === 'es' ? '/es/politica-de-privacidad' : '/privacy-policy'}>
+          {lang === 'es' ? 'Política de privacidad' : 'Privacy Policy'}
+        </a>
+        <a href="https://www.losgigantesguide.com" target="_blank" rel="noopener">
+          {lang === 'es' ? 'Recomendado por Los Gigantes Guide' : 'As seen on the Los Gigantes Guide'}
+        </a>
+        <a href="https://www.insytful.com" target="_blank" rel="noopener">
+          {lang === 'es' ? 'Desarrollado con Insytful' : 'Powered by Insytful'}
+        </a>
+      </div>
     </div>
   </div>
 </footer>
