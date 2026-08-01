@@ -1,0 +1,284 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MailchimpForm from '../components/MailchimpForm.astro';
+
+const heroImage = '/images/levente-social-class.jpg';
+
+const faqs = [
+  {
+    q: 'Do I need a partner to take private bachata classes?',
+    a: 'No. You are very welcome to come on your own. Private lessons are tailored to you, whether you dance solo, with a regular partner, or want to work on both leading and following.',
+  },
+  {
+    q: 'I am a complete beginner - is a private bachata class right for me?',
+    a: 'Absolutely. Private classes are one of the fastest, most comfortable ways to start. We build your foundation from the very first step: basic timing, posture and connection, at a pace that suits you, with no pressure and no keeping up with a group.',
+  },
+  {
+    q: 'I already dance at a high level. Can you still help me?',
+    a: 'Yes. Advanced dancers often plateau because they have collected moves but never learned to truly hear and interpret the music. That is exactly my speciality - musicality, timing, dynamics and connection that take your dancing to the next level.',
+  },
+  {
+    q: 'What styles of bachata do you teach?',
+    a: 'We focus on social bachata rooted in the music and culture of the Dominican Republic, drawing on traditional (Dominican), modern and sensual styles. The emphasis is always on musicality and connection rather than choreography for its own sake.',
+  },
+  {
+    q: 'Where do the private bachata classes take place?',
+    a: 'Private classes are held in Puerto Santiago, Tenerife, and around the Costa Adeje and Los Cristianos area by arrangement. Get in touch and we will find a time and place that works for you.',
+  },
+  {
+    q: 'How much do private bachata lessons cost?',
+    a: 'Pricing depends on the number of lessons and dancers. The best thing to do is get in touch with a quick message about your level and goals, and I will send you the options.',
+  },
+];
+---
+
+<Layout
+  title="Private Bachata Classes in Tenerife with Levente"
+  description="One-to-one private bachata lessons in Tenerife with Levente - 10+ years' experience. From complete beginner to advanced, specialising in musicality, timing, connection and dancing with confidence."
+  lang="en"
+  hreflangEN="https://www.bailacanarias.com/private-bachata-classes"
+  hreflangES="https://www.bailacanarias.com/es/clases-privadas-de-bachata"
+  lcpImage={heroImage}
+  ogImage="/images/levente-social-class.jpg"
+>
+  <div class="page-header" style={`--page-hero-img: url('${heroImage}'); background-position: center 30%;`}>
+    <div class="container">
+      <h1>Private Bachata Classes in Tenerife</h1>
+      <p>One-to-one lessons with Levente - learn to feel the music, not just the moves.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="bio-content">
+        <p style="font-size:1.15rem;">
+          Private bachata classes give you the fastest, most personal way to grow as a dancer.
+          Every lesson is built entirely around <strong>you</strong> - your level, your goals and
+          the way you learn best. Whether you have never danced a single step or you are already
+          a confident social dancer, you get focused, one-to-one attention that a group class
+          simply cannot offer.
+        </p>
+        <p>
+          Classes are taught by <strong>Levente</strong>, with over <strong>10 years of dance
+          experience</strong> teaching students all the way from complete beginners to high-level
+          dancers. What sets these lessons apart is a genuine specialism in
+          <strong>musicality</strong>: learning how to hear, connect with and interpret the music,
+          so your dancing feels natural and expressive - rather than stringing together moves that
+          land out of place.
+        </p>
+
+        <h2>Why choose private bachata lessons?</h2>
+        <p>
+          Group classes are wonderful for community and practice, but they move at the pace of the
+          room. In a private class the pace is yours. There is no waiting, no keeping up, and no
+          repeating things you already know. Instead, every minute is spent on exactly what will
+          make the biggest difference to your dancing right now.
+        </p>
+        <ul style="font-size:1.05rem;line-height:1.8;">
+          <li><strong>Personalised to your level</strong> - from your very first basic step to advanced styling and technique.</li>
+          <li><strong>Faster progress</strong> - direct feedback and corrections you would never get in a crowded room.</li>
+          <li><strong>Flexible focus</strong> - leading, following, timing, footwork, body movement, partnerwork or performance.</li>
+          <li><strong>A comfortable, judgement-free space</strong> to ask questions and try things without pressure.</li>
+        </ul>
+
+        <h2>Musicality: connect with and interpret the music</h2>
+        <figure class="inline-figure">
+          <img
+            src="/images/levente-guira.jpg"
+            alt="Levente playing the güira, the metal scraper percussion instrument that drives the rhythm in bachata and merengue"
+            width="840"
+            height="1259"
+            loading="lazy"
+          />
+          <figcaption>
+            Getting to know the instruments - like the güira, which carries bachata's
+            rhythm - is part of learning to really hear the music.
+          </figcaption>
+        </figure>
+        <p>
+          Most dancers learn moves. Far fewer learn to truly <em>hear</em> the music - and that is
+          the difference between dancing <em>to</em> a song and dancing <em>with</em> it. My
+          approach puts the music first. You will learn how bachata is structured, how to feel the
+          rhythm and the phrases, and how to choose movements that actually match what the music is
+          saying in each moment.
+        </p>
+        <p>
+          Take the <strong>güira</strong> - that steady metallic scrape you can hear in almost every
+          bachata song. Once you learn to pick it out and lock into it, keeping time stops being a
+          chore and becomes second nature. This is what makes dancing feel effortless and connected,
+          both with the song and with your partner, and it is the single biggest reason dancers of
+          every level break through a plateau and start to genuinely enjoy every dance.
+        </p>
+
+        <h2>What you'll learn</h2>
+        <ul style="font-size:1.05rem;line-height:1.8;">
+          <li><strong>Timing &amp; rhythm</strong> - how to stay on time, find the beat with confidence, and never feel lost in a song.</li>
+          <li><strong>Music structure</strong> - recognising the phrases, breaks and accents so you know what is coming and can dance ahead of it.</li>
+          <li><strong>Musicality &amp; interpretation</strong> - matching your movement to the feeling and dynamics of the music instead of forcing memorised patterns.</li>
+          <li><strong>Connection</strong> - clear, comfortable lead-and-follow that makes both partners feel good.</li>
+          <li><strong>History &amp; culture of bachata</strong> - understanding where the dance comes from so your dancing has real authenticity and depth.</li>
+          <li><strong>Confidence on the dance floor</strong> - the mindset and tools to walk up, ask for a dance, and actually enjoy it.</li>
+        </ul>
+
+        <h2>From complete beginner to advanced dancer</h2>
+        <p>
+          <strong>New to bachata?</strong> We start from zero - timing, posture, the basic step and
+          your first simple, musical moves - in a relaxed setting where it is completely fine to
+          make mistakes. Most people are dancing their first song by the end of the very first
+          lesson.
+        </p>
+        <p>
+          <strong>Already dancing?</strong> We refine your technique, deepen your musicality, and
+          smooth out the habits holding you back. Improvers and advanced dancers often find that
+          working on how they hear and interpret the music transforms their dancing more than any
+          new move ever could.
+        </p>
+
+        <h2>Learn to find your confidence - and succeed</h2>
+        <p>
+          Confidence on the dance floor does not come from knowing hundreds of moves. It comes from
+          trusting your timing, understanding the music, and being comfortable in the connection.
+          That is what these classes are designed to give you: the ability to walk into any social,
+          hear a song you have never danced to before, and just <em>dance</em> - and love it.
+        </p>
+
+        <h2>About your teacher</h2>
+        <p>
+          Levente is co-founder and head teacher at Baila Canarias, with more than a decade of
+          experience across the UK, Hungary and Tenerife - from teaching at iconic London Latin
+          venues to coaching university bachata teams. His passion is the social and cultural side
+          of the dance, and sharing the joy of dancing <em>with</em> the music.
+          <a href="/levente-feher/">Read more about Levente</a> or discover
+          <a href="/what-is-bachata/">what bachata is</a> and where it comes from.
+        </p>
+
+        <h2>Book your private bachata class</h2>
+        <p>
+          Ready to start, or want to ask a question first? Send a short message about your level and
+          what you would like to work on, and we will find a time that suits you here in Tenerife.
+        </p>
+        <div style="margin-top:2rem;display:flex;gap:1rem;flex-wrap:wrap;">
+          <a
+            href="https://wa.me/34629178242"
+            class="btn btn-whatsapp"
+            target="_blank"
+            rel="noopener"
+            aria-label="Message us on WhatsApp"
+          >
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z" />
+            </svg>
+            Message on WhatsApp
+          </a>
+          <a href="mailto:contact@bailacanarias.com" class="btn btn-outline-primary">Email to book</a>
+          <a href="tel:+447588852583" class="btn btn-outline-primary">Call UK: +44 7588 852583</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--cream">
+    <div class="container">
+      <div class="bio-content">
+        <h2 style="text-align:center;margin-bottom:2rem;">Frequently asked questions</h2>
+        {
+          faqs.map((faq) => (
+            <div style="margin-bottom:1.75rem;">
+              <h3 style="margin-bottom:0.5rem;">{faq.q}</h3>
+              <p style="margin:0;">{faq.a}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <MailchimpForm lang="en" />
+
+  <!-- Structured data: Service + FAQ -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    'serviceType': 'Private bachata classes',
+    'name': 'Private Bachata Classes in Tenerife',
+    'description':
+      "One-to-one private bachata lessons in Tenerife with Levente, specialising in musicality, timing, connection and dancing with confidence. Suitable for complete beginners through to advanced dancers.",
+    'url': 'https://www.bailacanarias.com/private-bachata-classes/',
+    'areaServed': {
+      '@type': 'Place',
+      'name': 'Tenerife, Canary Islands',
+    },
+    'provider': {
+      '@type': 'DanceSchool',
+      'name': 'Baila Canarias',
+      'url': 'https://www.bailacanarias.com',
+      'telephone': '+34629178242',
+      'email': 'contact@bailacanarias.com',
+      'address': {
+        '@type': 'PostalAddress',
+        'addressLocality': 'Puerto Santiago',
+        'addressRegion': 'Tenerife',
+        'addressCountry': 'ES',
+      },
+    },
+  })} />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    'mainEntity': faqs.map((faq) => ({
+      '@type': 'Question',
+      'name': faq.q,
+      'acceptedAnswer': {
+        '@type': 'Answer',
+        'text': faq.a,
+      },
+    })),
+  })} />
+
+  <style>
+    .btn-whatsapp {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #25d366;
+      color: #fff;
+      border-color: #25d366;
+    }
+    .btn-whatsapp:hover {
+      background: #1da851;
+      border-color: #1da851;
+      color: #fff;
+    }
+    .inline-figure {
+      float: left;
+      width: 260px;
+      max-width: 42%;
+      margin: 0.35rem 1.75rem 1rem 0;
+      text-align: center;
+    }
+    .inline-figure img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .inline-figure figcaption {
+      font-size: 0.85rem;
+      color: #666;
+      line-height: 1.45;
+      margin-top: 0.6rem;
+    }
+    /* Stop later headings from wrapping around the float */
+    .bio-content h2 {
+      clear: both;
+    }
+    @media (max-width: 600px) {
+      .inline-figure {
+        float: none;
+        width: 100%;
+        max-width: 320px;
+        margin: 1.5rem auto;
+      }
+    }
+  </style>
+</Layout>

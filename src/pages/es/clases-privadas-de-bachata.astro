@@ -1,0 +1,287 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import MailchimpForm from '../../components/MailchimpForm.astro';
+
+const heroImage = '/images/levente-social-class.jpg';
+
+const faqs = [
+  {
+    q: '¿Necesito pareja para tomar clases privadas de bachata?',
+    a: 'No. Eres más que bienvenido/a a venir por tu cuenta. Las clases privadas se adaptan a ti, ya bailes solo/a, con una pareja habitual, o quieras trabajar tanto el rol de líder como el de seguidor.',
+  },
+  {
+    q: 'Soy principiante total - ¿es adecuada para mí una clase privada de bachata?',
+    a: 'Por supuesto. Las clases privadas son una de las formas más rápidas y cómodas de empezar. Construimos tu base desde el primer paso: tiempo básico, postura y conexión, a un ritmo que te convenga, sin presión y sin tener que seguir el ritmo de un grupo.',
+  },
+  {
+    q: 'Ya bailo a un nivel alto. ¿Aún puedes ayudarme?',
+    a: 'Sí. Los bailarines avanzados a menudo se estancan porque han acumulado muchos pasos pero nunca aprendieron a escuchar e interpretar de verdad la música. Esa es justamente mi especialidad - musicalidad, tiempo, dinámica y conexión que llevan tu baile al siguiente nivel.',
+  },
+  {
+    q: '¿Qué estilos de bachata enseñas?',
+    a: 'Nos centramos en la bachata social con raíces en la música y la cultura de la República Dominicana, tomando elementos de los estilos tradicional (dominicano), moderno y sensual. El énfasis siempre está en la musicalidad y la conexión, más que en la coreografía por sí misma.',
+  },
+  {
+    q: '¿Dónde se imparten las clases privadas de bachata?',
+    a: 'Las clases privadas se imparten en Puerto Santiago, Tenerife, y en la zona de Costa Adeje y Los Cristianos previa cita. Contáctanos y encontraremos una hora y un lugar que te vengan bien.',
+  },
+  {
+    q: '¿Cuánto cuestan las clases privadas de bachata?',
+    a: 'El precio depende del número de clases y de bailarines. Lo mejor es que nos escribas un mensaje breve con tu nivel y tus objetivos, y te enviaré las opciones.',
+  },
+];
+---
+
+<Layout
+  title="Clases Privadas de Bachata en Tenerife con Levente"
+  description="Clases privadas de bachata individuales en Tenerife con Levente - más de 10 años de experiencia. Desde principiante total hasta nivel avanzado, especializado en musicalidad, tiempo, conexión y bailar con confianza."
+  lang="es"
+  hreflangEN="https://www.bailacanarias.com/private-bachata-classes"
+  hreflangES="https://www.bailacanarias.com/es/clases-privadas-de-bachata"
+  lcpImage={heroImage}
+  ogImage="/images/levente-social-class.jpg"
+>
+  <div class="page-header" style={`--page-hero-img: url('${heroImage}'); background-position: center 30%;`}>
+    <div class="container">
+      <h1>Clases Privadas de Bachata en Tenerife</h1>
+      <p>Clases individuales con Levente - aprende a sentir la música, no solo los pasos.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="bio-content">
+        <p style="font-size:1.15rem;">
+          Las clases privadas de bachata son la forma más rápida y personal de crecer como
+          bailarín/a. Cada clase se construye por completo en torno a <strong>ti</strong> - tu nivel,
+          tus objetivos y la manera en que mejor aprendes. Tanto si nunca has dado un solo paso como
+          si ya eres un bailarín/a social con confianza, recibes una atención individual y enfocada
+          que una clase grupal sencillamente no puede ofrecer.
+        </p>
+        <p>
+          Las clases las imparte <strong>Levente</strong>, con más de <strong>10 años de experiencia
+          en el baile</strong> enseñando a alumnos de todos los niveles, desde principiantes totales
+          hasta bailarines avanzados. Lo que distingue estas clases es una verdadera especialización
+          en la <strong>musicalidad</strong>: aprender a escuchar, conectar e interpretar la música,
+          para que tu baile se sienta natural y expresivo - en lugar de encadenar pasos que caen
+          fuera de lugar.
+        </p>
+
+        <h2>¿Por qué elegir clases privadas de bachata?</h2>
+        <p>
+          Las clases grupales son estupendas para la comunidad y la práctica, pero avanzan al ritmo
+          de la sala. En una clase privada el ritmo es el tuyo. No hay esperas, no hay que seguir a
+          nadie y no se repite lo que ya sabes. En su lugar, cada minuto se dedica exactamente a lo
+          que marcará la mayor diferencia en tu baile ahora mismo.
+        </p>
+        <ul style="font-size:1.05rem;line-height:1.8;">
+          <li><strong>Personalizadas a tu nivel</strong> - desde tu primer paso básico hasta el estilo y la técnica avanzada.</li>
+          <li><strong>Progreso más rápido</strong> - feedback y correcciones directas que nunca tendrías en una sala llena.</li>
+          <li><strong>Enfoque flexible</strong> - liderar, seguir, tiempo, footwork, movimiento corporal, trabajo en pareja o performance.</li>
+          <li><strong>Un espacio cómodo y sin juicios</strong> para preguntar y probar cosas sin presión.</li>
+        </ul>
+
+        <h2>Musicalidad: conecta e interpreta la música</h2>
+        <figure class="inline-figure">
+          <img
+            src="/images/levente-guira.jpg"
+            alt="Levente tocando la güira, el instrumento de percusión metálico que marca el ritmo en la bachata y el merengue"
+            width="840"
+            height="1259"
+            loading="lazy"
+          />
+          <figcaption>
+            Conocer los instrumentos - como la güira, que lleva el ritmo de la bachata - es
+            parte de aprender a escuchar de verdad la música.
+          </figcaption>
+        </figure>
+        <p>
+          La mayoría de los bailarines aprenden pasos. Muchos menos aprenden a <em>escuchar</em> de
+          verdad la música - y esa es la diferencia entre bailar <em>a</em> una canción y bailar
+          <em>con</em> ella. Mi enfoque pone la música primero. Aprenderás cómo está estructurada la
+          bachata, cómo sentir el ritmo y las frases, y cómo elegir movimientos que realmente encajen
+          con lo que la música dice en cada momento.
+        </p>
+        <p>
+          Fíjate en la <strong>güira</strong> - ese raspado metálico constante que se oye en casi
+          todas las canciones de bachata. Una vez que aprendes a distinguirla y a encajar con ella,
+          mantener el tiempo deja de ser un esfuerzo y se vuelve algo natural. Esto es lo que hace
+          que el baile se sienta fluido y conectado, tanto con la canción como con tu pareja, y es la
+          mayor razón por la que bailarines de todos los niveles superan un estancamiento y empiezan
+          a disfrutar de verdad cada baile.
+        </p>
+
+        <h2>Lo que aprenderás</h2>
+        <ul style="font-size:1.05rem;line-height:1.8;">
+          <li><strong>Tiempo y ritmo</strong> - cómo mantener el tiempo, encontrar el beat con confianza y no sentirte perdido/a en una canción.</li>
+          <li><strong>Estructura musical</strong> - reconocer las frases, los cortes y los acentos para saber qué viene y poder anticiparte.</li>
+          <li><strong>Musicalidad e interpretación</strong> - adaptar tu movimiento al sentimiento y la dinámica de la música en lugar de forzar patrones memorizados.</li>
+          <li><strong>Conexión</strong> - un liderazgo y seguimiento claros y cómodos que hacen que ambos se sientan bien.</li>
+          <li><strong>Historia y cultura de la bachata</strong> - entender de dónde viene el baile para que el tuyo tenga autenticidad y profundidad reales.</li>
+          <li><strong>Confianza en la pista</strong> - la mentalidad y las herramientas para acercarte, sacar a bailar y disfrutarlo de verdad.</li>
+        </ul>
+
+        <h2>Desde principiante total hasta bailarín avanzado</h2>
+        <p>
+          <strong>¿Nuevo/a en la bachata?</strong> Empezamos desde cero - tiempo, postura, el paso
+          básico y tus primeros movimientos sencillos y musicales - en un ambiente relajado donde
+          equivocarse está totalmente bien. La mayoría de la gente baila su primera canción al final
+          de la primera clase.
+        </p>
+        <p>
+          <strong>¿Ya bailas?</strong> Pulimos tu técnica, profundizamos en tu musicalidad y
+          corregimos los hábitos que te frenan. Los bailarines intermedios y avanzados a menudo
+          descubren que trabajar cómo escuchan e interpretan la música transforma su baile más que
+          cualquier paso nuevo.
+        </p>
+
+        <h2>Aprende a encontrar tu confianza - y triunfa</h2>
+        <p>
+          La confianza en la pista no viene de saber cientos de pasos. Viene de confiar en tu tiempo,
+          entender la música y sentirte cómodo/a en la conexión. Eso es lo que estas clases están
+          diseñadas para darte: la capacidad de entrar en cualquier social, escuchar una canción que
+          nunca has bailado y simplemente <em>bailar</em> - y disfrutarlo.
+        </p>
+
+        <h2>Sobre tu profesor</h2>
+        <p>
+          Levente es cofundador y profesor principal de Baila Canarias, con más de una década de
+          experiencia entre el Reino Unido, Hungría y Tenerife - desde enseñar en emblemáticos
+          locales de baile latino de Londres hasta entrenar equipos universitarios de bachata. Su
+          pasión es el lado social y cultural del baile, y compartir la alegría de bailar
+          <em>con</em> la música.
+          <a href="/es/levente-feher/">Conoce más sobre Levente</a> o descubre
+          <a href="/es/que-es-la-bachata/">qué es la bachata</a> y de dónde viene.
+        </p>
+
+        <h2>Reserva tu clase privada de bachata</h2>
+        <p>
+          ¿Listo/a para empezar o quieres preguntar algo primero? Envíame un mensaje breve con tu
+          nivel y lo que te gustaría trabajar, y encontraremos una hora que te venga bien aquí en
+          Tenerife.
+        </p>
+        <div style="margin-top:2rem;display:flex;gap:1rem;flex-wrap:wrap;">
+          <a
+            href="https://wa.me/34629178242"
+            class="btn btn-whatsapp"
+            target="_blank"
+            rel="noopener"
+            aria-label="Escríbenos por WhatsApp"
+          >
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z" />
+            </svg>
+            Escríbenos por WhatsApp
+          </a>
+          <a href="mailto:contact@bailacanarias.com" class="btn btn-outline-primary">Reservar por email</a>
+          <a href="tel:+447588852583" class="btn btn-outline-primary">Llamar (RU): +44 7588 852583</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--cream">
+    <div class="container">
+      <div class="bio-content">
+        <h2 style="text-align:center;margin-bottom:2rem;">Preguntas frecuentes</h2>
+        {
+          faqs.map((faq) => (
+            <div style="margin-bottom:1.75rem;">
+              <h3 style="margin-bottom:0.5rem;">{faq.q}</h3>
+              <p style="margin:0;">{faq.a}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <MailchimpForm lang="es" />
+
+  <!-- Structured data: Service + FAQ -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    'serviceType': 'Clases privadas de bachata',
+    'name': 'Clases Privadas de Bachata en Tenerife',
+    'description':
+      'Clases privadas de bachata individuales en Tenerife con Levente, especializado en musicalidad, tiempo, conexión y bailar con confianza. Aptas desde principiantes totales hasta bailarines avanzados.',
+    'url': 'https://www.bailacanarias.com/es/clases-privadas-de-bachata/',
+    'areaServed': {
+      '@type': 'Place',
+      'name': 'Tenerife, Islas Canarias',
+    },
+    'provider': {
+      '@type': 'DanceSchool',
+      'name': 'Baila Canarias',
+      'url': 'https://www.bailacanarias.com',
+      'telephone': '+34629178242',
+      'email': 'contact@bailacanarias.com',
+      'address': {
+        '@type': 'PostalAddress',
+        'addressLocality': 'Puerto Santiago',
+        'addressRegion': 'Tenerife',
+        'addressCountry': 'ES',
+      },
+    },
+  })} />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    'mainEntity': faqs.map((faq) => ({
+      '@type': 'Question',
+      'name': faq.q,
+      'acceptedAnswer': {
+        '@type': 'Answer',
+        'text': faq.a,
+      },
+    })),
+  })} />
+
+  <style>
+    .btn-whatsapp {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #25d366;
+      color: #fff;
+      border-color: #25d366;
+    }
+    .btn-whatsapp:hover {
+      background: #1da851;
+      border-color: #1da851;
+      color: #fff;
+    }
+    .inline-figure {
+      float: left;
+      width: 260px;
+      max-width: 42%;
+      margin: 0.35rem 1.75rem 1rem 0;
+      text-align: center;
+    }
+    .inline-figure img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .inline-figure figcaption {
+      font-size: 0.85rem;
+      color: #666;
+      line-height: 1.45;
+      margin-top: 0.6rem;
+    }
+    /* Stop later headings from wrapping around the float */
+    .bio-content h2 {
+      clear: both;
+    }
+    @media (max-width: 600px) {
+      .inline-figure {
+        float: none;
+        width: 100%;
+        max-width: 320px;
+        margin: 1.5rem auto;
+      }
+    }
+  </style>
+</Layout>
