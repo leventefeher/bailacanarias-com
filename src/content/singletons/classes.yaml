@@ -9,42 +9,45 @@ introEs: >-
   clases privadas y más. Encuentra nuestros próximos eventos y los que ya están
   en marcha.
 classes:
-  - dayEn: MONDAYS
-    dayEs: LUNES
+  - dayEn: TUESDAYS
+    dayEs: MARTES
     levelEn: Level 0 — Beginners
     levelEs: Nivel 0 — Principiantes
     titleEn: Beginners Bachata
     titleEs: Bachata Nivel 0
-    location: B-Yard Food Court, Puerto Santiago
-    time: 17:45–18:45
+    location: Tenerife Movement Studio, Los Gigantes
+    time: '19:15–20:15'
     descriptionEn: >-
-      Monday weekly classes held at B-Yard Food Court in Puerto Santiago. Every
-      Monday from 17:45 to 18:45.
+      Tuesday weekly classes at Tenerife Movement Studio in Los Gigantes (<a
+      href="https://maps.app.goo.gl/xcVgBXaMSCNxQQNAA" target="_blank"
+      rel="noopener">view on map</a>). Every Tuesday from 19:15 to 20:15.
 
       The class is divided into bachata moderna/sensual and traditional styles
       to help you understand the development of Bachata and how it evolved from
       the Dominican Republic. Please let us know on WhatsApp before attending,
       as sometimes we have to change the schedule at short notice.
     descriptionEs: >-
-      Las clases semanales de los lunes se imparten en B-Yard Food Court en
-      Puerto Santiago. Todos los lunes de 17:45 a 18:45.
+      Las clases semanales de los martes se imparten en Tenerife Movement Studio
+      en Los Gigantes (<a href="https://maps.app.goo.gl/xcVgBXaMSCNxQQNAA"
+      target="_blank" rel="noopener">ver en el mapa</a>). Todos los martes de
+      19:15 a 20:15.
 
       La clase se divide en estilos de bachata moderna/sensual y tradicional
       para ayudarte a comprender el desarrollo de la bachata y cómo evolucionó
       desde la República Dominicana.
     priceEn: 10€ / class · 35€ for 4 classes · 50€ for a couple for 4 classes
     priceEs: 10€ / clase · 35€ por 4 clases · 50€ por pareja para 4 clases
-  - dayEn: MONDAYS
-    dayEs: LUNES
+  - dayEn: TUESDAYS
+    dayEs: MARTES
     levelEn: Level 1 — Improvers
     levelEs: Nivel 1 — Intermedios
     titleEn: Improvers Bachata
     titleEs: Bachata Nivel 1
     location: B-Yard Food Court, Puerto Santiago
-    time: 16:45–17:45
+    time: '18:00–19:00'
     descriptionEn: >-
-      Monday weekly classes at B-Yard, Puerto Santiago. Every Monday from 16:45
-      to 17:45.
+      Tuesday weekly classes at B-Yard, Puerto Santiago. Every Tuesday from
+      18:00 to 19:00.
 
       Bachata Moderna/Sensual and Traditional style. Suitable for people who are
       familiar with the basic steps, leading and following techniques and turn
@@ -52,7 +55,7 @@ classes:
       know on WhatsApp before attending, as sometimes we have to change the
       schedule at short notice.
     descriptionEs: >-
-      Clases semanales los lunes, de 16:45 a 17:45 en B-Yard Food Court, Puerto
+      Clases semanales los martes, de 18:00 a 19:00 en B-Yard Food Court, Puerto
       Santiago. Bachata Moderna/Estilo sensual y tradicional.
 
       Apto para personas que estén familiarizadas con los pasos básicos,
