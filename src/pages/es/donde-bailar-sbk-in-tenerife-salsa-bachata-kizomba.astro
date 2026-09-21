@@ -8,16 +8,54 @@ const reader = createReader(process.cwd(), keystaticConfig);
 const data = await reader.singletons.whereToDance.read();
 const parties = data?.parties ?? [];
 
+// One-off events are pruned by scripts/parties/update-parties.mjs, but filter
+// again at build time so a stale deploy never shows a party that already happened.
+// Region travels as a code so each language prints it natively.
+const REGIONS: Record<string, { en: string; es: string }> = {
+  north: { en: 'Tenerife North', es: 'Tenerife Norte' },
+  south: { en: 'Tenerife South', es: 'Tenerife Sur' },
+  east: { en: 'Tenerife East', es: 'Tenerife Este' },
+  west: { en: 'Tenerife West', es: 'Tenerife Oeste' },
+  northeast: { en: 'Tenerife Northeast', es: 'Tenerife Noreste' },
+  northwest: { en: 'Tenerife Northwest', es: 'Tenerife Noroeste' },
+  southeast: { en: 'Tenerife Southeast', es: 'Tenerife Sureste' },
+  southwest: { en: 'Tenerife Southwest', es: 'Tenerife Suroeste' },
+};
+const regionLabel = (code: string, lang: 'en' | 'es') =>
+  REGIONS[(code ?? '').trim().toLowerCase()]?.[lang] ?? '';
+
+const placeLabel = (location: string, region: string, lang: 'en' | 'es') =>
+  [location, regionLabel(region, lang)].filter(Boolean).join(' — ');
+
+const todayIso = new Date().toISOString().slice(0, 10);
+const oneOffEvents = (data?.oneOffEvents ?? [])
+  .filter((e) => (e.date ?? '') >= todayIso)
+  .sort((a, b) => (a.date ?? '').localeCompare(b.date ?? ''));
+
+const formatEventDate = (iso: string, locale: string) =>
+  new Date(`${iso}T12:00:00Z`).toLocaleDateString(locale, {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    timeZone: 'UTC',
+  });
+
 function parseEvents(raw: string) {
   return raw
     .split('\n')
     .map((line) => line.trim())
     .filter(Boolean)
     .map((line) => {
-      const [name = '', location = '', stylesEn = '', stylesEs = '', url = ''] = line
-        .split('|')
-        .map((s) => s.trim());
-      return { name, location, stylesEn, stylesEs, url };
+      const [
+        name = '',
+        location = '',
+        stylesEn = '',
+        stylesEs = '',
+        url = '',
+        mapsUrl = '',
+        region = '',
+      ] = line.split('|').map((s) => s.trim());
+      return { name, location, stylesEn, stylesEs, url, mapsUrl, region };
     });
 }
 ---
@@ -30,7 +68,10 @@ function parseEvents(raw: string) {
   hreflangES="https://www.bailacanarias.com/es/donde-bailar-sbk-in-tenerife-salsa-bachata-kizomba"
   lcpImage={data?.heroImage ?? '/images/2024/01/320A0372.jpg'}
 >
-  <div class="page-header" style={`--page-hero-img: url('${data?.heroImage ?? '/images/2024/01/320A0372.jpg'}')`}>
+  <div
+    class="page-header"
+    style={`--page-hero-img: url('${data?.heroImage ?? '/images/2024/01/320A0372.jpg'}')`}
+  >
     <div class="container">
       <h1>¿Dónde bailar SBK en Tenerife?</h1>
       <p>Salsa, Bachata y Kizomba en toda la isla</p>
@@ -47,6 +88,47 @@ function parseEvents(raw: string) {
         <a href="/es/aprende-a-bailar-con-nosotros/">clases y cursos de baile</a>.
       </p>
 
+      {
+        oneOffEvents.length > 0 && (
+          <>
+            <h2 style="margin-bottom:0.5rem;">Próximos eventos puntuales</h2>
+            <p style="max-width:700px;margin-bottom:1.5rem;font-style:italic;">
+              Fiestas y sociales especiales anunciados en Instagram. Desaparecen de esta lista
+              cuando pasa la fecha.
+            </p>
+            <div class="parties-list" style="margin-bottom:3rem;">
+              {oneOffEvents.map((event) => (
+                <div class="day-group">
+                  <div class="day-label">{formatEventDate(event.date, 'es-ES')}</div>
+                  <div class="party-item">
+                    {event.url ? (
+                      <a href={event.url} class="party-name" target="_blank" rel="noopener">
+                        {event.name}
+                      </a>
+                    ) : (
+                      <span class="party-name">{event.name}</span>
+                    )}
+                    {(event.location || event.region || event.mapsUrl) && (
+                      <span class="party-location">
+                        <span class="party-place">
+                          {placeLabel(event.location, event.region, 'es')}
+                        </span>
+                        {event.mapsUrl && (
+                          <a href={event.mapsUrl} class="party-map" target="_blank" rel="noopener">
+                            Mapa
+                          </a>
+                        )}
+                      </span>
+                    )}
+                    {event.stylesEs && <span class="party-styles">{event.stylesEs}</span>}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </>
+        )
+      }
+
       <h2 style="margin-bottom:1.5rem;">Fiestas de Baile Semanales</h2>
 
       <div class="parties-with-sidebar">
@@ -60,11 +142,23 @@ function parseEvents(raw: string) {
                   {group.dayNoteEs && <p>{group.dayNoteEs}</p>}
                   {events.map((event) => (
                     <div class="party-item">
-                      {event.url
-                        ? <a href={event.url} class="party-name" target="_blank" rel="noopener">{event.name}</a>
-                        : <span class="party-name">{event.name}</span>
-                      }
-                      <span class="party-location">{event.location}</span>
+                      {event.url ? (
+                        <a href={event.url} class="party-name" target="_blank" rel="noopener">
+                          {event.name}
+                        </a>
+                      ) : (
+                        <span class="party-name">{event.name}</span>
+                      )}
+                      <span class="party-location">
+                        <span class="party-place">
+                          {placeLabel(event.location, event.region, 'es')}
+                        </span>
+                        {event.mapsUrl && (
+                          <a href={event.mapsUrl} class="party-map" target="_blank" rel="noopener">
+                            Mapa
+                          </a>
+                        )}
+                      </span>
                       <span class="party-styles">{event.stylesEs}</span>
                     </div>
                   ))}
@@ -77,16 +171,25 @@ function parseEvents(raw: string) {
         <aside class="parties-sidebar">
           <h3 style="margin-bottom:0.75rem;">Mantente al día</h3>
           <p style="margin-bottom:0.75rem;">
-            Síguenos en Instagram para ver las fiestas y eventos sociales más actualizados en Tenerife.
-            También hay muchos eventos adicionales ad hoc — consulta
-            <a href="https://www.instagram.com/bailacanarias" target="_blank" rel="noopener">Sociales en Tenerife</a>
+            Síguenos en Instagram para ver las fiestas y eventos sociales más actualizados en
+            Tenerife. También hay muchos eventos adicionales ad hoc — consulta
+            <a href="https://www.instagram.com/bailacanarias" target="_blank" rel="noopener"
+              >Sociales en Tenerife</a
+            >
             para los más recientes.
           </p>
           <p style="margin-bottom:1rem;">
             ¿Buscas bailar en Gran Canaria? Visita
-            <a href="https://www.livegrancanaria.com" target="_blank" rel="noopener">Live Gran Canaria</a>.
+            <a href="https://www.livegrancanaria.com" target="_blank" rel="noopener"
+              >Live Gran Canaria</a
+            >.
           </p>
-          <a href="https://www.instagram.com/bailacanarias" target="_blank" rel="noopener" class="btn btn-primary">Síguenos en Instagram</a>
+          <a
+            href="https://www.instagram.com/bailacanarias"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-primary">Síguenos en Instagram</a
+          >
         </aside>
       </div>
     </div>

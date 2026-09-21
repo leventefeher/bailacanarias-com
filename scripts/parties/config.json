@@ -1,0 +1,182 @@
+{
+  "_comment": "sources = confirmed Instagram accounts read every run; flyer OCR arrives as image alt text on the profile grid. discovered = handles seen tagged on those accounts but not yet confirmed as event sources; the agent verifies these and promotes or retires them. secondarySources = weak non-Instagram feeds kept because they back existing page entries.",
+  "sources": [
+    {
+      "handle": "dondebailoentenerife",
+      "url": "https://www.instagram.com/dondebailoentenerife/"
+    },
+    {
+      "handle": "fuegopegao",
+      "url": "https://www.instagram.com/fuegopegao/"
+    },
+    {
+      "handle": "guaguancoevents_tnfe",
+      "url": "https://www.instagram.com/guaguancoevents_tnfe/",
+      "backs": [
+        "Afrolatin Night (Wednesday)"
+      ]
+    },
+    {
+      "handle": "leobailetenerife",
+      "url": "https://www.instagram.com/leobailetenerife/"
+    },
+    {
+      "handle": "sesionesbailetenerife",
+      "url": "https://www.instagram.com/sesionesbailetenerife/"
+    },
+    {
+      "handle": "bachatontenerife",
+      "url": "https://www.instagram.com/bachatontenerife/"
+    },
+    {
+      "handle": "tardeobachatero",
+      "url": "https://www.instagram.com/tardeobachatero/",
+      "note": "new account, no events posted as of 2026-09-21"
+    },
+    {
+      "handle": "ensalitre_",
+      "url": "https://www.instagram.com/ensalitre_/",
+      "note": "media agency that covers events rather than running them - expect mostly non-event posts"
+    },
+    {
+      "handle": "casablancadiscobar.tf",
+      "url": "https://www.instagram.com/casablancadiscobar.tf/",
+      "backs": [
+        "Deseo en Casablanca",
+        "Latin Flow en Casablanca"
+      ],
+      "note": "venue for two existing entries. Posts are mostly video, which carries no OCR alt text"
+    },
+    {
+      "handle": "lamoviesocialclub",
+      "url": "https://www.instagram.com/lamoviesocialclub/",
+      "backs": [
+        "Bachaton"
+      ],
+      "addedOn": "2026-09-21",
+      "note": "venue hosting the weekly Wednesday Bachaton; verified Tenerife venue, 5.8k followers"
+    },
+    {
+      "handle": "sondelagente",
+      "url": "https://www.instagram.com/sondelagente/",
+      "addedOn": "2026-09-21",
+      "note": "verified: 'Musica - Baile - Eventos - SBKM', reporters of Tenerife social dance events"
+    },
+    {
+      "handle": "zoukcanaryislands",
+      "url": "https://www.instagram.com/zoukcanaryislands/",
+      "addedOn": "2026-09-21",
+      "note": "verified: weekly Sunday 100% Zouk social. Covers Gran Canaria too - filter to Tenerife events only"
+    },
+    {
+      "handle": "fieston_sbk_canarias",
+      "url": "https://www.instagram.com/fieston_sbk_canarias/",
+      "addedOn": "2026-09-21",
+      "note": "Fieston SBK Canarias; profile confirmed, content not yet sampled"
+    },
+    {
+      "handle": "elregreso.dance",
+      "url": "https://www.instagram.com/elregreso.dance/",
+      "addedOn": "2026-09-21",
+      "note": "runs 'El Regreso', which appears on the Guaguanco agenda"
+    }
+  ],
+  "discovered": [
+    {
+      "handle": "sienteelbailestudio",
+      "seenOn": "guaguancoevents_tnfe",
+      "firstSeen": "2026-09-21",
+      "status": "unverified"
+    },
+    {
+      "handle": "tueliges_sbk",
+      "seenOn": "leobailetenerife",
+      "firstSeen": "2026-09-21",
+      "status": "unverified"
+    },
+    {
+      "handle": "lacrematenerife",
+      "seenOn": "leobailetenerife",
+      "firstSeen": "2026-09-21",
+      "status": "unverified"
+    },
+    {
+      "handle": "4dance.app",
+      "seenOn": "leobailetenerife",
+      "firstSeen": "2026-09-21",
+      "status": "unverified"
+    },
+    {
+      "handle": "latidovisual.oficial",
+      "seenOn": "leobailetenerife",
+      "firstSeen": "2026-09-21",
+      "status": "unverified"
+    },
+    {
+      "handle": "socialdance_studio",
+      "seenOn": "dondebailoentenerife",
+      "firstSeen": "2026-09-21",
+      "status": "unverified"
+    },
+    {
+      "handle": "gaby_bachata",
+      "seenOn": "dondebailoentenerife",
+      "firstSeen": "2026-09-21",
+      "status": "unverified"
+    },
+    {
+      "handle": "nely.affonso",
+      "seenOn": "dondebailoentenerife",
+      "firstSeen": "2026-09-21",
+      "status": "unverified"
+    },
+    {
+      "handle": "mariaphoto.mh",
+      "seenOn": "dondebailoentenerife",
+      "firstSeen": "2026-09-21",
+      "status": "unverified"
+    },
+    {
+      "handle": "jmneeeeez_",
+      "seenOn": "leobailetenerife",
+      "firstSeen": "2026-09-21",
+      "status": "unverified"
+    }
+  ],
+  "secondarySources": [
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/pablo.casaviejamedina",
+      "backs": [
+        "Tempo's Latinos"
+      ],
+      "note": "public profile, ~2 posts readable logged out, no flyer OCR"
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/FrankyTenerife",
+      "backs": [
+        "Baila Q' Baila (Sunday)"
+      ],
+      "note": "public profile, ~2 posts readable logged out, no flyer OCR"
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/santi.martinsantos",
+      "backs": [
+        "Baila Q' Baila (Friday)"
+      ],
+      "note": "PRIVATE profile - nothing visible logged out. Reference only"
+    }
+  ],
+  "rules": {
+    "sightingsToPromote": 3,
+    "daysSpanToPromote": 14,
+    "maxGapDaysForWeekly": 10,
+    "weeksUnseenToDrop": 5,
+    "maxPostsPerProfile": 6,
+    "maxDiscoveryChecksPerRun": 3,
+    "manualMissedChecksToRetire": 21,
+    "manualMinDaysTracked": 56
+  }
+}

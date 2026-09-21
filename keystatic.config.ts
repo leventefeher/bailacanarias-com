@@ -154,13 +154,33 @@ export default config({
             // Events encoded as one per line: "Name | Location | Styles EN | Styles ES | URL (optional)"
             // Nested arrays are not supported in Keystatic — use this text format instead.
             eventsRaw: fields.text({
-              label: 'Events — one per line: Name | Location | Styles (EN) | Styles (ES) | URL (optional)',
+              label:
+                'Events — one per line: Name | Location | Styles (EN) | Styles (ES) | URL (optional)',
               multiline: true,
             }),
           }),
           {
             label: 'Day groups',
             itemLabel: (props) => props.fields.dayEn.value || 'Day',
+          }
+        ),
+        // Maintained automatically by scripts/parties/update-parties.mjs.
+        // Past-dated entries are pruned on each run and filtered again at build time.
+        oneOffEvents: fields.array(
+          fields.object({
+            name: fields.text({ label: 'Event name' }),
+            date: fields.text({ label: 'Date (YYYY-MM-DD)' }),
+            location: fields.text({ label: 'Location' }),
+            stylesEn: fields.text({ label: 'Styles (EN)' }),
+            stylesEs: fields.text({ label: 'Styles (ES)' }),
+            url: fields.text({ label: 'Link (optional)' }),
+            mapsUrl: fields.text({ label: 'Google Maps link (optional)' }),
+            region: fields.text({ label: 'Region (North / South / Southeast / ...)' }),
+          }),
+          {
+            label: 'One-off events (auto-updated from Instagram)',
+            itemLabel: (props) =>
+              `${props.fields.date.value || '?'} — ${props.fields.name.value || 'Event'}`,
           }
         ),
       },

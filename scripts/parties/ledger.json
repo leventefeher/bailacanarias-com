@@ -1,0 +1,184 @@
+{
+  "events": {
+    "elregreso|mmdanzabambu": {
+      "name": "El Regreso",
+      "venue": "MMDanza & Bambú",
+      "area": "",
+      "region": "South",
+      "stylesEn": "Salsa & Bachata",
+      "stylesEs": "Salsa y Bachata",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/elregreso.dance/",
+      "firstSeen": "2026-09-21",
+      "sightings": [
+        {
+          "eventDate": "2026-09-26",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/guaguancoevents_tnfe/p/DdOQ6TvxCcN/",
+          "recordedOn": "2026-09-21"
+        }
+      ],
+      "lastSeen": "2026-09-26",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "guajiralatino|montanaroja2": {
+      "name": "Guajira Latino",
+      "venue": "Montaña Roja 2",
+      "area": "Las Chafiras",
+      "region": "South",
+      "stylesEn": "Salsa, Timba & Bachata",
+      "stylesEs": "Salsa, Timba y Bachata",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/guaguancoevents_tnfe/",
+      "firstSeen": "2026-09-21",
+      "sightings": [
+        {
+          "eventDate": "2026-10-17",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/guaguancoevents_tnfe/p/DdOQ6TvxCcN/",
+          "recordedOn": "2026-09-21"
+        }
+      ],
+      "lastSeen": "2026-10-17",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "origenlatino|montanaroja2": {
+      "name": "Origen Latino",
+      "venue": "Montaña Roja 2",
+      "area": "Las Chafiras",
+      "region": "South",
+      "stylesEn": "Salsa & Bachata",
+      "stylesEs": "Salsa y Bachata",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/guaguancoevents_tnfe/",
+      "firstSeen": "2026-09-21",
+      "sightings": [
+        {
+          "eventDate": "2026-11-21",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/guaguancoevents_tnfe/p/DdOQ6TvxCcN/",
+          "recordedOn": "2026-09-21"
+        }
+      ],
+      "lastSeen": "2026-11-21",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "bachaton|lamoviesocialclub": {
+      "name": "Bachatón",
+      "venue": "La Movie Social Club",
+      "area": "Santa Cruz",
+      "region": "North",
+      "stylesEn": "Bachata",
+      "stylesEs": "Bachata",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/sesionesbailetenerife/",
+      "firstSeen": "2026-09-21",
+      "sightings": [
+        {
+          "eventDate": "2026-07-22",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/sesionesbailetenerife/",
+          "recordedOn": "2026-09-21"
+        },
+        {
+          "eventDate": "2026-07-29",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/sesionesbailetenerife/",
+          "recordedOn": "2026-09-21"
+        },
+        {
+          "eventDate": "2026-08-05",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/sesionesbailetenerife/",
+          "recordedOn": "2026-09-21"
+        },
+        {
+          "eventDate": "2026-09-16",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/sesionesbailetenerife/",
+          "recordedOn": "2026-09-21"
+        },
+        {
+          "eventDate": "2026-09-23",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/sesionesbailetenerife/",
+          "recordedOn": "2026-09-21"
+        }
+      ],
+      "lastSeen": "2026-09-23",
+      "status": "weekly",
+      "weekday": "Wednesday"
+    }
+  },
+  "manual": {
+    "afrolatinnight|@Wednesday": {
+      "name": "Afrolatin Night",
+      "weekday": "Wednesday",
+      "adoptedOn": "2026-09-21",
+      "missedChecks": 1,
+      "status": "active",
+      "backedBy": [
+        "guaguancoevents_tnfe"
+      ],
+      "lastResult": "missed"
+    },
+    "temposlatinos|@": {
+      "name": "Tempo's Latinos",
+      "weekday": "Thursday",
+      "adoptedOn": "2026-09-21",
+      "missedChecks": 0,
+      "status": "active",
+      "backedBy": [
+        "https://www.facebook.com/pablo.casaviejamedina"
+      ],
+      "lastResult": "sources-unreadable"
+    },
+    "deseoencasablanca|@": {
+      "name": "Deseo en Casablanca",
+      "weekday": "Friday",
+      "adoptedOn": "2026-09-21",
+      "missedChecks": 0,
+      "status": "active",
+      "backedBy": [
+        "casablancadiscobar.tf"
+      ],
+      "lastResult": "sources-unreadable"
+    },
+    "bailaqbaila|@Friday": {
+      "name": "Baila Q' Baila",
+      "weekday": "Friday",
+      "adoptedOn": "2026-09-21",
+      "missedChecks": 0,
+      "status": "active",
+      "backedBy": [
+        "https://www.facebook.com/santi.martinsantos"
+      ],
+      "lastResult": "sources-unreadable"
+    },
+    "latinflowencasablanca|@": {
+      "name": "Latin Flow en Casablanca",
+      "weekday": "Sunday",
+      "adoptedOn": "2026-09-21",
+      "missedChecks": 0,
+      "status": "active",
+      "backedBy": [
+        "casablancadiscobar.tf"
+      ],
+      "lastResult": "sources-unreadable"
+    },
+    "bailaqbaila|@Sunday": {
+      "name": "Baila Q' Baila",
+      "weekday": "Sunday",
+      "adoptedOn": "2026-09-21",
+      "missedChecks": 0,
+      "status": "active",
+      "backedBy": [
+        "https://www.facebook.com/FrankyTenerife"
+      ],
+      "lastResult": "sources-unreadable"
+    }
+  }
+}

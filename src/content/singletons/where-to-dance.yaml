@@ -1,55 +1,71 @@
 heroImage: /images/heroes/320A0372.jpg
-introEn: >-
-  Tenerife offers many events around the island catering to salsa, bachata, and
-  kizomba dancers. Here are some of the most popular social dance parties.
-introEs: >-
-  Tenerife ofrece numerosos eventos en toda la isla para bailarines de salsa,
-  bachata y kizomba. A continuación, se muestran algunas de las fiestas de baile
-  social más populares.
-noteEn: >-
-  Although most of these are regular events, please check if they happen on the
-  day, as cancellations and changes often occur.
-noteEs: >-
-  Aunque la mayoría de estos son eventos regulares, verifica si se llevan a cabo
-  el día indicado, ya que suelen ocurrir cancelaciones y cambios.
+introEn: Tenerife offers many events around the island catering to salsa,
+  bachata, and kizomba dancers. Here are some of the most popular social dance
+  parties.
+introEs: Tenerife ofrece numerosos eventos en toda la isla para bailarines de
+  salsa, bachata y kizomba. A continuación, se muestran algunas de las fiestas
+  de baile social más populares.
+noteEn: Although most of these are regular events, please check if they happen
+  on the day, as cancellations and changes often occur.
+noteEs: Aunque la mayoría de estos son eventos regulares, verifica si se llevan
+  a cabo el día indicado, ya que suelen ocurrir cancelaciones y cambios.
 parties:
   - dayEn: Monday & Tuesday
     dayEs: Lunes y Martes
-    dayNoteEn: >-
-      No weekly parties on Monday and Tuesday — however you can always find
+    dayNoteEn: No weekly parties on Monday and Tuesday — however you can always find
       classes in the many dance schools on the island.
-    dayNoteEs: >-
-      Los lunes y martes no hay fiestas semanales, sin embargo siempre puedes
-      encontrar clases en las numerosas escuelas de baile de la isla.
+    dayNoteEs: Los lunes y martes no hay fiestas semanales, sin embargo siempre
+      puedes encontrar clases en las numerosas escuelas de baile de la isla.
   - dayEn: Wednesday
     dayEs: Miércoles
-    eventsRaw: >-
-      Afrolatin Night | Kendo Lounge Bar, Las Americas — Tenerife Sur | Bachata
-      & Salsa | Bachata y Salsa |
-      https://www.instagram.com/guaguancoevents_tnfe/
+    eventsRaw: |-
+      Afrolatin Night | Kendo Lounge Bar, Las Americas | Bachata & Salsa | Bachata y Salsa | https://www.instagram.com/guaguancoevents_tnfe/ | https://www.google.com/maps/search/?api=1&query=Kendo%20Lounge%20Bar%2C%20Las%20Americas%2C%20Tenerife | south
+
+      Bachatón | La Movie Social Club, Santa Cruz | Bachata | Bachata | https://www.instagram.com/sesionesbailetenerife/ | https://www.google.com/maps/search/?api=1&query=La%20Movie%20Social%20Club%2C%20Santa%20Cruz%2C%20Tenerife | North
   - dayEn: Thursday
     dayEs: Jueves
-    eventsRaw: >-
-      Tempo's Latinos | Las Americas — Tenerife South | Salsa & Bachata | Salsa
-      y Bachata | https://www.facebook.com/pablo.casaviejamedina
+    eventsRaw: Tempo's Latinos | Las Americas | Salsa & Bachata | Salsa y Bachata |
+      https://www.facebook.com/pablo.casaviejamedina |
+      https://www.google.com/maps/search/?api=1&query=Las%20Americas%2C%20Tenerife
+      | south
   - dayEn: Friday
     dayEs: Viernes
-    eventsRaw: >-
-      Deseo en Casablanca | Las Americas — Tenerife South | Salsa, Bachata |
-      Bachata y Salsa | https://www.instagram.com/casablancadiscobar.tf
+    eventsRaw: |-
+      Deseo en Casablanca | Las Americas | Salsa, Bachata | Bachata y Salsa | https://www.instagram.com/casablancadiscobar.tf | https://www.google.com/maps/search/?api=1&query=Las%20Americas%2C%20Tenerife | south
 
-      Baila Q' Baila | Las Chafiras — Tenerife South | Salsa, Bachata, Merengue
-      | Salsa, Bachata, Merengue | https://www.facebook.com/santi.martinsantos
+      Baila Q' Baila | Las Chafiras | Salsa, Bachata, Merengue | Salsa, Bachata, Merengue | https://www.facebook.com/santi.martinsantos | https://www.google.com/maps/search/?api=1&query=Las%20Chafiras%2C%20Tenerife | south
   - dayEn: Saturday
     dayEs: Sábado
     dayNoteEn: Check Instagram for Saturday events.
     dayNoteEs: Consulta Instagram para eventos del sábado.
   - dayEn: Sunday
     dayEs: Domingo
-    eventsRaw: >-
-      Latin Flow en Casablanca | Las Americas — Tenerife South | Bachata & Salsa
-      | Bachata y Salsa | https://www.instagram.com/casablancadiscobar.tf
+    eventsRaw: |-
+      Latin Flow en Casablanca | Las Americas | Bachata & Salsa | Bachata y Salsa | https://www.instagram.com/casablancadiscobar.tf | https://www.google.com/maps/search/?api=1&query=Las%20Americas%2C%20Tenerife | south
 
-      Baila Q' Baila | Las Chafiras — Tenerife Southeast | Salsa, Bachata,
-      Kizomba | Salsa, Bachata, Kizomba |
-      https://www.facebook.com/FrankyTenerife
+      Baila Q' Baila | Las Chafiras | Salsa, Bachata, Kizomba | Salsa, Bachata, Kizomba | https://www.facebook.com/FrankyTenerife | https://www.google.com/maps/search/?api=1&query=Las%20Chafiras%2C%20Tenerife | southeast
+oneOffEvents:
+  - name: El Regreso
+    date: '2026-09-26'
+    location: MMDanza & Bambú
+    region: South
+    stylesEn: Salsa & Bachata
+    stylesEs: Salsa y Bachata
+    url: https://www.instagram.com/elregreso.dance/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=MMDanza%20%26%20Bamb%C3%BA%2C%20Tenerife
+  - name: Guajira Latino
+    date: '2026-10-17'
+    location: Montaña Roja 2, Las Chafiras
+    region: South
+    stylesEn: Salsa, Timba & Bachata
+    stylesEs: Salsa, Timba y Bachata
+    url: https://www.instagram.com/guaguancoevents_tnfe/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Monta%C3%B1a%20Roja%202%2C%20Las%20Chafiras%2C%20Tenerife
+  - name: Origen Latino
+    date: '2026-11-21'
+    location: Montaña Roja 2, Las Chafiras
+    region: South
+    stylesEn: Salsa & Bachata
+    stylesEs: Salsa y Bachata
+    url: https://www.instagram.com/guaguancoevents_tnfe/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Monta%C3%B1a%20Roja%202%2C%20Las%20Chafiras%2C%20Tenerife
