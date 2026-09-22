@@ -3,10 +3,10 @@
     "elregreso|mmdanzabambu": {
       "name": "El Regreso",
       "venue": "MMDanza & Bambú",
-      "area": "",
-      "region": "South",
-      "stylesEn": "Salsa & Bachata",
-      "stylesEs": "Salsa y Bachata",
+      "area": "Santa Cruz",
+      "region": "North",
+      "stylesEn": "Bachata & Bachazouk",
+      "stylesEs": "Bachata y Bachazouk",
       "mapsUrl": "",
       "url": "https://www.instagram.com/elregreso.dance/",
       "firstSeen": "2026-09-21",
@@ -38,9 +38,15 @@
           "weekday": "Saturday",
           "postUrl": "https://www.instagram.com/guaguancoevents_tnfe/p/DdOQ6TvxCcN/",
           "recordedOn": "2026-09-21"
+        },
+        {
+          "eventDate": "2026-12-12",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/guaguancoevents_tnfe/p/DdOQ6TvxCcN/",
+          "recordedOn": "2026-09-22"
         }
       ],
-      "lastSeen": "2026-10-17",
+      "lastSeen": "2026-12-12",
       "status": "upcoming",
       "weekday": null
     },
@@ -111,6 +117,72 @@
       "lastSeen": "2026-09-23",
       "status": "weekly",
       "weekday": "Wednesday"
+    },
+    "social100zouk|": {
+      "name": "Social 100% Zouk",
+      "venue": "",
+      "area": "Santa Cruz",
+      "region": "North",
+      "stylesEn": "Zouk",
+      "stylesEs": "Zouk",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/zoukcanaryislands/",
+      "firstSeen": "2026-09-22",
+      "sightings": [
+        {
+          "eventDate": "2026-09-27",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/zoukcanaryislands/p/DcvoArHOzXk/",
+          "recordedOn": "2026-09-22"
+        }
+      ],
+      "lastSeen": "2026-09-27",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "social100zouk|mmdanza": {
+      "name": "Social 100% Zouk",
+      "venue": "MMDanza",
+      "area": "Santa Cruz",
+      "region": "North",
+      "stylesEn": "Zouk",
+      "stylesEs": "Zouk",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/zoukcanaryislands/",
+      "firstSeen": "2026-09-22",
+      "sightings": [
+        {
+          "eventDate": "2026-10-16",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/zoukcanaryislands/p/DdZFhtWMwNO/",
+          "recordedOn": "2026-09-22"
+        }
+      ],
+      "lastSeen": "2026-10-16",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "fiestonsbk|studio54liceotaoro": {
+      "name": "Fiestón SBK",
+      "venue": "Studio 54 Liceo Taoro",
+      "area": "La Orotava",
+      "region": "North",
+      "stylesEn": "Salsa, Bachata, Kizomba & Zouk",
+      "stylesEs": "Salsa, Bachata, Kizomba y Zouk",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/fieston_sbk_canarias/",
+      "firstSeen": "2026-09-22",
+      "sightings": [
+        {
+          "eventDate": "2026-10-17",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/fieston_sbk_canarias/p/DdWsMCpsCRm/",
+          "recordedOn": "2026-09-22"
+        }
+      ],
+      "lastSeen": "2026-10-17",
+      "status": "upcoming",
+      "weekday": null
     }
   },
   "manual": {
@@ -118,7 +190,7 @@
       "name": "Afrolatin Night",
       "weekday": "Wednesday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 1,
+      "missedChecks": 2,
       "status": "active",
       "backedBy": [
         "guaguancoevents_tnfe"
@@ -140,12 +212,12 @@
       "name": "Deseo en Casablanca",
       "weekday": "Friday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 0,
+      "missedChecks": 1,
       "status": "active",
       "backedBy": [
         "casablancadiscobar.tf"
       ],
-      "lastResult": "sources-unreadable"
+      "lastResult": "missed"
     },
     "bailaqbaila|@Friday": {
       "name": "Baila Q' Baila",
@@ -162,12 +234,12 @@
       "name": "Latin Flow en Casablanca",
       "weekday": "Sunday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 0,
+      "missedChecks": 1,
       "status": "active",
       "backedBy": [
         "casablancadiscobar.tf"
       ],
-      "lastResult": "sources-unreadable"
+      "lastResult": "missed"
     },
     "bailaqbaila|@Sunday": {
       "name": "Baila Q' Baila",

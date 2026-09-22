@@ -47,12 +47,36 @@ parties:
 oneOffEvents:
   - name: El Regreso
     date: '2026-09-26'
-    location: MMDanza & Bambú
-    region: South
-    stylesEn: Salsa & Bachata
-    stylesEs: Salsa y Bachata
+    location: MMDanza & Bambú, Santa Cruz
+    region: North
+    stylesEn: Bachata & Bachazouk
+    stylesEs: Bachata y Bachazouk
     url: https://www.instagram.com/elregreso.dance/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=MMDanza%20%26%20Bamb%C3%BA%2C%20Tenerife
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=MMDanza%20%26%20Bamb%C3%BA%2C%20Santa%20Cruz%2C%20Tenerife
+  - name: Social 100% Zouk
+    date: '2026-09-27'
+    location: Santa Cruz
+    region: North
+    stylesEn: Zouk
+    stylesEs: Zouk
+    url: https://www.instagram.com/zoukcanaryislands/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Santa%20Cruz%2C%20Tenerife
+  - name: Social 100% Zouk
+    date: '2026-10-16'
+    location: MMDanza, Santa Cruz
+    region: North
+    stylesEn: Zouk
+    stylesEs: Zouk
+    url: https://www.instagram.com/zoukcanaryislands/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=MMDanza%2C%20Santa%20Cruz%2C%20Tenerife
+  - name: Fiestón SBK
+    date: '2026-10-17'
+    location: Studio 54 Liceo Taoro, La Orotava
+    region: North
+    stylesEn: Salsa, Bachata, Kizomba & Zouk
+    stylesEs: Salsa, Bachata, Kizomba y Zouk
+    url: https://www.instagram.com/fieston_sbk_canarias/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
   - name: Guajira Latino
     date: '2026-10-17'
     location: Montaña Roja 2, Las Chafiras
@@ -67,5 +91,13 @@ oneOffEvents:
     region: South
     stylesEn: Salsa & Bachata
     stylesEs: Salsa y Bachata
+    url: https://www.instagram.com/guaguancoevents_tnfe/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Monta%C3%B1a%20Roja%202%2C%20Las%20Chafiras%2C%20Tenerife
+  - name: Guajira Latino
+    date: '2026-12-12'
+    location: Montaña Roja 2, Las Chafiras
+    region: South
+    stylesEn: Salsa, Timba & Bachata
+    stylesEs: Salsa, Timba y Bachata
     url: https://www.instagram.com/guaguancoevents_tnfe/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Monta%C3%B1a%20Roja%202%2C%20Las%20Chafiras%2C%20Tenerife
