@@ -378,6 +378,52 @@
       "lastSeen": "2026-09-24",
       "status": "upcoming",
       "weekday": null
+    },
+    "lasalsera|salajuanitocopas": {
+      "name": "La Salsera",
+      "venue": "Sala Juanito + Copas",
+      "area": "La Laguna",
+      "region": "North",
+      "address": "Ctra. La Esperanza, km 2",
+      "stylesEn": "Salsa",
+      "stylesEs": "Salsa",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/lasalsera_solosalsa/p/Ddi7cW5A8Gd/",
+      "firstSeen": "2026-09-23",
+      "sightings": [
+        {
+          "eventDate": "2026-10-03",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/lasalsera_solosalsa/p/Ddi7cW5A8Gd/",
+          "recordedOn": "2026-09-23"
+        }
+      ],
+      "lastSeen": "2026-10-03",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "laconsultitakizombera|oceanorooftophoteloceano": {
+      "name": "La Consultita Kizombera",
+      "venue": "Océano Rooftop, Hotel Océano",
+      "area": "Punta del Hidalgo",
+      "region": "North",
+      "address": "Calle Océano Pacífico",
+      "stylesEn": "Kizomba, Urban Kiz & Ghetto Zouk",
+      "stylesEs": "Kizomba, Urban Kiz y Ghetto Zouk",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/laconsulta.tnf/p/DdWHPOmIhn9/",
+      "firstSeen": "2026-09-23",
+      "sightings": [
+        {
+          "eventDate": "2026-10-17",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/laconsulta.tnf/p/DdWHPOmIhn9/",
+          "recordedOn": "2026-09-23"
+        }
+      ],
+      "lastSeen": "2026-10-17",
+      "status": "upcoming",
+      "weekday": null
     }
   },
   "manual": {
@@ -385,12 +431,12 @@
       "name": "Afrolatin Night",
       "weekday": "Wednesday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 3,
+      "missedChecks": 4,
       "status": "active",
       "backedBy": [
         "guaguancoevents_tnfe"
       ],
-      "lastResult": "sources-unreadable"
+      "lastResult": "missed"
     },
     "temposlatinos|@": {
       "name": "Tempo's Latinos",
@@ -407,12 +453,12 @@
       "name": "Deseo en Casablanca",
       "weekday": "Friday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 2,
+      "missedChecks": 3,
       "status": "active",
       "backedBy": [
         "casablancadiscobar.tf"
       ],
-      "lastResult": "sources-unreadable"
+      "lastResult": "missed"
     },
     "bailaqbaila|@Friday": {
       "name": "Baila Q' Baila",
@@ -429,12 +475,12 @@
       "name": "Latin Flow en Casablanca",
       "weekday": "Sunday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 2,
+      "missedChecks": 3,
       "status": "active",
       "backedBy": [
         "casablancadiscobar.tf"
       ],
-      "lastResult": "sources-unreadable"
+      "lastResult": "missed"
     },
     "bailaqbaila|@Sunday": {
       "name": "Baila Q' Baila",

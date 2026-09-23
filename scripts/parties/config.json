@@ -103,6 +103,24 @@
       "url": "https://www.instagram.com/salajuanitomascopas/",
       "addedOn": "2026-09-24",
       "note": "verified: Sala Juanito + Copas, La Laguna venue (Ctra La Esperanza km 2) hosting La Crema, La Salsera, Rumbaton; bio links a guest-list signup"
+    },
+    {
+      "handle": "laconsulta.tnf",
+      "url": "https://www.instagram.com/laconsulta.tnf/",
+      "addedOn": "2026-09-24",
+      "note": "party brand \"La Consultita Kizombera\"; no bio, but posts its own kizomba party flyers (4th edition 17 Oct, Océano Rooftop, Punta del Hidalgo), co-posted with chavy_kizomba"
+    },
+    {
+      "handle": "lasalsera_solosalsa",
+      "url": "https://www.instagram.com/lasalsera_solosalsa/",
+      "addedOn": "2026-09-24",
+      "note": "verified: bio \"Sociales 100% SALSA en Tenerife y Gran Canaria\" - monthly salsa social at Sala Juanito + Copas. Covers Gran Canaria too - filter to Tenerife events only"
+    },
+    {
+      "handle": "sbkmaniatf",
+      "url": "https://www.instagram.com/sbkmaniatf/",
+      "addedOn": "2026-09-24",
+      "note": "party brand \"SBK Mania\"; no bio, but promotes its own free Sunday SBK nights (collabs with leobailetenerife, Sala Juanito). Venue often only named in caption - check location"
     }
   ],
   "discovered": [
@@ -239,12 +257,6 @@
       "status": "unverified"
     },
     {
-      "handle": "sbkmaniatf",
-      "seenOn": "leobailetenerife",
-      "firstSeen": "2026-09-24",
-      "status": "unverified"
-    },
-    {
       "handle": "jorgeynadia_bachazouk",
       "seenOn": "zoukcanaryislands",
       "firstSeen": "2026-09-24",
@@ -271,18 +283,6 @@
     {
       "handle": "miguelguillen1975",
       "seenOn": "lacrematenerife",
-      "firstSeen": "2026-09-24",
-      "status": "unverified"
-    },
-    {
-      "handle": "laconsulta.tnf",
-      "seenOn": "chavy_kizomba",
-      "firstSeen": "2026-09-24",
-      "status": "unverified"
-    },
-    {
-      "handle": "lasalsera_solosalsa",
-      "seenOn": "salajuanitomascopas",
       "firstSeen": "2026-09-24",
       "status": "unverified"
     },

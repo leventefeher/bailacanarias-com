@@ -71,6 +71,15 @@ oneOffEvents:
     stylesEs: Bachata y Bachazouk
     url: https://www.instagram.com/guaguancoevents_tnfe/p/DdOQ6TvxCcN/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=MMDanza%20%26%20Bamb%C3%BA%2C%20Santa%20Cruz%2C%20Tenerife
+  - name: La Salsera
+    date: '2026-10-03'
+    location: Sala Juanito + Copas, La Laguna
+    region: North
+    address: Ctra. La Esperanza, km 2
+    stylesEn: Salsa
+    stylesEs: Salsa
+    url: https://www.instagram.com/lasalsera_solosalsa/p/Ddi7cW5A8Gd/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife
   - name: Social 100% Zouk
     date: '2026-10-16'
     location: MMDanza, Santa Cruz
@@ -98,6 +107,15 @@ oneOffEvents:
     stylesEs: Salsa, Timba y Bachata
     url: https://www.instagram.com/guaguancoevents_tnfe/p/DdOQ6TvxCcN/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Monta%C3%B1a%20Roja%202%2C%20Avd%20Daniel%20Feo%207%2C%20Las%20Chafiras%2C%20Tenerife
+  - name: La Consultita Kizombera
+    date: '2026-10-17'
+    location: Océano Rooftop, Hotel Océano, Punta del Hidalgo
+    region: North
+    address: Calle Océano Pacífico
+    stylesEn: Kizomba, Urban Kiz & Ghetto Zouk
+    stylesEs: Kizomba, Urban Kiz y Ghetto Zouk
+    url: https://www.instagram.com/laconsulta.tnf/p/DdWHPOmIhn9/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Oc%C3%A9ano%20Rooftop%2C%20Hotel%20Oc%C3%A9ano%2C%20Calle%20Oc%C3%A9ano%20Pac%C3%ADfico%2C%20Punta%20del%20Hidalgo%2C%20Tenerife
   - name: Origen Latino
     date: '2026-11-21'
     location: Montaña Roja 2, Las Chafiras
