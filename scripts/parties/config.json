@@ -79,6 +79,12 @@
       "url": "https://www.instagram.com/elregreso.dance/",
       "addedOn": "2026-09-21",
       "note": "runs 'El Regreso', which appears on the Guaguanco agenda"
+    },
+    {
+      "handle": "salajuanitomascopas",
+      "url": "https://www.instagram.com/salajuanitomascopas/",
+      "addedOn": "2026-09-24",
+      "note": "verified: Sala Juanito + Copas, La Laguna venue (Ctra La Esperanza km 2) hosting La Crema, La Salsera, Rumbaton; bio links a guest-list signup"
     }
   ],
   "discovered": [
@@ -104,7 +110,9 @@
       "handle": "4dance.app",
       "seenOn": "leobailetenerife",
       "firstSeen": "2026-09-21",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-09-24",
+      "reason": "dance app (\"The app for dancers\"), not an organiser"
     },
     {
       "handle": "latidovisual.oficial",
@@ -116,7 +124,9 @@
       "handle": "socialdance_studio",
       "seenOn": "dondebailoentenerife",
       "firstSeen": "2026-09-21",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-09-24",
+      "reason": "dance school in Los Cristianos (class schedules), not an event organiser"
     },
     {
       "handle": "gaby_bachata",
@@ -140,6 +150,72 @@
       "handle": "jmneeeeez_",
       "seenOn": "leobailetenerife",
       "firstSeen": "2026-09-21",
+      "status": "unverified"
+    },
+    {
+      "handle": "ana_ve_mar",
+      "seenOn": "dondebailoentenerife",
+      "firstSeen": "2026-09-24",
+      "status": "unverified"
+    },
+    {
+      "handle": "xem.sker",
+      "seenOn": "guaguancoevents_tnfe",
+      "firstSeen": "2026-09-24",
+      "status": "unverified"
+    },
+    {
+      "handle": "sbkmaniatf",
+      "seenOn": "leobailetenerife",
+      "firstSeen": "2026-09-24",
+      "status": "unverified"
+    },
+    {
+      "handle": "jorgeynadia_bachazouk",
+      "seenOn": "zoukcanaryislands",
+      "firstSeen": "2026-09-24",
+      "status": "unverified"
+    },
+    {
+      "handle": "justmenea_",
+      "seenOn": "tueliges_sbk",
+      "firstSeen": "2026-09-24",
+      "status": "unverified"
+    },
+    {
+      "handle": "aniuscalb",
+      "seenOn": "lacrematenerife",
+      "firstSeen": "2026-09-24",
+      "status": "unverified"
+    },
+    {
+      "handle": "nailyn_blackbarbie",
+      "seenOn": "lacrematenerife",
+      "firstSeen": "2026-09-24",
+      "status": "unverified"
+    },
+    {
+      "handle": "miguelguillen1975",
+      "seenOn": "lacrematenerife",
+      "firstSeen": "2026-09-24",
+      "status": "unverified"
+    },
+    {
+      "handle": "laconsulta.tnf",
+      "seenOn": "chavy_kizomba",
+      "firstSeen": "2026-09-24",
+      "status": "unverified"
+    },
+    {
+      "handle": "lasalsera_solosalsa",
+      "seenOn": "salajuanitomascopas",
+      "firstSeen": "2026-09-24",
+      "status": "unverified"
+    },
+    {
+      "handle": "tenerifetango",
+      "seenOn": "salajuanitomascopas",
+      "firstSeen": "2026-09-24",
       "status": "unverified"
     }
   ],
