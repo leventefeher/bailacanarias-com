@@ -29,8 +29,21 @@ is still `REPLACE_ME`, stop and say so — do not guess an account.
 
 ## 1. Read the accounts
 
-Use the **built-in browser** (`mcp__Claude_Browser__*`), logged out. Verified
-2026-09-21: no Instagram login is needed for what this task requires.
+**Use the user's Chrome** (`mcp__claude-in-chrome__*`), which is logged in to
+Instagram. The user asked for this on 2026-09-24 so that stories can be read —
+logged out, stories and highlights sit behind a login wall. First call
+`list_connected_browsers`, then open your own tab with `tabs_create_mcp` (never
+touch the user's other tabs) and close it when done.
+
+If `list_connected_browsers` returns nothing, Chrome is not running: fall back
+to the **built-in browser** (`mcp__Claude_Browser__*`), logged out, for posts
+only. Stories are unreadable that run — record each Instagram source as read
+(its grid was read) but say in the report that stories were skipped.
+
+It is the user's real account. Read only: never like, follow, comment, save,
+reply to or react to a story, send a message, or open DMs or settings. Do not
+log in or out. Viewing a story puts the account in its viewer list; the user
+accepts that.
 
 **The flyer text is the data, and Instagram hands it to you as alt text.**
 Dance-event posts put everything — event name, venue, date, time, price, styles
@@ -65,8 +78,17 @@ Instagram shows a login wall, a checkpoint, or a CAPTCHA: **stop immediately**,
 change nothing, and report it. Never attempt a CAPTCHA, never enter credentials.
 Skipping a day is fine — the page keeps yesterday's content.
 
-If the logged-out route stops working, report that and stop. Do not fall back to
-the user's logged-in Chrome session.
+**Stories (Chrome only).** After each profile's grid, load
+`https://www.instagram.com/stories/<handle>/`. If it redirects back to the
+profile or says there are no stories, move on. Otherwise step through the frames
+(right arrow / click the right side), reading each flyer from a screenshot —
+stories carry no OCR alt text. Stop at the end of that account's stories; do
+not let it auto-advance into the next account. Stories often give only the
+weekday ("este sábado", "HOY") — resolve against the story's age shown in the
+header, and skip if unsure. For a story-only event set `postUrl` to the story
+frame URL (it expires in 24h, so it is kept only as a record) and `url` to
+`https://www.instagram.com/<handle>/`, so the page links to the profile rather
+than a dead story. Highlights are old: skip them.
 
 ## 1a. Grow the source list
 
@@ -123,9 +145,9 @@ comment, follow, share, join, RSVP, or send a message, and never open Messenger
 or account settings. Do not log in or out, and do not touch any other tab. Read
 the profile's visible posts and leave.
 
-Instagram is always read logged-out via the built-in browser, never through
-their Chrome session — automated daily reads from a logged-in account risk
-getting it rate-limited or checkpointed.
+Instagram is read through the same Chrome session (see section 1). Keep it to
+one grid load plus the stories per account so the logged-in account is not
+rate-limited or checkpointed.
 
 Each carries a `backs` field naming the existing page entries it relates to.
 Their real value is noticing that a long-standing weekly party has **moved,
