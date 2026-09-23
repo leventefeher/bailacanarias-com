@@ -21,83 +21,89 @@ parties:
     eventsRaw: |-
       Afrolatin Night | Kendo Lounge Bar, Las Americas | Bachata & Salsa | Bachata y Salsa | https://www.instagram.com/guaguancoevents_tnfe/ | https://www.google.com/maps/search/?api=1&query=Kendo%20Lounge%20Bar%2C%20Las%20Americas%2C%20Tenerife | south
 
-      Bachatón | La Movie Social Club, Santa Cruz | Bachata | Bachata | https://www.instagram.com/sesionesbailetenerife/ | https://www.google.com/maps/search/?api=1&query=La%20Movie%20Social%20Club%2C%20Santa%20Cruz%2C%20Tenerife | North
+      Bachatón | La Movie Social Club, Santa Cruz | Bachata | Bachata | https://www.instagram.com/sesionesbailetenerife/p/Ddiz0MAuyv3/ | https://www.google.com/maps/search/?api=1&query=La%20Movie%20Social%20Club%2C%20Paseo%20Milicias%20de%20Garachico%201%2C%20Santa%20Cruz%2C%20Tenerife | North
   - dayEn: Thursday
     dayEs: Jueves
     eventsRaw: Tempo's Latinos | Las Americas | Salsa & Bachata | Salsa y Bachata |
-      https://www.facebook.com/pablo.casaviejamedina |
-      https://www.google.com/maps/search/?api=1&query=Las%20Americas%2C%20Tenerife
-      | south
+      https://www.facebook.com/pablo.casaviejamedina |  | south
   - dayEn: Friday
     dayEs: Viernes
-    eventsRaw: |-
-      Deseo en Casablanca | Las Americas | Salsa, Bachata | Bachata y Salsa | https://www.instagram.com/casablancadiscobar.tf | https://www.google.com/maps/search/?api=1&query=Las%20Americas%2C%20Tenerife | south
+    eventsRaw: >-
+      Deseo en Casablanca | Las Americas | Salsa, Bachata | Bachata y Salsa |
+      https://www.instagram.com/casablancadiscobar.tf |  | south
 
-      Baila Q' Baila | Las Chafiras | Salsa, Bachata, Merengue | Salsa, Bachata, Merengue | https://www.facebook.com/santi.martinsantos | https://www.google.com/maps/search/?api=1&query=Las%20Chafiras%2C%20Tenerife | south
+
+      Baila Q' Baila | Las Chafiras | Salsa, Bachata, Merengue | Salsa, Bachata,
+      Merengue | https://www.facebook.com/santi.martinsantos |  | south
   - dayEn: Saturday
     dayEs: Sábado
     dayNoteEn: Check Instagram for Saturday events.
     dayNoteEs: Consulta Instagram para eventos del sábado.
   - dayEn: Sunday
     dayEs: Domingo
-    eventsRaw: |-
-      Latin Flow en Casablanca | Las Americas | Bachata & Salsa | Bachata y Salsa | https://www.instagram.com/casablancadiscobar.tf | https://www.google.com/maps/search/?api=1&query=Las%20Americas%2C%20Tenerife | south
+    eventsRaw: >-
+      Latin Flow en Casablanca | Las Americas | Bachata & Salsa | Bachata y
+      Salsa | https://www.instagram.com/casablancadiscobar.tf |  | south
 
-      Baila Q' Baila | Las Chafiras | Salsa, Bachata, Kizomba | Salsa, Bachata, Kizomba | https://www.facebook.com/FrankyTenerife | https://www.google.com/maps/search/?api=1&query=Las%20Chafiras%2C%20Tenerife | southeast
+
+      Baila Q' Baila | Las Chafiras | Salsa, Bachata, Kizomba | Salsa, Bachata,
+      Kizomba | https://www.facebook.com/FrankyTenerife |  | southeast
+
+
+      Social 100% Zouk | Santa Cruz | Zouk | Zouk |
+      https://www.instagram.com/zoukcanaryislands/p/DcvoArHOzXk/ |  | North
 oneOffEvents:
   - name: El Regreso
     date: '2026-09-26'
     location: MMDanza & Bambú, Santa Cruz
     region: North
+    address: ""
     stylesEn: Bachata & Bachazouk
     stylesEs: Bachata y Bachazouk
-    url: https://www.instagram.com/elregreso.dance/
+    url: https://www.instagram.com/guaguancoevents_tnfe/p/DdOQ6TvxCcN/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=MMDanza%20%26%20Bamb%C3%BA%2C%20Santa%20Cruz%2C%20Tenerife
-  - name: Social 100% Zouk
-    date: '2026-09-27'
-    location: Santa Cruz
-    region: North
-    stylesEn: Zouk
-    stylesEs: Zouk
-    url: https://www.instagram.com/zoukcanaryislands/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Santa%20Cruz%2C%20Tenerife
   - name: Social 100% Zouk
     date: '2026-10-16'
     location: MMDanza, Santa Cruz
     region: North
+    address: ""
     stylesEn: Zouk
     stylesEs: Zouk
-    url: https://www.instagram.com/zoukcanaryislands/
+    url: https://www.instagram.com/zoukcanaryislands/p/DdZFhtWMwNO/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=MMDanza%2C%20Santa%20Cruz%2C%20Tenerife
   - name: Fiestón SBK
     date: '2026-10-17'
     location: Studio 54 Liceo Taoro, La Orotava
     region: North
+    address: ""
     stylesEn: Salsa, Bachata, Kizomba & Zouk
     stylesEs: Salsa, Bachata, Kizomba y Zouk
-    url: https://www.instagram.com/fieston_sbk_canarias/
+    url: https://www.instagram.com/fieston_sbk_canarias/p/DdWsMCpsCRm/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
   - name: Guajira Latino
     date: '2026-10-17'
     location: Montaña Roja 2, Las Chafiras
     region: South
+    address: Avd Daniel Feo 7
     stylesEn: Salsa, Timba & Bachata
     stylesEs: Salsa, Timba y Bachata
-    url: https://www.instagram.com/guaguancoevents_tnfe/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Monta%C3%B1a%20Roja%202%2C%20Las%20Chafiras%2C%20Tenerife
+    url: https://www.instagram.com/guaguancoevents_tnfe/p/DdOQ6TvxCcN/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Monta%C3%B1a%20Roja%202%2C%20Avd%20Daniel%20Feo%207%2C%20Las%20Chafiras%2C%20Tenerife
   - name: Origen Latino
     date: '2026-11-21'
     location: Montaña Roja 2, Las Chafiras
     region: South
+    address: Avd Daniel Feo 7
     stylesEn: Salsa & Bachata
     stylesEs: Salsa y Bachata
-    url: https://www.instagram.com/guaguancoevents_tnfe/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Monta%C3%B1a%20Roja%202%2C%20Las%20Chafiras%2C%20Tenerife
+    url: https://www.instagram.com/guaguancoevents_tnfe/p/DdOQ6TvxCcN/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Monta%C3%B1a%20Roja%202%2C%20Avd%20Daniel%20Feo%207%2C%20Las%20Chafiras%2C%20Tenerife
   - name: Guajira Latino
     date: '2026-12-12'
     location: Montaña Roja 2, Las Chafiras
     region: South
+    address: Avd Daniel Feo 7
     stylesEn: Salsa, Timba & Bachata
     stylesEs: Salsa, Timba y Bachata
-    url: https://www.instagram.com/guaguancoevents_tnfe/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Monta%C3%B1a%20Roja%202%2C%20Las%20Chafiras%2C%20Tenerife
+    url: https://www.instagram.com/guaguancoevents_tnfe/p/DdOQ6TvxCcN/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Monta%C3%B1a%20Roja%202%2C%20Avd%20Daniel%20Feo%207%2C%20Las%20Chafiras%2C%20Tenerife

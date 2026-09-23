@@ -67,6 +67,7 @@ for (const post of observations.posts ?? []) {
       venue: event.venue ?? '',
       area: event.area ?? '',
       region: event.region ?? '',
+      address: event.address ?? '',
       stylesEn: event.stylesEn ?? '',
       stylesEs: event.stylesEs ?? '',
       mapsUrl: event.mapsUrl ?? '',
@@ -77,7 +78,7 @@ for (const post of observations.posts ?? []) {
     if (ledger.events[key].sightings.length === 0) newEvents++;
 
     // Keep the freshest copy of the descriptive fields.
-    for (const f of ['venue', 'area', 'region', 'stylesEn', 'stylesEs', 'mapsUrl']) {
+    for (const f of ['venue', 'area', 'region', 'address', 'stylesEn', 'stylesEs', 'mapsUrl']) {
       if (event[f]) entry[f] = event[f];
     }
     if (event.url) entry.url = event.url;
@@ -103,8 +104,8 @@ for (const post of observations.posts ?? []) {
 
 // -------------------------------------------------------------- classify ----
 
-const weekly = [];   // { weekday, entry }
-const oneOffs = [];  // { entry, date }
+const weekly = []; // { weekday, entry }
+const oneOffs = []; // { entry, date }
 
 for (const [key, entry] of Object.entries(ledger.events)) {
   // Group this event's sightings by the weekday they fell on.
@@ -121,7 +122,10 @@ for (const [key, entry] of Object.entries(ledger.events)) {
     // Weekly events recur every ~7 days. A monthly event on, say, the third
     // Saturday also lands on one weekday and clears the span test, so check the
     // typical gap too — otherwise a monthly party gets a weekly slot.
-    const gaps = dates.slice(1).map((d, k) => daysBetween(dates[k], d)).sort((a, b) => a - b);
+    const gaps = dates
+      .slice(1)
+      .map((d, k) => daysBetween(dates[k], d))
+      .sort((a, b) => a - b);
     const medianGap = gaps.length ? gaps[Math.floor(gaps.length / 2)] : Infinity;
 
     const proven =
@@ -195,7 +199,10 @@ const unwatched = [];
 
 for (const group of doc.parties ?? []) {
   const weekdayLabel = (group.dayEn ?? '').trim();
-  for (const raw of (group.eventsRaw ?? '').split('\n').map((l) => l.trim()).filter(Boolean)) {
+  for (const raw of (group.eventsRaw ?? '')
+    .split('\n')
+    .map((l) => l.trim())
+    .filter(Boolean)) {
     const name = raw.split('|')[0].trim();
     if (ledgerNames.has(name.toLowerCase())) continue; // the script already owns this one
 
@@ -264,12 +271,35 @@ const locationOf = (e) => [e.venue, e.area].filter(Boolean).join(', ');
  */
 const mapsOf = (e) => {
   if (e.mapsUrl) return e.mapsUrl;
-  const q = [e.venue, e.area, 'Tenerife'].filter(Boolean).join(', ');
-  return q === 'Tenerife' ? '' : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+
+  // A link to "Las Americas, Tenerife" drops the reader on a whole resort town,
+  // which is worse than no link. Only point at a map when we know the venue or
+  // a street address; a town on its own is not a destination.
+  if (!e.venue && !e.address) return '';
+
+  const q = [e.venue, e.address, e.area, 'Tenerife'].filter(Boolean).join(', ');
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+};
+
+/** Is this a link to a specific post rather than a profile? */
+const isPost = (u) => /\/(p|reel)\//.test(u ?? '');
+
+/**
+ * Prefer the post the event was actually announced in — that is where the
+ * flyer, time and price are. Fall back to the organiser's profile when the
+ * sighting has no post link.
+ */
+const sourceUrlFor = (entry, eventDate) => {
+  const match = eventDate && entry.sightings.find((x) => x.eventDate === eventDate);
+  const latest = entry.sightings.at(-1);
+  for (const candidate of [match?.postUrl, latest?.postUrl]) {
+    if (isPost(candidate)) return candidate;
+  }
+  return entry.url || latest?.postUrl || '';
 };
 
 const line = (e) =>
-  [e.name, locationOf(e), e.stylesEn, e.stylesEs, e.url, mapsOf(e), e.region ?? '']
+  [e.name, locationOf(e), e.stylesEn, e.stylesEs, sourceUrlFor(e), mapsOf(e), e.region ?? '']
     .map((s) => (s ?? '').trim())
     .join(' | ')
     .replace(/(\s*\|)+$/, '');
@@ -300,9 +330,10 @@ doc.oneOffEvents = oneOffs.map(({ entry, date }) => ({
   date: quoted(date),
   location: locationOf(entry),
   region: entry.region ?? '',
+  address: entry.address ?? '',
   stylesEn: entry.stylesEn,
   stylesEs: entry.stylesEs,
-  url: entry.url,
+  url: sourceUrlFor(entry, date),
   mapsUrl: mapsOf(entry),
 }));
 

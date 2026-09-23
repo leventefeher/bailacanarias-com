@@ -81,6 +81,24 @@
       "note": "runs 'El Regreso', which appears on the Guaguanco agenda"
     },
     {
+      "handle": "tueliges_sbk",
+      "url": "https://www.instagram.com/tueliges_sbk/",
+      "addedOn": "2026-09-22",
+      "note": "party brand 'Tu Eliges SBK'; no bio, but posts its own SBKZ party flyers at La Movie"
+    },
+    {
+      "handle": "lacrematenerife",
+      "url": "https://www.instagram.com/lacrematenerife/",
+      "addedOn": "2026-09-22",
+      "note": "party brand 'La Crema'; no bio, but posts its own salsa/bachata flyers at Sala Juanito, La Laguna"
+    },
+    {
+      "handle": "chavy_kizomba",
+      "url": "https://www.instagram.com/chavy_kizomba/",
+      "addedOn": "2026-09-22",
+      "note": "added by user request; first seen tagged on ensalitre_"
+    },
+    {
       "handle": "salajuanitomascopas",
       "url": "https://www.instagram.com/salajuanitomascopas/",
       "addedOn": "2026-09-24",
@@ -92,19 +110,9 @@
       "handle": "sienteelbailestudio",
       "seenOn": "guaguancoevents_tnfe",
       "firstSeen": "2026-09-21",
-      "status": "unverified"
-    },
-    {
-      "handle": "tueliges_sbk",
-      "seenOn": "leobailetenerife",
-      "firstSeen": "2026-09-21",
-      "status": "unverified"
-    },
-    {
-      "handle": "lacrematenerife",
-      "seenOn": "leobailetenerife",
-      "firstSeen": "2026-09-21",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-09-22",
+      "reason": "videography/media studio that films events, not an organiser"
     },
     {
       "handle": "4dance.app",
@@ -150,6 +158,72 @@
       "handle": "jmneeeeez_",
       "seenOn": "leobailetenerife",
       "firstSeen": "2026-09-21",
+      "status": "unverified"
+    },
+    {
+      "handle": "annamaslova_bachata",
+      "seenOn": "fuegopegao",
+      "firstSeen": "2026-09-22",
+      "status": "unverified"
+    },
+    {
+      "handle": "siente_elbailesbk",
+      "seenOn": "fuegopegao",
+      "firstSeen": "2026-09-22",
+      "status": "unverified"
+    },
+    {
+      "handle": "_ninafusiondance",
+      "seenOn": "tardeobachatero",
+      "firstSeen": "2026-09-22",
+      "status": "unverified"
+    },
+    {
+      "handle": "dance.intensive.school",
+      "seenOn": "casablancadiscobar.tf",
+      "firstSeen": "2026-09-22",
+      "status": "unverified"
+    },
+    {
+      "handle": "sound_afroparty",
+      "seenOn": "casablancadiscobar.tf",
+      "firstSeen": "2026-09-22",
+      "status": "unverified"
+    },
+    {
+      "handle": "afrospainvibes",
+      "seenOn": "casablancadiscobar.tf",
+      "firstSeen": "2026-09-22",
+      "status": "unverified"
+    },
+    {
+      "handle": "rhinoxsensei",
+      "seenOn": "sondelagente",
+      "firstSeen": "2026-09-22",
+      "status": "unverified"
+    },
+    {
+      "handle": "ru.multimedia",
+      "seenOn": "sondelagente",
+      "firstSeen": "2026-09-22",
+      "status": "unverified"
+    },
+    {
+      "handle": "geoffreynicolas.art",
+      "seenOn": "zoukcanaryislands",
+      "firstSeen": "2026-09-22",
+      "status": "unverified"
+    },
+    {
+      "handle": "xantal_bzouk",
+      "seenOn": "zoukcanaryislands",
+      "firstSeen": "2026-09-22",
+      "status": "unverified"
+    },
+    {
+      "handle": "nuria.dancer.tf",
+      "seenOn": "fieston_sbk_canarias",
+      "firstSeen": "2026-09-22",
       "status": "unverified"
     },
     {

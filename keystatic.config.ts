@@ -176,6 +176,7 @@ export default config({
             url: fields.text({ label: 'Link (optional)' }),
             mapsUrl: fields.text({ label: 'Google Maps link (optional)' }),
             region: fields.text({ label: 'Region (North / South / Southeast / ...)' }),
+            address: fields.text({ label: 'Street address (optional)' }),
           }),
           {
             label: 'One-off events (auto-updated from Instagram)',

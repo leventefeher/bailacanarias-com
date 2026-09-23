@@ -40,8 +40,12 @@ when an alt string is truncated mid-detail and the event looks real.
 Ignore grid entries authored by other accounts (the alt text names the author);
 profile grids also surface reposts and tagged content.
 
-Read only. Never like, follow, comment, save, or message. Leave the cookie
-banner alone — do not accept or dismiss it; nothing here requires it. If
+Read only. Never like, follow, comment, save, or message.
+
+**On a cookie or consent wall, always take the rejecting option and carry on** —
+"Reject all", "Decline optional cookies", "Only essential". Never accept, and
+never accept merely because it is the larger or easier button. If the only way
+through is to accept, don't: skip that source and say so in the report. If
 Instagram shows a login wall, a checkpoint, or a CAPTCHA: **stop immediately**,
 change nothing, and report it. Never attempt a CAPTCHA, never enter credentials.
 Skipping a day is fine — the page keeps yesterday's content.
@@ -140,6 +144,7 @@ Build an observations file in your scratchpad:
           "venue": "Kendo Lounge Bar",
           "area": "Las Americas",
           "region": "South",
+          "address": "Avd Daniel Feo 7",
           "stylesEn": "Bachata & Salsa",
           "stylesEs": "Bachata y Salsa",
           "eventDate": "2026-09-24",
@@ -158,10 +163,18 @@ Rules:
   the ones that failed in `sourcesFailed`. The script uses this to decide
   whether an existing hand-written entry has genuinely gone quiet or was simply
   unobservable that day. Getting it wrong deletes live events from the page.
-- **Work for the venue.** The flyer nearly always names it — look through the
-  OCR for a club or bar name, and check the post's location tag when the flyer
-  is unclear. Put it in `venue` and the town in `area` (e.g. "Las Americas",
-  "Santa Cruz", "Las Chafiras"). Leave `venue` empty rather than guessing.
+- **Work hard for the venue, and for a street address.** These drive the map
+  link, and a link to a bare town is useless enough that the script refuses to
+  emit one — no `venue` and no `address` means no map link at all. So dig:
+  - read the whole OCR string, not just the top — the venue and address often
+    sit at the very end, in small print ("MONTAÑA ROJA AVD DANIEL FEO 7,
+    CHAFIRAS", "SALA JUANITO + COPAS", "LA MOVIE SOCIAL CLUB")
+  - check the post's location tag, which names the town and sometimes the venue
+  - check the organiser's bio and their ticketing link
+  - if the same party ran before, reuse the venue already in the ledger
+  Put the street part in `address` ("Avd Daniel Feo 7"), the venue name in
+  `venue`, and the town in `area`. Still leave any of them empty rather than
+  guessing — a wrong pin is worse than none.
 - **`region` is one of** `North`, `South`, `Southeast`, `Northeast`, `West`.
   Tenerife dancers navigate by it. Las Americas / Los Cristianos / Las Chafiras
   / El Medano are South; Santa Cruz / La Laguna / Puerto de la Cruz are North.
@@ -178,6 +191,10 @@ Rules:
 - Set `declaredRecurring: true` only when the caption states recurrence outright
   — "todos los miércoles", "every Wednesday", "cada viernes". It promotes the
   event to the weekly schedule on one sighting, so do not infer it.
+- **`postUrl` must be the real post permalink** (`/p/...` or `/reel/...`), not
+  the profile. The page links each event to the post it was announced in, so
+  readers land on the flyer with the time and price rather than a profile feed.
+  A sighting recorded against a profile URL degrades that event's link.
 - `stylesEs` is for the Spanish page. Translate the styles if the caption is only
   in English, and vice versa. Keep style names short, matching the existing
   entries in the YAML.
@@ -225,7 +242,9 @@ If the build fails, **do not commit**. Report the failure.
 If the build passes and something actually changed:
 
 ```bash
-git add src/content/singletons/where-to-dance.yaml scripts/parties/ledger.json
+git add src/content/singletons/where-to-dance.yaml \
+        scripts/parties/ledger.json \
+        scripts/parties/config.json
 git commit -m "Update parties page from Instagram
 
 <one line per change>
@@ -237,7 +256,11 @@ git push origin main
 Push to `main` triggers the Cloudflare Pages deploy. If `git status` shows no
 change, commit nothing and say the page is already current.
 
-**Never** commit unrelated working-tree changes. Stage only those two files.
+**Never** commit unrelated working-tree changes. Stage only those three files.
+
+`config.json` must be committed whenever you changed it — promoting, rejecting
+or queueing a handle. Leaving it uncommitted throws away the discovery work and
+the same handles get re-checked every single day.
 
 ## 4. Report
 

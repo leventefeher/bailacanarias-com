@@ -92,11 +92,7 @@ function parseEvents(raw: string) {
       {
         oneOffEvents.length > 0 && (
           <>
-            <h2 style="margin-bottom:0.5rem;">Upcoming one-off events</h2>
-            <p style="max-width:700px;margin-bottom:1.5rem;font-style:italic;">
-              Special parties and socials announced on Instagram. They disappear from this list once
-              the date has passed.
-            </p>
+            <h2 style="margin-bottom:1.5rem;">Upcoming one-off events</h2>
             <div class="parties-list" style="margin-bottom:3rem;">
               {oneOffEvents.map((event) => (
                 <div class="day-group">

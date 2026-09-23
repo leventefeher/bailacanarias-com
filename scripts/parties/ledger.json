@@ -8,7 +8,7 @@
       "stylesEn": "Bachata & Bachazouk",
       "stylesEs": "Bachata y Bachazouk",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/elregreso.dance/",
+      "url": "https://www.instagram.com/guaguancoevents_tnfe/p/DdOQ6TvxCcN/",
       "firstSeen": "2026-09-21",
       "sightings": [
         {
@@ -30,7 +30,7 @@
       "stylesEn": "Salsa, Timba & Bachata",
       "stylesEs": "Salsa, Timba y Bachata",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/guaguancoevents_tnfe/",
+      "url": "https://www.instagram.com/guaguancoevents_tnfe/p/DdOQ6TvxCcN/",
       "firstSeen": "2026-09-21",
       "sightings": [
         {
@@ -48,7 +48,8 @@
       ],
       "lastSeen": "2026-12-12",
       "status": "upcoming",
-      "weekday": null
+      "weekday": null,
+      "address": "Avd Daniel Feo 7"
     },
     "origenlatino|montanaroja2": {
       "name": "Origen Latino",
@@ -58,7 +59,7 @@
       "stylesEn": "Salsa & Bachata",
       "stylesEs": "Salsa y Bachata",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/guaguancoevents_tnfe/",
+      "url": "https://www.instagram.com/guaguancoevents_tnfe/p/DdOQ6TvxCcN/",
       "firstSeen": "2026-09-21",
       "sightings": [
         {
@@ -70,7 +71,8 @@
       ],
       "lastSeen": "2026-11-21",
       "status": "upcoming",
-      "weekday": null
+      "weekday": null,
+      "address": "Avd Daniel Feo 7"
     },
     "bachaton|lamoviesocialclub": {
       "name": "Bachatón",
@@ -80,7 +82,7 @@
       "stylesEn": "Bachata",
       "stylesEs": "Bachata",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/sesionesbailetenerife/",
+      "url": "https://www.instagram.com/sesionesbailetenerife/p/Ddiz0MAuyv3/",
       "firstSeen": "2026-09-21",
       "sightings": [
         {
@@ -102,6 +104,30 @@
           "recordedOn": "2026-09-21"
         },
         {
+          "eventDate": "2026-08-12",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/bachatontenerife/reel/Db3nfytiuZL/",
+          "recordedOn": "2026-09-23"
+        },
+        {
+          "eventDate": "2026-08-19",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/bachatontenerife/reel/DcGxhBLKGMa/",
+          "recordedOn": "2026-09-23"
+        },
+        {
+          "eventDate": "2026-08-26",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/bachatontenerife/reel/DccBirxx6lK/",
+          "recordedOn": "2026-09-23"
+        },
+        {
+          "eventDate": "2026-09-09",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/bachatontenerife/reel/DdABZGKRwwz/",
+          "recordedOn": "2026-09-23"
+        },
+        {
           "eventDate": "2026-09-16",
           "weekday": "Wednesday",
           "postUrl": "https://www.instagram.com/sesionesbailetenerife/",
@@ -116,7 +142,8 @@
       ],
       "lastSeen": "2026-09-23",
       "status": "weekly",
-      "weekday": "Wednesday"
+      "weekday": "Wednesday",
+      "address": "Paseo Milicias de Garachico 1"
     },
     "social100zouk|": {
       "name": "Social 100% Zouk",
@@ -126,7 +153,7 @@
       "stylesEn": "Zouk",
       "stylesEs": "Zouk",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/zoukcanaryislands/",
+      "url": "https://www.instagram.com/zoukcanaryislands/p/Ddom4l-MkA0/",
       "firstSeen": "2026-09-22",
       "sightings": [
         {
@@ -137,8 +164,9 @@
         }
       ],
       "lastSeen": "2026-09-27",
-      "status": "upcoming",
-      "weekday": null
+      "status": "weekly",
+      "weekday": "Sunday",
+      "declaredRecurring": true
     },
     "social100zouk|mmdanza": {
       "name": "Social 100% Zouk",
@@ -148,7 +176,7 @@
       "stylesEn": "Zouk",
       "stylesEs": "Zouk",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/zoukcanaryislands/",
+      "url": "https://www.instagram.com/zoukcanaryislands/p/DdZFhtWMwNO/",
       "firstSeen": "2026-09-22",
       "sightings": [
         {
@@ -170,7 +198,7 @@
       "stylesEn": "Salsa, Bachata, Kizomba & Zouk",
       "stylesEs": "Salsa, Bachata, Kizomba y Zouk",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/fieston_sbk_canarias/",
+      "url": "https://www.instagram.com/fieston_sbk_canarias/p/DdWsMCpsCRm/",
       "firstSeen": "2026-09-22",
       "sightings": [
         {
@@ -183,6 +211,150 @@
       "lastSeen": "2026-10-17",
       "status": "upcoming",
       "weekday": null
+    },
+    "tardeobachatero|oceanorooftopoceanohealthspahotel": {
+      "name": "Tardeo Bachatero",
+      "venue": "Océano Rooftop, Océano Health Spa Hotel",
+      "area": "Punta del Hidalgo",
+      "region": "North",
+      "address": "",
+      "stylesEn": "Bachata",
+      "stylesEs": "Bachata",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/tardeobachatero/reel/Dc9Yv0mIsHx/",
+      "firstSeen": "2026-09-23",
+      "sightings": [
+        {
+          "eventDate": "2026-09-12",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/tardeobachatero/reel/Dc9Yv0mIsHx/",
+          "recordedOn": "2026-09-23"
+        }
+      ],
+      "lastSeen": "2026-09-12",
+      "status": "past",
+      "weekday": null
+    },
+    "tardeobachatero|bheavenbarcelosantacruzcontemporaneo": {
+      "name": "Tardeo Bachatero",
+      "venue": "B.Heaven, Barceló Santa Cruz Contemporáneo",
+      "area": "Santa Cruz",
+      "region": "North",
+      "address": "",
+      "stylesEn": "Bachata",
+      "stylesEs": "Bachata",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/tardeobachatero/reel/DdEvhnwovgG/",
+      "firstSeen": "2026-09-23",
+      "sightings": [
+        {
+          "eventDate": "2026-09-11",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/tardeobachatero/reel/DdEvhnwovgG/",
+          "recordedOn": "2026-09-23"
+        }
+      ],
+      "lastSeen": "2026-09-11",
+      "status": "past",
+      "weekday": null
+    },
+    "rumbaton|salajuanitocopas": {
+      "name": "Rumbatón",
+      "venue": "Sala Juanito + Copas",
+      "area": "La Laguna",
+      "region": "North",
+      "address": "Ctra La Esperanza km 2",
+      "stylesEn": "Salsa, Bachata & Merengue",
+      "stylesEs": "Salsa, Bachata y Merengue",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/salajuanitomascopas/p/DdSDFuVOSma/",
+      "firstSeen": "2026-09-23",
+      "sightings": [
+        {
+          "eventDate": "2026-09-18",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/salajuanitomascopas/p/DdSDFuVOSma/",
+          "recordedOn": "2026-09-23"
+        }
+      ],
+      "lastSeen": "2026-09-18",
+      "status": "past",
+      "weekday": null
+    },
+    "lacrema|salajuanitocopas": {
+      "name": "La Crema",
+      "venue": "Sala Juanito + Copas",
+      "area": "La Laguna",
+      "region": "North",
+      "address": "Ctra La Esperanza km 2",
+      "stylesEn": "Salsa & Bachata",
+      "stylesEs": "Salsa y Bachata",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/lacrematenerife/reel/DdCm-sQINpg/",
+      "firstSeen": "2026-09-23",
+      "sightings": [
+        {
+          "eventDate": "2026-09-19",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/lacrematenerife/reel/DdCm-sQINpg/",
+          "recordedOn": "2026-09-23"
+        }
+      ],
+      "lastSeen": "2026-09-19",
+      "status": "past",
+      "weekday": null
+    },
+    "tueligessbkz|lamoviesocialclub": {
+      "name": "Tú Eliges SBKZ",
+      "venue": "La Movie Social Club",
+      "area": "Santa Cruz",
+      "region": "North",
+      "address": "Paseo Milicias de Garachico 1",
+      "stylesEn": "Salsa, Bachata, Kizomba & Zouk",
+      "stylesEs": "Salsa, Bachata, Kizomba y Zouk",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/tueliges_sbk/reel/DdRveVaxWT_/",
+      "firstSeen": "2026-09-23",
+      "sightings": [
+        {
+          "eventDate": "2026-08-14",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/tueliges_sbk/reel/Db54J0jgmss/",
+          "recordedOn": "2026-09-23"
+        },
+        {
+          "eventDate": "2026-09-18",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/tueliges_sbk/reel/DdRveVaxWT_/",
+          "recordedOn": "2026-09-23"
+        }
+      ],
+      "lastSeen": "2026-09-18",
+      "status": "past",
+      "weekday": null
+    },
+    "social100zouk|synergy": {
+      "name": "Social 100% Zouk",
+      "venue": "Synergy",
+      "area": "Santa Cruz",
+      "region": "North",
+      "address": "Avd. Hespérides 60",
+      "stylesEn": "Zouk",
+      "stylesEs": "Zouk",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/zoukcanaryislands/p/DdWwTjKMsNz/",
+      "firstSeen": "2026-09-23",
+      "sightings": [
+        {
+          "eventDate": "2026-09-20",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/zoukcanaryislands/p/DdWwTjKMsNz/",
+          "recordedOn": "2026-09-23"
+        }
+      ],
+      "lastSeen": "2026-09-20",
+      "status": "past",
+      "weekday": null
     }
   },
   "manual": {
@@ -190,7 +362,7 @@
       "name": "Afrolatin Night",
       "weekday": "Wednesday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 2,
+      "missedChecks": 3,
       "status": "active",
       "backedBy": [
         "guaguancoevents_tnfe"
@@ -212,7 +384,7 @@
       "name": "Deseo en Casablanca",
       "weekday": "Friday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 1,
+      "missedChecks": 2,
       "status": "active",
       "backedBy": [
         "casablancadiscobar.tf"
@@ -234,7 +406,7 @@
       "name": "Latin Flow en Casablanca",
       "weekday": "Sunday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 1,
+      "missedChecks": 2,
       "status": "active",
       "backedBy": [
         "casablancadiscobar.tf"
