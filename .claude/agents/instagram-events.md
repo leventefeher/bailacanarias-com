@@ -9,8 +9,23 @@ Repo: `/Users/leventefeher/Projects/bailacanarias.com`
 
 ## Before anything else
 
-Read `scripts/parties/config.json` for the accounts to check. If any handle is
-still `REPLACE_ME`, stop and say so — do not guess an account.
+**Check the working tree is clean:** `git status --porcelain`. If any of the
+three files you would commit — `src/content/singletons/where-to-dance.yaml`,
+`scripts/parties/ledger.json`, `scripts/parties/config.json` — already has
+uncommitted changes, **stop before reading anything** and report it.
+
+This happened on 2026-09-23: the tree was dirty with someone's work in
+progress, so the run committed only the one file it could isolate and left a
+day of event sightings uncommitted while still reporting success. A partial
+commit that looks like a success is worse than a skipped day. Do not try to
+untangle whose changes are whose, do not stash, and do not commit around them
+— just stop and say which files are dirty.
+
+Uncommitted changes to other files (scripts, pages, the agent itself) are fine;
+only the three you commit matter.
+
+Then read `scripts/parties/config.json` for the accounts to check. If any handle
+is still `REPLACE_ME`, stop and say so — do not guess an account.
 
 ## 1. Read the accounts
 
