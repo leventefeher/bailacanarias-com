@@ -21,7 +21,7 @@ parties:
     eventsRaw: |-
       Afrolatin Night | Kendo Lounge Bar, Las Americas | Bachata & Salsa | Bachata y Salsa | https://www.instagram.com/guaguancoevents_tnfe/ | https://www.google.com/maps/search/?api=1&query=Kendo%20Lounge%20Bar%2C%20Las%20Americas%2C%20Tenerife | south
 
-      Bachatón | La Movie Social Club, Santa Cruz | Bachata | Bachata | https://www.instagram.com/sesionesbailetenerife/p/Ddiz0MAuyv3/ | https://www.google.com/maps/search/?api=1&query=La%20Movie%20Social%20Club%2C%20Paseo%20Milicias%20de%20Garachico%201%2C%20Santa%20Cruz%2C%20Tenerife | North
+      Bachatón | La Movie Social Club, Santa Cruz | Bachata | Bachata | https://www.instagram.com/sesionesbailetenerife/ | https://www.google.com/maps/search/?api=1&query=La%20Movie%20Social%20Club%2C%20Paseo%20Milicias%20de%20Garachico%201%2C%20Santa%20Cruz%2C%20Tenerife | North
   - dayEn: Thursday
     dayEs: Jueves
     eventsRaw: Tempo's Latinos | Las Americas | Salsa & Bachata | Salsa y Bachata |
@@ -71,6 +71,15 @@ oneOffEvents:
     stylesEs: Bachata y Bachazouk
     url: https://www.instagram.com/guaguancoevents_tnfe/p/DdOQ6TvxCcN/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=MMDanza%20%26%20Bamb%C3%BA%2C%20Santa%20Cruz%2C%20Tenerife
+  - name: SBK Mania
+    date: '2026-09-27'
+    location: La Guinda Chill Out, Puerto de la Cruz
+    region: North
+    address: Calle Aceviño 21
+    stylesEn: Salsa, Bachata & Kizomba
+    stylesEs: Salsa, Bachata y Kizomba
+    url: https://www.instagram.com/sbkmaniatf/reel/DdmDYThivlm/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife
   - name: La Salsera
     date: '2026-10-03'
     location: Sala Juanito + Copas, La Laguna
@@ -80,6 +89,15 @@ oneOffEvents:
     stylesEs: Salsa
     url: https://www.instagram.com/lasalsera_solosalsa/p/Ddi7cW5A8Gd/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife
+  - name: Pool Party SBK
+    date: '2026-10-12'
+    location: ""
+    region: South
+    address: ""
+    stylesEn: Salsa, Bachata & Kizomba
+    stylesEs: Salsa, Bachata y Kizomba
+    url: https://www.instagram.com/fieston_sbk_canarias/
+    mapsUrl: ""
   - name: Social 100% Zouk
     date: '2026-10-16'
     location: MMDanza, Santa Cruz

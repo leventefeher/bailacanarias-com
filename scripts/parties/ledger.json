@@ -8,7 +8,7 @@
       "stylesEn": "Bachata & Bachazouk",
       "stylesEs": "Bachata y Bachazouk",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/guaguancoevents_tnfe/p/DdOQ6TvxCcN/",
+      "url": "https://www.instagram.com/elregreso.dance/",
       "firstSeen": "2026-09-21",
       "sightings": [
         {
@@ -82,7 +82,7 @@
       "stylesEn": "Bachata",
       "stylesEs": "Bachata",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/sesionesbailetenerife/p/Ddiz0MAuyv3/",
+      "url": "https://www.instagram.com/sesionesbailetenerife/",
       "firstSeen": "2026-09-21",
       "sightings": [
         {
@@ -267,9 +267,15 @@
       "stylesEn": "Salsa, Bachata & Merengue",
       "stylesEs": "Salsa, Bachata y Merengue",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/salajuanitomascopas/p/DdSDFuVOSma/",
+      "url": "https://www.instagram.com/salajuanitomascopas/",
       "firstSeen": "2026-09-23",
       "sightings": [
+        {
+          "eventDate": "2026-09-11",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/salajuanitomascopas/p/DdEFS7iM3PC/",
+          "recordedOn": "2026-09-24"
+        },
         {
           "eventDate": "2026-09-18",
           "weekday": "Friday",
@@ -388,9 +394,15 @@
       "stylesEn": "Salsa",
       "stylesEs": "Salsa",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/lasalsera_solosalsa/p/Ddi7cW5A8Gd/",
+      "url": "https://www.instagram.com/lasalsera_solosalsa/",
       "firstSeen": "2026-09-23",
       "sightings": [
+        {
+          "eventDate": "2026-09-12",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/lasalsera_solosalsa/reel/DdGp62OgXE1/",
+          "recordedOn": "2026-09-24"
+        },
         {
           "eventDate": "2026-10-03",
           "weekday": "Saturday",
@@ -424,6 +436,75 @@
       "lastSeen": "2026-10-17",
       "status": "upcoming",
       "weekday": null
+    },
+    "sbkmania|laguindachillout": {
+      "name": "SBK Mania",
+      "venue": "La Guinda Chill Out",
+      "area": "Puerto de la Cruz",
+      "region": "North",
+      "address": "Calle Aceviño 21",
+      "stylesEn": "Salsa, Bachata & Kizomba",
+      "stylesEs": "Salsa, Bachata y Kizomba",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/sbkmaniatf/",
+      "firstSeen": "2026-09-24",
+      "sightings": [
+        {
+          "eventDate": "2026-09-27",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/sbkmaniatf/reel/DdmDYThivlm/",
+          "recordedOn": "2026-09-24"
+        }
+      ],
+      "lastSeen": "2026-09-27",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "poolpartysbk|": {
+      "name": "Pool Party SBK",
+      "venue": "",
+      "area": "",
+      "region": "South",
+      "address": "",
+      "stylesEn": "Salsa, Bachata & Kizomba",
+      "stylesEs": "Salsa, Bachata y Kizomba",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/fieston_sbk_canarias/",
+      "firstSeen": "2026-09-24",
+      "sightings": [
+        {
+          "eventDate": "2026-10-12",
+          "weekday": "Monday",
+          "postUrl": "https://www.instagram.com/stories/fieston_sbk_canarias/3992431984760339116/",
+          "recordedOn": "2026-09-24"
+        }
+      ],
+      "lastSeen": "2026-10-12",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "papacito|wildtenerife": {
+      "name": "Papacito",
+      "venue": "Wild Tenerife",
+      "area": "Los Cristianos",
+      "region": "South",
+      "address": "CC San Telmo, Av. La Habana 11",
+      "stylesEn": "Salsa, Bachata & Reggaeton",
+      "stylesEs": "Salsa, Bachata y Reggaeton",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/fuegopegao/",
+      "firstSeen": "2026-09-24",
+      "sightings": [
+        {
+          "eventDate": "2026-09-23",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/stories/fuegopegao/3992560149755083275/",
+          "recordedOn": "2026-09-24"
+        }
+      ],
+      "lastSeen": "2026-09-23",
+      "status": "past",
+      "weekday": null
     }
   },
   "manual": {
@@ -431,7 +512,7 @@
       "name": "Afrolatin Night",
       "weekday": "Wednesday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 4,
+      "missedChecks": 5,
       "status": "active",
       "backedBy": [
         "guaguancoevents_tnfe"
@@ -453,7 +534,7 @@
       "name": "Deseo en Casablanca",
       "weekday": "Friday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 3,
+      "missedChecks": 4,
       "status": "active",
       "backedBy": [
         "casablancadiscobar.tf"
@@ -475,7 +556,7 @@
       "name": "Latin Flow en Casablanca",
       "weekday": "Sunday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 3,
+      "missedChecks": 4,
       "status": "active",
       "backedBy": [
         "casablancadiscobar.tf"

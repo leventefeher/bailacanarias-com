@@ -121,6 +121,12 @@
       "url": "https://www.instagram.com/sbkmaniatf/",
       "addedOn": "2026-09-24",
       "note": "party brand \"SBK Mania\"; no bio, but promotes its own free Sunday SBK nights (collabs with leobailetenerife, Sala Juanito). Venue often only named in caption - check location"
+    },
+    {
+      "handle": "guinda_chillout",
+      "url": "https://www.instagram.com/guinda_chillout/",
+      "addedOn": "2026-09-24",
+      "note": "venue: La Guinda Chill Out, rooftop bar at BlueSea Hotel Interpalace (C. Aceviño 21), Puerto de la Cruz; hosts SBK Mania Sunday socials. Mostly non-dance cocktail/sunset posts"
     }
   ],
   "discovered": [
@@ -144,7 +150,9 @@
       "handle": "latidovisual.oficial",
       "seenOn": "leobailetenerife",
       "firstSeen": "2026-09-21",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-09-24",
+      "reason": "reel/video creator (\"Creador de Reels & videos\"), not an organiser"
     },
     {
       "handle": "socialdance_studio",
@@ -158,7 +166,9 @@
       "handle": "gaby_bachata",
       "seenOn": "dondebailoentenerife",
       "firstSeen": "2026-09-21",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-09-24",
+      "reason": "bachata sensual instructor and CEO of socialdance_studio (dance school), not an event organiser"
     },
     {
       "handle": "nely.affonso",
@@ -289,6 +299,12 @@
     {
       "handle": "tenerifetango",
       "seenOn": "salajuanitomascopas",
+      "firstSeen": "2026-09-24",
+      "status": "unverified"
+    },
+    {
+      "handle": "tony_salsacoleccion",
+      "seenOn": "lasalsera_solosalsa",
       "firstSeen": "2026-09-24",
       "status": "unverified"
     }
