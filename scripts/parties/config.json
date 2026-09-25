@@ -174,19 +174,25 @@
       "handle": "nely.affonso",
       "seenOn": "dondebailoentenerife",
       "firstSeen": "2026-09-21",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-09-25",
+      "reason": "dance instructor (Zouk, Bachata), not an event organiser"
     },
     {
       "handle": "mariaphoto.mh",
       "seenOn": "dondebailoentenerife",
       "firstSeen": "2026-09-21",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-09-25",
+      "reason": "photographer & filmmaker, not an organiser"
     },
     {
       "handle": "jmneeeeez_",
       "seenOn": "leobailetenerife",
       "firstSeen": "2026-09-21",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-09-25",
+      "reason": "Cuban-style dancer and CEO of achelab.studio (dance studio), not an event organiser"
     },
     {
       "handle": "annamaslova_bachata",
@@ -306,6 +312,18 @@
       "handle": "tony_salsacoleccion",
       "seenOn": "lasalsera_solosalsa",
       "firstSeen": "2026-09-24",
+      "status": "unverified"
+    },
+    {
+      "handle": "saulpedros",
+      "seenOn": "guinda_chillout",
+      "firstSeen": "2026-09-25",
+      "status": "unverified"
+    },
+    {
+      "handle": "calima.tenerife",
+      "seenOn": "guinda_chillout",
+      "firstSeen": "2026-09-25",
       "status": "unverified"
     }
   ],
