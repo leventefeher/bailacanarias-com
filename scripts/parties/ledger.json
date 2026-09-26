@@ -640,11 +640,12 @@
       "weekday": "Sunday",
       "adoptedOn": "2026-09-21",
       "missedChecks": 6,
-      "status": "active",
+      "status": "retired",
       "backedBy": [
         "casablancadiscobar.tf"
       ],
-      "lastResult": "missed"
+      "lastResult": "retired-by-user",
+      "retiredOn": "2026-09-26"
     },
     "bailaqbaila|@Sunday": {
       "name": "Baila Q' Baila",

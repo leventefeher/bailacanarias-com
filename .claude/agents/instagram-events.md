@@ -27,6 +27,14 @@ only the three you commit matter.
 Then read `scripts/parties/config.json` for the accounts to check. If any handle
 is still `REPLACE_ME`, stop and say so — do not guess an account.
 
+Also read `watchFor` in config: parties the user has told you exist but that
+no source has shown yet. While reading, look for them by name, organiser and
+venue. If you find one, add the organiser's or venue's handle to `discovered`
+and record the event like any other, but only with a date from a real post or
+story. A `watchFor` note is never enough to add an event on its own. Once the
+event is on the page, delete its `watchFor` entry. Say in the report whether
+each one was seen.
+
 ## 1. Read the accounts
 
 **Use the user's Chrome** (`mcp__claude-in-chrome__*`), which is logged in to

@@ -1,5 +1,5 @@
 {
-  "_comment": "sources = confirmed Instagram accounts read every run; flyer OCR arrives as image alt text on the profile grid. discovered = handles seen tagged on those accounts but not yet confirmed as event sources; the agent verifies these and promotes or retires them. secondarySources = weak non-Instagram feeds kept because they back existing page entries.",
+  "_comment": "sources = confirmed Instagram accounts read every run; flyer OCR arrives as image alt text on the profile grid. discovered = handles seen tagged on those accounts but not yet confirmed as event sources; the agent verifies these and promotes or retires them. secondarySources = weak non-Instagram feeds kept because they back existing page entries. watchFor = parties the site owner has said to look out for; see the agent's section 1.",
   "sources": [
     {
       "handle": "dondebailoentenerife",
@@ -41,10 +41,8 @@
     {
       "handle": "casablancadiscobar.tf",
       "url": "https://www.instagram.com/casablancadiscobar.tf/",
-      "backs": [
-        "Latin Flow en Casablanca"
-      ],
-      "note": "venue for two existing entries. Posts are mostly video, which carries no OCR alt text"
+      "backs": [],
+      "note": "venue account; its Deseo and Latin Flow nights ended (Sep 2026). Posts are mostly video, which carries no OCR alt text"
     },
     {
       "handle": "lamoviesocialclub",
@@ -377,5 +375,12 @@
     "maxDiscoveryChecksPerRun": 3,
     "manualMissedChecksToRetire": 21,
     "manualMinDaysTracked": 56
-  }
+  },
+  "watchFor": [
+    {
+      "what": "Arun's weekly Thursday party at La Central (Tenerife)",
+      "addedOn": "2026-09-26",
+      "note": "Reported by the site owner; organiser's Instagram handle not yet known. If a source posts or tags it, add the organiser/venue handle to discovered and let the script add the event once dated. Still needs a flyer or post with a date — do not add it on this note alone."
+    }
+  ]
 }
