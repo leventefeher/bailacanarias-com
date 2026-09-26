@@ -198,19 +198,25 @@
       "handle": "annamaslova_bachata",
       "seenOn": "fuegopegao",
       "firstSeen": "2026-09-22",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-09-26",
+      "reason": "bachata instructor based in Poltava, Ukraine (bio), not a Tenerife organiser"
     },
     {
       "handle": "siente_elbailesbk",
       "seenOn": "fuegopegao",
       "firstSeen": "2026-09-22",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-09-26",
+      "reason": "reel/interview creator (\"Reel creator\", YouTube interviews with artists), sister account of rejected sienteelbailestudio"
     },
     {
       "handle": "_ninafusiondance",
       "seenOn": "tardeobachatero",
       "firstSeen": "2026-09-22",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-09-26",
+      "reason": "pole/aerial dancer and CEO of feelthefusion_academy (dance studio), not an event organiser"
     },
     {
       "handle": "dance.intensive.school",
@@ -324,6 +330,18 @@
       "handle": "calima.tenerife",
       "seenOn": "guinda_chillout",
       "firstSeen": "2026-09-25",
+      "status": "unverified"
+    },
+    {
+      "handle": "latin_events_tenerife",
+      "seenOn": "dondebailoentenerife",
+      "firstSeen": "2026-09-26",
+      "status": "unverified"
+    },
+    {
+      "handle": "maria_mararia",
+      "seenOn": "dondebailoentenerife",
+      "firstSeen": "2026-09-26",
       "status": "unverified"
     }
   ],

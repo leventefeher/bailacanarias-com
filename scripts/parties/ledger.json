@@ -8,7 +8,7 @@
       "stylesEn": "Bachata & Bachazouk",
       "stylesEs": "Bachata y Bachazouk",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/elregreso.dance/",
+      "url": "https://www.instagram.com/elregreso.dance/p/DcdkfLDtsSM/",
       "firstSeen": "2026-09-21",
       "sightings": [
         {
@@ -319,7 +319,7 @@
       "stylesEn": "Salsa, Bachata, Kizomba & Zouk",
       "stylesEs": "Salsa, Bachata, Kizomba y Zouk",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/tueliges_sbk/reel/DdRveVaxWT_/",
+      "url": "https://www.instagram.com/tueliges_sbk/p/DdtWtlBg85b/",
       "firstSeen": "2026-09-23",
       "sightings": [
         {
@@ -333,9 +333,15 @@
           "weekday": "Friday",
           "postUrl": "https://www.instagram.com/tueliges_sbk/reel/DdRveVaxWT_/",
           "recordedOn": "2026-09-23"
+        },
+        {
+          "eventDate": "2026-09-25",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/tueliges_sbk/p/DdtWtlBg85b/",
+          "recordedOn": "2026-09-26"
         }
       ],
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-25",
       "status": "past",
       "weekday": null
     },
@@ -532,6 +538,52 @@
         }
       ],
       "lastSeen": "2026-09-25",
+      "status": "past",
+      "weekday": null
+    },
+    "deseolatino|montanaroja2": {
+      "name": "Deseo Latino",
+      "venue": "Montaña Roja 2",
+      "area": "Las Chafiras",
+      "region": "South",
+      "address": "Av. Daniel Feo 7",
+      "stylesEn": "Salsa & Bachata",
+      "stylesEs": "Salsa y Bachata",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/dondebailoentenerife/",
+      "firstSeen": "2026-09-26",
+      "sightings": [
+        {
+          "eventDate": "2026-09-26",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/stories/dondebailoentenerife/3994629431268015271/",
+          "recordedOn": "2026-09-26"
+        }
+      ],
+      "lastSeen": "2026-09-26",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "sundayparty|laguindachillout": {
+      "name": "Sunday Party",
+      "venue": "La Guinda Chill Out",
+      "area": "Puerto de la Cruz",
+      "region": "North",
+      "address": "Calle Aceviño 21",
+      "stylesEn": "Salsa, Bachata, Timba & Merengue",
+      "stylesEs": "Salsa, Bachata, Timba y Merengue",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/guinda_chillout/",
+      "firstSeen": "2026-09-26",
+      "sightings": [
+        {
+          "eventDate": "2026-10-04",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/stories/guinda_chillout/3994536131357223711/",
+          "recordedOn": "2026-09-26"
+        }
+      ],
+      "lastSeen": "2026-10-04",
       "status": "upcoming",
       "weekday": null
     }
@@ -541,7 +593,7 @@
       "name": "Afrolatin Night",
       "weekday": "Wednesday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 6,
+      "missedChecks": 7,
       "status": "active",
       "backedBy": [
         "guaguancoevents_tnfe"
@@ -552,7 +604,7 @@
       "name": "Tempo's Latinos",
       "weekday": "Thursday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 1,
+      "missedChecks": 2,
       "status": "active",
       "backedBy": [
         "https://www.facebook.com/pablo.casaviejamedina"
@@ -563,7 +615,7 @@
       "name": "Deseo en Casablanca",
       "weekday": "Friday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 5,
+      "missedChecks": 6,
       "status": "active",
       "backedBy": [
         "casablancadiscobar.tf"
@@ -574,18 +626,18 @@
       "name": "Baila Q' Baila",
       "weekday": "Friday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 0,
+      "missedChecks": 1,
       "status": "active",
       "backedBy": [
         "https://www.facebook.com/santi.martinsantos"
       ],
-      "lastResult": "sources-unreadable"
+      "lastResult": "missed"
     },
     "latinflowencasablanca|@": {
       "name": "Latin Flow en Casablanca",
       "weekday": "Sunday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 5,
+      "missedChecks": 6,
       "status": "active",
       "backedBy": [
         "casablancadiscobar.tf"
@@ -596,7 +648,7 @@
       "name": "Baila Q' Baila",
       "weekday": "Sunday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 1,
+      "missedChecks": 2,
       "status": "active",
       "backedBy": [
         "https://www.facebook.com/FrankyTenerife"
