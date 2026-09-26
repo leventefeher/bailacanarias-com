@@ -42,7 +42,6 @@
       "handle": "casablancadiscobar.tf",
       "url": "https://www.instagram.com/casablancadiscobar.tf/",
       "backs": [
-        "Deseo en Casablanca",
         "Latin Flow en Casablanca"
       ],
       "note": "venue for two existing entries. Posts are mostly video, which carries no OCR alt text"
@@ -349,9 +348,7 @@
     {
       "platform": "facebook",
       "url": "https://www.facebook.com/pablo.casaviejamedina",
-      "backs": [
-        "Tempo's Latinos"
-      ],
+      "backs": [],
       "note": "public profile, ~2 posts readable logged out, no flyer OCR"
     },
     {

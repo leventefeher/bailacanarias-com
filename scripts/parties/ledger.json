@@ -605,22 +605,24 @@
       "weekday": "Thursday",
       "adoptedOn": "2026-09-21",
       "missedChecks": 2,
-      "status": "active",
+      "status": "retired",
       "backedBy": [
         "https://www.facebook.com/pablo.casaviejamedina"
       ],
-      "lastResult": "missed"
+      "lastResult": "retired-by-user",
+      "retiredOn": "2026-09-26"
     },
     "deseoencasablanca|@": {
       "name": "Deseo en Casablanca",
       "weekday": "Friday",
       "adoptedOn": "2026-09-21",
       "missedChecks": 6,
-      "status": "active",
+      "status": "retired",
       "backedBy": [
         "casablancadiscobar.tf"
       ],
-      "lastResult": "missed"
+      "lastResult": "retired-by-user",
+      "retiredOn": "2026-09-26"
     },
     "bailaqbaila|@Friday": {
       "name": "Baila Q' Baila",

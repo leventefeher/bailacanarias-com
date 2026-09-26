@@ -24,15 +24,11 @@ parties:
       Bachatón | La Movie Social Club, Santa Cruz | Bachata | Bachata | https://www.instagram.com/sesionesbailetenerife/ | https://www.google.com/maps/search/?api=1&query=La%20Movie%20Social%20Club%2C%20Paseo%20Milicias%20de%20Garachico%201%2C%20Santa%20Cruz%2C%20Tenerife | North
   - dayEn: Thursday
     dayEs: Jueves
-    eventsRaw: Tempo's Latinos | Las Americas | Salsa & Bachata | Salsa y Bachata |
-      https://www.facebook.com/pablo.casaviejamedina |  | south
+    dayNoteEn: Check Instagram for Thursday events.
+    dayNoteEs: Consulta Instagram para eventos del jueves.
   - dayEn: Friday
     dayEs: Viernes
     eventsRaw: >-
-      Deseo en Casablanca | Las Americas | Salsa, Bachata | Bachata y Salsa |
-      https://www.instagram.com/casablancadiscobar.tf |  | south
-
-
       Baila Q' Baila | Las Chafiras | Salsa, Bachata, Merengue | Salsa, Bachata,
       Merengue | https://www.facebook.com/santi.martinsantos |  | south
   - dayEn: Saturday
