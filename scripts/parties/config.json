@@ -219,19 +219,25 @@
       "handle": "dance.intensive.school",
       "seenOn": "casablancadiscobar.tf",
       "firstSeen": "2026-09-22",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-09-28",
+      "reason": "personal dancer account (\"Dance lover\", Julia) posting social-dance clips, not an organiser"
     },
     {
       "handle": "sound_afroparty",
       "seenOn": "casablancadiscobar.tf",
       "firstSeen": "2026-09-22",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-09-28",
+      "reason": "afrobeats/amapiano/dancehall club party brand, currently Gran Canaria (bio); not a salsa/bachata/kizomba social"
     },
     {
       "handle": "afrospainvibes",
       "seenOn": "casablancadiscobar.tf",
       "firstSeen": "2026-09-22",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-09-28",
+      "reason": "Spain-wide afro club-scene media/events account, not a Tenerife social-dance organiser"
     },
     {
       "handle": "rhinoxsensei",
@@ -339,6 +345,12 @@
       "handle": "maria_mararia",
       "seenOn": "dondebailoentenerife",
       "firstSeen": "2026-09-26",
+      "status": "unverified"
+    },
+    {
+      "handle": "ire.dancestudio",
+      "seenOn": "dondebailoentenerife",
+      "firstSeen": "2026-09-28",
       "status": "unverified"
     }
   ],

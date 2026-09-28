@@ -19,7 +19,7 @@
         }
       ],
       "lastSeen": "2026-09-26",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "guajiralatino|montanaroja2": {
@@ -82,7 +82,7 @@
       "stylesEn": "Bachata",
       "stylesEs": "Bachata",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/sesionesbailetenerife/",
+      "url": "https://www.instagram.com/sesionesbailetenerife/p/DdyuzOeuCk8/",
       "firstSeen": "2026-09-21",
       "sightings": [
         {
@@ -138,9 +138,15 @@
           "weekday": "Wednesday",
           "postUrl": "https://www.instagram.com/sesionesbailetenerife/",
           "recordedOn": "2026-09-21"
+        },
+        {
+          "eventDate": "2026-09-30",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/sesionesbailetenerife/p/DdyuzOeuCk8/",
+          "recordedOn": "2026-09-28"
         }
       ],
-      "lastSeen": "2026-09-23",
+      "lastSeen": "2026-09-30",
       "status": "weekly",
       "weekday": "Wednesday",
       "address": "Paseo Milicias de Garachico 1"
@@ -206,9 +212,21 @@
           "weekday": "Saturday",
           "postUrl": "https://www.instagram.com/fieston_sbk_canarias/p/DdWsMCpsCRm/",
           "recordedOn": "2026-09-22"
+        },
+        {
+          "eventDate": "2026-12-07",
+          "weekday": "Monday",
+          "postUrl": "https://www.instagram.com/stories/fieston_sbk_canarias/3996041574043411624/",
+          "recordedOn": "2026-09-28"
+        },
+        {
+          "eventDate": "2027-01-09",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/stories/fieston_sbk_canarias/3996041574043411624/",
+          "recordedOn": "2026-09-28"
         }
       ],
-      "lastSeen": "2026-10-17",
+      "lastSeen": "2027-01-09",
       "status": "upcoming",
       "weekday": null
     },
@@ -263,11 +281,11 @@
       "venue": "Sala Juanito + Copas",
       "area": "La Laguna",
       "region": "North",
-      "address": "Ctra La Esperanza km 2",
+      "address": "Ctra. La Esperanza, km 2",
       "stylesEn": "Salsa, Bachata & Merengue",
       "stylesEs": "Salsa, Bachata y Merengue",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/salajuanitomascopas/",
+      "url": "https://www.instagram.com/salajuanitomascopas/p/Ddy-NWbMT_y/",
       "firstSeen": "2026-09-23",
       "sightings": [
         {
@@ -281,10 +299,16 @@
           "weekday": "Friday",
           "postUrl": "https://www.instagram.com/salajuanitomascopas/p/DdSDFuVOSma/",
           "recordedOn": "2026-09-23"
+        },
+        {
+          "eventDate": "2026-10-02",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/salajuanitomascopas/p/Ddy-NWbMT_y/",
+          "recordedOn": "2026-09-28"
         }
       ],
-      "lastSeen": "2026-09-18",
-      "status": "past",
+      "lastSeen": "2026-10-02",
+      "status": "upcoming",
       "weekday": null
     },
     "lacrema|salajuanitocopas": {
@@ -463,13 +487,13 @@
         }
       ],
       "lastSeen": "2026-09-27",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "poolpartysbk|": {
       "name": "Pool Party SBK",
       "venue": "",
-      "area": "",
+      "area": "Playa Paraíso",
       "region": "South",
       "address": "",
       "stylesEn": "Salsa, Bachata & Kizomba",
@@ -521,7 +545,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/guinda_chillout/reel/DdbWpL2IB32/",
+      "url": "https://www.instagram.com/guinda_chillout/reel/Dd1nkTVoGwT/",
       "firstSeen": "2026-09-25",
       "sightings": [
         {
@@ -535,11 +559,17 @@
           "weekday": "Friday",
           "postUrl": "https://www.instagram.com/guinda_chillout/reel/DdbWpL2IB32/",
           "recordedOn": "2026-09-25"
+        },
+        {
+          "eventDate": "2026-10-02",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/guinda_chillout/reel/Dd1nkTVoGwT/",
+          "recordedOn": "2026-09-28"
         }
       ],
-      "lastSeen": "2026-09-25",
-      "status": "past",
-      "weekday": null
+      "lastSeen": "2026-10-02",
+      "status": "weekly",
+      "weekday": "Friday"
     },
     "deseolatino|montanaroja2": {
       "name": "Deseo Latino",
@@ -561,7 +591,7 @@
         }
       ],
       "lastSeen": "2026-09-26",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "sundayparty|laguindachillout": {
@@ -573,7 +603,7 @@
       "stylesEn": "Salsa, Bachata, Timba & Merengue",
       "stylesEs": "Salsa, Bachata, Timba y Merengue",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/guinda_chillout/",
+      "url": "https://www.instagram.com/guinda_chillout/reel/Dd1oRF5I4lu/",
       "firstSeen": "2026-09-26",
       "sightings": [
         {
@@ -586,6 +616,64 @@
       "lastSeen": "2026-10-04",
       "status": "upcoming",
       "weekday": null
+    },
+    "lagramola|laguindachillout": {
+      "name": "La Gramola",
+      "venue": "La Guinda Chill Out",
+      "area": "Puerto de la Cruz",
+      "region": "North",
+      "address": "Calle Aceviño 21",
+      "stylesEn": "Salsa & Bachata",
+      "stylesEs": "Salsa y Bachata",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/guinda_chillout/reel/Dd1RqXbo6b1/",
+      "firstSeen": "2026-09-28",
+      "sightings": [
+        {
+          "eventDate": "2026-10-18",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/guinda_chillout/reel/Dd1RqXbo6b1/",
+          "recordedOn": "2026-09-28"
+        }
+      ],
+      "lastSeen": "2026-10-18",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "fiestonlatinosbk|": {
+      "name": "Fiestón Latino SBK",
+      "venue": "",
+      "area": "Las Chafiras",
+      "region": "South",
+      "address": "",
+      "stylesEn": "Salsa, Bachata & Kizomba",
+      "stylesEs": "Salsa, Bachata y Kizomba",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/fieston_sbk_canarias/",
+      "firstSeen": "2026-09-28",
+      "sightings": [
+        {
+          "eventDate": "2026-10-03",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/stories/fieston_sbk_canarias/3996041574043411624/",
+          "recordedOn": "2026-09-28"
+        },
+        {
+          "eventDate": "2026-11-14",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/stories/fieston_sbk_canarias/3996041574043411624/",
+          "recordedOn": "2026-09-28"
+        },
+        {
+          "eventDate": "2026-12-19",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/stories/fieston_sbk_canarias/3996041574043411624/",
+          "recordedOn": "2026-09-28"
+        }
+      ],
+      "lastSeen": "2026-12-19",
+      "status": "upcoming",
+      "weekday": null
     }
   },
   "manual": {
@@ -593,7 +681,7 @@
       "name": "Afrolatin Night",
       "weekday": "Wednesday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 7,
+      "missedChecks": 8,
       "status": "active",
       "backedBy": [
         "guaguancoevents_tnfe"
@@ -628,7 +716,7 @@
       "name": "Baila Q' Baila",
       "weekday": "Friday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 1,
+      "missedChecks": 2,
       "status": "active",
       "backedBy": [
         "https://www.facebook.com/santi.martinsantos"
@@ -651,7 +739,7 @@
       "name": "Baila Q' Baila",
       "weekday": "Sunday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 2,
+      "missedChecks": 3,
       "status": "active",
       "backedBy": [
         "https://www.facebook.com/FrankyTenerife"
