@@ -124,6 +124,12 @@
       "url": "https://www.instagram.com/guinda_chillout/",
       "addedOn": "2026-09-24",
       "note": "venue: La Guinda Chill Out, rooftop bar at BlueSea Hotel Interpalace (C. Aceviño 21), Puerto de la Cruz; hosts SBK Mania Sunday socials. Mostly non-dance cocktail/sunset posts"
+    },
+    {
+      "handle": "latin_events_tenerife",
+      "url": "https://www.instagram.com/latin_events_tenerife/",
+      "addedOn": "2026-09-30",
+      "note": "verified: bio \"Las noches latinas más divertidas - aquí tendrás todos tus eventos SBK de @bambuloungetfe\"; organiser of SBK nights at Bambú Lounge Bar, Santa Cruz"
     }
   ],
   "discovered": [
@@ -243,13 +249,17 @@
       "handle": "rhinoxsensei",
       "seenOn": "sondelagente",
       "firstSeen": "2026-09-22",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-09-30",
+      "reason": "salsa/bachata instructor and fitness coach (bio), not an event organiser"
     },
     {
       "handle": "ru.multimedia",
       "seenOn": "sondelagente",
       "firstSeen": "2026-09-22",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-09-30",
+      "reason": "audiovisual services agency (video/photo production, design), not an organiser"
     },
     {
       "handle": "geoffreynicolas.art",
@@ -336,12 +346,6 @@
       "status": "unverified"
     },
     {
-      "handle": "latin_events_tenerife",
-      "seenOn": "dondebailoentenerife",
-      "firstSeen": "2026-09-26",
-      "status": "unverified"
-    },
-    {
       "handle": "maria_mararia",
       "seenOn": "dondebailoentenerife",
       "firstSeen": "2026-09-26",
@@ -351,6 +355,18 @@
       "handle": "ire.dancestudio",
       "seenOn": "dondebailoentenerife",
       "firstSeen": "2026-09-28",
+      "status": "unverified"
+    },
+    {
+      "handle": "chantal_bzouk",
+      "seenOn": "zoukcanaryislands",
+      "firstSeen": "2026-09-30",
+      "status": "unverified"
+    },
+    {
+      "handle": "mmdanza",
+      "seenOn": "latin_events_tenerife",
+      "firstSeen": "2026-09-30",
       "status": "unverified"
     }
   ],
