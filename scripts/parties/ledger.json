@@ -530,10 +530,16 @@
           "weekday": "Wednesday",
           "postUrl": "https://www.instagram.com/stories/fuegopegao/3992560149755083275/",
           "recordedOn": "2026-09-24"
+        },
+        {
+          "eventDate": "2026-09-30",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/stories/fuegopegao/3996820482065757023/",
+          "recordedOn": "2026-09-30"
         }
       ],
-      "lastSeen": "2026-09-23",
-      "status": "past",
+      "lastSeen": "2026-09-30",
+      "status": "upcoming",
       "weekday": null
     },
     "djkiko|laguindachillout": {
@@ -674,6 +680,174 @@
       "lastSeen": "2026-12-19",
       "status": "upcoming",
       "weekday": null
+    },
+    "aventuralatina|lacentraldiscoteca": {
+      "name": "Aventura Latina",
+      "venue": "La Central Discoteca",
+      "area": "Playa de las Américas",
+      "region": "South",
+      "address": "P. Verode, 38660",
+      "stylesEn": "Salsa, Bachata & Reparto",
+      "stylesEs": "Salsa, Bachata y Reparto",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/fuegopegao/",
+      "firstSeen": "2026-09-30",
+      "sightings": [
+        {
+          "eventDate": "2026-10-01",
+          "weekday": "Thursday",
+          "postUrl": "https://www.instagram.com/stories/fuegopegao/3996823656499550007/",
+          "recordedOn": "2026-09-30"
+        }
+      ],
+      "lastSeen": "2026-10-01",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "coqueteo|wildtenerife": {
+      "name": "Coqueteo",
+      "venue": "Wild Tenerife",
+      "area": "Los Cristianos",
+      "region": "South",
+      "address": "CC San Telmo, Av. La Habana 11",
+      "stylesEn": "Salsa, Bachata & 80s/90s",
+      "stylesEs": "Salsa, Bachata y 80s/90s",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/fuegopegao/",
+      "firstSeen": "2026-09-30",
+      "sightings": [
+        {
+          "eventDate": "2026-10-03",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/stories/fuegopegao/3996824610376525200/",
+          "recordedOn": "2026-09-30"
+        }
+      ],
+      "lastSeen": "2026-10-03",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "sabrosohalloween|montanaroja2": {
+      "name": "Sabroso Halloween",
+      "venue": "Montaña Roja 2",
+      "area": "Las Chafiras",
+      "region": "South",
+      "address": "Av. Daniel Feo 7",
+      "stylesEn": "",
+      "stylesEs": "",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/fuegopegao/",
+      "firstSeen": "2026-09-30",
+      "sightings": [
+        {
+          "eventDate": "2026-10-31",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/stories/fuegopegao/3997031807702334697/",
+          "recordedOn": "2026-09-30"
+        }
+      ],
+      "lastSeen": "2026-10-31",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "martessalvajes|salvajelatejita": {
+      "name": "Martes Salvajes",
+      "venue": "Salvaje La Tejita",
+      "area": "El Médano",
+      "region": "South",
+      "address": "Street Market La Tejita, C. Hernán Cortés 29",
+      "stylesEn": "Salsa, Bachata & Kizomba",
+      "stylesEs": "Salsa, Bachata y Kizomba",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/dondebailoentenerife/",
+      "firstSeen": "2026-09-30",
+      "sightings": [
+        {
+          "eventDate": "2026-10-06",
+          "weekday": "Tuesday",
+          "postUrl": "https://www.instagram.com/stories/dondebailoentenerife/3997418151838787860/",
+          "recordedOn": "2026-09-30"
+        }
+      ],
+      "declaredRecurring": true,
+      "lastSeen": "2026-10-06",
+      "status": "weekly",
+      "weekday": "Tuesday"
+    },
+    "fiestalatina|xanadurestaurante": {
+      "name": "Fiesta Latina",
+      "venue": "Xanadú Restaurante",
+      "area": "",
+      "region": "",
+      "address": "",
+      "stylesEn": "Salsa, Bachata & Kizomba",
+      "stylesEs": "Salsa, Bachata y Kizomba",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/dondebailoentenerife/",
+      "firstSeen": "2026-09-30",
+      "sightings": [
+        {
+          "eventDate": "2026-10-02",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/stories/dondebailoentenerife/3997418438460722751/",
+          "recordedOn": "2026-09-30"
+        }
+      ],
+      "lastSeen": "2026-10-02",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "embrujo|": {
+      "name": "Embrujo",
+      "venue": "",
+      "area": "",
+      "region": "",
+      "address": "",
+      "stylesEn": "Bachata",
+      "stylesEs": "Bachata",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/embrujotenerife/",
+      "firstSeen": "2026-09-30",
+      "sightings": [
+        {
+          "eventDate": "2026-10-23",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/stories/dondebailoentenerife/3997418242687393800/",
+          "recordedOn": "2026-09-30"
+        }
+      ],
+      "lastSeen": "2026-10-23",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "domingodemalecon|bambuloungebar": {
+      "name": "Domingo de Malecón",
+      "venue": "Bambú Lounge Bar",
+      "area": "Santa Cruz",
+      "region": "North",
+      "address": "Calle Fernando Arozena Quintero 5",
+      "stylesEn": "Salsa, Bachata & Kizomba",
+      "stylesEs": "Salsa, Bachata y Kizomba",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/latin_events_tenerife/p/Ddpbq8sK79z/",
+      "firstSeen": "2026-09-30",
+      "sightings": [
+        {
+          "eventDate": "2026-09-13",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/latin_events_tenerife/p/DdI8CrGqPMH/",
+          "recordedOn": "2026-09-30"
+        },
+        {
+          "eventDate": "2026-09-27",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/latin_events_tenerife/p/Ddpbq8sK79z/",
+          "recordedOn": "2026-09-30"
+        }
+      ],
+      "lastSeen": "2026-09-27",
+      "status": "past",
+      "weekday": null
     }
   },
   "manual": {
@@ -681,7 +855,7 @@
       "name": "Afrolatin Night",
       "weekday": "Wednesday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 9,
+      "missedChecks": 10,
       "status": "active",
       "backedBy": [
         "guaguancoevents_tnfe"
@@ -739,7 +913,7 @@
       "name": "Baila Q' Baila",
       "weekday": "Sunday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 4,
+      "missedChecks": 5,
       "status": "active",
       "backedBy": [
         "https://www.facebook.com/FrankyTenerife"

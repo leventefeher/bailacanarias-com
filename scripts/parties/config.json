@@ -130,6 +130,18 @@
       "url": "https://www.instagram.com/latin_events_tenerife/",
       "addedOn": "2026-09-30",
       "note": "verified: bio \"Las noches latinas más divertidas - aquí tendrás todos tus eventos SBK de @bambuloungetfe\"; organiser of SBK nights at Bambú Lounge Bar, Santa Cruz"
+    },
+    {
+      "handle": "embrujotenerife",
+      "url": "https://www.instagram.com/embrujotenerife/",
+      "addedOn": "2026-09-30",
+      "note": "verified: bio \"Party and entertainment service\", Tenerife; runs Embrujo bachata socials (previously at Bambú Lounge Bar, Santa Cruz), resident DJ dj.polo_"
+    },
+    {
+      "handle": "dr.love_kizombadj",
+      "url": "https://www.instagram.com/dr.love_kizombadj/",
+      "addedOn": "2026-09-30",
+      "note": "kizomba DJ (bio: bookings); runs and promotes the free weekly Tuesday \"Martes Salvajes\" SBK session at Salvaje La Tejita, El Médano, and co-runs La Consulta Kizombera"
     }
   ],
   "discovered": [
@@ -368,6 +380,20 @@
       "seenOn": "latin_events_tenerife",
       "firstSeen": "2026-09-30",
       "status": "unverified"
+    },
+    {
+      "handle": "pierrebachata",
+      "seenOn": "dondebailoentenerife",
+      "firstSeen": "2026-09-30",
+      "status": "rejected",
+      "checkedOn": "2026-09-30",
+      "reason": "bachata dancer/instructor (bio: group and private classes), not an organiser; did announce a Fiesta Latina dinner at Xanadú Restaurante 2 Oct"
+    },
+    {
+      "handle": "minagalvan_",
+      "seenOn": "chavy_kizomba",
+      "firstSeen": "2026-09-30",
+      "status": "unverified"
     }
   ],
   "secondarySources": [
@@ -404,11 +430,5 @@
     "manualMissedChecksToRetire": 21,
     "manualMinDaysTracked": 56
   },
-  "watchFor": [
-    {
-      "what": "Arun's weekly Thursday party at La Central (Tenerife)",
-      "addedOn": "2026-09-26",
-      "note": "Reported by the site owner; organiser's Instagram handle not yet known. If a source posts or tags it, add the organiser/venue handle to discovered and let the script add the event once dated. Still needs a flyer or post with a date — do not add it on this note alone."
-    }
-  ]
+  "watchFor": []
 }

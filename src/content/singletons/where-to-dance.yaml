@@ -16,6 +16,11 @@ parties:
       classes in the many dance schools on the island.
     dayNoteEs: Los lunes y martes no hay fiestas semanales, sin embargo siempre
       puedes encontrar clases en las numerosas escuelas de baile de la isla.
+    eventsRaw: Martes Salvajes | Salvaje La Tejita, El Médano | Salsa, Bachata &
+      Kizomba | Salsa, Bachata y Kizomba |
+      https://www.instagram.com/dondebailoentenerife/ |
+      https://www.google.com/maps/search/?api=1&query=Salvaje%20La%20Tejita%2C%20Street%20Market%20La%20Tejita%2C%20C.%20Hern%C3%A1n%20Cort%C3%A9s%2029%2C%20El%20M%C3%A9dano%2C%20Tenerife
+      | South
   - dayEn: Wednesday
     dayEs: Miércoles
     eventsRaw: |-
@@ -46,6 +51,33 @@ parties:
       Social 100% Zouk | Santa Cruz | Zouk | Zouk |
       https://www.instagram.com/zoukcanaryislands/p/DcvoArHOzXk/ |  | North
 oneOffEvents:
+  - name: Papacito
+    date: '2026-09-30'
+    location: Wild Tenerife, Los Cristianos
+    region: South
+    address: CC San Telmo, Av. La Habana 11
+    stylesEn: Salsa, Bachata & Reggaeton
+    stylesEs: Salsa, Bachata y Reggaeton
+    url: https://www.instagram.com/fuegopegao/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Wild%20Tenerife%2C%20CC%20San%20Telmo%2C%20Av.%20La%20Habana%2011%2C%20Los%20Cristianos%2C%20Tenerife
+  - name: Aventura Latina
+    date: '2026-10-01'
+    location: La Central Discoteca, Playa de las Américas
+    region: South
+    address: P. Verode, 38660
+    stylesEn: Salsa, Bachata & Reparto
+    stylesEs: Salsa, Bachata y Reparto
+    url: https://www.instagram.com/fuegopegao/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=La%20Central%20Discoteca%2C%20P.%20Verode%2C%2038660%2C%20Playa%20de%20las%20Am%C3%A9ricas%2C%20Tenerife
+  - name: Fiesta Latina
+    date: '2026-10-02'
+    location: Xanadú Restaurante
+    region: ""
+    address: ""
+    stylesEn: Salsa, Bachata & Kizomba
+    stylesEs: Salsa, Bachata y Kizomba
+    url: https://www.instagram.com/dondebailoentenerife/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Xanad%C3%BA%20Restaurante%2C%20Tenerife
   - name: Rumbatón
     date: '2026-10-02'
     location: Sala Juanito + Copas, La Laguna
@@ -55,6 +87,15 @@ oneOffEvents:
     stylesEs: Salsa, Bachata y Merengue
     url: https://www.instagram.com/salajuanitomascopas/p/Ddy-NWbMT_y/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife
+  - name: Coqueteo
+    date: '2026-10-03'
+    location: Wild Tenerife, Los Cristianos
+    region: South
+    address: CC San Telmo, Av. La Habana 11
+    stylesEn: Salsa, Bachata & 80s/90s
+    stylesEs: Salsa, Bachata y 80s/90s
+    url: https://www.instagram.com/fuegopegao/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Wild%20Tenerife%2C%20CC%20San%20Telmo%2C%20Av.%20La%20Habana%2011%2C%20Los%20Cristianos%2C%20Tenerife
   - name: Fiestón Latino SBK
     date: '2026-10-03'
     location: Las Chafiras
@@ -136,6 +177,24 @@ oneOffEvents:
     stylesEs: Salsa y Bachata
     url: https://www.instagram.com/guinda_chillout/reel/Dd1RqXbo6b1/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife
+  - name: Embrujo
+    date: '2026-10-23'
+    location: ""
+    region: ""
+    address: ""
+    stylesEn: Bachata
+    stylesEs: Bachata
+    url: https://www.instagram.com/embrujotenerife/
+    mapsUrl: ""
+  - name: Sabroso Halloween
+    date: '2026-10-31'
+    location: Montaña Roja 2, Las Chafiras
+    region: South
+    address: Av. Daniel Feo 7
+    stylesEn: ""
+    stylesEs: ""
+    url: https://www.instagram.com/fuegopegao/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Monta%C3%B1a%20Roja%202%2C%20Av.%20Daniel%20Feo%207%2C%20Las%20Chafiras%2C%20Tenerife
   - name: Fiestón Latino SBK
     date: '2026-11-14'
     location: Las Chafiras
