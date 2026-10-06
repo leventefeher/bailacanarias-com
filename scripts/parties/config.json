@@ -142,6 +142,18 @@
       "url": "https://www.instagram.com/dr.love_kizombadj/",
       "addedOn": "2026-09-30",
       "note": "kizomba DJ (bio: bookings); runs and promotes the free weekly Tuesday \"Martes Salvajes\" SBK session at Salvaje La Tejita, El Médano, and co-runs La Consulta Kizombera"
+    },
+    {
+      "handle": "richydj_",
+      "url": "https://www.instagram.com/richydj_/",
+      "addedOn": "2026-10-06",
+      "note": "verified: bio \"Dj Bachata - Salsa - Kizomba / Eventos SBK / Tenerife\"; posts his own party flyers (Salsa vs Bachata at Sala Montaña Roja, Las Chafiras)"
+    },
+    {
+      "handle": "tenerifelatinsocial",
+      "url": "https://www.instagram.com/tenerifelatinsocial/",
+      "addedOn": "2026-10-06",
+      "note": "organiser of free weekly Monday street socials (\"Tenerife Latin Social\") in the south; location changes week to week (Plaza Roja El Médano, Parque Las Chafiras). Co-hosts Fiestón SBK pool parties"
     }
   ],
   "discovered": [
@@ -277,7 +289,9 @@
       "handle": "geoffreynicolas.art",
       "seenOn": "zoukcanaryislands",
       "firstSeen": "2026-09-22",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-06",
+      "reason": "zouk/bachazouk artist, teacher and dancer with a photo/video production side account, not an organiser"
     },
     {
       "handle": "xantal_bzouk",
@@ -393,6 +407,36 @@
       "handle": "minagalvan_",
       "seenOn": "chavy_kizomba",
       "firstSeen": "2026-09-30",
+      "status": "unverified"
+    },
+    {
+      "handle": "celi.chat",
+      "seenOn": "zoukcanaryislands",
+      "firstSeen": "2026-10-06",
+      "status": "unverified"
+    },
+    {
+      "handle": "saulynuri.bachazouk",
+      "seenOn": "embrujotenerife",
+      "firstSeen": "2026-10-06",
+      "status": "unverified"
+    },
+    {
+      "handle": "carlossegura.bachazouk",
+      "seenOn": "embrujotenerife",
+      "firstSeen": "2026-10-06",
+      "status": "unverified"
+    },
+    {
+      "handle": "j0hnglez",
+      "seenOn": "fieston_sbk_canarias",
+      "firstSeen": "2026-10-06",
+      "status": "unverified"
+    },
+    {
+      "handle": "sbkcanary",
+      "seenOn": "tenerifelatinsocial",
+      "firstSeen": "2026-10-06",
       "status": "unverified"
     }
   ],

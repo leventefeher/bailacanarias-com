@@ -82,7 +82,7 @@
       "stylesEn": "Bachata",
       "stylesEs": "Bachata",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/sesionesbailetenerife/p/DdyuzOeuCk8/",
+      "url": "https://www.instagram.com/sesionesbailetenerife/p/DeJYEQMuhED/",
       "firstSeen": "2026-09-21",
       "sightings": [
         {
@@ -144,9 +144,15 @@
           "weekday": "Wednesday",
           "postUrl": "https://www.instagram.com/sesionesbailetenerife/p/DdyuzOeuCk8/",
           "recordedOn": "2026-09-28"
+        },
+        {
+          "eventDate": "2026-10-07",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/sesionesbailetenerife/p/DeJYEQMuhED/",
+          "recordedOn": "2026-10-06"
         }
       ],
-      "lastSeen": "2026-09-30",
+      "lastSeen": "2026-10-07",
       "status": "weekly",
       "weekday": "Wednesday",
       "address": "Paseo Milicias de Garachico 1"
@@ -159,7 +165,7 @@
       "stylesEn": "Zouk",
       "stylesEs": "Zouk",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/zoukcanaryislands/p/Ddom4l-MkA0/",
+      "url": "https://www.instagram.com/zoukcanaryislands/p/DeH1akHsPpW/",
       "firstSeen": "2026-09-22",
       "sightings": [
         {
@@ -167,9 +173,21 @@
           "weekday": "Sunday",
           "postUrl": "https://www.instagram.com/zoukcanaryislands/p/DcvoArHOzXk/",
           "recordedOn": "2026-09-22"
+        },
+        {
+          "eventDate": "2026-10-04",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/zoukcanaryislands/p/Dd8e5D3M31S/",
+          "recordedOn": "2026-10-06"
+        },
+        {
+          "eventDate": "2026-10-11",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/zoukcanaryislands/p/DeH1akHsPpW/",
+          "recordedOn": "2026-10-06"
         }
       ],
-      "lastSeen": "2026-09-27",
+      "lastSeen": "2026-10-11",
       "status": "weekly",
       "weekday": "Sunday",
       "declaredRecurring": true
@@ -285,7 +303,7 @@
       "stylesEn": "Salsa, Bachata & Merengue",
       "stylesEs": "Salsa, Bachata y Merengue",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/salajuanitomascopas/p/Dd40RIMMnUO/",
+      "url": "https://www.instagram.com/salajuanitomascopas/p/DeIDp7YML4j/",
       "firstSeen": "2026-09-23",
       "sightings": [
         {
@@ -305,11 +323,17 @@
           "weekday": "Friday",
           "postUrl": "https://www.instagram.com/salajuanitomascopas/p/Ddy-NWbMT_y/",
           "recordedOn": "2026-09-28"
+        },
+        {
+          "eventDate": "2026-10-09",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/salajuanitomascopas/p/DeIDp7YML4j/",
+          "recordedOn": "2026-10-06"
         }
       ],
-      "lastSeen": "2026-10-02",
-      "status": "upcoming",
-      "weekday": null
+      "lastSeen": "2026-10-09",
+      "status": "weekly",
+      "weekday": "Friday"
     },
     "lacrema|salajuanitocopas": {
       "name": "La Crema",
@@ -441,7 +465,7 @@
         }
       ],
       "lastSeen": "2026-10-03",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "laconsultitakizombera|oceanorooftophoteloceano": {
@@ -499,7 +523,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/fieston_sbk_canarias/",
+      "url": "https://www.instagram.com/tenerifelatinsocial/p/DeEiThZOwCg/",
       "firstSeen": "2026-09-24",
       "sightings": [
         {
@@ -536,11 +560,17 @@
           "weekday": "Wednesday",
           "postUrl": "https://www.instagram.com/stories/fuegopegao/3996820482065757023/",
           "recordedOn": "2026-09-30"
+        },
+        {
+          "eventDate": "2026-10-07",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/stories/fuegopegao/4002012226940065145/",
+          "recordedOn": "2026-10-06"
         }
       ],
-      "lastSeen": "2026-09-30",
-      "status": "upcoming",
-      "weekday": null
+      "lastSeen": "2026-10-07",
+      "status": "weekly",
+      "weekday": "Wednesday"
     },
     "djkiko|laguindachillout": {
       "name": "DJ Kiko",
@@ -551,7 +581,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/guinda_chillout/reel/Dd1nkTVoGwT/",
+      "url": "https://www.instagram.com/guinda_chillout/reel/DeHBScro1A_/",
       "firstSeen": "2026-09-25",
       "sightings": [
         {
@@ -571,9 +601,21 @@
           "weekday": "Friday",
           "postUrl": "https://www.instagram.com/guinda_chillout/reel/Dd1nkTVoGwT/",
           "recordedOn": "2026-09-28"
+        },
+        {
+          "eventDate": "2026-10-09",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/guinda_chillout/reel/DeHBScro1A_/",
+          "recordedOn": "2026-10-06"
+        },
+        {
+          "eventDate": "2026-10-10",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/guinda_chillout/reel/DeHBScro1A_/",
+          "recordedOn": "2026-10-06"
         }
       ],
-      "lastSeen": "2026-10-02",
+      "lastSeen": "2026-10-10",
       "status": "weekly",
       "weekday": "Friday"
     },
@@ -606,10 +648,10 @@
       "area": "Puerto de la Cruz",
       "region": "North",
       "address": "Calle Aceviño 21",
-      "stylesEn": "Salsa, Bachata, Timba & Merengue",
-      "stylesEs": "Salsa, Bachata, Timba y Merengue",
+      "stylesEn": "Salsa, Bachata & Kizomba",
+      "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/guinda_chillout/reel/Dd1oRF5I4lu/",
+      "url": "https://www.instagram.com/guinda_chillout/reel/Dd6FhxloHdi/",
       "firstSeen": "2026-09-26",
       "sightings": [
         {
@@ -617,9 +659,15 @@
           "weekday": "Sunday",
           "postUrl": "https://www.instagram.com/stories/guinda_chillout/3994536131357223711/",
           "recordedOn": "2026-09-26"
+        },
+        {
+          "eventDate": "2026-10-11",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/guinda_chillout/reel/Dd6FhxloHdi/",
+          "recordedOn": "2026-10-06"
         }
       ],
-      "lastSeen": "2026-10-04",
+      "lastSeen": "2026-10-11",
       "status": "upcoming",
       "weekday": null
     },
@@ -698,9 +746,15 @@
           "weekday": "Thursday",
           "postUrl": "https://www.instagram.com/stories/fuegopegao/3996823656499550007/",
           "recordedOn": "2026-09-30"
+        },
+        {
+          "eventDate": "2026-10-08",
+          "weekday": "Thursday",
+          "postUrl": "https://www.instagram.com/stories/fuegopegao/4002012226940065145/",
+          "recordedOn": "2026-10-06"
         }
       ],
-      "lastSeen": "2026-10-01",
+      "lastSeen": "2026-10-08",
       "status": "upcoming",
       "weekday": null
     },
@@ -721,9 +775,15 @@
           "weekday": "Saturday",
           "postUrl": "https://www.instagram.com/stories/fuegopegao/3996824610376525200/",
           "recordedOn": "2026-09-30"
+        },
+        {
+          "eventDate": "2026-10-10",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/stories/fuegopegao/4002012226940065145/",
+          "recordedOn": "2026-10-06"
         }
       ],
-      "lastSeen": "2026-10-03",
+      "lastSeen": "2026-10-10",
       "status": "upcoming",
       "weekday": null
     },
@@ -733,10 +793,10 @@
       "area": "Las Chafiras",
       "region": "South",
       "address": "Av. Daniel Feo 7",
-      "stylesEn": "",
-      "stylesEs": "",
+      "stylesEn": "Salsa & Bachata",
+      "stylesEs": "Salsa y Bachata",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/fuegopegao/",
+      "url": "https://www.instagram.com/fuegopegao/p/DeHOG3_oHSC/",
       "firstSeen": "2026-09-30",
       "sightings": [
         {
@@ -794,19 +854,19 @@
         }
       ],
       "lastSeen": "2026-10-02",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "embrujo|": {
       "name": "Embrujo",
       "venue": "",
-      "area": "",
-      "region": "",
+      "area": "Santa Cruz",
+      "region": "North",
       "address": "",
       "stylesEn": "Bachata",
       "stylesEs": "Bachata",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/embrujotenerife/",
+      "url": "https://www.instagram.com/embrujotenerife/p/DeJek4TNVt-/",
       "firstSeen": "2026-09-30",
       "sightings": [
         {
@@ -848,6 +908,134 @@
       "lastSeen": "2026-09-27",
       "status": "past",
       "weekday": null
+    },
+    "bacanal|salajuanitocopas": {
+      "name": "Bacanal",
+      "venue": "Sala Juanito + Copas",
+      "area": "La Laguna",
+      "region": "North",
+      "address": "Ctra. La Esperanza, km 2",
+      "stylesEn": "Salsa, Bachata & Kizomba",
+      "stylesEs": "Salsa, Bachata y Kizomba",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/ensalitre_/p/DeHOp1ONYMe/",
+      "firstSeen": "2026-10-06",
+      "sightings": [
+        {
+          "eventDate": "2026-10-10",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/ensalitre_/p/DeHOp1ONYMe/",
+          "recordedOn": "2026-10-06"
+        }
+      ],
+      "lastSeen": "2026-10-10",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "zoukiehalloween|fincapatalarrana": {
+      "name": "Zoukie Halloween",
+      "venue": "Finca Patalarrana",
+      "area": "Benijos, La Orotava",
+      "region": "North",
+      "address": "Camino Cascajos 131",
+      "stylesEn": "Zouk, Salsa & Bachata",
+      "stylesEs": "Zouk, Salsa y Bachata",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/zoukcanaryislands/p/DeGzVZasWlb/",
+      "firstSeen": "2026-10-06",
+      "sightings": [
+        {
+          "eventDate": "2026-10-31",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/zoukcanaryislands/p/DeGzVZasWlb/",
+          "recordedOn": "2026-10-06"
+        }
+      ],
+      "lastSeen": "2026-10-31",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "tenerifelatinsocial|": {
+      "name": "Tenerife Latin Social",
+      "venue": "",
+      "area": "",
+      "region": "South",
+      "address": "",
+      "stylesEn": "Salsa & Bachata",
+      "stylesEs": "Salsa y Bachata",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/tenerifelatinsocial/reel/DeCRCS3Nz2h/",
+      "firstSeen": "2026-10-06",
+      "sightings": [
+        {
+          "eventDate": "2026-09-21",
+          "weekday": "Monday",
+          "postUrl": "https://www.instagram.com/tenerifelatinsocial/reel/Ddev0BKN9BU/",
+          "recordedOn": "2026-10-06"
+        },
+        {
+          "eventDate": "2026-09-28",
+          "weekday": "Monday",
+          "postUrl": "https://www.instagram.com/tenerifelatinsocial/reel/DdyOCd6OapZ/",
+          "recordedOn": "2026-10-06"
+        },
+        {
+          "eventDate": "2026-10-05",
+          "weekday": "Monday",
+          "postUrl": "https://www.instagram.com/tenerifelatinsocial/reel/DeCRCS3Nz2h/",
+          "recordedOn": "2026-10-06"
+        }
+      ],
+      "lastSeen": "2026-10-05",
+      "status": "weekly",
+      "weekday": "Monday"
+    },
+    "jueveslatinos|laguindachillout": {
+      "name": "Jueves Latinos",
+      "venue": "La Guinda Chill Out",
+      "area": "Puerto de la Cruz",
+      "region": "North",
+      "address": "Calle Aceviño 21",
+      "stylesEn": "Salsa, Bachata & Reggaeton",
+      "stylesEs": "Salsa, Bachata y Reggaeton",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/guinda_chillout/reel/Dd8uJhWIL2p/",
+      "firstSeen": "2026-10-06",
+      "sightings": [
+        {
+          "eventDate": "2026-10-08",
+          "weekday": "Thursday",
+          "postUrl": "https://www.instagram.com/guinda_chillout/reel/Dd8uJhWIL2p/",
+          "recordedOn": "2026-10-06"
+        }
+      ],
+      "declaredRecurring": true,
+      "lastSeen": "2026-10-08",
+      "status": "weekly",
+      "weekday": "Thursday"
+    },
+    "guachinsalsa|restaurantelacarretadelcarreton": {
+      "name": "Guachin Salsa",
+      "venue": "Restaurante La Carreta del Carretón",
+      "area": "Arafo",
+      "region": "Southeast",
+      "address": "C. El Carretón 4-7",
+      "stylesEn": "Salsa, Bachata & Merengue",
+      "stylesEs": "Salsa, Bachata y Merengue",
+      "mapsUrl": "",
+      "url": "https://www.facebook.com/FrankyTenerife",
+      "firstSeen": "2026-10-06",
+      "sightings": [
+        {
+          "eventDate": "2026-10-09",
+          "weekday": "Friday",
+          "postUrl": "https://www.facebook.com/FrankyTenerife",
+          "recordedOn": "2026-10-06"
+        }
+      ],
+      "lastSeen": "2026-10-09",
+      "status": "upcoming",
+      "weekday": null
     }
   },
   "manual": {
@@ -855,7 +1043,7 @@
       "name": "Afrolatin Night",
       "weekday": "Wednesday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 10,
+      "missedChecks": 11,
       "status": "active",
       "backedBy": [
         "guaguancoevents_tnfe"
@@ -890,12 +1078,12 @@
       "name": "Baila Q' Baila",
       "weekday": "Friday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 2,
+      "missedChecks": 3,
       "status": "active",
       "backedBy": [
         "https://www.facebook.com/santi.martinsantos"
       ],
-      "lastResult": "sources-unreadable"
+      "lastResult": "missed"
     },
     "latinflowencasablanca|@": {
       "name": "Latin Flow en Casablanca",
@@ -913,7 +1101,7 @@
       "name": "Baila Q' Baila",
       "weekday": "Sunday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 5,
+      "missedChecks": 6,
       "status": "active",
       "backedBy": [
         "https://www.facebook.com/FrankyTenerife"
