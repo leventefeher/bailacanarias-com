@@ -297,19 +297,25 @@
       "handle": "xantal_bzouk",
       "seenOn": "zoukcanaryislands",
       "firstSeen": "2026-09-22",
-      "status": "unverified"
+      "status": "invalid",
+      "checkedOn": "2026-10-07",
+      "reason": "profile does not resolve (\"page isn't available\"); likely a misspelling of chantal_bzouk"
     },
     {
       "handle": "nuria.dancer.tf",
       "seenOn": "fieston_sbk_canarias",
       "firstSeen": "2026-09-22",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-07",
+      "reason": "salsa/bachata instructor (bio: classes Tue/Thu); bio also mentions a Saturday latin party from 22:00 but names no venue"
     },
     {
       "handle": "ana_ve_mar",
       "seenOn": "dondebailoentenerife",
       "firstSeen": "2026-09-24",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-07",
+      "reason": "personal account (bachata fan), not an organiser"
     },
     {
       "handle": "xem.sker",

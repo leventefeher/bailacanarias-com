@@ -1036,6 +1036,29 @@
       "lastSeen": "2026-10-09",
       "status": "upcoming",
       "weekday": null
+    },
+    "kizevolution|salajuanitocopas": {
+      "name": "Kiz Evolution",
+      "venue": "Sala Juanito + Copas",
+      "area": "La Laguna",
+      "region": "North",
+      "address": "Ctra. La Esperanza, km 2",
+      "stylesEn": "Kizomba, Semba & Tarraxo",
+      "stylesEs": "Kizomba, Semba y Tarraxo",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/chavy_kizomba/p/DeKhB52PIB4/",
+      "firstSeen": "2026-10-07",
+      "sightings": [
+        {
+          "eventDate": "2026-11-07",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/chavy_kizomba/p/DeKhB52PIB4/",
+          "recordedOn": "2026-10-07"
+        }
+      ],
+      "lastSeen": "2026-11-07",
+      "status": "upcoming",
+      "weekday": null
     }
   },
   "manual": {
@@ -1043,7 +1066,7 @@
       "name": "Afrolatin Night",
       "weekday": "Wednesday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 11,
+      "missedChecks": 12,
       "status": "active",
       "backedBy": [
         "guaguancoevents_tnfe"
@@ -1083,7 +1106,7 @@
       "backedBy": [
         "https://www.facebook.com/santi.martinsantos"
       ],
-      "lastResult": "missed"
+      "lastResult": "sources-unreadable"
     },
     "latinflowencasablanca|@": {
       "name": "Latin Flow en Casablanca",
@@ -1106,7 +1129,7 @@
       "backedBy": [
         "https://www.facebook.com/FrankyTenerife"
       ],
-      "lastResult": "missed"
+      "lastResult": "sources-unreadable"
     }
   }
 }

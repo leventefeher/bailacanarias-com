@@ -185,6 +185,15 @@ oneOffEvents:
     stylesEs: Zouk, Salsa y Bachata
     url: https://www.instagram.com/zoukcanaryislands/p/DeGzVZasWlb/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Finca%20Patalarrana%2C%20Camino%20Cascajos%20131%2C%20Benijos%2C%20La%20Orotava%2C%20Tenerife
+  - name: Kiz Evolution
+    date: '2026-11-07'
+    location: Sala Juanito + Copas, La Laguna
+    region: North
+    address: Ctra. La Esperanza, km 2
+    stylesEn: Kizomba, Semba & Tarraxo
+    stylesEs: Kizomba, Semba y Tarraxo
+    url: https://www.instagram.com/chavy_kizomba/p/DeKhB52PIB4/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife
   - name: Fiestón Latino SBK
     date: '2026-11-14'
     location: Las Chafiras
