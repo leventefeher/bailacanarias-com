@@ -165,7 +165,7 @@
       "stylesEn": "Zouk",
       "stylesEs": "Zouk",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/zoukcanaryislands/p/DeH1akHsPpW/",
+      "url": "https://www.instagram.com/zoukcanaryislands/p/DeKauvbsI5y/",
       "firstSeen": "2026-09-22",
       "sightings": [
         {
@@ -190,7 +190,8 @@
       "lastSeen": "2026-10-11",
       "status": "weekly",
       "weekday": "Sunday",
-      "declaredRecurring": true
+      "declaredRecurring": true,
+      "address": "Av. de las Hespérides 60"
     },
     "social100zouk|mmdanza": {
       "name": "Social 100% Zouk",
@@ -755,7 +756,7 @@
         }
       ],
       "lastSeen": "2026-10-08",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "coqueteo|wildtenerife": {
@@ -918,7 +919,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/ensalitre_/p/DeHOp1ONYMe/",
+      "url": "https://www.instagram.com/ensalitre_/p/DeMlivXtuaN/",
       "firstSeen": "2026-10-06",
       "sightings": [
         {
@@ -1059,6 +1060,36 @@
       "lastSeen": "2026-11-07",
       "status": "upcoming",
       "weekday": null
+    },
+    "fusionlatina|montanaroja2": {
+      "name": "Fusión Latina",
+      "venue": "Montaña Roja 2",
+      "area": "Las Chafiras",
+      "region": "South",
+      "address": "Avd Daniel Feo 7",
+      "stylesEn": "Salsa & Bachata",
+      "stylesEs": "Salsa y Bachata",
+      "mapsUrl": "",
+      "url": "https://www.facebook.com/pablo.casaviejamedina/posts/pfbid02iBWZ5d79MFniKaaH5fTy8tw3JaTK5TMKjq8SYzgvNZTHgzKNR3DmtzbFo4RULE5Fl",
+      "firstSeen": "2026-10-09",
+      "sightings": [
+        {
+          "eventDate": "2026-10-02",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/richydj_/p/Dd9USBIsxDT/",
+          "recordedOn": "2026-10-09"
+        },
+        {
+          "eventDate": "2026-10-09",
+          "weekday": "Friday",
+          "postUrl": "https://www.facebook.com/pablo.casaviejamedina/posts/pfbid02iBWZ5d79MFniKaaH5fTy8tw3JaTK5TMKjq8SYzgvNZTHgzKNR3DmtzbFo4RULE5Fl",
+          "recordedOn": "2026-10-09"
+        }
+      ],
+      "lastSeen": "2026-10-09",
+      "declaredRecurring": true,
+      "status": "weekly",
+      "weekday": "Friday"
     }
   },
   "manual": {
@@ -1066,7 +1097,7 @@
       "name": "Afrolatin Night",
       "weekday": "Wednesday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 12,
+      "missedChecks": 13,
       "status": "active",
       "backedBy": [
         "guaguancoevents_tnfe"
@@ -1124,12 +1155,12 @@
       "name": "Baila Q' Baila",
       "weekday": "Sunday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 6,
+      "missedChecks": 7,
       "status": "active",
       "backedBy": [
         "https://www.facebook.com/FrankyTenerife"
       ],
-      "lastResult": "sources-unreadable"
+      "lastResult": "missed"
     }
   }
 }

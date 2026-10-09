@@ -45,29 +45,19 @@ parties:
       Rumbatón | Sala Juanito + Copas, La Laguna | Salsa, Bachata & Merengue | Salsa, Bachata y Merengue | https://www.instagram.com/salajuanitomascopas/p/DeIDp7YML4j/ | https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife | North
 
       DJ Kiko | La Guinda Chill Out, Puerto de la Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/guinda_chillout/reel/DeHBScro1A_/ | https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife | North
+
+      Fusión Latina | Montaña Roja 2, Las Chafiras | Salsa & Bachata | Salsa y Bachata | https://www.facebook.com/pablo.casaviejamedina/posts/pfbid02iBWZ5d79MFniKaaH5fTy8tw3JaTK5TMKjq8SYzgvNZTHgzKNR3DmtzbFo4RULE5Fl | https://www.google.com/maps/search/?api=1&query=Monta%C3%B1a%20Roja%202%2C%20Avd%20Daniel%20Feo%207%2C%20Las%20Chafiras%2C%20Tenerife | South
   - dayEn: Saturday
     dayEs: Sábado
     dayNoteEn: Check Instagram for Saturday events.
     dayNoteEs: Consulta Instagram para eventos del sábado.
   - dayEn: Sunday
     dayEs: Domingo
-    eventsRaw: >-
-      Baila Q' Baila | Las Chafiras | Salsa, Bachata, Kizomba | Salsa, Bachata,
-      Kizomba | https://www.facebook.com/FrankyTenerife |  | southeast
+    eventsRaw: |-
+      Baila Q' Baila | Las Chafiras | Salsa, Bachata, Kizomba | Salsa, Bachata, Kizomba | https://www.facebook.com/FrankyTenerife |  | southeast
 
-
-      Social 100% Zouk | Santa Cruz | Zouk | Zouk |
-      https://www.instagram.com/zoukcanaryislands/p/DeH1akHsPpW/ |  | North
+      Social 100% Zouk | Santa Cruz | Zouk | Zouk | https://www.instagram.com/zoukcanaryislands/p/DeH1akHsPpW/ | https://www.google.com/maps/search/?api=1&query=Av.%20de%20las%20Hesp%C3%A9rides%2060%2C%20Santa%20Cruz%2C%20Tenerife | North
 oneOffEvents:
-  - name: Aventura Latina
-    date: '2026-10-08'
-    location: La Central Discoteca, Playa de las Américas
-    region: South
-    address: P. Verode, 38660
-    stylesEn: Salsa, Bachata & Reparto
-    stylesEs: Salsa, Bachata y Reparto
-    url: https://www.instagram.com/fuegopegao/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=La%20Central%20Discoteca%2C%20P.%20Verode%2C%2038660%2C%20Playa%20de%20las%20Am%C3%A9ricas%2C%20Tenerife
   - name: Guachin Salsa
     date: '2026-10-09'
     location: Restaurante La Carreta del Carretón, Arafo

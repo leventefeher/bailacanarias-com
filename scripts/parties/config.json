@@ -321,19 +321,25 @@
       "handle": "xem.sker",
       "seenOn": "guaguancoevents_tnfe",
       "firstSeen": "2026-09-24",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-09",
+      "reason": "trap/rap/drum and bass musician (bio), not a dance-event organiser"
     },
     {
       "handle": "jorgeynadia_bachazouk",
       "seenOn": "zoukcanaryislands",
       "firstSeen": "2026-09-24",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-09",
+      "reason": "bachazouk instructors (bio: certified instructors, based at dancestudio.synergy); co-organise Embrujo, which is already covered by embrujotenerife"
     },
     {
       "handle": "justmenea_",
       "seenOn": "tueliges_sbk",
       "firstSeen": "2026-09-24",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-09",
+      "reason": "Urbankiz & Tarraxo instructor (bio: classes, privates, workshops), not an event organiser"
     },
     {
       "handle": "aniuscalb",
