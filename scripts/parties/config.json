@@ -345,19 +345,25 @@
       "handle": "aniuscalb",
       "seenOn": "lacrematenerife",
       "firstSeen": "2026-09-24",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-10",
+      "reason": "personal account (dancer; bio lists classes, no events), not an organiser"
     },
     {
       "handle": "nailyn_blackbarbie",
       "seenOn": "lacrematenerife",
       "firstSeen": "2026-09-24",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-10",
+      "reason": "personal account (lifestyle/gym), not an organiser"
     },
     {
       "handle": "miguelguillen1975",
       "seenOn": "lacrematenerife",
       "firstSeen": "2026-09-24",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-10",
+      "reason": "personal account (secondary-school teacher, flautist, writer and dancer; 108k followers), not an organiser"
     },
     {
       "handle": "tenerifetango",
@@ -449,6 +455,18 @@
       "handle": "sbkcanary",
       "seenOn": "tenerifelatinsocial",
       "firstSeen": "2026-10-06",
+      "status": "unverified"
+    },
+    {
+      "handle": "vitor_zouk",
+      "seenOn": "dondebailoentenerife",
+      "firstSeen": "2026-10-10",
+      "status": "unverified"
+    },
+    {
+      "handle": "patriciacorrea89",
+      "seenOn": "dondebailoentenerife",
+      "firstSeen": "2026-10-10",
       "status": "unverified"
     }
   ],

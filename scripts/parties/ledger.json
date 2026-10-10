@@ -1035,7 +1035,7 @@
         }
       ],
       "lastSeen": "2026-10-09",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "kizevolution|salajuanitocopas": {
@@ -1090,6 +1090,52 @@
       "declaredRecurring": true,
       "status": "weekly",
       "weekday": "Friday"
+    },
+    "fiestasbkdiadelahispanidad|bambuloungebar": {
+      "name": "Fiesta SBK Día de la Hispanidad",
+      "venue": "Bambú Lounge Bar",
+      "area": "Santa Cruz",
+      "region": "North",
+      "address": "Calle Fernando Arozena Quintero 5",
+      "stylesEn": "Salsa, Bachata & Kizomba",
+      "stylesEs": "Salsa, Bachata y Kizomba",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/dondebailoentenerife/p/DeO3Ie3jDhz/",
+      "firstSeen": "2026-10-10",
+      "sightings": [
+        {
+          "eventDate": "2026-10-11",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/dondebailoentenerife/p/DeO3Ie3jDhz/",
+          "recordedOn": "2026-10-10"
+        }
+      ],
+      "lastSeen": "2026-10-11",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "salvajeosbk|salvajelatejita": {
+      "name": "Salvajeo SBK",
+      "venue": "Salvaje La Tejita",
+      "area": "El Médano",
+      "region": "South",
+      "address": "Street Market La Tejita, C. Hernán Cortés 29",
+      "stylesEn": "Salsa, Bachata & Kizomba",
+      "stylesEs": "Salsa, Bachata y Kizomba",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/dr.love_kizombadj/p/DeOxeiPxA06/",
+      "firstSeen": "2026-10-10",
+      "sightings": [
+        {
+          "eventDate": "2026-10-11",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/dr.love_kizombadj/p/DeOxeiPxA06/",
+          "recordedOn": "2026-10-10"
+        }
+      ],
+      "lastSeen": "2026-10-11",
+      "status": "upcoming",
+      "weekday": null
     }
   },
   "manual": {
@@ -1097,7 +1143,7 @@
       "name": "Afrolatin Night",
       "weekday": "Wednesday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 13,
+      "missedChecks": 14,
       "status": "active",
       "backedBy": [
         "guaguancoevents_tnfe"
@@ -1155,7 +1201,7 @@
       "name": "Baila Q' Baila",
       "weekday": "Sunday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 7,
+      "missedChecks": 8,
       "status": "active",
       "backedBy": [
         "https://www.facebook.com/FrankyTenerife"
