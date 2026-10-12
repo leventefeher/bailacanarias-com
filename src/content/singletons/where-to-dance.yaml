@@ -19,7 +19,7 @@ parties:
     eventsRaw: |-
       Martes Salvajes | Salvaje La Tejita, El Médano | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/dondebailoentenerife/ | https://www.google.com/maps/search/?api=1&query=Salvaje%20La%20Tejita%2C%20Street%20Market%20La%20Tejita%2C%20C.%20Hern%C3%A1n%20Cort%C3%A9s%2029%2C%20El%20M%C3%A9dano%2C%20Tenerife | South
 
-      Tenerife Latin Social |  | Salsa & Bachata | Salsa y Bachata | https://www.instagram.com/tenerifelatinsocial/reel/DeCRCS3Nz2h/ |  | South
+      Tenerife Latin Social |  | Salsa & Bachata | Salsa y Bachata | https://www.instagram.com/tenerifelatinsocial/reel/DeSMXBCudZ8/ |  | South
   - dayEn: Wednesday
     dayEs: Miércoles
     eventsRaw: |-
@@ -58,51 +58,6 @@ parties:
 
       Social 100% Zouk | Santa Cruz | Zouk | Zouk | https://www.instagram.com/zoukcanaryislands/p/DeH1akHsPpW/ | https://www.google.com/maps/search/?api=1&query=Av.%20de%20las%20Hesp%C3%A9rides%2060%2C%20Santa%20Cruz%2C%20Tenerife | North
 oneOffEvents:
-  - name: Bacanal
-    date: '2026-10-10'
-    location: Sala Juanito + Copas, La Laguna
-    region: North
-    address: Ctra. La Esperanza, km 2
-    stylesEn: Salsa, Bachata & Kizomba
-    stylesEs: Salsa, Bachata y Kizomba
-    url: https://www.instagram.com/ensalitre_/p/DeHOp1ONYMe/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife
-  - name: Coqueteo
-    date: '2026-10-10'
-    location: Wild Tenerife, Los Cristianos
-    region: South
-    address: CC San Telmo, Av. La Habana 11
-    stylesEn: Salsa, Bachata & 80s/90s
-    stylesEs: Salsa, Bachata y 80s/90s
-    url: https://www.instagram.com/fuegopegao/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Wild%20Tenerife%2C%20CC%20San%20Telmo%2C%20Av.%20La%20Habana%2011%2C%20Los%20Cristianos%2C%20Tenerife
-  - name: Fiesta SBK Día de la Hispanidad
-    date: '2026-10-11'
-    location: Bambú Lounge Bar, Santa Cruz
-    region: North
-    address: Calle Fernando Arozena Quintero 5
-    stylesEn: Salsa, Bachata & Kizomba
-    stylesEs: Salsa, Bachata y Kizomba
-    url: https://www.instagram.com/dondebailoentenerife/p/DeO3Ie3jDhz/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife
-  - name: Salvajeo SBK
-    date: '2026-10-11'
-    location: Salvaje La Tejita, El Médano
-    region: South
-    address: Street Market La Tejita, C. Hernán Cortés 29
-    stylesEn: Salsa, Bachata & Kizomba
-    stylesEs: Salsa, Bachata y Kizomba
-    url: https://www.instagram.com/dr.love_kizombadj/p/DeOxeiPxA06/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Salvaje%20La%20Tejita%2C%20Street%20Market%20La%20Tejita%2C%20C.%20Hern%C3%A1n%20Cort%C3%A9s%2029%2C%20El%20M%C3%A9dano%2C%20Tenerife
-  - name: Sunday Party
-    date: '2026-10-11'
-    location: La Guinda Chill Out, Puerto de la Cruz
-    region: North
-    address: Calle Aceviño 21
-    stylesEn: Salsa, Bachata & Kizomba
-    stylesEs: Salsa, Bachata y Kizomba
-    url: https://www.instagram.com/guinda_chillout/reel/Dd6FhxloHdi/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife
   - name: Pool Party SBK
     date: '2026-10-12'
     location: Playa Paraíso
@@ -166,6 +121,15 @@ oneOffEvents:
     stylesEs: Bachata
     url: https://www.instagram.com/embrujotenerife/p/DeJek4TNVt-/
     mapsUrl: ""
+  - name: A Lo Cubano
+    date: '2026-10-25'
+    location: La Guinda Chill Out, Puerto de la Cruz
+    region: North
+    address: Calle Aceviño 21
+    stylesEn: Timba, Salsa & Reparto
+    stylesEs: Timba, Salsa y Reparto
+    url: https://www.instagram.com/alocubano.tf/p/DeYtFozgXPb/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife
   - name: Sabroso Halloween
     date: '2026-10-31'
     location: Montaña Roja 2, Las Chafiras

@@ -154,6 +154,12 @@
       "url": "https://www.instagram.com/tenerifelatinsocial/",
       "addedOn": "2026-10-06",
       "note": "organiser of free weekly Monday street socials (\"Tenerife Latin Social\") in the south; location changes week to week (Plaza Roja El Médano, Parque Las Chafiras). Co-hosts Fiestón SBK pool parties"
+    },
+    {
+      "handle": "alocubano.tf",
+      "url": "https://www.instagram.com/alocubano.tf/",
+      "addedOn": "2026-10-12",
+      "note": "verified: bio \"Sesión de música 100% cubana en Tenerife\"; runs the free Sunday \"A Lo Cubano\" timba/salsa sessions at La Guinda Chill Out, Puerto de la Cruz (DJ Afrokan)"
     }
   ],
   "discovered": [
@@ -369,13 +375,17 @@
       "handle": "tenerifetango",
       "seenOn": "salajuanitomascopas",
       "firstSeen": "2026-09-24",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-12",
+      "reason": "tango association (bio: Tenerife Tango Marathon, weekends and milongas); tango is outside the salsa/bachata/kizomba/zouk scope of the page"
     },
     {
       "handle": "tony_salsacoleccion",
       "seenOn": "lasalsera_solosalsa",
       "firstSeen": "2026-09-24",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-12",
+      "reason": "salsa DJ (bio: Dj Tony Salsacoleccion) based in Gran Canaria; his own socials are in La Garita, Telde. Guest DJ at La Salsera, already covered by lasalsera_solosalsa"
     },
     {
       "handle": "saulpedros",
@@ -467,6 +477,24 @@
       "handle": "patriciacorrea89",
       "seenOn": "dondebailoentenerife",
       "firstSeen": "2026-10-10",
+      "status": "unverified"
+    },
+    {
+      "handle": "alonsorig2",
+      "seenOn": "dondebailoentenerife",
+      "firstSeen": "2026-10-12",
+      "status": "unverified"
+    },
+    {
+      "handle": "studio54_tf",
+      "seenOn": "fieston_sbk_canarias",
+      "firstSeen": "2026-10-12",
+      "status": "unverified"
+    },
+    {
+      "handle": "pasedkoolga",
+      "seenOn": "tenerifelatinsocial",
+      "firstSeen": "2026-10-12",
       "status": "unverified"
     }
   ],

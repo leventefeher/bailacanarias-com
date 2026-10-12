@@ -304,7 +304,7 @@
       "stylesEn": "Salsa, Bachata & Merengue",
       "stylesEs": "Salsa, Bachata y Merengue",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/salajuanitomascopas/p/DeIDp7YML4j/",
+      "url": "https://www.instagram.com/salajuanitomascopas/p/Dd40RIMMnUO/",
       "firstSeen": "2026-09-23",
       "sightings": [
         {
@@ -669,7 +669,7 @@
         }
       ],
       "lastSeen": "2026-10-11",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "lagramola|laguindachillout": {
@@ -785,7 +785,7 @@
         }
       ],
       "lastSeen": "2026-10-10",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "sabrosohalloween|montanaroja2": {
@@ -930,7 +930,7 @@
         }
       ],
       "lastSeen": "2026-10-10",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "zoukiehalloween|fincapatalarrana": {
@@ -965,7 +965,7 @@
       "stylesEn": "Salsa & Bachata",
       "stylesEs": "Salsa y Bachata",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/tenerifelatinsocial/reel/DeCRCS3Nz2h/",
+      "url": "https://www.instagram.com/tenerifelatinsocial/reel/DeSMXBCudZ8/",
       "firstSeen": "2026-10-06",
       "sightings": [
         {
@@ -985,9 +985,15 @@
           "weekday": "Monday",
           "postUrl": "https://www.instagram.com/tenerifelatinsocial/reel/DeCRCS3Nz2h/",
           "recordedOn": "2026-10-06"
+        },
+        {
+          "eventDate": "2026-10-11",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/tenerifelatinsocial/reel/DeSMXBCudZ8/",
+          "recordedOn": "2026-10-12"
         }
       ],
-      "lastSeen": "2026-10-05",
+      "lastSeen": "2026-10-11",
       "status": "weekly",
       "weekday": "Monday"
     },
@@ -1111,7 +1117,7 @@
         }
       ],
       "lastSeen": "2026-10-11",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "salvajeosbk|salvajelatejita": {
@@ -1134,6 +1140,29 @@
         }
       ],
       "lastSeen": "2026-10-11",
+      "status": "past",
+      "weekday": null
+    },
+    "alocubano|laguindachillout": {
+      "name": "A Lo Cubano",
+      "venue": "La Guinda Chill Out",
+      "area": "Puerto de la Cruz",
+      "region": "North",
+      "address": "Calle Aceviño 21",
+      "stylesEn": "Timba, Salsa & Reparto",
+      "stylesEs": "Timba, Salsa y Reparto",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/alocubano.tf/p/DeYtFozgXPb/",
+      "firstSeen": "2026-10-12",
+      "sightings": [
+        {
+          "eventDate": "2026-10-25",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/alocubano.tf/p/DeYtFozgXPb/",
+          "recordedOn": "2026-10-12"
+        }
+      ],
+      "lastSeen": "2026-10-25",
       "status": "upcoming",
       "weekday": null
     }
@@ -1143,7 +1172,7 @@
       "name": "Afrolatin Night",
       "weekday": "Wednesday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 14,
+      "missedChecks": 15,
       "status": "active",
       "backedBy": [
         "guaguancoevents_tnfe"
@@ -1201,7 +1230,7 @@
       "name": "Baila Q' Baila",
       "weekday": "Sunday",
       "adoptedOn": "2026-09-21",
-      "missedChecks": 8,
+      "missedChecks": 9,
       "status": "active",
       "backedBy": [
         "https://www.facebook.com/FrankyTenerife"
