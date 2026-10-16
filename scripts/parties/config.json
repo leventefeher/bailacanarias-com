@@ -12,9 +12,7 @@
     {
       "handle": "guaguancoevents_tnfe",
       "url": "https://www.instagram.com/guaguancoevents_tnfe/",
-      "backs": [
-        "Afrolatin Night (Wednesday)"
-      ]
+      "backs": []
     },
     {
       "handle": "leobailetenerife",
@@ -520,17 +518,13 @@
     {
       "platform": "facebook",
       "url": "https://www.facebook.com/FrankyTenerife",
-      "backs": [
-        "Baila Q' Baila (Sunday)"
-      ],
+      "backs": [],
       "note": "public profile, ~2 posts readable logged out, no flyer OCR"
     },
     {
       "platform": "facebook",
       "url": "https://www.facebook.com/santi.martinsantos",
-      "backs": [
-        "Baila Q' Baila (Friday)"
-      ],
+      "backs": [],
       "note": "PRIVATE profile - nothing visible logged out. Reference only"
     }
   ],

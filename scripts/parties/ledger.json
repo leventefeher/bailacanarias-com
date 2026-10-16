@@ -1313,11 +1313,12 @@
       "weekday": "Wednesday",
       "adoptedOn": "2026-09-21",
       "missedChecks": 16,
-      "status": "active",
+      "status": "retired",
       "backedBy": [
         "guaguancoevents_tnfe"
       ],
-      "lastResult": "missed"
+      "lastResult": "retired-by-user",
+      "retiredOn": "2026-10-16"
     },
     "temposlatinos|@": {
       "name": "Tempo's Latinos",
@@ -1348,11 +1349,12 @@
       "weekday": "Friday",
       "adoptedOn": "2026-09-21",
       "missedChecks": 4,
-      "status": "active",
+      "status": "retired",
       "backedBy": [
         "https://www.facebook.com/santi.martinsantos"
       ],
-      "lastResult": "missed"
+      "lastResult": "retired-by-user",
+      "retiredOn": "2026-10-16"
     },
     "latinflowencasablanca|@": {
       "name": "Latin Flow en Casablanca",
@@ -1371,11 +1373,12 @@
       "weekday": "Sunday",
       "adoptedOn": "2026-09-21",
       "missedChecks": 10,
-      "status": "active",
+      "status": "retired",
       "backedBy": [
         "https://www.facebook.com/FrankyTenerife"
       ],
-      "lastResult": "missed"
+      "lastResult": "retired-by-user",
+      "retiredOn": "2026-10-16"
     }
   }
 }
