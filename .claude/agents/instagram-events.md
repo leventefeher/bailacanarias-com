@@ -136,7 +136,51 @@ each day, not all at once. Open the profile and read the bio:
 
 Say in your report which handles you added, rejected, or queued.
 
-## 1b. Secondary sources (best effort, last)
+## 1b. EventoEnLista (plain text — read it early)
+
+`config.webSources` holds https://eventoenlista.com/index.php, a guest-list
+site for Tenerife SBK parties. Unlike Instagram it is **plain HTML**, so read
+it right after the Instagram pass and before the Facebook one.
+
+The **featured event at the top of the page** is the valuable part. Its text
+parses directly:
+
+```js
+const t = document.body.innerText;
+const grab = (re) => (t.match(re) || [])[1]?.trim() || null;
+({
+  fecha: grab(/Fecha:\s*([\d-]+)/),        // DD-MM-YYYY — reorder to ISO
+  hora:  grab(/Hora:\s*([\d:]+)/),
+  lugar: grab(/📍\s*(.+)/),                 // "Venue (Street address)"
+});
+```
+
+`lugar` comes as `Venue Name (Street address)` — split on the bracket: the name
+goes in `venue`, the street into `address`. **This is the best address source
+available**, better than any flyer, so prefer it when the same party also
+appears on Instagram without an address.
+
+Dates are `DD-MM-YYYY`, not ISO. Reorder them; do not pass them through as-is.
+
+Map the zone tabs to `region`: `zona-1` Santa Cruz → `north`, `zona-2` Tenerife
+Sur → `south`, `zona-3` Tenerife Norte → `north`. A zone containing
+"No hay eventos disponibles" is simply empty.
+
+The other cards under the zone tabs are base64 flyer **images** with
+`alt="Evento"` and no text at all, so they yield only a title (via the
+`?q=inscripcion&evento=…` link) and no date. Record those only if you can date
+them from another source; otherwise skip them.
+
+The `?q=inscripcion` pages are **registration forms** asking for name, phone
+and email. Read the title if you need it and nothing else. Never fill one in,
+never submit one, never tick a consent box, and never enter the user's details
+anywhere on this site.
+
+Events here usually also appear on Instagram. That is fine and wanted — the
+same name and venue merges into one ledger entry and the extra sighting helps
+prove recurrence.
+
+## 1c. Secondary sources (best effort, last)
 
 `config.secondarySources` holds Facebook links. Logged out they are much weaker
 than Instagram: no flyer OCR, roughly two posts visible, and one is a private
