@@ -409,7 +409,9 @@
       "handle": "ire.dancestudio",
       "seenOn": "dondebailoentenerife",
       "firstSeen": "2026-09-28",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-16",
+      "reason": "dance school in La Laguna (bio: \"Escuela de Danza\", Calle Ciprés 7), not an event organiser"
     },
     {
       "handle": "chantal_bzouk",
@@ -421,7 +423,9 @@
       "handle": "mmdanza",
       "seenOn": "latin_events_tenerife",
       "firstSeen": "2026-09-30",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-16",
+      "reason": "dance school (bio: \"Desde 2002 Formando bailarines\", classes for kids and adults, Santa Cruz); hosts Social 100% Zouk nights, already covered via zoukcanaryislands"
     },
     {
       "handle": "pierrebachata",
@@ -489,12 +493,20 @@
       "handle": "studio54_tf",
       "seenOn": "fieston_sbk_canarias",
       "firstSeen": "2026-10-12",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-16",
+      "reason": "dance school (bio: \"Tu academia de baile en Tenerife\", Edificio La Cascada); its choreography group performs at Fiestón SBK, already covered by fieston_sbk_canarias"
     },
     {
       "handle": "pasedkoolga",
       "seenOn": "tenerifelatinsocial",
       "firstSeen": "2026-10-12",
+      "status": "unverified"
+    },
+    {
+      "handle": "djafrokan",
+      "seenOn": "alocubano.tf",
+      "firstSeen": "2026-10-16",
       "status": "unverified"
     }
   ],
