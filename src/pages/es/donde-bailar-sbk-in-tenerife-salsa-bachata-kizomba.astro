@@ -32,6 +32,16 @@ const oneOffEvents = (data?.oneOffEvents ?? [])
   .filter((e) => (e.date ?? '') >= todayIso)
   .sort((a, b) => (a.date ?? '').localeCompare(b.date ?? ''));
 
+// One day-group per DATE, not per event: several parties often share a night
+// and the date heading should print once above them, like the weekly list.
+const oneOffDays = [
+  ...oneOffEvents.reduce((days, event) => {
+    if (!days.has(event.date)) days.set(event.date, []);
+    days.get(event.date).push(event);
+    return days;
+  }, new Map<string, typeof oneOffEvents>()),
+];
+
 const formatEventDate = (iso: string, locale: string) =>
   new Date(`${iso}T12:00:00Z`).toLocaleDateString(locale, {
     weekday: 'long',
@@ -93,31 +103,38 @@ function parseEvents(raw: string) {
           <>
             <h2 style="margin-bottom:1.5rem;">Próximos eventos puntuales</h2>
             <div class="parties-list" style="margin-bottom:3rem;">
-              {oneOffEvents.map((event) => (
+              {oneOffDays.map(([date, events]) => (
                 <div class="day-group">
-                  <div class="day-label">{formatEventDate(event.date, 'es-ES')}</div>
-                  <div class="party-item">
-                    {event.url ? (
-                      <a href={event.url} class="party-name" target="_blank" rel="noopener">
-                        {event.name}
-                      </a>
-                    ) : (
-                      <span class="party-name">{event.name}</span>
-                    )}
-                    {(event.location || event.region || event.mapsUrl) && (
-                      <span class="party-location">
-                        <span class="party-place">
-                          {placeLabel(event.location, event.region, 'es')}
+                  <div class="day-label">{formatEventDate(date, 'es-ES')}</div>
+                  {events.map((event) => (
+                    <div class="party-item">
+                      {event.url ? (
+                        <a href={event.url} class="party-name" target="_blank" rel="noopener">
+                          {event.name}
+                        </a>
+                      ) : (
+                        <span class="party-name">{event.name}</span>
+                      )}
+                      {(event.location || event.region || event.mapsUrl) && (
+                        <span class="party-location">
+                          <span class="party-place">
+                            {placeLabel(event.location, event.region, 'es')}
+                          </span>
+                          {event.mapsUrl && (
+                            <a
+                              href={event.mapsUrl}
+                              class="party-map"
+                              target="_blank"
+                              rel="noopener"
+                            >
+                              Mapa
+                            </a>
+                          )}
                         </span>
-                        {event.mapsUrl && (
-                          <a href={event.mapsUrl} class="party-map" target="_blank" rel="noopener">
-                            Mapa
-                          </a>
-                        )}
-                      </span>
-                    )}
-                    {event.stylesEs && <span class="party-styles">{event.stylesEs}</span>}
-                  </div>
+                      )}
+                      {event.stylesEs && <span class="party-styles">{event.stylesEs}</span>}
+                    </div>
+                  ))}
                 </div>
               ))}
             </div>
