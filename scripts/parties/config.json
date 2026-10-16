@@ -506,6 +506,18 @@
       "seenOn": "alocubano.tf",
       "firstSeen": "2026-10-16",
       "status": "unverified"
+    },
+    {
+      "handle": "embrujo.tenerife",
+      "seenOn": "eventoenlista flyer (Embrujo)",
+      "firstSeen": "2026-10-16",
+      "status": "unverified"
+    },
+    {
+      "handle": "bambuloungetfe",
+      "seenOn": "eventoenlista flyer (Embrujo) - venue account, Bambu Lounge Tenerife",
+      "firstSeen": "2026-10-16",
+      "status": "unverified"
     }
   ],
   "secondarySources": [
@@ -534,7 +546,7 @@
       "name": "EventoEnLista",
       "url": "https://eventoenlista.com/index.php",
       "addedOn": "2026-10-16",
-      "note": "Guest-list/registration site for Tenerife SBK parties. Plain HTML, no OCR needed. The FEATURED event at the top carries full text (name, zone, date, time, venue WITH street address) and is the valuable part - it is the best address source we have. The other cards under the zone tabs are base64 flyer IMAGES with alt='Evento' and no text, so they yield only a title via their registration link. Zone tabs map to region: zona-1 Santa Cruz (north), zona-2 Tenerife Sur (south), zona-3 Tenerife Norte (north)."
+      "note": "Guest-list/registration site for Tenerife SBK parties. The FEATURED event at the top carries full text (name, zone, date, time, venue WITH street address). Every other card is a base64 flyer image with alt='Evento' and no text - FOLLOW the card's ?q=inscripcion link, enlarge the data-URI flyer to its natural size (approx 648x1152, CSS squashes it) and read it visually: that yields date, time, styles, DJ, venue, full street address and Instagram handles. Zone tabs map to region: zona-1 Santa Cruz (north), zona-2 Tenerife Sur (south), zona-3 Tenerife Norte (north). The inscripcion pages are registration forms - read only, never submit."
     }
   ],
   "rules": {

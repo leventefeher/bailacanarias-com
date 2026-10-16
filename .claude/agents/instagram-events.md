@@ -156,9 +156,9 @@ const grab = (re) => (t.match(re) || [])[1]?.trim() || null;
 ```
 
 `lugar` comes as `Venue Name (Street address)` — split on the bracket: the name
-goes in `venue`, the street into `address`. **This is the best address source
-available**, better than any flyer, so prefer it when the same party also
-appears on Instagram without an address.
+goes in `venue`, the street into `address`. Along with the flyers below, this
+site is the best venue-and-address source available, so prefer it when the same
+party also appears on Instagram without one.
 
 Dates are `DD-MM-YYYY`, not ISO. Reorder them; do not pass them through as-is.
 
@@ -166,10 +166,32 @@ Map the zone tabs to `region`: `zona-1` Santa Cruz → `north`, `zona-2` Tenerif
 Sur → `south`, `zona-3` Tenerife Norte → `north`. A zone containing
 "No hay eventos disponibles" is simply empty.
 
-The other cards under the zone tabs are base64 flyer **images** with
-`alt="Evento"` and no text at all, so they yield only a title (via the
-`?q=inscripcion&evento=…` link) and no date. Record those only if you can date
-them from another source; otherwise skip them.
+**Follow every event card — that is where the rest lives.** Each card links to
+`?q=inscripcion&evento=…`, and that page shows the event's full flyer. The card
+itself is a base64 image with `alt="Evento"` and no text, so the index alone
+tells you almost nothing about the non-featured events; the detail page tells
+you everything.
+
+The flyer is served as a data URI, typically 648x1152, but CSS squashes it to
+about 538x300 — far too small to read. Blow it up to its natural size first,
+then screenshot and read it:
+
+```js
+const img = [...document.querySelectorAll('img')].find((i) => i.src.startsWith('data:'));
+document.body.innerHTML = '';
+document.body.style.margin = '0';
+img.style.cssText = 'width:648px;height:1152px;object-fit:contain;display:block;';
+document.body.appendChild(img);
+```
+
+Scroll and screenshot in sections; the venue and street address are usually in
+small print along the bottom. A real example yielded date, time, styles, the DJ,
+the venue, a full street address and two Instagram handles — none of which was
+in any text on the site.
+
+Record handles found this way in `config.discovered` like any other, but check
+them against the ledger first: a flyer may print a display handle that differs
+from the account the posts actually come from.
 
 The `?q=inscripcion` pages are **registration forms** asking for name, phone
 and email. Read the title if you need it and nothing else. Never fill one in,
