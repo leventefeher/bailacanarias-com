@@ -716,7 +716,10 @@ a.party-name:hover {
 /* Small cross-reference sitting inside a section heading. */
 .heading-aside {
   font-family: var(--font-body);
-  font-size: 0.8rem;
+  /* The h2 is clamp(1.4rem, 3vw, 2.1rem), so a fixed size drifts ever smaller
+     as the heading grows. Scale with it, with a floor so it stays readable
+     once the heading bottoms out on narrow screens. */
+  font-size: max(0.95rem, 0.5em);
   font-weight: 400;
   white-space: nowrap;
   color: var(--color-primary);
