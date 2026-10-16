@@ -702,6 +702,20 @@ a.party-name:hover {
   font-weight: 600;
 }
 /* Map chip — pin icon drawn with the same mask technique as a.party-name::after. */
+/* Small cross-reference sitting inside a section heading. */
+.heading-aside {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 400;
+  white-space: nowrap;
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.heading-aside:hover {
+  color: var(--color-primary-dark);
+}
+
 .party-map {
   display: inline-flex;
   align-items: center;

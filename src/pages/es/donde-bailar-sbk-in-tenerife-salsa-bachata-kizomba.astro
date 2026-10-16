@@ -101,7 +101,12 @@ function parseEvents(raw: string) {
       {
         oneOffEvents.length > 0 && (
           <>
-            <h2 style="margin-bottom:1.5rem;">Próximos eventos puntuales</h2>
+            <h2 style="margin-bottom:1.5rem;">
+              Próximos eventos puntuales{' '}
+              <a href="#weekly" class="heading-aside">
+                (ver eventos semanales más abajo)
+              </a>
+            </h2>
             <div class="parties-list" style="margin-bottom:3rem;">
               {oneOffDays.map(([date, events]) => (
                 <div class="day-group">
@@ -142,7 +147,12 @@ function parseEvents(raw: string) {
         )
       }
 
-      <h2 style="margin-bottom:1.5rem;">Fiestas de Baile Semanales</h2>
+      <h2
+        id="weekly"
+        style="margin-bottom:1.5rem;scroll-margin-top:calc(var(--header-height) + 1rem);"
+      >
+        Fiestas de Baile Semanales
+      </h2>
 
       <div class="parties-with-sidebar">
         <div class="parties-list">
