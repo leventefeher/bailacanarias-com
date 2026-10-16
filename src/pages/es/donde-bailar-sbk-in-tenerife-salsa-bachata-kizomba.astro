@@ -152,7 +152,7 @@ function parseEvents(raw: string) {
               return (
                 <div class="day-group">
                   <div class="day-label">{group.dayEs}</div>
-                  {group.dayNoteEs && <p>{group.dayNoteEs}</p>}
+                  {events.length === 0 && group.dayNoteEs && <p>{group.dayNoteEs}</p>}
                   {events.map((event) => (
                     <div class="party-item">
                       {event.url ? (

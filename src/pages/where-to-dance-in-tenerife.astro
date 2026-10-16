@@ -149,11 +149,14 @@ function parseEvents(raw: string) {
         <div class="parties-list">
           {
             parties.map((group) => {
+              // The day note is a stand-in for an empty day ("Check Instagram for
+              // Saturday events"), so it is suppressed as soon as that day has
+              // one — otherwise it contradicts the listing below it.
               const events = parseEvents(group.eventsRaw ?? '');
               return (
                 <div class="day-group">
                   <div class="day-label">{group.dayEn}</div>
-                  {group.dayNoteEn && <p>{group.dayNoteEn}</p>}
+                  {events.length === 0 && group.dayNoteEn && <p>{group.dayNoteEn}</p>}
                   {events.map((event) => (
                     <div class="party-item">
                       {event.url ? (
