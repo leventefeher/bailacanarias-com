@@ -381,8 +381,16 @@ Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>"
 git push origin main
 ```
 
-Push to `main` triggers the Cloudflare Pages deploy. If `git status` shows no
-change, commit nothing and say the page is already current.
+Push to `main` triggers the Cloudflare Pages deploy.
+
+If `git status` shows no change, commit nothing and say the page is already
+current.
+
+The script keeps a `lastModified` stamp in the YAML, which the page prints as
+"Last updated". It moves only when the listings themselves change — a run that
+finds nothing leaves it alone, so a quiet day produces no diff and no deploy,
+and the date on the page keeps meaning "this is when the listings last
+changed". Never edit that stamp by hand to make the page look fresher.
 
 **Never** commit unrelated working-tree changes. Stage only those three files.
 

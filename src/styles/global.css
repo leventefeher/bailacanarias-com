@@ -702,6 +702,17 @@ a.party-name:hover {
   font-weight: 600;
 }
 /* Map chip — pin icon drawn with the same mask technique as a.party-name::after. */
+.freshness {
+  max-width: 700px;
+  margin-bottom: 2.5rem;
+  font-size: 0.9rem;
+  color: var(--color-text);
+}
+.freshness-stamp {
+  white-space: nowrap;
+  color: var(--color-text-light);
+}
+
 /* Small cross-reference sitting inside a section heading. */
 .heading-aside {
   font-family: var(--font-body);

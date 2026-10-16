@@ -135,6 +135,8 @@ export default config({
       path: 'src/content/singletons/where-to-dance',
       schema: {
         heroImage: fields.text({ label: 'Hero image path' }),
+        // Set by scripts/parties/update-parties.mjs when the listings change.
+        lastModified: fields.text({ label: 'Last modified (ISO, set automatically)' }),
         introEn: fields.text({ label: 'Intro text (EN)', multiline: true }),
         introEs: fields.text({ label: 'Intro text (ES)', multiline: true }),
         noteEn: fields.text({ label: 'Caveat/note text (EN)', multiline: true }),

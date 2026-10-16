@@ -337,6 +337,36 @@ doc.oneOffEvents = oneOffs.map(({ entry, date }) => ({
   mapsUrl: mapsOf(entry),
 }));
 
+// "Last modified" means the listings actually changed — not that we looked.
+// Compare everything except the stamp itself against what is on disk, so a run
+// that finds nothing new leaves the date where it was.
+const previous = YAML.parse(readFileSync(YAML_FILE, 'utf8')) ?? {};
+const previousStamp = typeof previous.lastModified === 'string' ? previous.lastModified : null;
+
+/**
+ * Compare the VALUES, not the YAML text. The freshly built doc carries quoted
+ * Scalar nodes for dates while the parsed file has plain strings (and a bare
+ * date re-reads as a Date), so a text comparison reports a change every run.
+ */
+const normalise = (value) => {
+  if (value instanceof Date) return value.toISOString().slice(0, 10);
+  if (value instanceof Scalar) return normalise(value.value);
+  if (Array.isArray(value)) return value.map(normalise);
+  if (value && typeof value === 'object') {
+    return Object.fromEntries(
+      Object.entries(value)
+        .filter(([k]) => k !== 'lastModified')
+        .map(([k, v]) => [k, normalise(v)])
+    );
+  }
+  return value;
+};
+
+const contentChanged = JSON.stringify(normalise(doc)) !== JSON.stringify(normalise(previous));
+doc.lastModified = quoted(
+  contentChanged || !previousStamp ? new Date().toISOString() : previousStamp
+);
+
 const summary = {
   today,
   newEvents,
@@ -344,6 +374,7 @@ const summary = {
   weekly: weekly.length,
   oneOffs: oneOffs.length,
   dormant: Object.values(ledger.events).filter((e) => e.status === 'dormant').length,
+  contentChanged,
   manualRetired: retired,
   manualUnwatched: unwatched,
 };

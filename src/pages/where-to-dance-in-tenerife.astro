@@ -27,6 +27,23 @@ const regionLabel = (code: string, lang: 'en' | 'es') =>
 const placeLabel = (location: string, region: string, lang: 'en' | 'es') =>
   [location, regionLabel(region, lang)].filter(Boolean).join(' — ');
 
+// When these listings last actually CHANGED, not when the site was built or
+// when the sources were last checked. Written into the YAML by
+// scripts/parties/update-parties.mjs only on a run that altered the content.
+const modified = data?.lastModified ? new Date(data.lastModified) : null;
+const lastUpdated = (modified && !isNaN(modified.valueOf()) ? modified : new Date()).toLocaleString(
+  'en-GB',
+  {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false,
+    timeZone: 'Atlantic/Canary',
+  }
+);
+
 const todayIso = new Date().toISOString().slice(0, 10);
 const oneOffEvents = (data?.oneOffEvents ?? [])
   .filter((e) => (e.date ?? '') >= todayIso)
@@ -97,6 +114,11 @@ function parseEvents(raw: string) {
       <p style="max-width:700px;margin-bottom:3rem;font-style:italic;color:var(--color-text);">
         {data?.noteEn} If you would like to learn to dance, check out our
         <a href="/dance-with-us/">dance classes and courses</a>.
+      </p>
+
+      <p class="freshness">
+        Parties are often announced on the day, so it is worth checking back regularly.{' '}
+        <span class="freshness-stamp">Last updated {lastUpdated}</span>
       </p>
 
       {
