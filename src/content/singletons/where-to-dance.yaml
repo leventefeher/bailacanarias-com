@@ -12,10 +12,6 @@ noteEs: Aunque la mayoría de estos son eventos regulares, verifica si se llevan
 parties:
   - dayEn: Monday & Tuesday
     dayEs: Lunes y Martes
-    dayNoteEn: No weekly parties on Monday and Tuesday — however you can always find
-      classes in the many dance schools on the island.
-    dayNoteEs: Los lunes y martes no hay fiestas semanales, sin embargo siempre
-      puedes encontrar clases en las numerosas escuelas de baile de la isla.
     eventsRaw: |-
       Martes Salvajes | Salvaje La Tejita, El Médano | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/dondebailoentenerife/ | https://www.google.com/maps/search/?api=1&query=Salvaje%20La%20Tejita%2C%20Street%20Market%20La%20Tejita%2C%20C.%20Hern%C3%A1n%20Cort%C3%A9s%2029%2C%20El%20M%C3%A9dano%2C%20Tenerife | South
 
