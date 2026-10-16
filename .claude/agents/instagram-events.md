@@ -313,6 +313,23 @@ Rules:
   and dropped characters ("MIERCOLES" as "MIERCOLES"/"MIERCOLES"). Read through it.
   If a detail is too garbled to trust, leave that field empty rather than
   guessing — but never invent a venue or a style.
+- **Mixed-use venues — check `config.venueRules` before recording.** Some
+  venues run SBK socials *and* commercial club nights, and only the SBK ones
+  belong on this page. For a venue listed there, record the event only when one
+  of these holds:
+  - it came from a source in that venue's `trustedSources` (EventoEnLista only
+    carries the SBK side, so anything there is fine), **or**
+  - it falls on one of its `sbkWeekdays`, **or**
+  - the flyer or caption explicitly names a dance style — salsa, bachata,
+    kizomba, zouk, SBK.
+
+  Otherwise **skip it**. Bambú Lounge is the current example: Sundays are
+  reliably SBK, but its Friday and Saturday posts are frequently commercial
+  nights, so a Bambú post on its own is not evidence of a dance social. Getting
+  this wrong puts a commercial club night on a page people use to find dancing.
+
+  Match the venue loosely against `aliases` — flyers write it many ways.
+  When you skip an event for this reason, say so in your report.
 - Skip posts that are not events: class promos, reels of dancing, reposts,
   congratulations, festival ads outside Tenerife.
 - One post can hold several events; one event can appear in several posts. Both

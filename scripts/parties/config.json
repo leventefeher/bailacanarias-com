@@ -549,6 +549,27 @@
       "note": "Guest-list/registration site for Tenerife SBK parties. The FEATURED event at the top carries full text (name, zone, date, time, venue WITH street address). Every other card is a base64 flyer image with alt='Evento' and no text - FOLLOW the card's ?q=inscripcion link, enlarge the data-URI flyer to its natural size (approx 648x1152, CSS squashes it) and read it visually: that yields date, time, styles, DJ, venue, full street address and Instagram handles. Zone tabs map to region: zona-1 Santa Cruz (north), zona-2 Tenerife Sur (south), zona-3 Tenerife Norte (north). The inscripcion pages are registration forms - read only, never submit."
     }
   ],
+  "venueRules": [
+    {
+      "venue": "Bamb\u00fa Lounge Tenerife",
+      "aliases": [
+        "Bamb\u00fa",
+        "Bambu",
+        "Bamb\u00fa Lounge",
+        "Bambu Lounge Bar Tenerife",
+        "MMDanza & Bamb\u00fa",
+        "BAMBULOUNGETFE"
+      ],
+      "mixedUse": true,
+      "sbkWeekdays": [
+        "Sunday"
+      ],
+      "trustedSources": [
+        "eventoenlista"
+      ],
+      "note": "Hosts SBK AND commercial nights. Sundays are reliably SBK. Anything listed on EventoEnLista is suitable (that site only carries the SBK side). From their own Instagram, Fridays and Saturdays are often COMMERCIAL - do not assume a Bambu post is a dance social; confirm the flyer names salsa/bachata/kizomba/zouk before recording it."
+    }
+  ],
   "rules": {
     "sightingsToPromote": 3,
     "daysSpanToPromote": 14,
