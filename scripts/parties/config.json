@@ -389,19 +389,25 @@
       "handle": "saulpedros",
       "seenOn": "guinda_chillout",
       "firstSeen": "2026-09-25",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-17",
+      "reason": "bass/drum-and-bass DJ and promoter (bio: Bass Reunion, bookings), not a social-dance organiser"
     },
     {
       "handle": "calima.tenerife",
       "seenOn": "guinda_chillout",
       "firstSeen": "2026-09-25",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-17",
+      "reason": "networking party for foreigners/nomads (bio: afrobeats, deep & tech house), not a salsa/bachata/kizomba social"
     },
     {
       "handle": "maria_mararia",
       "seenOn": "dondebailoentenerife",
       "firstSeen": "2026-09-26",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-17",
+      "reason": "personal account (bachata sensual dancer, El M\u00e9dano), not an organiser"
     },
     {
       "handle": "ire.dancestudio",

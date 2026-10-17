@@ -218,7 +218,7 @@
         }
       ],
       "lastSeen": "2026-10-16",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "fiestonsbk|studio54liceotaoro": {
@@ -435,9 +435,15 @@
           "weekday": "Sunday",
           "postUrl": "https://www.instagram.com/zoukcanaryislands/p/DdWwTjKMsNz/",
           "recordedOn": "2026-09-23"
+        },
+        {
+          "eventDate": "2026-10-11",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/zoukcanaryislands/p/Dee2BC-OOWp/",
+          "recordedOn": "2026-10-17"
         }
       ],
-      "lastSeen": "2026-09-20",
+      "lastSeen": "2026-10-11",
       "status": "past",
       "weekday": null
     },
@@ -885,7 +891,7 @@
         }
       ],
       "lastSeen": "2026-10-16",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "embrujo|": {
@@ -934,11 +940,18 @@
           "weekday": "Sunday",
           "postUrl": "https://www.instagram.com/latin_events_tenerife/p/Ddpbq8sK79z/",
           "recordedOn": "2026-09-30"
+        },
+        {
+          "eventDate": "2026-10-18",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/latin_events_tenerife/p/DekBu2ENeMo/",
+          "recordedOn": "2026-10-17"
         }
       ],
-      "lastSeen": "2026-09-27",
-      "status": "past",
-      "weekday": null
+      "lastSeen": "2026-10-18",
+      "status": "weekly",
+      "weekday": "Sunday",
+      "declaredRecurring": true
     },
     "bacanal|salajuanitocopas": {
       "name": "Bacanal",
@@ -1303,6 +1316,29 @@
         }
       ],
       "lastSeen": "2026-11-21",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "tardeooasis|oasisdelosgigantes": {
+      "name": "Tardeo Oasis",
+      "venue": "Oasis de los Gigantes",
+      "area": "Los Gigantes",
+      "region": "West",
+      "address": "",
+      "stylesEn": "Salsa, Bachata & Kizomba",
+      "stylesEs": "Salsa, Bachata y Kizomba",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/dondebailoentenerife/",
+      "firstSeen": "2026-10-17",
+      "sightings": [
+        {
+          "eventDate": "2026-10-24",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/stories/dondebailoentenerife/4009262911918466468/",
+          "recordedOn": "2026-10-17"
+        }
+      ],
+      "lastSeen": "2026-10-24",
       "status": "upcoming",
       "weekday": null
     }

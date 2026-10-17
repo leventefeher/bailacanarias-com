@@ -47,29 +47,11 @@ parties:
     dayNoteEs: Consulta Instagram para eventos del sábado.
   - dayEn: Sunday
     dayEs: Domingo
-    eventsRaw: Social 100% Zouk | Santa Cruz | Zouk | Zouk |
-      https://www.instagram.com/zoukcanaryislands/p/DeH1akHsPpW/ |
-      https://www.google.com/maps/search/?api=1&query=Av.%20de%20las%20Hesp%C3%A9rides%2060%2C%20Santa%20Cruz%2C%20Tenerife
-      | North
+    eventsRaw: |-
+      Social 100% Zouk | Santa Cruz | Zouk | Zouk | https://www.instagram.com/zoukcanaryislands/p/DeH1akHsPpW/ | https://www.google.com/maps/search/?api=1&query=Av.%20de%20las%20Hesp%C3%A9rides%2060%2C%20Santa%20Cruz%2C%20Tenerife | North
+
+      Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/latin_events_tenerife/p/DekBu2ENeMo/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
 oneOffEvents:
-  - name: Fiesta Latina
-    date: '2026-10-16'
-    location: Xanadú Restaurante, Guargacho
-    region: South
-    address: ""
-    stylesEn: Salsa, Bachata & Kizomba
-    stylesEs: Salsa, Bachata y Kizomba
-    url: https://www.instagram.com/dondebailoentenerife/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Xanad%C3%BA%20Restaurante%2C%20Guargacho%2C%20Tenerife
-  - name: Social 100% Zouk
-    date: '2026-10-16'
-    location: MMDanza, Santa Cruz
-    region: North
-    address: ""
-    stylesEn: Zouk
-    stylesEs: Zouk
-    url: https://www.instagram.com/zoukcanaryislands/p/DdZFhtWMwNO/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=MMDanza%2C%20Santa%20Cruz%2C%20Tenerife
   - name: Fiestón SBK
     date: '2026-10-17'
     location: Studio 54 Liceo Taoro, La Orotava
@@ -142,6 +124,15 @@ oneOffEvents:
     stylesEs: Salsa, Bachata y Merengue
     url: https://www.facebook.com/photo/?fbid=10239417506428640
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Plaza%20de%20la%20Parroquia%20San%20Juan%20Bautista%2C%20Ch%C3%ADo%2C%20Tenerife
+  - name: Tardeo Oasis
+    date: '2026-10-24'
+    location: Oasis de los Gigantes, Los Gigantes
+    region: West
+    address: ""
+    stylesEn: Salsa, Bachata & Kizomba
+    stylesEs: Salsa, Bachata y Kizomba
+    url: https://www.instagram.com/dondebailoentenerife/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Oasis%20de%20los%20Gigantes%2C%20Los%20Gigantes%2C%20Tenerife
   - name: A Lo Cubano
     date: '2026-10-25'
     location: La Guinda Chill Out, Puerto de la Cruz
@@ -250,4 +241,4 @@ oneOffEvents:
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/fieston_sbk_canarias/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
-lastModified: '2026-10-16T14:39:08.994Z'
+lastModified: '2026-10-17T08:41:47.003Z'
