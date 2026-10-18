@@ -421,7 +421,9 @@
       "handle": "chantal_bzouk",
       "seenOn": "zoukcanaryislands",
       "firstSeen": "2026-09-30",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-18",
+      "reason": "BZouk teacher and app founder (bio: \"dancepreneur\", theduoapp.com), travels internationally; not a Tenerife organiser"
     },
     {
       "handle": "mmdanza",
@@ -443,13 +445,17 @@
       "handle": "minagalvan_",
       "seenOn": "chavy_kizomba",
       "firstSeen": "2026-09-30",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-18",
+      "reason": "personal account (bio has no events; photographed chavy_kizomba), not an organiser"
     },
     {
       "handle": "celi.chat",
       "seenOn": "zoukcanaryislands",
       "firstSeen": "2026-10-06",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-18",
+      "reason": "traveling dancer and zouk/lambada instructor (bio: \"Traveling dancer from France\", teaching at ire.dancestudio), not an organiser"
     },
     {
       "handle": "saulynuri.bachazouk",

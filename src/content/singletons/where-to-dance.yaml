@@ -15,7 +15,7 @@ parties:
     eventsRaw: |-
       Martes Salvajes | Salvaje La Tejita, El Médano | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/dondebailoentenerife/ | https://www.google.com/maps/search/?api=1&query=Salvaje%20La%20Tejita%2C%20Street%20Market%20La%20Tejita%2C%20C.%20Hern%C3%A1n%20Cort%C3%A9s%2029%2C%20El%20M%C3%A9dano%2C%20Tenerife | South
 
-      Tenerife Latin Social |  | Salsa & Bachata | Salsa y Bachata | https://www.instagram.com/tenerifelatinsocial/reel/DeSMXBCudZ8/ |  | South
+      Tenerife Latin Social |  | Salsa & Bachata | Salsa y Bachata | https://www.instagram.com/tenerifelatinsocial/reel/DemZZ8uNy3x/ |  | South
   - dayEn: Wednesday
     dayEs: Miércoles
     eventsRaw: |-
@@ -52,42 +52,6 @@ parties:
 
       Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/latin_events_tenerife/p/DekBu2ENeMo/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
 oneOffEvents:
-  - name: Fiestón SBK
-    date: '2026-10-17'
-    location: Studio 54 Liceo Taoro, La Orotava
-    region: North
-    address: ""
-    stylesEn: Salsa, Bachata, Kizomba & Zouk
-    stylesEs: Salsa, Bachata, Kizomba y Zouk
-    url: https://www.instagram.com/fieston_sbk_canarias/p/DdWsMCpsCRm/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
-  - name: Guajira Latino
-    date: '2026-10-17'
-    location: Montaña Roja 2, Las Chafiras
-    region: South
-    address: Avd Daniel Feo 7
-    stylesEn: Salsa, Timba & Bachata
-    stylesEs: Salsa, Timba y Bachata
-    url: https://www.instagram.com/guaguancoevents_tnfe/p/DdOQ6TvxCcN/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Monta%C3%B1a%20Roja%202%2C%20Avd%20Daniel%20Feo%207%2C%20Las%20Chafiras%2C%20Tenerife
-  - name: La Consultita Kizombera
-    date: '2026-10-17'
-    location: Océano Rooftop, Hotel Océano, Punta del Hidalgo
-    region: North
-    address: Calle Océano Pacífico
-    stylesEn: Kizomba, Urban Kiz & Ghetto Zouk
-    stylesEs: Kizomba, Urban Kiz y Ghetto Zouk
-    url: https://www.instagram.com/laconsulta.tnf/p/DdWHPOmIhn9/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Oc%C3%A9ano%20Rooftop%2C%20Hotel%20Oc%C3%A9ano%2C%20Calle%20Oc%C3%A9ano%20Pac%C3%ADfico%2C%20Punta%20del%20Hidalgo%2C%20Tenerife
-  - name: Pinktober
-    date: '2026-10-17'
-    location: Hard Rock Cafe Tenerife, Playa de las Américas
-    region: South
-    address: ""
-    stylesEn: Salsa, Bachata & Kizomba
-    stylesEs: Salsa, Bachata y Kizomba
-    url: https://www.instagram.com/dondebailoentenerife/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Hard%20Rock%20Cafe%20Tenerife%2C%20Playa%20de%20las%20Am%C3%A9ricas%2C%20Tenerife
   - name: DJ Frank Solimene
     date: '2026-10-18'
     location: La Pepa Food Market, Los Cristianos
@@ -115,6 +79,15 @@ oneOffEvents:
     stylesEs: Bachata
     url: https://www.instagram.com/embrujotenerife/p/DeJek4TNVt-/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife
+  - name: Baile del Corazón
+    date: '2026-10-24'
+    location: Hotel Alúa Tenerife, Puerto de la Cruz
+    region: North
+    address: ""
+    stylesEn: Salsa, Bachata & Kizomba
+    stylesEs: Salsa, Bachata y Kizomba
+    url: https://www.instagram.com/richydj_/p/DemIj8jDE6p/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Hotel%20Al%C3%BAa%20Tenerife%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife
   - name: Ruta Salsera
     date: '2026-10-24'
     location: Plaza de la Parroquia San Juan Bautista, Chío
@@ -177,6 +150,15 @@ oneOffEvents:
     stylesEn: Kizomba, Semba & Tarraxo
     stylesEs: Kizomba, Semba y Tarraxo
     url: https://www.instagram.com/chavy_kizomba/p/DeKhB52PIB4/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife
+  - name: La Salsera
+    date: '2026-11-07'
+    location: Sala Juanito + Copas, La Laguna
+    region: North
+    address: Ctra. La Esperanza, km 2
+    stylesEn: Salsa
+    stylesEs: Salsa
+    url: https://www.instagram.com/salajuanitomascopas/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife
   - name: Fiestón Latino SBK
     date: '2026-11-14'
@@ -241,4 +223,4 @@ oneOffEvents:
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/fieston_sbk_canarias/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
-lastModified: '2026-10-17T08:41:47.003Z'
+lastModified: '2026-10-18T10:48:58.185Z'
