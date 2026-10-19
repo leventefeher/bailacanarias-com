@@ -461,19 +461,25 @@
       "handle": "saulynuri.bachazouk",
       "seenOn": "embrujotenerife",
       "firstSeen": "2026-10-06",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-19",
+      "reason": "international bachazouk dancers/instructors (bio: \"International Dancers Instructors\", bookings via management), not a Tenerife organiser"
     },
     {
       "handle": "carlossegura.bachazouk",
       "seenOn": "embrujotenerife",
       "firstSeen": "2026-10-06",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-19",
+      "reason": "bachata dancer and choreographer based in Madrid / Gran Canaria (bio), founder of a bachazouk brand; not a Tenerife organiser"
     },
     {
       "handle": "j0hnglez",
       "seenOn": "fieston_sbk_canarias",
       "firstSeen": "2026-10-06",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-19",
+      "reason": "personal account (bio: biker, SBKZ dancer, cybersecurity), not an organiser"
     },
     {
       "handle": "sbkcanary",
@@ -529,6 +535,24 @@
       "handle": "bambuloungetfe",
       "seenOn": "eventoenlista flyer (Embrujo) - venue account, Bambu Lounge Tenerife",
       "firstSeen": "2026-10-16",
+      "status": "unverified"
+    },
+    {
+      "handle": "salsatenerifesur",
+      "seenOn": "dondebailoentenerife",
+      "firstSeen": "2026-10-19",
+      "status": "unverified"
+    },
+    {
+      "handle": "dj_sebastiao",
+      "seenOn": "zoukcanaryislands",
+      "firstSeen": "2026-10-19",
+      "status": "unverified"
+    },
+    {
+      "handle": "sociactiva.tenerife",
+      "seenOn": "guinda_chillout",
+      "firstSeen": "2026-10-19",
       "status": "unverified"
     }
   ],

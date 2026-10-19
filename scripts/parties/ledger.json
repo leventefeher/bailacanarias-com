@@ -30,7 +30,7 @@
       "stylesEn": "Salsa, Timba & Bachata",
       "stylesEs": "Salsa, Timba y Bachata",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/guaguancoevents_tnfe/p/DdOQ6TvxCcN/",
+      "url": "https://www.instagram.com/guaguancoevents_tnfe/p/DcvljkTohX0/",
       "firstSeen": "2026-09-21",
       "sightings": [
         {
@@ -82,7 +82,7 @@
       "stylesEn": "Bachata",
       "stylesEs": "Bachata",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/sesionesbailetenerife/p/DeJYEQMuhED/",
+      "url": "https://www.instagram.com/sesionesbailetenerife/p/Dep-fLwIjBR/",
       "firstSeen": "2026-09-21",
       "sightings": [
         {
@@ -156,9 +156,15 @@
           "weekday": "Wednesday",
           "postUrl": "https://www.instagram.com/sesionesbailetenerife/p/Deap2aqIILP/",
           "recordedOn": "2026-10-16"
+        },
+        {
+          "eventDate": "2026-10-21",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/sesionesbailetenerife/p/Dep-fLwIjBR/",
+          "recordedOn": "2026-10-19"
         }
       ],
-      "lastSeen": "2026-10-14",
+      "lastSeen": "2026-10-21",
       "status": "weekly",
       "weekday": "Wednesday",
       "address": "Paseo Milicias de Garachico 1"
@@ -310,7 +316,7 @@
       "stylesEn": "Salsa, Bachata & Merengue",
       "stylesEs": "Salsa, Bachata y Merengue",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/salajuanitomascopas/p/DecWHRMuyj4/",
+      "url": "https://www.instagram.com/salajuanitomascopas/p/DegwFaDu_ab/",
       "firstSeen": "2026-09-23",
       "sightings": [
         {
@@ -728,7 +734,7 @@
         }
       ],
       "lastSeen": "2026-10-18",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "fiestonlatinosbk|": {
@@ -1061,7 +1067,7 @@
       "stylesEn": "Salsa, Bachata & Reggaeton",
       "stylesEs": "Salsa, Bachata y Reggaeton",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/guinda_chillout/reel/Dd8uJhWIL2p/",
+      "url": "https://www.instagram.com/guinda_chillout/reel/DegoAliookC/",
       "firstSeen": "2026-10-06",
       "sightings": [
         {
@@ -1069,10 +1075,16 @@
           "weekday": "Thursday",
           "postUrl": "https://www.instagram.com/guinda_chillout/reel/Dd8uJhWIL2p/",
           "recordedOn": "2026-10-06"
+        },
+        {
+          "eventDate": "2026-10-22",
+          "weekday": "Thursday",
+          "postUrl": "https://www.instagram.com/guinda_chillout/reel/DegoAliookC/",
+          "recordedOn": "2026-10-19"
         }
       ],
       "declaredRecurring": true,
-      "lastSeen": "2026-10-08",
+      "lastSeen": "2026-10-22",
       "status": "weekly",
       "weekday": "Thursday"
     },
@@ -1282,7 +1294,7 @@
         }
       ],
       "lastSeen": "2026-10-18",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "rutasalsera|plazadelaparroquiasanjuanbautista": {
@@ -1359,11 +1371,11 @@
       "venue": "Hotel Alúa Tenerife",
       "area": "Puerto de la Cruz",
       "region": "North",
-      "address": "",
+      "address": "C/ Antonio Ruiz Álvarez 7",
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/richydj_/p/DemIj8jDE6p/",
+      "url": "https://www.instagram.com/richydj_/reel/Depobs4Mfam/",
       "firstSeen": "2026-10-18",
       "sightings": [
         {
@@ -1371,6 +1383,29 @@
           "weekday": "Saturday",
           "postUrl": "https://www.instagram.com/richydj_/p/DemIj8jDE6p/",
           "recordedOn": "2026-10-18"
+        }
+      ],
+      "lastSeen": "2026-10-24",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "bacanallatinos|salamontanaroja": {
+      "name": "Bacanal Latinos",
+      "venue": "Sala Montaña Roja",
+      "area": "Las Chafiras",
+      "region": "South",
+      "address": "Avenida Daniel Feo 9",
+      "stylesEn": "Salsa, Bachata & Kizomba",
+      "stylesEs": "Salsa, Bachata y Kizomba",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/dondebailoentenerife/",
+      "firstSeen": "2026-10-19",
+      "sightings": [
+        {
+          "eventDate": "2026-10-24",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/stories/leobailetenerife/4011287591563410344/",
+          "recordedOn": "2026-10-19"
         }
       ],
       "lastSeen": "2026-10-24",
