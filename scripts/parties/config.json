@@ -158,6 +158,12 @@
       "url": "https://www.instagram.com/alocubano.tf/",
       "addedOn": "2026-10-12",
       "note": "verified: bio \"Sesi\u00f3n de m\u00fasica 100% cubana en Tenerife\"; runs the free Sunday \"A Lo Cubano\" timba/salsa sessions at La Guinda Chill Out, Puerto de la Cruz (DJ Afrokan)"
+    },
+    {
+      "handle": "sbkcanary",
+      "url": "https://www.instagram.com/sbkcanary/",
+      "addedOn": "2026-10-21",
+      "note": "verified: bio \"La comunidad SBK de Canarias - Eventos | Sociales | Festivales\" with ticket shop; mostly reposts other organisers' flyers (Bachaton, Juanito, Martes Salvajes) and co-hosts Fieston SBK pool parties. Covers all Canarias - filter to Tenerife events only"
     }
   ],
   "discovered": [
@@ -482,22 +488,20 @@
       "reason": "personal account (bio: biker, SBKZ dancer, cybersecurity), not an organiser"
     },
     {
-      "handle": "sbkcanary",
-      "seenOn": "tenerifelatinsocial",
-      "firstSeen": "2026-10-06",
-      "status": "unverified"
-    },
-    {
       "handle": "vitor_zouk",
       "seenOn": "dondebailoentenerife",
       "firstSeen": "2026-10-10",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-21",
+      "reason": "Brazilian zouk/lambada dancer and instructor (bio: private classes, zouk classes Santa Cruz and south), not an organiser"
     },
     {
       "handle": "patriciacorrea89",
       "seenOn": "dondebailoentenerife",
       "firstSeen": "2026-10-10",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-21",
+      "reason": "personal account (travel/lifestyle bio), not an organiser"
     },
     {
       "handle": "alonsorig2",
@@ -553,6 +557,24 @@
       "handle": "sociactiva.tenerife",
       "seenOn": "guinda_chillout",
       "firstSeen": "2026-10-19",
+      "status": "unverified"
+    },
+    {
+      "handle": "bacanalsbk",
+      "seenOn": "leobailetenerife",
+      "firstSeen": "2026-10-21",
+      "status": "unverified"
+    },
+    {
+      "handle": "rebeca_mdiaz__",
+      "seenOn": "dondebailoentenerife",
+      "firstSeen": "2026-10-21",
+      "status": "unverified"
+    },
+    {
+      "handle": "agnes.awojcik",
+      "seenOn": "dondebailoentenerife",
+      "firstSeen": "2026-10-21",
       "status": "unverified"
     }
   ],
