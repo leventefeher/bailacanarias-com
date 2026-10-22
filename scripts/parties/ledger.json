@@ -613,7 +613,7 @@
       "stylesEn": "Salsa, Bachata & Reggaeton",
       "stylesEs": "Salsa, Bachata y Reggaeton",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/fuegopegao/",
+      "url": "https://www.instagram.com/sbkcanary/reel/DeuTe0sMBfP/",
       "firstSeen": "2026-09-24",
       "sightings": [
         {
@@ -633,9 +633,15 @@
           "weekday": "Wednesday",
           "postUrl": "https://www.instagram.com/stories/fuegopegao/4002012226940065145/",
           "recordedOn": "2026-10-06"
+        },
+        {
+          "eventDate": "2026-10-21",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/sbkcanary/reel/DeuTe0sMBfP/",
+          "recordedOn": "2026-10-22"
         }
       ],
-      "lastSeen": "2026-10-07",
+      "lastSeen": "2026-10-21",
       "status": "weekly",
       "weekday": "Wednesday"
     },
@@ -819,10 +825,16 @@
           "weekday": "Thursday",
           "postUrl": "https://www.instagram.com/stories/fuegopegao/4002012226940065145/",
           "recordedOn": "2026-10-06"
+        },
+        {
+          "eventDate": "2026-10-22",
+          "weekday": "Thursday",
+          "postUrl": "https://www.instagram.com/stories/fuegopegao/4012925287263693640/",
+          "recordedOn": "2026-10-22"
         }
       ],
-      "lastSeen": "2026-10-08",
-      "status": "past",
+      "lastSeen": "2026-10-22",
+      "status": "upcoming",
       "weekday": null
     },
     "coqueteo|wildtenerife": {
@@ -1191,7 +1203,7 @@
       "stylesEn": "Salsa & Bachata",
       "stylesEs": "Salsa y Bachata",
       "mapsUrl": "",
-      "url": "https://www.facebook.com/pablo.casaviejamedina/posts/pfbid02iBWZ5d79MFniKaaH5fTy8tw3JaTK5TMKjq8SYzgvNZTHgzKNR3DmtzbFo4RULE5Fl",
+      "url": "https://www.instagram.com/sbkcanary/reel/DeuTPtOM7t4/",
       "firstSeen": "2026-10-09",
       "sightings": [
         {
@@ -1211,9 +1223,15 @@
           "weekday": "Friday",
           "postUrl": "https://www.facebook.com/photo/?fbid=10246161542840910",
           "recordedOn": "2026-10-16"
+        },
+        {
+          "eventDate": "2026-10-23",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/sbkcanary/reel/DeuTPtOM7t4/",
+          "recordedOn": "2026-10-22"
         }
       ],
-      "lastSeen": "2026-10-16",
+      "lastSeen": "2026-10-23",
       "declaredRecurring": true,
       "status": "weekly",
       "weekday": "Friday"

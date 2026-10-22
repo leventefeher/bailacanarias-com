@@ -507,7 +507,9 @@
       "handle": "alonsorig2",
       "seenOn": "dondebailoentenerife",
       "firstSeen": "2026-10-12",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-22",
+      "reason": "personal account (bio: sports, nutrition technician, sales supervisor; salsa dance clips), not an organiser"
     },
     {
       "handle": "studio54_tf",
@@ -521,13 +523,17 @@
       "handle": "pasedkoolga",
       "seenOn": "tenerifelatinsocial",
       "firstSeen": "2026-10-12",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-22",
+      "reason": "personal account (bio: psychologist/coach, Russian-language posts), not an organiser"
     },
     {
       "handle": "djafrokan",
       "seenOn": "alocubano.tf",
       "firstSeen": "2026-10-16",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-22",
+      "reason": "DJ (bio: DjAfrokan, music promo links), resident DJ of A Lo Cubano, already covered by alocubano.tf"
     },
     {
       "handle": "embrujo.tenerife",
@@ -575,6 +581,12 @@
       "handle": "agnes.awojcik",
       "seenOn": "dondebailoentenerife",
       "firstSeen": "2026-10-21",
+      "status": "unverified"
+    },
+    {
+      "handle": "enjoygrancanaria_",
+      "seenOn": "leobailetenerife",
+      "firstSeen": "2026-10-22",
       "status": "unverified"
     }
   ],

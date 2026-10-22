@@ -21,7 +21,7 @@ parties:
     eventsRaw: |-
       Bachatón | La Movie Social Club, Santa Cruz | Bachata | Bachata | https://www.instagram.com/sesionesbailetenerife/p/Dep-fLwIjBR/ | https://www.google.com/maps/search/?api=1&query=La%20Movie%20Social%20Club%2C%20Paseo%20Milicias%20de%20Garachico%201%2C%20Santa%20Cruz%2C%20Tenerife | North
 
-      Papacito | Wild Tenerife, Los Cristianos | Salsa, Bachata & Reggaeton | Salsa, Bachata y Reggaeton | https://www.instagram.com/fuegopegao/ | https://www.google.com/maps/search/?api=1&query=Wild%20Tenerife%2C%20CC%20San%20Telmo%2C%20Av.%20La%20Habana%2011%2C%20Los%20Cristianos%2C%20Tenerife | South
+      Papacito | Wild Tenerife, Los Cristianos | Salsa, Bachata & Reggaeton | Salsa, Bachata y Reggaeton | https://www.instagram.com/sbkcanary/reel/DeuTe0sMBfP/ | https://www.google.com/maps/search/?api=1&query=Wild%20Tenerife%2C%20CC%20San%20Telmo%2C%20Av.%20La%20Habana%2011%2C%20Los%20Cristianos%2C%20Tenerife | South
   - dayEn: Thursday
     dayEs: Jueves
     dayNoteEn: Check Instagram for Thursday events.
@@ -40,7 +40,7 @@ parties:
 
       Guachin Salsa | Restaurante La Carreta del Carretón, Arafo | Salsa, Bachata & Merengue | Salsa, Bachata y Merengue | https://www.facebook.com/FrankyTenerife | https://www.google.com/maps/search/?api=1&query=Restaurante%20La%20Carreta%20del%20Carret%C3%B3n%2C%20C.%20El%20Carret%C3%B3n%204-7%2C%20Arafo%2C%20Tenerife | Southeast
 
-      Fusión Latina | Montaña Roja 2, Las Chafiras | Salsa & Bachata | Salsa y Bachata | https://www.facebook.com/pablo.casaviejamedina/posts/pfbid02iBWZ5d79MFniKaaH5fTy8tw3JaTK5TMKjq8SYzgvNZTHgzKNR3DmtzbFo4RULE5Fl | https://www.google.com/maps/search/?api=1&query=Monta%C3%B1a%20Roja%202%2C%20Avd%20Daniel%20Feo%207%2C%20Las%20Chafiras%2C%20Tenerife | South
+      Fusión Latina | Montaña Roja 2, Las Chafiras | Salsa & Bachata | Salsa y Bachata | https://www.instagram.com/sbkcanary/reel/DeuTPtOM7t4/ | https://www.google.com/maps/search/?api=1&query=Monta%C3%B1a%20Roja%202%2C%20Avd%20Daniel%20Feo%207%2C%20Las%20Chafiras%2C%20Tenerife | South
   - dayEn: Saturday
     dayEs: Sábado
     dayNoteEn: Check Instagram for Saturday events.
@@ -52,6 +52,15 @@ parties:
 
       Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/latin_events_tenerife/p/DervmBptLFA/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
 oneOffEvents:
+  - name: Aventura Latina
+    date: '2026-10-22'
+    location: La Central Discoteca, Playa de las Américas
+    region: South
+    address: P. Verode, 38660
+    stylesEn: Salsa, Bachata & Reparto
+    stylesEs: Salsa, Bachata y Reparto
+    url: https://www.instagram.com/fuegopegao/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=La%20Central%20Discoteca%2C%20P.%20Verode%2C%2038660%2C%20Playa%20de%20las%20Am%C3%A9ricas%2C%20Tenerife
   - name: Embrujo
     date: '2026-10-23'
     location: Santa Cruz
@@ -223,4 +232,4 @@ oneOffEvents:
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/fieston_sbk_canarias/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
-lastModified: '2026-10-21T12:20:00.679Z'
+lastModified: '2026-10-22T09:08:28.442Z'
