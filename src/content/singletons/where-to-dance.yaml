@@ -52,15 +52,6 @@ parties:
 
       Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/latin_events_tenerife/p/DervmBptLFA/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
 oneOffEvents:
-  - name: Aventura Latina
-    date: '2026-10-22'
-    location: La Central Discoteca, Playa de las Américas
-    region: South
-    address: P. Verode, 38660
-    stylesEn: Salsa, Bachata & Reparto
-    stylesEs: Salsa, Bachata y Reparto
-    url: https://www.instagram.com/fuegopegao/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=La%20Central%20Discoteca%2C%20P.%20Verode%2C%2038660%2C%20Playa%20de%20las%20Am%C3%A9ricas%2C%20Tenerife
   - name: Embrujo
     date: '2026-10-23'
     location: Santa Cruz
@@ -70,6 +61,15 @@ oneOffEvents:
     stylesEs: Bachata
     url: https://www.instagram.com/embrujotenerife/p/DeJek4TNVt-/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife
+  - name: Fiesta Latina
+    date: '2026-10-23'
+    location: Xanadú Restaurante, Guargacho
+    region: South
+    address: ""
+    stylesEn: Salsa, Bachata & Kizomba
+    stylesEs: Salsa, Bachata y Kizomba
+    url: https://www.instagram.com/dondebailoentenerife/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Xanad%C3%BA%20Restaurante%2C%20Guargacho%2C%20Tenerife
   - name: Tardeo Bachatero
     date: '2026-10-23'
     location: B.Heaven, Barceló Santa Cruz Contemporáneo, Santa Cruz
@@ -124,6 +124,15 @@ oneOffEvents:
     stylesEs: Timba, Salsa y Reparto
     url: https://www.instagram.com/alocubano.tf/p/DeYtFozgXPb/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife
+  - name: Social 100% Zouk
+    date: '2026-10-25'
+    location: Synergy, Santa Cruz
+    region: North
+    address: Avd. Hespérides 60
+    stylesEn: Zouk
+    stylesEs: Zouk
+    url: https://www.instagram.com/zoukcanaryislands/p/DesJV-tMoph/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Synergy%2C%20Avd.%20Hesp%C3%A9rides%2060%2C%20Santa%20Cruz%2C%20Tenerife
   - name: La Crema
     date: '2026-10-31'
     location: Sala Juanito + Copas, La Laguna
@@ -232,4 +241,4 @@ oneOffEvents:
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/fieston_sbk_canarias/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
-lastModified: '2026-10-22T09:08:28.442Z'
+lastModified: '2026-10-23T08:41:45.169Z'

@@ -457,7 +457,7 @@
       "stylesEn": "Zouk",
       "stylesEs": "Zouk",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/zoukcanaryislands/p/DdWwTjKMsNz/",
+      "url": "https://www.instagram.com/zoukcanaryislands/p/DesJV-tMoph/",
       "firstSeen": "2026-09-23",
       "sightings": [
         {
@@ -471,10 +471,16 @@
           "weekday": "Sunday",
           "postUrl": "https://www.instagram.com/zoukcanaryislands/p/Dee2BC-OOWp/",
           "recordedOn": "2026-10-17"
+        },
+        {
+          "eventDate": "2026-10-25",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/zoukcanaryislands/p/DesJV-tMoph/",
+          "recordedOn": "2026-10-23"
         }
       ],
-      "lastSeen": "2026-10-11",
-      "status": "past",
+      "lastSeen": "2026-10-25",
+      "status": "upcoming",
       "weekday": null
     },
     "golosinasession|camerino74": {
@@ -834,7 +840,7 @@
         }
       ],
       "lastSeen": "2026-10-22",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "coqueteo|wildtenerife": {
@@ -936,10 +942,16 @@
           "weekday": "Friday",
           "postUrl": "https://www.instagram.com/stories/dondebailoentenerife/4008471501682279033/",
           "recordedOn": "2026-10-16"
+        },
+        {
+          "eventDate": "2026-10-23",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/stories/dondebailoentenerife/",
+          "recordedOn": "2026-10-23"
         }
       ],
-      "lastSeen": "2026-10-16",
-      "status": "past",
+      "lastSeen": "2026-10-23",
+      "status": "upcoming",
       "weekday": null
     },
     "embrujo|": {
@@ -1115,7 +1127,7 @@
       "stylesEn": "Salsa, Bachata & Reggaeton",
       "stylesEs": "Salsa, Bachata y Reggaeton",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/guinda_chillout/reel/DegoAliookC/",
+      "url": "https://www.instagram.com/guinda_chillout/",
       "firstSeen": "2026-10-06",
       "sightings": [
         {
@@ -1180,7 +1192,7 @@
       "stylesEn": "Kizomba, Semba & Tarraxo",
       "stylesEs": "Kizomba, Semba y Tarraxo",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/chavy_kizomba/",
+      "url": "https://www.instagram.com/salajuanitomascopas/",
       "firstSeen": "2026-10-07",
       "sightings": [
         {

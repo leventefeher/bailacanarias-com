@@ -164,6 +164,12 @@
       "url": "https://www.instagram.com/sbkcanary/",
       "addedOn": "2026-10-21",
       "note": "verified: bio \"La comunidad SBK de Canarias - Eventos | Sociales | Festivales\" with ticket shop; mostly reposts other organisers' flyers (Bachaton, Juanito, Martes Salvajes) and co-hosts Fieston SBK pool parties. Covers all Canarias - filter to Tenerife events only"
+    },
+    {
+      "handle": "bambuloungetfe",
+      "url": "https://www.instagram.com/bambuloungetfe/",
+      "addedOn": "2026-10-23",
+      "note": "verified: Bamb\u00fa Lounge, Santa Cruz (bio: \"Dance club and nightclub\", reservations). Venue hosting Embrujo and Domingo de Malec\u00f3n, but MIXED-USE: also runs commercial nights - apply venueRules (Sundays SBK; other days only if the flyer names a dance style)"
     }
   ],
   "discovered": [
@@ -539,19 +545,17 @@
       "handle": "embrujo.tenerife",
       "seenOn": "eventoenlista flyer (Embrujo)",
       "firstSeen": "2026-10-16",
-      "status": "unverified"
-    },
-    {
-      "handle": "bambuloungetfe",
-      "seenOn": "eventoenlista flyer (Embrujo) - venue account, Bambu Lounge Tenerife",
-      "firstSeen": "2026-10-16",
-      "status": "unverified"
+      "status": "invalid",
+      "checkedOn": "2026-10-23",
+      "reason": "profile does not resolve (\"page isn't available\"); Embrujo posts come from embrujotenerife, already a source"
     },
     {
       "handle": "salsatenerifesur",
       "seenOn": "dondebailoentenerife",
       "firstSeen": "2026-10-19",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-23",
+      "reason": "dance school (bio: \"Dance school\", talleres y clases de baile latino); runs Salsa & Tapas class nights, not social-dance parties"
     },
     {
       "handle": "dj_sebastiao",
