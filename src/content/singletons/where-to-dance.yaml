@@ -52,69 +52,6 @@ parties:
 
       Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/latin_events_tenerife/p/DervmBptLFA/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
 oneOffEvents:
-  - name: Embrujo
-    date: '2026-10-23'
-    location: Santa Cruz
-    region: North
-    address: Calle Fernando Arozena Quintero 5
-    stylesEn: Bachata
-    stylesEs: Bachata
-    url: https://www.instagram.com/embrujotenerife/p/DeJek4TNVt-/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife
-  - name: Fiesta Latina
-    date: '2026-10-23'
-    location: Xanadú Restaurante, Guargacho
-    region: South
-    address: ""
-    stylesEn: Salsa, Bachata & Kizomba
-    stylesEs: Salsa, Bachata y Kizomba
-    url: https://www.instagram.com/dondebailoentenerife/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Xanad%C3%BA%20Restaurante%2C%20Guargacho%2C%20Tenerife
-  - name: Tardeo Bachatero
-    date: '2026-10-23'
-    location: B.Heaven, Barceló Santa Cruz Contemporáneo, Santa Cruz
-    region: North
-    address: ""
-    stylesEn: Bachata
-    stylesEs: Bachata
-    url: https://www.instagram.com/tardeobachatero/reel/DewAgT6opG8/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=B.Heaven%2C%20Barcel%C3%B3%20Santa%20Cruz%20Contempor%C3%A1neo%2C%20Santa%20Cruz%2C%20Tenerife
-  - name: Bacanal Latinos
-    date: '2026-10-24'
-    location: Sala Montaña Roja, Las Chafiras
-    region: South
-    address: Avenida Daniel Feo 9
-    stylesEn: Salsa, Bachata & Kizomba
-    stylesEs: Salsa, Bachata y Kizomba
-    url: https://www.instagram.com/bacanalsbk/reel/DewA-tSOSe9/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Monta%C3%B1a%20Roja%2C%20Avenida%20Daniel%20Feo%209%2C%20Las%20Chafiras%2C%20Tenerife
-  - name: Baile del Corazón
-    date: '2026-10-24'
-    location: Hotel Alúa Tenerife, Puerto de la Cruz
-    region: North
-    address: C/ Antonio Ruiz Álvarez 7
-    stylesEn: Salsa, Bachata & Kizomba
-    stylesEs: Salsa, Bachata y Kizomba
-    url: https://www.instagram.com/richydj_/p/DemIj8jDE6p/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Hotel%20Al%C3%BAa%20Tenerife%2C%20C%2F%20Antonio%20Ruiz%20%C3%81lvarez%207%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife
-  - name: Ruta Salsera
-    date: '2026-10-24'
-    location: Plaza de la Parroquia San Juan Bautista, Chío
-    region: West
-    address: ""
-    stylesEn: Salsa, Bachata & Merengue
-    stylesEs: Salsa, Bachata y Merengue
-    url: https://www.facebook.com/photo/?fbid=10239417506428640
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Plaza%20de%20la%20Parroquia%20San%20Juan%20Bautista%2C%20Ch%C3%ADo%2C%20Tenerife
-  - name: Tardeo Oasis
-    date: '2026-10-24'
-    location: Oasis de los Gigantes, Los Gigantes
-    region: West
-    address: ""
-    stylesEn: Salsa, Bachata & Kizomba
-    stylesEs: Salsa, Bachata y Kizomba
-    url: https://www.instagram.com/dondebailoentenerife/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Oasis%20de%20los%20Gigantes%2C%20Los%20Gigantes%2C%20Tenerife
   - name: A Lo Cubano
     date: '2026-10-25'
     location: La Guinda Chill Out, Puerto de la Cruz
@@ -178,15 +115,24 @@ oneOffEvents:
     stylesEs: Salsa
     url: https://www.instagram.com/salajuanitomascopas/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife
+  - name: Tardeo SBK
+    date: '2026-11-07'
+    location: Mikasa Surf Camp, San Eugenio Alto
+    region: South
+    address: Av. Austria 44
+    stylesEn: Salsa, Bachata & Kizomba
+    stylesEs: Salsa, Bachata y Kizomba
+    url: https://www.instagram.com/sbkcanary/reel/De2LDAJsGu4/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Mikasa%20Surf%20Camp%2C%20Av.%20Austria%2044%2C%20San%20Eugenio%20Alto%2C%20Tenerife
   - name: Fiestón Latino SBK
     date: '2026-11-14'
     location: Las Chafiras
     region: South
-    address: ""
-    stylesEn: Salsa, Bachata & Kizomba
-    stylesEs: Salsa, Bachata y Kizomba
+    address: Av. Daniel Feo 9
+    stylesEn: Salsa, Bachata, Kizomba & Zouk
+    stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/fieston_sbk_canarias/
-    mapsUrl: ""
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Av.%20Daniel%20Feo%209%2C%20Las%20Chafiras%2C%20Tenerife
   - name: Origen Latino
     date: '2026-11-21'
     location: Montaña Roja 2, Las Chafiras
@@ -227,11 +173,11 @@ oneOffEvents:
     date: '2026-12-19'
     location: Las Chafiras
     region: South
-    address: ""
-    stylesEn: Salsa, Bachata & Kizomba
-    stylesEs: Salsa, Bachata y Kizomba
+    address: Av. Daniel Feo 9
+    stylesEn: Salsa, Bachata, Kizomba & Zouk
+    stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/fieston_sbk_canarias/
-    mapsUrl: ""
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Av.%20Daniel%20Feo%209%2C%20Las%20Chafiras%2C%20Tenerife
   - name: Fiestón SBK
     date: '2027-01-09'
     location: Studio 54 Liceo Taoro, La Orotava
@@ -241,4 +187,4 @@ oneOffEvents:
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/fieston_sbk_canarias/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
-lastModified: '2026-10-23T08:41:45.169Z'
+lastModified: '2026-10-25T09:55:43.791Z'

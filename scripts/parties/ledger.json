@@ -316,7 +316,7 @@
         }
       ],
       "lastSeen": "2026-10-23",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "rumbaton|salajuanitocopas": {
@@ -778,9 +778,9 @@
       "venue": "",
       "area": "Las Chafiras",
       "region": "South",
-      "address": "",
-      "stylesEn": "Salsa, Bachata & Kizomba",
-      "stylesEs": "Salsa, Bachata y Kizomba",
+      "address": "Av. Daniel Feo 9",
+      "stylesEn": "Salsa, Bachata, Kizomba & Zouk",
+      "stylesEs": "Salsa, Bachata, Kizomba y Zouk",
       "mapsUrl": "",
       "url": "https://www.instagram.com/fieston_sbk_canarias/",
       "firstSeen": "2026-09-28",
@@ -951,7 +951,7 @@
         }
       ],
       "lastSeen": "2026-10-23",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "embrujo|": {
@@ -974,7 +974,7 @@
         }
       ],
       "lastSeen": "2026-10-23",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "domingodemalecon|bambuloungebar": {
@@ -1383,7 +1383,7 @@
         }
       ],
       "lastSeen": "2026-10-24",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "rutasalsera|plazadeltranvia": {
@@ -1429,7 +1429,7 @@
         }
       ],
       "lastSeen": "2026-10-24",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "bailedelcorazon|hotelaluatenerife": {
@@ -1452,7 +1452,7 @@
         }
       ],
       "lastSeen": "2026-10-24",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "bacanallatinos|salamontanaroja": {
@@ -1475,6 +1475,29 @@
         }
       ],
       "lastSeen": "2026-10-24",
+      "status": "past",
+      "weekday": null
+    },
+    "tardeosbk|mikasasurfcamp": {
+      "name": "Tardeo SBK",
+      "venue": "Mikasa Surf Camp",
+      "area": "San Eugenio Alto",
+      "region": "South",
+      "address": "Av. Austria 44",
+      "stylesEn": "Salsa, Bachata & Kizomba",
+      "stylesEs": "Salsa, Bachata y Kizomba",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/sbkcanary/reel/De2LDAJsGu4/",
+      "firstSeen": "2026-10-25",
+      "sightings": [
+        {
+          "eventDate": "2026-11-07",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/sbkcanary/reel/De2LDAJsGu4/",
+          "recordedOn": "2026-10-25"
+        }
+      ],
+      "lastSeen": "2026-11-07",
       "status": "upcoming",
       "weekday": null
     }
