@@ -162,9 +162,15 @@
           "weekday": "Wednesday",
           "postUrl": "https://www.instagram.com/sesionesbailetenerife/p/Dep-fLwIjBR/",
           "recordedOn": "2026-10-19"
+        },
+        {
+          "eventDate": "2026-10-28",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/sesionesbailetenerife/p/De9CjZ6Oa8o/",
+          "recordedOn": "2026-10-26"
         }
       ],
-      "lastSeen": "2026-10-21",
+      "lastSeen": "2026-10-28",
       "status": "weekly",
       "weekday": "Wednesday",
       "address": "Paseo Milicias de Garachico 1"
@@ -296,8 +302,8 @@
       "area": "Santa Cruz",
       "region": "North",
       "address": "",
-      "stylesEn": "Bachata",
-      "stylesEs": "Bachata",
+      "stylesEn": "Bachata & Salsa",
+      "stylesEs": "Bachata y Salsa",
       "mapsUrl": "",
       "url": "https://www.instagram.com/tardeobachatero/reel/DewAgT6opG8/",
       "firstSeen": "2026-09-23",
@@ -313,10 +319,16 @@
           "weekday": "Friday",
           "postUrl": "https://www.instagram.com/tardeobachatero/reel/DewAgT6opG8/",
           "recordedOn": "2026-10-21"
+        },
+        {
+          "eventDate": "2026-10-30",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/sesionesbailetenerife/p/De9B0uaOZGk/",
+          "recordedOn": "2026-10-26"
         }
       ],
-      "lastSeen": "2026-10-23",
-      "status": "past",
+      "lastSeen": "2026-10-30",
+      "status": "upcoming",
       "weekday": null
     },
     "rumbaton|salajuanitocopas": {
@@ -378,9 +390,15 @@
           "weekday": "Saturday",
           "postUrl": "https://www.instagram.com/salajuanitomascopas/p/DesKNiVu0XV/",
           "recordedOn": "2026-10-21"
+        },
+        {
+          "eventDate": "2026-10-30",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/stories/salajuanitomascopas/4015796402747477454/",
+          "recordedOn": "2026-10-26"
         }
       ],
-      "lastSeen": "2026-10-24",
+      "lastSeen": "2026-10-30",
       "status": "weekly",
       "weekday": "Friday"
     },
@@ -480,7 +498,7 @@
         }
       ],
       "lastSeen": "2026-10-25",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "golosinasession|camerino74": {
@@ -692,9 +710,15 @@
           "weekday": "Saturday",
           "postUrl": "https://www.instagram.com/guinda_chillout/reel/DeHBScro1A_/",
           "recordedOn": "2026-10-06"
+        },
+        {
+          "eventDate": "2026-11-01",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/stories/guinda_chillout/4016291324621364934/",
+          "recordedOn": "2026-10-26"
         }
       ],
-      "lastSeen": "2026-10-10",
+      "lastSeen": "2026-11-01",
       "status": "weekly",
       "weekday": "Friday"
     },
@@ -1112,9 +1136,15 @@
           "weekday": "Monday",
           "postUrl": "https://www.instagram.com/tenerifelatinsocial/reel/DemZZ8uNy3x/",
           "recordedOn": "2026-10-18"
+        },
+        {
+          "eventDate": "2026-10-26",
+          "weekday": "Monday",
+          "postUrl": "https://www.instagram.com/tenerifelatinsocial/reel/De6xe5-Nt5l/",
+          "recordedOn": "2026-10-26"
         }
       ],
-      "lastSeen": "2026-10-19",
+      "lastSeen": "2026-10-26",
       "status": "weekly",
       "weekday": "Monday"
     },
@@ -1141,10 +1171,16 @@
           "weekday": "Thursday",
           "postUrl": "https://www.instagram.com/guinda_chillout/reel/DegoAliookC/",
           "recordedOn": "2026-10-19"
+        },
+        {
+          "eventDate": "2026-10-29",
+          "weekday": "Thursday",
+          "postUrl": "https://www.instagram.com/stories/guinda_chillout/4016290760201768679/",
+          "recordedOn": "2026-10-26"
         }
       ],
       "declaredRecurring": true,
-      "lastSeen": "2026-10-22",
+      "lastSeen": "2026-10-29",
       "status": "weekly",
       "weekday": "Thursday"
     },
@@ -1314,7 +1350,7 @@
         }
       ],
       "lastSeen": "2026-10-25",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "pinktober|hardrockcafetenerife": {
@@ -1498,6 +1534,29 @@
         }
       ],
       "lastSeen": "2026-11-07",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "fiestafindeano|salabalibambuloungebar": {
+      "name": "Fiesta Fin de Año",
+      "venue": "Sala Bali, Bambú Lounge Bar",
+      "area": "Santa Cruz",
+      "region": "North",
+      "address": "Calle Fernando Arozena Quintero 5",
+      "stylesEn": "Salsa, Bachata & Kizomba",
+      "stylesEs": "Salsa, Bachata y Kizomba",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/latin_events_tenerife/",
+      "firstSeen": "2026-10-26",
+      "sightings": [
+        {
+          "eventDate": "2026-12-31",
+          "weekday": "Thursday",
+          "postUrl": "https://www.instagram.com/stories/latin_events_tenerife/4016032926623465502/",
+          "recordedOn": "2026-10-26"
+        }
+      ],
+      "lastSeen": "2026-12-31",
       "status": "upcoming",
       "weekday": null
     }

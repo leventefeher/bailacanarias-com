@@ -583,19 +583,25 @@
       "handle": "rebeca_mdiaz__",
       "seenOn": "dondebailoentenerife",
       "firstSeen": "2026-10-21",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-26",
+      "reason": "personal account (bio: \"Salsa Dancer\", dancer; teaches at ire.dancestudio), not an organiser"
     },
     {
       "handle": "agnes.awojcik",
       "seenOn": "dondebailoentenerife",
       "firstSeen": "2026-10-21",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-26",
+      "reason": "Brazilian Zouk dancer and teacher (bio: \"Dancer | Brazilian Zouk Teacher\"), travels internationally; not an organiser"
     },
     {
       "handle": "enjoygrancanaria_",
       "seenOn": "leobailetenerife",
       "firstSeen": "2026-10-22",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-26",
+      "reason": "event planner for latin dance events in Gran Canaria only (bio), not Tenerife"
     },
     {
       "handle": "onlylocalss",
@@ -607,6 +613,12 @@
       "handle": "saints.prive",
       "seenOn": "bambuloungetfe",
       "firstSeen": "2026-10-24",
+      "status": "unverified"
+    },
+    {
+      "handle": "golosinasessiontenerife",
+      "seenOn": "instagram home feed (while reading sbkcanary stories)",
+      "firstSeen": "2026-10-26",
       "status": "unverified"
     }
   ],
