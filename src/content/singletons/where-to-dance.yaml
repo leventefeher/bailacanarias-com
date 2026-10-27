@@ -13,7 +13,7 @@ parties:
   - dayEn: Monday & Tuesday
     dayEs: Lunes y Martes
     eventsRaw: |-
-      Martes Salvajes | Salvaje La Tejita, El Médano | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/dondebailoentenerife/ | https://www.google.com/maps/search/?api=1&query=Salvaje%20La%20Tejita%2C%20Street%20Market%20La%20Tejita%2C%20C.%20Hern%C3%A1n%20Cort%C3%A9s%2029%2C%20El%20M%C3%A9dano%2C%20Tenerife | South
+      Martes Salvajes | Salvaje La Tejita, El Médano | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/richydj_/p/De-Uvm2MmnX/ | https://www.google.com/maps/search/?api=1&query=Salvaje%20La%20Tejita%2C%20Street%20Market%20La%20Tejita%2C%20C.%20Hern%C3%A1n%20Cort%C3%A9s%2029%2C%20El%20M%C3%A9dano%2C%20Tenerife | South
 
       Tenerife Latin Social |  | Salsa & Bachata | Salsa y Bachata | https://www.instagram.com/tenerifelatinsocial/reel/De6xe5-Nt5l/ |  | South
   - dayEn: Wednesday
@@ -34,9 +34,11 @@ parties:
   - dayEn: Friday
     dayEs: Viernes
     eventsRaw: |-
-      Rumbatón | Sala Juanito + Copas, La Laguna | Salsa, Bachata & Merengue | Salsa, Bachata y Merengue | https://www.instagram.com/salajuanitomascopas/p/DesKNiVu0XV/ | https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife | North
+      Rumbatón | Sala Juanito + Copas, La Laguna | Salsa, Bachata & Merengue | Salsa, Bachata y Merengue | https://www.instagram.com/salajuanitomascopas/p/De-SZkROcm3/ | https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife | North
 
       DJ Kiko | La Guinda Chill Out, Puerto de la Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/guinda_chillout/reel/DeHBScro1A_/ | https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife | North
+
+      Fiesta Latina | Xanadú Restaurante, Guargacho | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/richydj_/ | https://www.google.com/maps/search/?api=1&query=Xanad%C3%BA%20Restaurante%2C%20Guargacho%2C%20Tenerife | South
 
       Guachin Salsa | Restaurante La Carreta del Carretón, Arafo | Salsa, Bachata & Merengue | Salsa, Bachata y Merengue | https://www.facebook.com/FrankyTenerife | https://www.google.com/maps/search/?api=1&query=Restaurante%20La%20Carreta%20del%20Carret%C3%B3n%2C%20C.%20El%20Carret%C3%B3n%204-7%2C%20Arafo%2C%20Tenerife | Southeast
 
@@ -50,8 +52,17 @@ parties:
     eventsRaw: |-
       Social 100% Zouk | Santa Cruz | Zouk | Zouk | https://www.instagram.com/zoukcanaryislands/p/DesJV-tMoph/ | https://www.google.com/maps/search/?api=1&query=Av.%20de%20las%20Hesp%C3%A9rides%2060%2C%20Santa%20Cruz%2C%20Tenerife | North
 
-      Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/latin_events_tenerife/p/DervmBptLFA/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
+      Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/bambuloungetfe/p/De-Adb1DSRX/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
 oneOffEvents:
+  - name: Golosina Session
+    date: '2026-10-29'
+    location: Camerino 74, Santa Cruz
+    region: North
+    address: Calle Antonio Domínguez Alfonso 28
+    stylesEn: Bachata
+    stylesEs: Bachata
+    url: https://www.instagram.com/golosinasessiontenerife/p/De8pKySN1Yc/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Camerino%2074%2C%20Calle%20Antonio%20Dom%C3%ADnguez%20Alfonso%2028%2C%20Santa%20Cruz%2C%20Tenerife
   - name: Tardeo Bachatero
     date: '2026-10-30'
     location: B.Heaven, Barceló Santa Cruz Contemporáneo, Santa Cruz
@@ -104,7 +115,7 @@ oneOffEvents:
     address: Ctra. La Esperanza, km 2
     stylesEn: Salsa
     stylesEs: Salsa
-    url: https://www.instagram.com/salajuanitomascopas/
+    url: https://www.instagram.com/lasalsera_solosalsa/p/De9_MX7DAtg/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife
   - name: Tardeo SBK
     date: '2026-11-07'
@@ -187,4 +198,4 @@ oneOffEvents:
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/fieston_sbk_canarias/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
-lastModified: '2026-10-26T14:36:47.507Z'
+lastModified: '2026-10-27T09:43:06.041Z'
