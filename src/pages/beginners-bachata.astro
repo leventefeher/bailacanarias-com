@@ -1,0 +1,437 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MailchimpForm from '../components/MailchimpForm.astro';
+
+const heroImage = '/images/heroes/320A0544.jpg';
+const studioMap = 'https://maps.app.goo.gl/xcVgBXaMSCNxQQNAA';
+const whatsapp =
+  'https://wa.me/34629178242?text=' +
+  encodeURIComponent("Hi! I'd like to join the beginners bachata group on Mondays.");
+
+const essentials = [
+  { label: 'When', value: 'Mondays, 18:00–19:00', note: 'Starting in November' },
+  { label: 'Where', value: 'Tenerife Movement Studio', note: 'Los Gigantes' },
+  { label: 'Price', value: '10€ per class', note: '35€ for 4 · 50€ per couple for 4' },
+  { label: 'Who for', value: 'Complete beginners', note: 'No partner needed' },
+];
+
+const firstWeeks = [
+  {
+    title: 'Hearing the beat',
+    body: 'The one thing every dancer needs. You will learn to pick the rhythm out of a song and stay with it, so the music starts doing half the work for you.',
+  },
+  {
+    title: 'The basic step',
+    body: 'Bachata is built on a simple side-to-side step. We take it slowly, on your own first, then with a partner, until it stops needing your attention.',
+  },
+  {
+    title: 'Leading and following',
+    body: 'How to invite a movement and how to receive one — a calm, comfortable connection that makes both people feel good, whichever role you dance.',
+  },
+  {
+    title: 'Your first turns',
+    body: 'Once the basic feels steady we add the first turns and changes of place, the handful of moves that let you dance a whole song socially.',
+  },
+];
+
+const faqs = [
+  {
+    q: 'Do I need a partner?',
+    a: 'No. Most people come on their own. We rotate partners during the class, so you dance with everyone and nobody is left standing out.',
+  },
+  {
+    q: 'I have never danced before. Is that really okay?',
+    a: 'That is exactly who this group is for. It is a brand-new Level 0 group, so everyone starts on the same day from the same place — the very first step.',
+  },
+  {
+    q: 'Do I have to commit to a course?',
+    a: 'No. You can pay as you go at 10€ a class. If you know you are coming regularly, a block of four works out cheaper at 35€, or 50€ for a couple.',
+  },
+  {
+    q: 'What should I wear?',
+    a: 'Comfortable clothes you can move in, and shoes with a smooth sole that let you turn — trainers with a lot of grip make it harder on your knees. No special dance shoes needed.',
+  },
+  {
+    q: 'How old are the people in the class?',
+    a: 'All ages. Our groups run from people in their twenties to people in their seventies, and everyone dances with everyone.',
+  },
+  {
+    q: 'What if I miss a week?',
+    a: 'Life happens. Message us and we will tell you what the group covered, and you can pick it back up the following Monday.',
+  },
+];
+---
+
+<Layout
+  title="Beginners Bachata Classes in Los Gigantes, Tenerife"
+  description="A brand-new beginners bachata group starting in November — Mondays 18:00 at Tenerife Movement Studio, Los Gigantes. No partner and no experience needed. 10€ per class."
+  lang="en"
+  hreflangEN="https://www.bailacanarias.com/beginners-bachata"
+  hreflangES="https://www.bailacanarias.com/es/bachata-para-principiantes"
+  lcpImage={heroImage}
+  ogImage="/images/heroes/320A0544.jpg"
+>
+  <div class="page-header lp-hero" style={`--page-hero-img: url('${heroImage}');`}>
+    <div class="container">
+      <p class="lp-eyebrow">New group · Starting November</p>
+      <h1>Learn to dance bachata from your very first step</h1>
+      <p>
+        A brand-new beginners group in Los Gigantes, every Monday evening.
+        No partner, no experience, no pressure.
+      </p>
+      <div class="lp-hero-actions">
+        <a href={whatsapp} class="btn btn-primary" target="_blank" rel="noopener">
+          Save your place
+        </a>
+        <a href="#details" class="btn btn-outline">See the details</a>
+      </div>
+    </div>
+  </div>
+
+  <section class="section section--cream" id="details">
+    <div class="container">
+      <dl class="lp-essentials">
+        {
+          essentials.map((item) => (
+            <div class="lp-essential">
+              <dt>{item.label}</dt>
+              <dd>
+                <strong>{item.value}</strong>
+                <span>{item.note}</span>
+              </dd>
+            </div>
+          ))
+        }
+      </dl>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="bio-content">
+        <h2>Everybody in the room is starting together</h2>
+        <p style="font-size:1.15rem;">
+          The hardest part of learning to dance is walking in the first time. This group is built
+          to make that easy: it is a true Level 0 class, starting from zero on the first Monday,
+          with a room full of people who have never danced bachata before either.
+        </p>
+        <p>
+          Bachata is the friendliest of the Latin dances to begin with. The basic step is four
+          beats long and you can learn it in an evening — which means you spend the rest of your
+          time on the things that actually make dancing feel good: the music, the connection with
+          your partner, and the confidence to get up and dance at a party.
+        </p>
+        <p>
+          We teach social bachata rooted in the music of the Dominican Republic, drawing on
+          traditional, modern and sensual styles. The emphasis is always on dancing comfortably
+          with another person rather than memorising choreography.
+          <a href="/what-is-bachata/">Read more about where bachata comes from</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--cream">
+    <div class="container">
+      <div class="section-header">
+        <h2>Your first few weeks</h2>
+        <p>What the group covers once we get going.</p>
+      </div>
+      <div class="lp-steps">
+        {
+          firstWeeks.map((step, i) => (
+            <div class="lp-step">
+              <span class="lp-step-num" aria-hidden="true">{i + 1}</span>
+              <div>
+                <h3>{step.title}</h3>
+                <p>{step.body}</p>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="bio-content">
+        <h2>Where to find us</h2>
+        <p>
+          Classes are at <strong>Tenerife Movement Studio</strong> in Los Gigantes — a proper
+          sprung dance floor with mirrors, five minutes from the harbour
+          (<a href={studioMap} target="_blank" rel="noopener">view on the map</a>).
+        </p>
+        <p>
+          Come a few minutes early on your first Monday so we can say hello properly. It helps if
+          you message us beforehand — we will look out for you at the door, and let you know if
+          anything ever changes at short notice.
+        </p>
+        <p>
+          Already danced a little? The <a href="/dance-with-us/">Level 1 improvers group</a> runs
+          straight afterwards at 19:00 in the same studio, and plenty of people stay for both.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--cream">
+    <div class="container">
+      <div class="bio-content">
+        <h2 style="text-align:center;margin-bottom:2rem;">Questions people usually ask</h2>
+        {
+          faqs.map((faq) => (
+            <div style="margin-bottom:1.75rem;">
+              <h3 style="margin-bottom:0.5rem;">{faq.q}</h3>
+              <p style="margin:0;">{faq.a}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <h2>Come and dance with us on Monday</h2>
+      <p>
+        Send us a message and we will save you a place in the new group.
+        It is the only thing you need to do before you turn up.
+      </p>
+      <div class="lp-cta-actions">
+        <a href={whatsapp} class="btn btn-whatsapp" target="_blank" rel="noopener">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z" />
+          </svg>
+          Message on WhatsApp
+        </a>
+        <a href="mailto:contact@bailacanarias.com" class="btn btn-outline-primary">Email us</a>
+      </div>
+    </div>
+  </section>
+
+  <MailchimpForm lang="en" />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Course',
+    'name': 'Beginners Bachata — Level 0',
+    'description':
+      'A beginners bachata group class in Los Gigantes, Tenerife. Mondays 18:00–19:00 at Tenerife Movement Studio. No partner or previous experience needed.',
+    'url': 'https://www.bailacanarias.com/beginners-bachata/',
+    'inLanguage': 'en',
+    'educationalLevel': 'Beginner',
+    'provider': {
+      '@type': 'DanceSchool',
+      'name': 'Baila Canarias',
+      'url': 'https://www.bailacanarias.com',
+      'telephone': '+34629178242',
+      'email': 'contact@bailacanarias.com',
+    },
+    'hasCourseInstance': {
+      '@type': 'CourseInstance',
+      'courseMode': 'Onsite',
+      'courseWorkload': 'PT1H',
+      'location': {
+        '@type': 'Place',
+        'name': 'Tenerife Movement Studio',
+        'address': {
+          '@type': 'PostalAddress',
+          'addressLocality': 'Los Gigantes',
+          'addressRegion': 'Tenerife',
+          'addressCountry': 'ES',
+        },
+      },
+      'courseSchedule': {
+        '@type': 'Schedule',
+        'repeatFrequency': 'P1W',
+        'byDay': 'https://schema.org/Monday',
+        'startTime': '18:00',
+        'endTime': '19:00',
+      },
+    },
+    'offers': {
+      '@type': 'Offer',
+      'price': '10',
+      'priceCurrency': 'EUR',
+      'category': 'Drop-in class',
+      'availability': 'https://schema.org/InStock',
+    },
+  })} />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    'mainEntity': faqs.map((faq) => ({
+      '@type': 'Question',
+      'name': faq.q,
+      'acceptedAnswer': { '@type': 'Answer', 'text': faq.a },
+    })),
+  })} />
+
+  <style>
+    /* ===== Hero ===== */
+    /* The studio photo is bright and busy, so the flat 40% overlay is not enough
+       to carry white text. A centre-weighted scrim darkens behind the copy while
+       letting the faces at the edges stay visible. */
+    .lp-hero {
+      min-height: 500px;
+      background-position: center 28%;
+    }
+    .lp-hero::after {
+      background: radial-gradient(
+        ellipse 80% 70% at 50% 50%,
+        rgba(0, 0, 0, 0.74) 0%,
+        rgba(0, 0, 0, 0.62) 45%,
+        rgba(0, 0, 0, 0.42) 100%
+      );
+    }
+    .lp-eyebrow {
+      display: inline-block;
+      margin: 0 0 1rem;
+      padding: 0.35rem 0.9rem;
+      border-radius: 999px;
+      background: var(--color-primary);
+      color: #fff;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      max-width: none;
+    }
+    .lp-hero h1 {
+      max-width: 15ch;
+      margin: 0 auto;
+    }
+    .lp-hero-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 1.75rem;
+    }
+    .lp-hero .container > * {
+      animation: lp-rise 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) backwards;
+    }
+    .lp-hero .lp-eyebrow { animation-delay: 0.05s; }
+    .lp-hero h1 { animation-delay: 0.15s; }
+    .lp-hero p:not(.lp-eyebrow) { animation-delay: 0.25s; }
+    .lp-hero-actions { animation-delay: 0.35s; }
+    @keyframes lp-rise {
+      from { opacity: 0; transform: translateY(14px); }
+      to { opacity: 1; transform: none; }
+    }
+
+    /* ===== Essentials strip ===== */
+    .lp-essentials {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem 2rem;
+      margin: 0;
+    }
+    .lp-essential {
+      padding-left: 1.1rem;
+      border-left: 3px solid var(--color-primary);
+    }
+    .lp-essential dt {
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--color-text-light);
+      margin-bottom: 0.4rem;
+    }
+    .lp-essential dd {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+    }
+    .lp-essential dd strong {
+      font-size: 1.15rem;
+      line-height: 1.3;
+      color: var(--color-heading);
+    }
+    .lp-essential dd span {
+      font-size: 0.95rem;
+      color: var(--color-text-light);
+    }
+
+    /* ===== First weeks ===== */
+    .lp-steps {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem 3rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .lp-step {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+    .lp-step-num {
+      flex: 0 0 2.25rem;
+      height: 2.25rem;
+      border-radius: 50%;
+      background: var(--color-primary);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1rem;
+    }
+    .lp-step h3 {
+      margin: 0.15rem 0 0.4rem;
+      font-size: 1.15rem;
+    }
+    .lp-step p {
+      margin: 0;
+      font-size: 0.97rem;
+    }
+
+    /* ===== CTA ===== */
+    .lp-cta-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .btn-whatsapp {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #25d366;
+      color: #fff;
+      border-color: #25d366;
+    }
+    .btn-whatsapp:hover {
+      background: #1da851;
+      border-color: #1da851;
+      color: #fff;
+    }
+
+    @media (max-width: 900px) {
+      .lp-essentials {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .lp-steps {
+        grid-template-columns: 1fr;
+      }
+    }
+    @media (max-width: 520px) {
+      .lp-essentials {
+        grid-template-columns: 1fr;
+      }
+      .lp-hero h1 {
+        max-width: none;
+      }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .lp-hero .container > * {
+        animation: none;
+      }
+    }
+  </style>
+</Layout>
