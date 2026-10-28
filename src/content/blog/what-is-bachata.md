@@ -1,6 +1,6 @@
 ---
 title: "What is Bachata?"
-description: "A genre of music and social dance originating from the Dominican Republic — now a global phenomenon danced all around the world."
+description: "A genre of music and social dance originating from the Dominican Republic, now a global phenomenon danced all around the world."
 pubDate: 2023-11-18
 author: "Levente Feher"
 lang: en

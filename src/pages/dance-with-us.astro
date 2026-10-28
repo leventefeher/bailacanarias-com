@@ -45,7 +45,7 @@ const classes = data?.classes ?? [];
                 </span>
               </div>
               <h3>{cls.titleEn}</h3>
-              {cls.descriptionEn.split('\n\n').map((para) => (
+              {cls.descriptionEn.split(/\n+/).map((para) => (
                 <p set:html={para} />
               ))}
               {cls.priceEn && (
@@ -55,7 +55,7 @@ const classes = data?.classes ?? [];
                 <p style="color:var(--color-primary);font-weight:600;font-size:0.9rem;">{cls.promoEn}</p>
               )}
               {!cls.priceEn && (
-                <p style="font-style:italic;font-size:0.9rem;">Welcome to drop in — any questions contact us.</p>
+                <p style="font-style:italic;font-size:0.9rem;">Welcome to drop in. Any questions, contact us.</p>
               )}
               <div style="margin-top:1rem;display:flex;gap:0.75rem;flex-wrap:wrap;">
                 <a href="mailto:contact@bailacanarias.com" class="btn btn-primary" style="font-size:0.85rem;padding:0.5rem 1rem;">Email us</a>

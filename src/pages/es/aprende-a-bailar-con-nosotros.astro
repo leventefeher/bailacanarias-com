@@ -45,7 +45,7 @@ const classes = data?.classes ?? [];
                 </span>
               </div>
               <h3>{cls.titleEs}</h3>
-              {cls.descriptionEs.split('\n\n').map((para) => (
+              {cls.descriptionEs.split(/\n+/).map((para) => (
                 <p set:html={para} />
               ))}
               {cls.priceEs && (
