@@ -4,6 +4,12 @@ import MailchimpForm from '../../components/MailchimpForm.astro';
 
 const heroImage = '/images/heroes/320A0544.jpg';
 const studioMap = 'https://maps.app.goo.gl/xcVgBXaMSCNxQQNAA';
+// Coordenadas exactas del estudio con etiqueta, para que el marcador no se
+// desplace a otro negocio de nombre parecido. output=embed no necesita clave.
+const studioEmbed =
+  'https://maps.google.com/maps?q=' +
+  encodeURIComponent('28.2402308,-16.8375366 (Tenerife Movement Studio)') +
+  '&z=16&hl=es&output=embed';
 const whatsapp =
   'https://wa.me/34629178242?text=' +
   encodeURIComponent('¡Hola! Me gustaría unirme al grupo de bachata para principiantes de los lunes.');
@@ -162,6 +168,14 @@ const faqs = [
           con suelo de baile y espejos, a cinco minutos del puerto
           (<a href={studioMap} target="_blank" rel="noopener">ver en el mapa</a>).
         </p>
+        <iframe
+          class="lp-map"
+          src={studioEmbed}
+          title="Mapa con la ubicación de Tenerife Movement Studio en Los Gigantes"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen
+        ></iframe>
         <p>
           Ven unos minutos antes tu primer lunes para que podamos saludarte con calma. Ayuda mucho
           que nos escribas antes: estaremos pendientes de ti en la puerta y te avisaremos si alguna
@@ -392,6 +406,16 @@ const faqs = [
       font-size: 0.97rem;
     }
 
+    /* ===== Map ===== */
+    .lp-map {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: 0;
+      border-radius: 8px;
+      margin: 1.75rem 0;
+    }
+
     /* ===== CTA ===== */
     .lp-cta-actions {
       display: flex;
@@ -432,6 +456,10 @@ const faqs = [
       .lp-eyebrow {
         font-size: 0.72rem;
         letter-spacing: 0.06em;
+      }
+      /* 16:9 is too letterboxed to read on a phone */
+      .lp-map {
+        aspect-ratio: 4 / 3;
       }
     }
     @media (prefers-reduced-motion: reduce) {

@@ -4,6 +4,12 @@ import MailchimpForm from '../components/MailchimpForm.astro';
 
 const heroImage = '/images/heroes/320A0544.jpg';
 const studioMap = 'https://maps.app.goo.gl/xcVgBXaMSCNxQQNAA';
+// Exact studio coordinates with a label, so the pin cannot drift to another
+// business of a similar name. output=embed needs no Maps API key.
+const studioEmbed =
+  'https://maps.google.com/maps?q=' +
+  encodeURIComponent('28.2402308,-16.8375366 (Tenerife Movement Studio)') +
+  '&z=16&output=embed';
 const whatsapp =
   'https://wa.me/34629178242?text=' +
   encodeURIComponent("Hi! I'd like to join the beginners bachata group on Mondays.");
@@ -162,6 +168,14 @@ const faqs = [
           sprung dance floor with mirrors, five minutes from the harbour
           (<a href={studioMap} target="_blank" rel="noopener">view on the map</a>).
         </p>
+        <iframe
+          class="lp-map"
+          src={studioEmbed}
+          title="Map showing Tenerife Movement Studio in Los Gigantes"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen
+        ></iframe>
         <p>
           Come a few minutes early on your first Monday so we can say hello properly. It helps if
           you message us beforehand. We will look out for you at the door, and let you know if
@@ -392,6 +406,16 @@ const faqs = [
       font-size: 0.97rem;
     }
 
+    /* ===== Map ===== */
+    .lp-map {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: 0;
+      border-radius: 8px;
+      margin: 1.75rem 0;
+    }
+
     /* ===== CTA ===== */
     .lp-cta-actions {
       display: flex;
@@ -432,6 +456,10 @@ const faqs = [
       .lp-eyebrow {
         font-size: 0.72rem;
         letter-spacing: 0.06em;
+      }
+      /* 16:9 is too letterboxed to read on a phone */
+      .lp-map {
+        aspect-ratio: 4 / 3;
       }
     }
     @media (prefers-reduced-motion: reduce) {
