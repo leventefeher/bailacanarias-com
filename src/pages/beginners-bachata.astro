@@ -4,12 +4,10 @@ import MailchimpForm from '../components/MailchimpForm.astro';
 
 const heroImage = '/images/heroes/320A0544.jpg';
 const studioMap = 'https://maps.app.goo.gl/xcVgBXaMSCNxQQNAA';
-// Exact studio coordinates with a label, so the pin cannot drift to another
-// business of a similar name. output=embed needs no Maps API key.
+// Official embed from the Google Maps share dialog, pinned to the studio's
+// place id (0xc6a8d00129c903f:0x9735d4a698e90f2a).
 const studioEmbed =
-  'https://maps.google.com/maps?q=' +
-  encodeURIComponent('28.2402308,-16.8375366 (Tenerife Movement Studio)') +
-  '&z=16&output=embed';
+  'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14058.100227454055!2d-16.85322870321546!3d28.252091827981495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6a8d00129c903f%3A0x9735d4a698e90f2a!2sTenerife%20Movement%20Studio!5e0!3m2!1sen!2ses!4v1793220424007!5m2!1sen!2ses';
 const whatsapp =
   'https://wa.me/34629178242?text=' +
   encodeURIComponent("Hi! I'd like to join the beginners bachata group on Mondays.");
@@ -173,7 +171,7 @@ const faqs = [
           src={studioEmbed}
           title="Map showing Tenerife Movement Studio in Los Gigantes"
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
         <p>
