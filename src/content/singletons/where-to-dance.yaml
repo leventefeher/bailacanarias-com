@@ -26,17 +26,16 @@ parties:
     dayEs: Jueves
     dayNoteEn: Check Instagram for Thursday events.
     dayNoteEs: Consulta Instagram para eventos del jueves.
-    eventsRaw: Jueves Latinos | La Guinda Chill Out, Puerto de la Cruz | Salsa,
-      Bachata & Reggaeton | Salsa, Bachata y Reggaeton |
-      https://www.instagram.com/guinda_chillout/ |
-      https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife
-      | North
+    eventsRaw: |-
+      Aventura Latina | La Central Discoteca, Playa de las Américas | Salsa, Bachata & Latin | Salsa, Bachata y Latino | https://www.instagram.com/fuegopegao/ | https://www.google.com/maps/search/?api=1&query=La%20Central%20Discoteca%2C%20P.%20Verode%2C%2038660%2C%20Playa%20de%20las%20Am%C3%A9ricas%2C%20Tenerife | South
+
+      Jueves Latinos | La Guinda Chill Out, Puerto de la Cruz | Salsa, Bachata & Reggaeton | Salsa, Bachata y Reggaeton | https://www.instagram.com/guinda_chillout/ | https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife | North
   - dayEn: Friday
     dayEs: Viernes
     eventsRaw: |-
       Rumbatón | Sala Juanito + Copas, La Laguna | Salsa, Bachata & Merengue | Salsa, Bachata y Merengue | https://www.instagram.com/salajuanitomascopas/p/De-SZkROcm3/ | https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife | North
 
-      DJ Kiko | La Guinda Chill Out, Puerto de la Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/guinda_chillout/reel/DeHBScro1A_/ | https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife | North
+      DJ Kiko | La Guinda Chill Out, Puerto de la Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/guinda_chillout/reel/DfAUJkBoFoq/ | https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife | North
 
       Fiesta Latina | Xanadú Restaurante, Guargacho | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/richydj_/ | https://www.google.com/maps/search/?api=1&query=Xanad%C3%BA%20Restaurante%2C%20Guargacho%2C%20Tenerife | South
 
@@ -52,7 +51,7 @@ parties:
     eventsRaw: |-
       Social 100% Zouk | Santa Cruz | Zouk | Zouk | https://www.instagram.com/zoukcanaryislands/p/DesJV-tMoph/ | https://www.google.com/maps/search/?api=1&query=Av.%20de%20las%20Hesp%C3%A9rides%2060%2C%20Santa%20Cruz%2C%20Tenerife | North
 
-      Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/bambuloungetfe/p/De-Adb1DSRX/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
+      Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/latin_events_tenerife/p/De7z_6GKikm/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
 oneOffEvents:
   - name: Golosina Session
     date: '2026-10-29'
@@ -198,4 +197,4 @@ oneOffEvents:
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/fieston_sbk_canarias/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
-lastModified: '2026-10-27T09:43:06.041Z'
+lastModified: '2026-10-28T09:15:52.021Z'

@@ -629,7 +629,17 @@
       "handle": "tbt.se",
       "seenOn": "lamoviesocialclub",
       "firstSeen": "2026-10-27",
-      "status": "unverified"
+      "status": "rejected",
+      "checkedOn": "2026-10-28",
+      "reason": "reggaeton/trap club-night brand (bio: \"El mejor Trap & Reggaetón del 2016\" at La Movie); not a salsa/bachata/kizomba social"
+    },
+    {
+      "handle": "almenaragarcia",
+      "seenOn": "embrujotenerife",
+      "firstSeen": "2026-10-28",
+      "status": "rejected",
+      "checkedOn": "2026-10-28",
+      "reason": "professional dancer and bachata/salsa/kiz instructor (bio: \"Dancer & Instructor\", Bachata Lady Style), not an organiser"
     }
   ],
   "secondarySources": [
