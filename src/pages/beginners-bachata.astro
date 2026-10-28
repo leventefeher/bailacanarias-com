@@ -131,6 +131,18 @@ const faqs = [
           with another person rather than memorising choreography.
           <a href="/what-is-bachata/">Read more about where bachata comes from</a>.
         </p>
+        <figure class="lp-video-figure">
+          <iframe
+            class="lp-video"
+            src="https://www.youtube.com/embed/mXIgwjmSxGU?si=Gl5oKJqEKu6WqG91"
+            title="Baila Canarias, Intensive Bachata Weekend"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            loading="lazy"
+            allowfullscreen
+          ></iframe>
+          <figcaption>A taste of the atmosphere: our intensive bachata weekend.</figcaption>
+        </figure>
       </div>
     </div>
   </section>
@@ -402,6 +414,24 @@ const faqs = [
     .lp-step p {
       margin: 0;
       font-size: 0.97rem;
+    }
+
+    /* ===== Video ===== */
+    .lp-video-figure {
+      margin: 2rem 0 0;
+    }
+    .lp-video {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: 0;
+      border-radius: 8px;
+    }
+    .lp-video-figure figcaption {
+      margin-top: 0.6rem;
+      font-size: 0.85rem;
+      color: var(--color-text-light);
+      text-align: center;
     }
 
     /* ===== Map ===== */
