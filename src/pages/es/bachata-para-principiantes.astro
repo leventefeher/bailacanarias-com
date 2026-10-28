@@ -9,7 +9,7 @@ const whatsapp =
   encodeURIComponent('¡Hola! Me gustaría unirme al grupo de bachata para principiantes de los lunes.');
 
 const essentials = [
-  { label: 'Cuándo', value: 'Lunes, 18:00–19:00', note: 'Empezamos en noviembre' },
+  { label: 'Cuándo', value: 'Lunes, 18:00–19:00', note: 'Primera clase: lunes 2 de noviembre' },
   { label: 'Dónde', value: 'Tenerife Movement Studio', note: 'Los Gigantes' },
   { label: 'Precio', value: '10€ por clase', note: '35€ por 4 · 50€ por pareja para 4' },
   { label: 'Para quién', value: 'Principiantes totales', note: 'Sin pareja' },
@@ -64,7 +64,7 @@ const faqs = [
 
 <Layout
   title="Clases de bachata para principiantes en Los Gigantes, Tenerife"
-  description="Nuevo grupo de bachata para principiantes a partir de noviembre — lunes a las 18:00 en Tenerife Movement Studio, Los Gigantes. Sin pareja y sin experiencia previa. 10€ por clase."
+  description="Nuevo grupo de bachata para principiantes a partir del lunes 2 de noviembre. Lunes a las 18:00 en Tenerife Movement Studio, Los Gigantes. Sin pareja y sin experiencia previa. 10€ por clase."
   lang="es"
   hreflangEN="https://www.bailacanarias.com/beginners-bachata"
   hreflangES="https://www.bailacanarias.com/es/bachata-para-principiantes"
@@ -73,7 +73,7 @@ const faqs = [
 >
   <div class="page-header lp-hero" style={`--page-hero-img: url('${heroImage}');`}>
     <div class="container">
-      <p class="lp-eyebrow">Nuevo grupo · Empezamos en noviembre</p>
+      <p class="lp-eyebrow">Empieza el lunes 2 de noviembre</p>
       <h1>Aprende a bailar bachata desde el primer paso</h1>
       <p>
         Un grupo nuevo para principiantes en Los Gigantes, todos los lunes por la tarde.
@@ -113,7 +113,7 @@ const faqs = [
         <p style="font-size:1.15rem;">
           Lo más difícil de aprender a bailar es entrar por la puerta la primera vez. Este grupo
           está pensado para que eso sea fácil: es un Nivel 0 de verdad, que arranca desde cero el
-          primer lunes, con una sala llena de gente que tampoco ha bailado bachata nunca.
+          lunes 2 de noviembre, con una sala llena de gente que tampoco ha bailado bachata nunca.
         </p>
         <p>
           La bachata es el baile latino más agradecido para empezar. El paso básico dura cuatro
@@ -215,7 +215,7 @@ const faqs = [
   <script type="application/ld+json" set:html={JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'Course',
-    'name': 'Bachata para principiantes — Nivel 0',
+    'name': 'Bachata para principiantes, Nivel 0',
     'description':
       'Clase de bachata en grupo para principiantes en Los Gigantes, Tenerife. Lunes de 18:00 a 19:00 en Tenerife Movement Studio. Sin pareja ni experiencia previa.',
     'url': 'https://www.bailacanarias.com/es/bachata-para-principiantes/',
@@ -244,6 +244,7 @@ const faqs = [
       },
       'courseSchedule': {
         '@type': 'Schedule',
+        'startDate': '2026-11-02',
         'repeatFrequency': 'P1W',
         'byDay': 'https://schema.org/Monday',
         'startTime': '18:00',
@@ -426,6 +427,11 @@ const faqs = [
       }
       .lp-hero h1 {
         max-width: none;
+      }
+      /* Keep the date badge on a single line at phone width */
+      .lp-eyebrow {
+        font-size: 0.72rem;
+        letter-spacing: 0.06em;
       }
     }
     @media (prefers-reduced-motion: reduce) {

@@ -9,7 +9,7 @@ const whatsapp =
   encodeURIComponent("Hi! I'd like to join the beginners bachata group on Mondays.");
 
 const essentials = [
-  { label: 'When', value: 'Mondays, 18:00–19:00', note: 'Starting in November' },
+  { label: 'When', value: 'Mondays, 18:00–19:00', note: 'First class Monday 2 November' },
   { label: 'Where', value: 'Tenerife Movement Studio', note: 'Los Gigantes' },
   { label: 'Price', value: '10€ per class', note: '35€ for 4 · 50€ per couple for 4' },
   { label: 'Who for', value: 'Complete beginners', note: 'No partner needed' },
@@ -26,7 +26,7 @@ const firstWeeks = [
   },
   {
     title: 'Leading and following',
-    body: 'How to invite a movement and how to receive one — a calm, comfortable connection that makes both people feel good, whichever role you dance.',
+    body: 'How to invite a movement and how to receive one: a calm, comfortable connection that makes both people feel good, whichever role you dance.',
   },
   {
     title: 'Your first turns',
@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     q: 'I have never danced before. Is that really okay?',
-    a: 'That is exactly who this group is for. It is a brand-new Level 0 group, so everyone starts on the same day from the same place — the very first step.',
+    a: 'That is exactly who this group is for. It is a brand-new Level 0 group, so everyone starts on the same day from the same place: the very first step.',
   },
   {
     q: 'Do I have to commit to a course?',
@@ -49,7 +49,7 @@ const faqs = [
   },
   {
     q: 'What should I wear?',
-    a: 'Comfortable clothes you can move in, and shoes with a smooth sole that let you turn — trainers with a lot of grip make it harder on your knees. No special dance shoes needed.',
+    a: 'Comfortable clothes you can move in, and shoes with a smooth sole that let you turn. Trainers with a lot of grip make it harder on your knees. No special dance shoes needed.',
   },
   {
     q: 'How old are the people in the class?',
@@ -64,7 +64,7 @@ const faqs = [
 
 <Layout
   title="Beginners Bachata Classes in Los Gigantes, Tenerife"
-  description="A brand-new beginners bachata group starting in November — Mondays 18:00 at Tenerife Movement Studio, Los Gigantes. No partner and no experience needed. 10€ per class."
+  description="A brand-new beginners bachata group starting Monday 2 November. Mondays 18:00 at Tenerife Movement Studio, Los Gigantes. No partner and no experience needed. 10€ per class."
   lang="en"
   hreflangEN="https://www.bailacanarias.com/beginners-bachata"
   hreflangES="https://www.bailacanarias.com/es/bachata-para-principiantes"
@@ -73,7 +73,7 @@ const faqs = [
 >
   <div class="page-header lp-hero" style={`--page-hero-img: url('${heroImage}');`}>
     <div class="container">
-      <p class="lp-eyebrow">New group · Starting November</p>
+      <p class="lp-eyebrow">Starts Monday 2 November</p>
       <h1>Learn to dance bachata from your very first step</h1>
       <p>
         A brand-new beginners group in Los Gigantes, every Monday evening.
@@ -112,12 +112,12 @@ const faqs = [
         <h2>Everybody in the room is starting together</h2>
         <p style="font-size:1.15rem;">
           The hardest part of learning to dance is walking in the first time. This group is built
-          to make that easy: it is a true Level 0 class, starting from zero on the first Monday,
+          to make that easy: it is a true Level 0 class, starting from zero on Monday 2 November,
           with a room full of people who have never danced bachata before either.
         </p>
         <p>
           Bachata is the friendliest of the Latin dances to begin with. The basic step is four
-          beats long and you can learn it in an evening — which means you spend the rest of your
+          beats long and you can learn it in an evening, which means you spend the rest of your
           time on the things that actually make dancing feel good: the music, the connection with
           your partner, and the confidence to get up and dance at a party.
         </p>
@@ -158,13 +158,13 @@ const faqs = [
       <div class="bio-content">
         <h2>Where to find us</h2>
         <p>
-          Classes are at <strong>Tenerife Movement Studio</strong> in Los Gigantes — a proper
+          Classes are at <strong>Tenerife Movement Studio</strong> in Los Gigantes, a proper
           sprung dance floor with mirrors, five minutes from the harbour
           (<a href={studioMap} target="_blank" rel="noopener">view on the map</a>).
         </p>
         <p>
           Come a few minutes early on your first Monday so we can say hello properly. It helps if
-          you message us beforehand — we will look out for you at the door, and let you know if
+          you message us beforehand. We will look out for you at the door, and let you know if
           anything ever changes at short notice.
         </p>
         <p>
@@ -215,7 +215,7 @@ const faqs = [
   <script type="application/ld+json" set:html={JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'Course',
-    'name': 'Beginners Bachata — Level 0',
+    'name': 'Beginners Bachata, Level 0',
     'description':
       'A beginners bachata group class in Los Gigantes, Tenerife. Mondays 18:00–19:00 at Tenerife Movement Studio. No partner or previous experience needed.',
     'url': 'https://www.bailacanarias.com/beginners-bachata/',
@@ -244,6 +244,7 @@ const faqs = [
       },
       'courseSchedule': {
         '@type': 'Schedule',
+        'startDate': '2026-11-02',
         'repeatFrequency': 'P1W',
         'byDay': 'https://schema.org/Monday',
         'startTime': '18:00',
@@ -426,6 +427,11 @@ const faqs = [
       }
       .lp-hero h1 {
         max-width: none;
+      }
+      /* Keep the date badge on a single line at phone width */
+      .lp-eyebrow {
+        font-size: 0.72rem;
+        letter-spacing: 0.06em;
       }
     }
     @media (prefers-reduced-motion: reduce) {
