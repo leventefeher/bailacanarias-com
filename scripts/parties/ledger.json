@@ -527,7 +527,7 @@
         }
       ],
       "lastSeen": "2026-10-29",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "lasalsera|salajuanitocopas": {
@@ -690,7 +690,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/guinda_chillout/reel/DfAUJkBoFoq/",
+      "url": "https://www.instagram.com/guinda_chillout/reel/DfChYIjoyTR/",
       "firstSeen": "2026-09-25",
       "sightings": [
         {
@@ -952,7 +952,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/dr.love_kizombadj/",
+      "url": "https://www.instagram.com/richydj_/p/De-Uvm2MmnX/",
       "firstSeen": "2026-09-30",
       "sightings": [
         {
@@ -1593,6 +1593,52 @@
         }
       ],
       "lastSeen": "2026-12-31",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "bailongossocial|palapabeachclub": {
+      "name": "Bailongos Social",
+      "venue": "Palapa Beach Club",
+      "area": "Playa de las Américas",
+      "region": "South",
+      "address": "Playa del Camisón",
+      "stylesEn": "Salsa & Bachata",
+      "stylesEs": "Salsa y Bachata",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/tenerifelatinsocial/",
+      "firstSeen": "2026-10-30",
+      "sightings": [
+        {
+          "eventDate": "2026-10-30",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/stories/tenerifelatinsocial/4019263546621602513/",
+          "recordedOn": "2026-10-30"
+        }
+      ],
+      "lastSeen": "2026-10-30",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "tardeoenmikasa|mikasasurfcamp": {
+      "name": "Tardeo en Mi Kasa",
+      "venue": "Mikasa Surf Camp",
+      "area": "San Eugenio Alto",
+      "region": "South",
+      "address": "Av. Austria 44",
+      "stylesEn": "Bachata",
+      "stylesEs": "Bachata",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/dondebailoentenerife/",
+      "firstSeen": "2026-10-30",
+      "sightings": [
+        {
+          "eventDate": "2026-11-08",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/stories/dondebailoentenerife/",
+          "recordedOn": "2026-10-30"
+        }
+      ],
+      "lastSeen": "2026-11-08",
       "status": "upcoming",
       "weekday": null
     }

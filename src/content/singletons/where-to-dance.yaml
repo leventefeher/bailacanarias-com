@@ -53,15 +53,15 @@ parties:
 
       Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/latin_events_tenerife/p/De7z_6GKikm/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
 oneOffEvents:
-  - name: Golosina Session
-    date: '2026-10-29'
-    location: Camerino 74, Santa Cruz
-    region: North
-    address: Calle Antonio Domínguez Alfonso 28
-    stylesEn: Bachata
-    stylesEs: Bachata
-    url: https://www.instagram.com/golosinasessiontenerife/p/De8pKySN1Yc/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Camerino%2074%2C%20Calle%20Antonio%20Dom%C3%ADnguez%20Alfonso%2028%2C%20Santa%20Cruz%2C%20Tenerife
+  - name: Bailongos Social
+    date: '2026-10-30'
+    location: Palapa Beach Club, Playa de las Américas
+    region: South
+    address: Playa del Camisón
+    stylesEn: Salsa & Bachata
+    stylesEs: Salsa y Bachata
+    url: https://www.instagram.com/tenerifelatinsocial/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Palapa%20Beach%20Club%2C%20Playa%20del%20Camis%C3%B3n%2C%20Playa%20de%20las%20Am%C3%A9ricas%2C%20Tenerife
   - name: Tardeo Bachatero
     date: '2026-10-30'
     location: B.Heaven, Barceló Santa Cruz Contemporáneo, Santa Cruz
@@ -124,6 +124,15 @@ oneOffEvents:
     stylesEn: Salsa, Bachata & Kizomba
     stylesEs: Salsa, Bachata y Kizomba
     url: https://www.instagram.com/sbkcanary/reel/De2LDAJsGu4/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Mikasa%20Surf%20Camp%2C%20Av.%20Austria%2044%2C%20San%20Eugenio%20Alto%2C%20Tenerife
+  - name: Tardeo en Mi Kasa
+    date: '2026-11-08'
+    location: Mikasa Surf Camp, San Eugenio Alto
+    region: South
+    address: Av. Austria 44
+    stylesEn: Bachata
+    stylesEs: Bachata
+    url: https://www.instagram.com/dondebailoentenerife/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Mikasa%20Surf%20Camp%2C%20Av.%20Austria%2044%2C%20San%20Eugenio%20Alto%2C%20Tenerife
   - name: Fiestón Latino SBK
     date: '2026-11-14'
@@ -197,4 +206,4 @@ oneOffEvents:
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/fieston_sbk_canarias/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
-lastModified: '2026-10-29T09:44:58.260Z'
+lastModified: '2026-10-30T10:20:35.443Z'

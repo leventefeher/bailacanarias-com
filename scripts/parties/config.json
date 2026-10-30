@@ -656,6 +656,22 @@
       "status": "rejected",
       "checkedOn": "2026-10-29",
       "reason": "dancehall/reggae/bass-culture party brand (bio), Vol.1 at La Guinda 8 Nov; not a salsa/bachata/kizomba social"
+    },
+    {
+      "handle": "rowidiaz",
+      "seenOn": "leobailetenerife",
+      "firstSeen": "2026-10-30",
+      "status": "rejected",
+      "checkedOn": "2026-10-30",
+      "reason": "hairdresser/personal account (bio: \"Artist\", hair styling, @rowistudio), not an organiser"
+    },
+    {
+      "handle": "bailaimosfestival",
+      "seenOn": "richydj_",
+      "firstSeen": "2026-10-30",
+      "status": "rejected",
+      "checkedOn": "2026-10-30",
+      "reason": "bachata festival in Marrakech, Morocco (bio: next edition 20-24 May 2027); not Tenerife"
     }
   ],
   "secondarySources": [
