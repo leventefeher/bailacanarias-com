@@ -59,7 +59,7 @@
       "stylesEn": "Salsa & Bachata",
       "stylesEs": "Salsa y Bachata",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/guaguancoevents_tnfe/p/DesF7xTxoZv/",
+      "url": "https://www.instagram.com/ensalitre_/",
       "firstSeen": "2026-09-21",
       "sightings": [
         {
@@ -82,7 +82,7 @@
       "stylesEn": "Bachata",
       "stylesEs": "Bachata",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/sesionesbailetenerife/p/De9CjZ6Oa8o/",
+      "url": "https://www.instagram.com/sesionesbailetenerife/p/DfQGHV6uVLT/",
       "firstSeen": "2026-09-21",
       "sightings": [
         {
@@ -168,9 +168,15 @@
           "weekday": "Wednesday",
           "postUrl": "https://www.instagram.com/sesionesbailetenerife/p/De9CjZ6Oa8o/",
           "recordedOn": "2026-10-26"
+        },
+        {
+          "eventDate": "2026-11-04",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/sesionesbailetenerife/p/DfQGHV6uVLT/",
+          "recordedOn": "2026-11-03"
         }
       ],
-      "lastSeen": "2026-10-28",
+      "lastSeen": "2026-11-04",
       "status": "weekly",
       "weekday": "Wednesday",
       "address": "Paseo Milicias de Garachico 1"
@@ -328,7 +334,7 @@
         }
       ],
       "lastSeen": "2026-10-30",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "rumbaton|salajuanitocopas": {
@@ -340,7 +346,7 @@
       "stylesEn": "Salsa, Bachata & Merengue",
       "stylesEs": "Salsa, Bachata y Merengue",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/salajuanitomascopas/p/De-SZkROcm3/",
+      "url": "https://www.instagram.com/salajuanitomascopas/",
       "firstSeen": "2026-09-23",
       "sightings": [
         {
@@ -396,9 +402,15 @@
           "weekday": "Friday",
           "postUrl": "https://www.instagram.com/stories/salajuanitomascopas/4015796402747477454/",
           "recordedOn": "2026-10-26"
+        },
+        {
+          "eventDate": "2026-11-06",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/stories/salajuanitomascopas/",
+          "recordedOn": "2026-11-03"
         }
       ],
-      "lastSeen": "2026-10-30",
+      "lastSeen": "2026-11-06",
       "status": "weekly",
       "weekday": "Friday"
     },
@@ -428,7 +440,7 @@
         }
       ],
       "lastSeen": "2026-10-31",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "tueligessbkz|lamoviesocialclub": {
@@ -940,7 +952,7 @@
         }
       ],
       "lastSeen": "2026-10-31",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "martessalvajes|salvajelatejita": {
@@ -1023,7 +1035,7 @@
       "stylesEn": "Bachata",
       "stylesEs": "Bachata",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/embrujotenerife/p/DeJek4TNVt-/",
+      "url": "https://www.instagram.com/embrujotenerife/p/DfRamu-tdwk/",
       "firstSeen": "2026-09-30",
       "sightings": [
         {
@@ -1031,10 +1043,16 @@
           "weekday": "Friday",
           "postUrl": "https://www.instagram.com/stories/dondebailoentenerife/3997418242687393800/",
           "recordedOn": "2026-09-30"
+        },
+        {
+          "eventDate": "2026-11-20",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/embrujotenerife/p/DfRamu-tdwk/",
+          "recordedOn": "2026-11-03"
         }
       ],
-      "lastSeen": "2026-10-23",
-      "status": "past",
+      "lastSeen": "2026-11-20",
+      "status": "upcoming",
       "weekday": null
     },
     "domingodemalecon|bambuloungebar": {
@@ -1128,19 +1146,19 @@
         }
       ],
       "lastSeen": "2026-10-31",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "tenerifelatinsocial|": {
       "name": "Tenerife Latin Social",
       "venue": "",
-      "area": "",
+      "area": "El Médano",
       "region": "South",
       "address": "",
       "stylesEn": "Salsa & Bachata",
       "stylesEs": "Salsa y Bachata",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/tenerifelatinsocial/reel/De6xe5-Nt5l/",
+      "url": "https://www.instagram.com/tenerifelatinsocial/reel/DfNBmpXtFZt/",
       "firstSeen": "2026-10-06",
       "sightings": [
         {
@@ -1178,9 +1196,15 @@
           "weekday": "Monday",
           "postUrl": "https://www.instagram.com/tenerifelatinsocial/reel/De6xe5-Nt5l/",
           "recordedOn": "2026-10-26"
+        },
+        {
+          "eventDate": "2026-11-02",
+          "weekday": "Monday",
+          "postUrl": "https://www.instagram.com/tenerifelatinsocial/reel/DfNBmpXtFZt/",
+          "recordedOn": "2026-11-03"
         }
       ],
-      "lastSeen": "2026-10-26",
+      "lastSeen": "2026-11-02",
       "status": "weekly",
       "weekday": "Monday"
     },
@@ -1559,7 +1583,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/sbkcanary/reel/De2LDAJsGu4/",
+      "url": "https://www.instagram.com/sbkcanary/",
       "firstSeen": "2026-10-25",
       "sightings": [
         {
@@ -1582,7 +1606,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/latin_events_tenerife/",
+      "url": "https://www.instagram.com/embrujotenerife/p/DfKh-7gNh8j/",
       "firstSeen": "2026-10-26",
       "sightings": [
         {
@@ -1616,7 +1640,7 @@
         }
       ],
       "lastSeen": "2026-10-30",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "tardeoenmikasa|mikasasurfcamp": {
@@ -1639,6 +1663,52 @@
         }
       ],
       "lastSeen": "2026-11-08",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "exoticsbk|bambuloungebar": {
+      "name": "Exotic SBK",
+      "venue": "Bambú Lounge Bar",
+      "area": "Santa Cruz",
+      "region": "North",
+      "address": "Calle Fernando Arozena Quintero 5",
+      "stylesEn": "Salsa, Bachata & Kizomba",
+      "stylesEs": "Salsa, Bachata y Kizomba",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/dondebailoentenerife/",
+      "firstSeen": "2026-11-03",
+      "sightings": [
+        {
+          "eventDate": "2026-11-28",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/stories/dondebailoentenerife/4021608791552041566/",
+          "recordedOn": "2026-11-03"
+        }
+      ],
+      "lastSeen": "2026-11-28",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "findeanolagranfiestalatina|montanaroja2": {
+      "name": "Fin de Año La Gran Fiesta Latina",
+      "venue": "Montaña Roja 2",
+      "area": "Las Chafiras",
+      "region": "South",
+      "address": "Avd Daniel Feo 7",
+      "stylesEn": "Salsa, Bachata & Merengue",
+      "stylesEs": "Salsa, Bachata y Merengue",
+      "mapsUrl": "",
+      "url": "https://www.facebook.com/photo/?fbid=10246600004842186",
+      "firstSeen": "2026-11-03",
+      "sightings": [
+        {
+          "eventDate": "2026-12-31",
+          "weekday": "Thursday",
+          "postUrl": "https://www.facebook.com/photo/?fbid=10246600004842186",
+          "recordedOn": "2026-11-03"
+        }
+      ],
+      "lastSeen": "2026-12-31",
       "status": "upcoming",
       "weekday": null
     }

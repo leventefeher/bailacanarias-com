@@ -672,6 +672,30 @@
       "status": "rejected",
       "checkedOn": "2026-10-30",
       "reason": "bachata festival in Marrakech, Morocco (bio: next edition 20-24 May 2027); not Tenerife"
+    },
+    {
+      "handle": "fabicabralg",
+      "seenOn": "golosinasessiontenerife",
+      "firstSeen": "2026-11-03",
+      "status": "rejected",
+      "checkedOn": "2026-11-03",
+      "reason": "personal account (no bio, 802 followers; dancer posting with golosinasessiontenerife), not an organiser"
+    },
+    {
+      "handle": "belindance_",
+      "seenOn": "golosinasessiontenerife",
+      "firstSeen": "2026-11-03",
+      "status": "rejected",
+      "checkedOn": "2026-11-03",
+      "reason": "dance teacher and dancer (bio: \"Profesora y bailarina\", academy in Las Palmas, Gran Canaria), not a Tenerife organiser"
+    },
+    {
+      "handle": "kimberlyssant",
+      "seenOn": "golosinasessiontenerife",
+      "firstSeen": "2026-11-03",
+      "status": "rejected",
+      "checkedOn": "2026-11-03",
+      "reason": "digital creator / dancer personal account (bio: TikTok, Delusion Ladies dancer, tourism), not an organiser"
     }
   ],
   "secondarySources": [
