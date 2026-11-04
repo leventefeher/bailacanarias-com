@@ -33,9 +33,9 @@ parties:
   - dayEn: Friday
     dayEs: Viernes
     eventsRaw: |-
-      Rumbatón | Sala Juanito + Copas, La Laguna | Salsa, Bachata & Merengue | Salsa, Bachata y Merengue | https://www.instagram.com/salajuanitomascopas/ | https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife | North
+      Rumbatón | Sala Juanito + Copas, La Laguna | Salsa, Bachata & Merengue | Salsa, Bachata y Merengue | https://www.instagram.com/salajuanitomascopas/p/DfSX3GdOFSv/ | https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife | North
 
-      DJ Kiko | La Guinda Chill Out, Puerto de la Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/guinda_chillout/reel/DfAUJkBoFoq/ | https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife | North
+      DJ Kiko | La Guinda Chill Out, Puerto de la Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/guinda_chillout/reel/DfUGoWwIIB1/ | https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife | North
 
       Fiesta Latina | Xanadú Restaurante, Guargacho | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/richydj_/p/DfDs1HdM-KO/ | https://www.google.com/maps/search/?api=1&query=Xanad%C3%BA%20Restaurante%2C%20Guargacho%2C%20Tenerife | South
 
@@ -53,6 +53,15 @@ parties:
 
       Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/latin_events_tenerife/p/De7z_6GKikm/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
 oneOffEvents:
+  - name: Golosina Session
+    date: '2026-11-05'
+    location: Camerino 74, Santa Cruz
+    region: North
+    address: Calle Antonio Domínguez Alfonso 28
+    stylesEn: Bachata
+    stylesEs: Bachata
+    url: https://www.instagram.com/golosinasessiontenerife/p/DfSY1blNF30/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Camerino%2074%2C%20Calle%20Antonio%20Dom%C3%ADnguez%20Alfonso%2028%2C%20Santa%20Cruz%2C%20Tenerife
   - name: Kiz Evolution
     date: '2026-11-07'
     location: Sala Juanito + Copas, La Laguna
@@ -188,4 +197,4 @@ oneOffEvents:
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/fieston_sbk_canarias/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
-lastModified: '2026-11-03T09:23:49.058Z'
+lastModified: '2026-11-04T09:45:57.476Z'

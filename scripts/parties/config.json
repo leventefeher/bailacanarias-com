@@ -696,6 +696,22 @@
       "status": "rejected",
       "checkedOn": "2026-11-03",
       "reason": "digital creator / dancer personal account (bio: TikTok, Delusion Ladies dancer, tourism), not an organiser"
+    },
+    {
+      "handle": "lahoraklconolivermartin",
+      "seenOn": "leobailetenerife",
+      "firstSeen": "2026-11-04",
+      "status": "rejected",
+      "checkedOn": "2026-11-04",
+      "reason": "radio programme (La Hora KL, La Diez Capital Radio) interviewing artists, not an organiser"
+    },
+    {
+      "handle": "albasanchez_estilosunidos",
+      "seenOn": "golosinasessiontenerife",
+      "firstSeen": "2026-11-04",
+      "status": "rejected",
+      "checkedOn": "2026-11-04",
+      "reason": "bachata dancer/champion and instructor (bio: Ladies Estilos Unidos), not a Tenerife organiser"
     }
   ],
   "secondarySources": [
