@@ -21,7 +21,7 @@ parties:
     eventsRaw: |-
       Bachatón | La Movie Social Club, Santa Cruz | Bachata | Bachata | https://www.instagram.com/sesionesbailetenerife/p/DfQGHV6uVLT/ | https://www.google.com/maps/search/?api=1&query=La%20Movie%20Social%20Club%2C%20Paseo%20Milicias%20de%20Garachico%201%2C%20Santa%20Cruz%2C%20Tenerife | North
 
-      Papacito | Wild Tenerife, Los Cristianos | Salsa, Bachata & Reggaeton | Salsa, Bachata y Reggaeton | https://www.instagram.com/sbkcanary/reel/DeuTe0sMBfP/ | https://www.google.com/maps/search/?api=1&query=Wild%20Tenerife%2C%20CC%20San%20Telmo%2C%20Av.%20La%20Habana%2011%2C%20Los%20Cristianos%2C%20Tenerife | South
+      Papacito | Wild Tenerife, Los Cristianos | Salsa, Bachata & Reggaeton | Salsa, Bachata y Reggaeton | https://www.instagram.com/fuegopegao/ | https://www.google.com/maps/search/?api=1&query=Wild%20Tenerife%2C%20CC%20San%20Telmo%2C%20Av.%20La%20Habana%2011%2C%20Los%20Cristianos%2C%20Tenerife | South
   - dayEn: Thursday
     dayEs: Jueves
     dayNoteEn: Check Instagram for Thursday events.
@@ -49,9 +49,9 @@ parties:
   - dayEn: Sunday
     dayEs: Domingo
     eventsRaw: |-
-      Social 100% Zouk | Santa Cruz | Zouk | Zouk | https://www.instagram.com/zoukcanaryislands/p/DesJV-tMoph/ | https://www.google.com/maps/search/?api=1&query=Av.%20de%20las%20Hesp%C3%A9rides%2060%2C%20Santa%20Cruz%2C%20Tenerife | North
+      Social 100% Zouk | Santa Cruz | Zouk | Zouk | https://www.instagram.com/zoukcanaryislands/p/DfUtNIZMk1c/ | https://www.google.com/maps/search/?api=1&query=Av.%20de%20las%20Hesp%C3%A9rides%2060%2C%20Santa%20Cruz%2C%20Tenerife | North
 
-      Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/latin_events_tenerife/p/De7z_6GKikm/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
+      Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/bambuloungetfe/p/DfUpSsVjfqJ/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
 oneOffEvents:
   - name: Golosina Session
     date: '2026-11-05'
@@ -62,6 +62,24 @@ oneOffEvents:
     stylesEs: Bachata
     url: https://www.instagram.com/golosinasessiontenerife/p/DfSY1blNF30/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Camerino%2074%2C%20Calle%20Antonio%20Dom%C3%ADnguez%20Alfonso%2028%2C%20Santa%20Cruz%2C%20Tenerife
+  - name: Tú Eliges SBKZ
+    date: '2026-11-06'
+    location: La Movie Social Club, Santa Cruz
+    region: North
+    address: Paseo Milicias de Garachico 1
+    stylesEn: Salsa, Bachata, Kizomba & Zouk
+    stylesEs: Salsa, Bachata, Kizomba y Zouk
+    url: https://www.instagram.com/tueliges_sbk/reel/DfUl_ubgZt6/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=La%20Movie%20Social%20Club%2C%20Paseo%20Milicias%20de%20Garachico%201%2C%20Santa%20Cruz%2C%20Tenerife
+  - name: Bacanal Latinos
+    date: '2026-11-07'
+    location: Sala Montaña Roja, Las Chafiras
+    region: South
+    address: Avenida Daniel Feo 9
+    stylesEn: Salsa, Bachata & Kizomba
+    stylesEs: Salsa, Bachata y Kizomba
+    url: https://www.instagram.com/bacanalsbk/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Monta%C3%B1a%20Roja%2C%20Avenida%20Daniel%20Feo%209%2C%20Las%20Chafiras%2C%20Tenerife
   - name: Kiz Evolution
     date: '2026-11-07'
     location: Sala Juanito + Copas, La Laguna
@@ -141,7 +159,7 @@ oneOffEvents:
     address: Calle Fernando Arozena Quintero 5
     stylesEn: Salsa, Bachata & Kizomba
     stylesEs: Salsa, Bachata y Kizomba
-    url: https://www.instagram.com/dondebailoentenerife/
+    url: https://eventoenlista.com/index.php
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife
   - name: Fiestón SBK
     date: '2026-12-07'
@@ -186,7 +204,7 @@ oneOffEvents:
     address: Avd Daniel Feo 7
     stylesEn: Salsa, Bachata & Merengue
     stylesEs: Salsa, Bachata y Merengue
-    url: https://www.facebook.com/photo/?fbid=10246600004842186
+    url: https://www.instagram.com/sbkcanary/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Monta%C3%B1a%20Roja%202%2C%20Avd%20Daniel%20Feo%207%2C%20Las%20Chafiras%2C%20Tenerife
   - name: Fiestón SBK
     date: '2027-01-09'
@@ -197,4 +215,4 @@ oneOffEvents:
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/fieston_sbk_canarias/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
-lastModified: '2026-11-04T09:45:57.476Z'
+lastModified: '2026-11-05T09:55:06.213Z'

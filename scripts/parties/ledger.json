@@ -82,7 +82,7 @@
       "stylesEn": "Bachata",
       "stylesEs": "Bachata",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/sesionesbailetenerife/p/DfQGHV6uVLT/",
+      "url": "https://www.instagram.com/leobailetenerife/",
       "firstSeen": "2026-09-21",
       "sightings": [
         {
@@ -189,7 +189,7 @@
       "stylesEn": "Zouk",
       "stylesEs": "Zouk",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/zoukcanaryislands/p/DesJV-tMoph/",
+      "url": "https://www.instagram.com/zoukcanaryislands/p/DfUtNIZMk1c/",
       "firstSeen": "2026-09-22",
       "sightings": [
         {
@@ -215,9 +215,15 @@
           "weekday": "Sunday",
           "postUrl": "https://www.instagram.com/zoukcanaryislands/p/DesJV-tMoph/",
           "recordedOn": "2026-10-21"
+        },
+        {
+          "eventDate": "2026-11-08",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/zoukcanaryislands/p/DfUtNIZMk1c/",
+          "recordedOn": "2026-11-05"
         }
       ],
-      "lastSeen": "2026-10-25",
+      "lastSeen": "2026-11-08",
       "status": "weekly",
       "weekday": "Sunday",
       "declaredRecurring": true,
@@ -452,7 +458,7 @@
       "stylesEn": "Salsa, Bachata, Kizomba & Zouk",
       "stylesEs": "Salsa, Bachata, Kizomba y Zouk",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/tueliges_sbk/p/DdtWtlBg85b/",
+      "url": "https://www.instagram.com/tueliges_sbk/reel/DfUl_ubgZt6/",
       "firstSeen": "2026-09-23",
       "sightings": [
         {
@@ -472,10 +478,16 @@
           "weekday": "Friday",
           "postUrl": "https://www.instagram.com/tueliges_sbk/p/DdtWtlBg85b/",
           "recordedOn": "2026-09-26"
+        },
+        {
+          "eventDate": "2026-11-06",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/tueliges_sbk/reel/DfUl_ubgZt6/",
+          "recordedOn": "2026-11-05"
         }
       ],
-      "lastSeen": "2026-09-25",
-      "status": "past",
+      "lastSeen": "2026-11-06",
+      "status": "upcoming",
       "weekday": null
     },
     "social100zouk|synergy": {
@@ -661,7 +673,7 @@
       "stylesEn": "Salsa, Bachata & Reggaeton",
       "stylesEs": "Salsa, Bachata y Reggaeton",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/sbkcanary/reel/DeuTe0sMBfP/",
+      "url": "https://www.instagram.com/fuegopegao/",
       "firstSeen": "2026-09-24",
       "sightings": [
         {
@@ -693,9 +705,15 @@
           "weekday": "Wednesday",
           "postUrl": "https://www.instagram.com/stories/fuegopegao/",
           "recordedOn": "2026-10-29"
+        },
+        {
+          "eventDate": "2026-11-04",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/stories/fuegopegao/4023049068476908572/",
+          "recordedOn": "2026-11-05"
         }
       ],
-      "lastSeen": "2026-10-28",
+      "lastSeen": "2026-11-04",
       "status": "weekly",
       "weekday": "Wednesday"
     },
@@ -1076,7 +1094,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/latin_events_tenerife/p/De7z_6GKikm/",
+      "url": "https://www.instagram.com/bambuloungetfe/p/DfUpSsVjfqJ/",
       "firstSeen": "2026-09-30",
       "sightings": [
         {
@@ -1108,9 +1126,15 @@
           "weekday": "Sunday",
           "postUrl": "https://eventoenlista.com/index.php",
           "recordedOn": "2026-10-21"
+        },
+        {
+          "eventDate": "2026-11-08",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/bambuloungetfe/p/DfUpSsVjfqJ/",
+          "recordedOn": "2026-11-05"
         }
       ],
-      "lastSeen": "2026-11-01",
+      "lastSeen": "2026-11-08",
       "status": "weekly",
       "weekday": "Sunday",
       "declaredRecurring": true
@@ -1572,7 +1596,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/bacanalsbk/reel/DewA-tSOSe9/",
+      "url": "https://www.instagram.com/bacanalsbk/",
       "firstSeen": "2026-10-19",
       "sightings": [
         {
@@ -1580,10 +1604,16 @@
           "weekday": "Saturday",
           "postUrl": "https://www.instagram.com/stories/leobailetenerife/4011287591563410344/",
           "recordedOn": "2026-10-19"
+        },
+        {
+          "eventDate": "2026-11-07",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/stories/dondebailoentenerife/",
+          "recordedOn": "2026-11-05"
         }
       ],
-      "lastSeen": "2026-10-24",
-      "status": "past",
+      "lastSeen": "2026-11-07",
+      "status": "upcoming",
       "weekday": null
     },
     "tardeosbk|mikasasurfcamp": {
@@ -1595,7 +1625,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/sbkcanary/",
+      "url": "https://www.instagram.com/sbkcanary/reel/De2LDAJsGu4/",
       "firstSeen": "2026-10-25",
       "sightings": [
         {
@@ -1687,7 +1717,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/dondebailoentenerife/",
+      "url": "https://eventoenlista.com/index.php",
       "firstSeen": "2026-11-03",
       "sightings": [
         {
@@ -1710,7 +1740,7 @@
       "stylesEn": "Salsa, Bachata & Merengue",
       "stylesEs": "Salsa, Bachata y Merengue",
       "mapsUrl": "",
-      "url": "https://www.facebook.com/photo/?fbid=10246600004842186",
+      "url": "https://www.instagram.com/sbkcanary/",
       "firstSeen": "2026-11-03",
       "sightings": [
         {
