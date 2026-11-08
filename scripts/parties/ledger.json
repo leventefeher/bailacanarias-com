@@ -317,7 +317,7 @@
       "stylesEn": "Bachata & Salsa",
       "stylesEs": "Bachata y Salsa",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/sesionesbailetenerife/p/De9B0uaOZGk/",
+      "url": "https://www.instagram.com/tardeobachatero/reel/DfXJlE7oqSf/",
       "firstSeen": "2026-09-23",
       "sightings": [
         {
@@ -337,9 +337,15 @@
           "weekday": "Friday",
           "postUrl": "https://www.instagram.com/sesionesbailetenerife/p/De9B0uaOZGk/",
           "recordedOn": "2026-10-26"
+        },
+        {
+          "eventDate": "2026-11-07",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/tardeobachatero/reel/DfXJlE7oqSf/",
+          "recordedOn": "2026-11-08"
         }
       ],
-      "lastSeen": "2026-10-30",
+      "lastSeen": "2026-11-07",
       "status": "past",
       "weekday": null
     },
@@ -487,7 +493,7 @@
         }
       ],
       "lastSeen": "2026-11-06",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "social100zouk|synergy": {
@@ -557,7 +563,7 @@
         }
       ],
       "lastSeen": "2026-11-05",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "lasalsera|salajuanitocopas": {
@@ -592,7 +598,7 @@
         }
       ],
       "lastSeen": "2026-11-07",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "laconsultitakizombera|oceanorooftophoteloceano": {
@@ -711,9 +717,15 @@
           "weekday": "Wednesday",
           "postUrl": "https://www.instagram.com/stories/fuegopegao/4023049068476908572/",
           "recordedOn": "2026-11-05"
+        },
+        {
+          "eventDate": "2026-11-11",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/stories/fuegopegao/4025502004385711595/",
+          "recordedOn": "2026-11-08"
         }
       ],
-      "lastSeen": "2026-11-04",
+      "lastSeen": "2026-11-11",
       "status": "weekly",
       "weekday": "Wednesday"
     },
@@ -866,7 +878,7 @@
       "stylesEn": "Salsa, Bachata, Kizomba & Zouk",
       "stylesEs": "Salsa, Bachata, Kizomba y Zouk",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/fieston_sbk_canarias/",
+      "url": "https://www.instagram.com/fieston_sbk_canarias/p/DffOS_1Mlc7/",
       "firstSeen": "2026-09-28",
       "sightings": [
         {
@@ -1062,8 +1074,8 @@
       "area": "Santa Cruz",
       "region": "North",
       "address": "Calle Fernando Arozena Quintero 5",
-      "stylesEn": "Bachata",
-      "stylesEs": "Bachata",
+      "stylesEn": "Bachata & Salsa",
+      "stylesEs": "Bachata y Salsa",
       "mapsUrl": "",
       "url": "https://www.instagram.com/embrujotenerife/p/DfRamu-tdwk/",
       "firstSeen": "2026-09-30",
@@ -1253,7 +1265,7 @@
       "stylesEn": "Salsa, Bachata & Reggaeton",
       "stylesEs": "Salsa, Bachata y Reggaeton",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/guinda_chillout/",
+      "url": "https://www.instagram.com/guinda_chillout/reel/DfZJsN4oBmG/",
       "firstSeen": "2026-10-06",
       "sightings": [
         {
@@ -1273,10 +1285,16 @@
           "weekday": "Thursday",
           "postUrl": "https://www.instagram.com/stories/guinda_chillout/4016290760201768679/",
           "recordedOn": "2026-10-26"
+        },
+        {
+          "eventDate": "2026-11-12",
+          "weekday": "Thursday",
+          "postUrl": "https://www.instagram.com/guinda_chillout/reel/DfZJsN4oBmG/",
+          "recordedOn": "2026-11-08"
         }
       ],
       "declaredRecurring": true,
-      "lastSeen": "2026-10-29",
+      "lastSeen": "2026-11-12",
       "status": "weekly",
       "weekday": "Thursday"
     },
@@ -1335,7 +1353,7 @@
         }
       ],
       "lastSeen": "2026-11-07",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "fusionlatina|montanaroja2": {
@@ -1373,9 +1391,15 @@
           "weekday": "Friday",
           "postUrl": "https://www.instagram.com/sbkcanary/reel/DeuTPtOM7t4/",
           "recordedOn": "2026-10-22"
+        },
+        {
+          "eventDate": "2026-11-13",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/stories/sbkcanary/",
+          "recordedOn": "2026-11-08"
         }
       ],
-      "lastSeen": "2026-10-23",
+      "lastSeen": "2026-11-13",
       "declaredRecurring": true,
       "status": "weekly",
       "weekday": "Friday"
@@ -1613,7 +1637,7 @@
         }
       ],
       "lastSeen": "2026-11-07",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "tardeosbk|mikasasurfcamp": {
@@ -1636,7 +1660,7 @@
         }
       ],
       "lastSeen": "2026-11-07",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "fiestafindeano|salabalibambuloungebar": {
@@ -1751,6 +1775,52 @@
         }
       ],
       "lastSeen": "2026-12-31",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "ritmo|tramps": {
+      "name": "Ritmo",
+      "venue": "Tramps",
+      "area": "Playa de las Américas",
+      "region": "South",
+      "address": "",
+      "stylesEn": "Salsa & Bachata",
+      "stylesEs": "Salsa y Bachata",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/fuegopegao/",
+      "firstSeen": "2026-11-08",
+      "sightings": [
+        {
+          "eventDate": "2026-11-12",
+          "weekday": "Thursday",
+          "postUrl": "https://www.instagram.com/stories/fuegopegao/4025502464685418703/",
+          "recordedOn": "2026-11-08"
+        }
+      ],
+      "lastSeen": "2026-11-12",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "kizombasbknight|salvajelatejita": {
+      "name": "Kizomba + SBK Night",
+      "venue": "Salvaje La Tejita",
+      "area": "El Médano",
+      "region": "South",
+      "address": "Street Market La Tejita, C. Hernán Cortés 29",
+      "stylesEn": "Kizomba, Salsa & Bachata",
+      "stylesEs": "Kizomba, Salsa y Bachata",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/dr.love_kizombadj/",
+      "firstSeen": "2026-11-08",
+      "sightings": [
+        {
+          "eventDate": "2026-11-08",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/stories/dr.love_kizombadj/",
+          "recordedOn": "2026-11-08"
+        }
+      ],
+      "lastSeen": "2026-11-08",
       "status": "upcoming",
       "weekday": null
     }
