@@ -15,11 +15,11 @@ parties:
     eventsRaw: |-
       Martes Salvajes | Salvaje La Tejita, El Médano | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/richydj_/p/De-Uvm2MmnX/ | https://www.google.com/maps/search/?api=1&query=Salvaje%20La%20Tejita%2C%20Street%20Market%20La%20Tejita%2C%20C.%20Hern%C3%A1n%20Cort%C3%A9s%2029%2C%20El%20M%C3%A9dano%2C%20Tenerife | South
 
-      Tenerife Latin Social | El Médano | Salsa & Bachata | Salsa y Bachata | https://www.instagram.com/tenerifelatinsocial/reel/DfNBmpXtFZt/ |  | South
+      Tenerife Latin Social | El Médano | Salsa & Bachata | Salsa y Bachata | https://www.instagram.com/reel/DffpSwxh_e1/ |  | South
   - dayEn: Wednesday
     dayEs: Miércoles
     eventsRaw: |-
-      Bachatón | La Movie Social Club, Santa Cruz | Bachata | Bachata | https://www.instagram.com/sesionesbailetenerife/p/DfQGHV6uVLT/ | https://www.google.com/maps/search/?api=1&query=La%20Movie%20Social%20Club%2C%20Paseo%20Milicias%20de%20Garachico%201%2C%20Santa%20Cruz%2C%20Tenerife | North
+      Bachatón | La Movie Social Club, Santa Cruz | Bachata | Bachata | https://www.instagram.com/p/Dff-qOgIpPM/ | https://www.google.com/maps/search/?api=1&query=La%20Movie%20Social%20Club%2C%20Paseo%20Milicias%20de%20Garachico%201%2C%20Santa%20Cruz%2C%20Tenerife | North
 
       Papacito | Wild Tenerife, Los Cristianos | Salsa, Bachata & Reggaeton | Salsa, Bachata y Reggaeton | https://www.instagram.com/fuegopegao/ | https://www.google.com/maps/search/?api=1&query=Wild%20Tenerife%2C%20CC%20San%20Telmo%2C%20Av.%20La%20Habana%2011%2C%20Los%20Cristianos%2C%20Tenerife | South
   - dayEn: Thursday
@@ -27,6 +27,8 @@ parties:
     dayNoteEn: Check Instagram for Thursday events.
     dayNoteEs: Consulta Instagram para eventos del jueves.
     eventsRaw: |-
+      Golosina Session | Camerino 74, Santa Cruz | Bachata | Bachata | https://www.instagram.com/p/DfgtSGkNfN4/ | https://www.google.com/maps/search/?api=1&query=Camerino%2074%2C%20Calle%20Antonio%20Dom%C3%ADnguez%20Alfonso%2028%2C%20Santa%20Cruz%2C%20Tenerife | North
+
       Aventura Latina | La Central Discoteca, Playa de las Américas | Salsa, Bachata & Latin | Salsa, Bachata y Latino | https://www.instagram.com/fuegopegao/ | https://www.google.com/maps/search/?api=1&query=La%20Central%20Discoteca%2C%20P.%20Verode%2C%2038660%2C%20Playa%20de%20las%20Am%C3%A9ricas%2C%20Tenerife | South
 
       Jueves Latinos | La Guinda Chill Out, Puerto de la Cruz | Salsa, Bachata & Reggaeton | Salsa, Bachata y Reggaeton | https://www.instagram.com/guinda_chillout/reel/DfZJsN4oBmG/ | https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife | North
@@ -53,24 +55,6 @@ parties:
 
       Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/bambuloungetfe/p/DfUpSsVjfqJ/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
 oneOffEvents:
-  - name: Kizomba + SBK Night
-    date: '2026-11-08'
-    location: Salvaje La Tejita, El Médano
-    region: South
-    address: Street Market La Tejita, C. Hernán Cortés 29
-    stylesEn: Kizomba, Salsa & Bachata
-    stylesEs: Kizomba, Salsa y Bachata
-    url: https://www.instagram.com/dr.love_kizombadj/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Salvaje%20La%20Tejita%2C%20Street%20Market%20La%20Tejita%2C%20C.%20Hern%C3%A1n%20Cort%C3%A9s%2029%2C%20El%20M%C3%A9dano%2C%20Tenerife
-  - name: Tardeo en Mi Kasa
-    date: '2026-11-08'
-    location: Mikasa Surf Camp, San Eugenio Alto
-    region: South
-    address: Av. Austria 44
-    stylesEn: Bachata
-    stylesEs: Bachata
-    url: https://www.instagram.com/dondebailoentenerife/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Mikasa%20Surf%20Camp%2C%20Av.%20Austria%2044%2C%20San%20Eugenio%20Alto%2C%20Tenerife
   - name: Ritmo
     date: '2026-11-12'
     location: Tramps, Playa de las Américas
@@ -80,6 +64,15 @@ oneOffEvents:
     stylesEs: Salsa y Bachata
     url: https://www.instagram.com/fuegopegao/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Tramps%2C%20Playa%20de%20las%20Am%C3%A9ricas%2C%20Tenerife
+  - name: Bacanal
+    date: '2026-11-14'
+    location: Sala Juanito + Copas, La Laguna
+    region: North
+    address: Ctra. La Esperanza, km 2
+    stylesEn: Salsa, Bachata & Kizomba
+    stylesEs: Salsa, Bachata y Kizomba
+    url: https://www.instagram.com/p/Dff-fNWIfBU/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife
   - name: Fiestón Latino SBK
     date: '2026-11-14'
     location: Las Chafiras
@@ -87,7 +80,7 @@ oneOffEvents:
     address: Av. Daniel Feo 9
     stylesEn: Salsa, Bachata, Kizomba & Zouk
     stylesEs: Salsa, Bachata, Kizomba y Zouk
-    url: https://www.instagram.com/fieston_sbk_canarias/p/DffOS_1Mlc7/
+    url: https://www.instagram.com/p/DffOS_1Mlc7/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Av.%20Daniel%20Feo%209%2C%20Las%20Chafiras%2C%20Tenerife
   - name: Embrujo
     date: '2026-11-20'
@@ -123,8 +116,17 @@ oneOffEvents:
     address: Calle Fernando Arozena Quintero 5
     stylesEn: Salsa, Bachata & Kizomba
     stylesEs: Salsa, Bachata y Kizomba
-    url: https://eventoenlista.com/index.php
+    url: https://www.instagram.com/p/DfPpIk2sfg_/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife
+  - name: Sabroso Latino
+    date: '2026-11-28'
+    location: Montaña Roja 2, Las Chafiras
+    region: South
+    address: ""
+    stylesEn: ""
+    stylesEs: ""
+    url: https://www.instagram.com/fuegopegao/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Monta%C3%B1a%20Roja%202%2C%20Las%20Chafiras%2C%20Tenerife
   - name: Fiestón SBK
     date: '2026-12-07'
     location: Studio 54 Liceo Taoro, La Orotava
@@ -150,7 +152,7 @@ oneOffEvents:
     address: Av. Daniel Feo 9
     stylesEn: Salsa, Bachata, Kizomba & Zouk
     stylesEs: Salsa, Bachata, Kizomba y Zouk
-    url: https://www.instagram.com/fieston_sbk_canarias/p/DffOS_1Mlc7/
+    url: https://www.instagram.com/p/DffOS_1Mlc7/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Av.%20Daniel%20Feo%209%2C%20Las%20Chafiras%2C%20Tenerife
   - name: Fiesta Fin de Año
     date: '2026-12-31'
@@ -159,7 +161,7 @@ oneOffEvents:
     address: Calle Fernando Arozena Quintero 5
     stylesEn: Salsa, Bachata & Kizomba
     stylesEs: Salsa, Bachata y Kizomba
-    url: https://www.instagram.com/embrujotenerife/p/DfKh-7gNh8j/
+    url: https://www.instagram.com/p/DfKh-7gNh8j/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Bali%2C%20Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife
   - name: Fin de Año La Gran Fiesta Latina
     date: '2026-12-31'
@@ -179,4 +181,4 @@ oneOffEvents:
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/fieston_sbk_canarias/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
-lastModified: '2026-11-08T18:45:47.616Z'
+lastModified: '2026-11-09T09:18:31.886Z'
