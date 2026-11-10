@@ -720,6 +720,14 @@
       "status": "rejected",
       "reason": "Football league (Campeonato de Fútbol 11 y 7, Santa Cruz); only appeared for a trophy gala at La Movie",
       "checkedOn": "2026-11-08"
+    },
+    {
+      "handle": "adc_visualtf",
+      "seenOn": "guinda_chillout",
+      "firstSeen": "2026-11-10",
+      "status": "rejected",
+      "checkedOn": "2026-11-10",
+      "reason": "photographer/filmmaker (bio: 'Airam | Filmmaker', action sports and events), not an organiser"
     }
   ],
   "secondarySources": [

@@ -35,7 +35,7 @@ parties:
   - dayEn: Friday
     dayEs: Viernes
     eventsRaw: |-
-      Rumbatón | Sala Juanito + Copas, La Laguna | Salsa, Bachata & Merengue | Salsa, Bachata y Merengue | https://www.instagram.com/salajuanitomascopas/p/DfSX3GdOFSv/ | https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife | North
+      Rumbatón | Sala Juanito + Copas, La Laguna | Salsa, Bachata & Merengue | Salsa, Bachata y Merengue | https://www.instagram.com/salajuanitomascopas/p/DfiXni2uL5-/ | https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife | North
 
       DJ Kiko | La Guinda Chill Out, Puerto de la Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/guinda_chillout/reel/DfUGoWwIIB1/ | https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife | North
 
@@ -109,6 +109,15 @@ oneOffEvents:
     stylesEs: Salsa, Bachata y Merengue
     url: https://www.facebook.com/photo/?fbid=10239417506948653
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Plaza%20del%20Tranv%C3%ADa%2C%20La%20Cuesta%2C%20Tenerife
+  - name: A Lo Cubano
+    date: '2026-11-22'
+    location: La Guinda Chill Out, Puerto de la Cruz
+    region: North
+    address: Calle Aceviño 21
+    stylesEn: Timba, Salsa & Reparto
+    stylesEs: Timba, Salsa y Reparto
+    url: https://www.instagram.com/alocubano.tf/p/Dfhoy69AWrF/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife
   - name: Exotic SBK
     date: '2026-11-28'
     location: Bambú Lounge Bar, Santa Cruz
@@ -161,7 +170,7 @@ oneOffEvents:
     address: Calle Fernando Arozena Quintero 5
     stylesEn: Salsa, Bachata & Kizomba
     stylesEs: Salsa, Bachata y Kizomba
-    url: https://www.instagram.com/p/DfKh-7gNh8j/
+    url: https://www.instagram.com/embrujotenerife/p/DfKh-7gNh8j/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Bali%2C%20Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife
   - name: Fin de Año La Gran Fiesta Latina
     date: '2026-12-31'
@@ -181,4 +190,4 @@ oneOffEvents:
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/fieston_sbk_canarias/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
-lastModified: '2026-11-09T09:18:31.886Z'
+lastModified: '2026-11-10T09:14:43.440Z'
