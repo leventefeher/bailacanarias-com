@@ -182,6 +182,18 @@
       "url": "https://www.instagram.com/golosinasessiontenerife/",
       "addedOn": "2026-10-27",
       "note": "verified: party brand Golosina Session (bio: \"Party and entertainment service - Tu mejor sesión de baile\"); runs bachata nights at Camerino 74 Piano Bar, Santa Cruz (C. Antonio Domínguez Alfonso 28)"
+    },
+    {
+      "handle": "maxxsalsatenerife",
+      "url": "https://www.instagram.com/maxxsalsatenerife/",
+      "addedOn": "2026-11-11",
+      "note": "verified: DJ Maxx, organiser of Bailongo's Social (bio name \"Bailongo's Salsa Tenerife Maxx\"); posts the Friday salsa/bachata tardeo flyers at Palapa Beach Club, Las Américas. Found as repost source on fieston_sbk_canarias / tenerifelatinsocial stories"
+    },
+    {
+      "handle": "bailesocialsbktenerife",
+      "url": "https://www.instagram.com/bailesocialsbktenerife/",
+      "addedOn": "2026-11-11",
+      "note": "verified: Tenerife SBK event aggregator (bio: \"Eventos de Baile Social SBK Tenerife - Salsa Bachata Kizomba Zouk\"). Grid posts are mostly hashtag-only flyers; upcoming events are kept as date-labelled highlights. Found as repost source on salajuanitomascopas stories"
     }
   ],
   "discovered": [
@@ -728,6 +740,20 @@
       "status": "rejected",
       "checkedOn": "2026-11-10",
       "reason": "photographer/filmmaker (bio: 'Airam | Filmmaker', action sports and events), not an organiser"
+    },
+    {
+      "handle": "alas_deflor",
+      "seenOn": "tenerifelatinsocial",
+      "firstSeen": "2026-11-11",
+      "status": "rejected",
+      "checkedOn": "2026-11-11",
+      "reason": "personal account of a salsa dancer / yoga teacher, not an organiser"
+    },
+    {
+      "handle": "damiantorresf",
+      "seenOn": "tenerifelatinsocial",
+      "firstSeen": "2026-11-11",
+      "status": "unverified"
     }
   ],
   "secondarySources": [

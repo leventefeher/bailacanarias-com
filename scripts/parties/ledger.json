@@ -892,7 +892,7 @@
       "venue": "",
       "area": "Las Chafiras",
       "region": "South",
-      "address": "Av. Daniel Feo 9",
+      "address": "Av. Daniel Feo Feo 9",
       "stylesEn": "Salsa, Bachata, Kizomba & Zouk",
       "stylesEs": "Salsa, Bachata, Kizomba y Zouk",
       "mapsUrl": "",
@@ -1038,10 +1038,16 @@
           "weekday": "Tuesday",
           "postUrl": "https://www.instagram.com/richydj_/p/De-Uvm2MmnX/",
           "recordedOn": "2026-10-27"
+        },
+        {
+          "eventDate": "2026-11-10",
+          "weekday": "Tuesday",
+          "postUrl": "https://www.instagram.com/stories/dondebailoentenerife/4027443155691140546/",
+          "recordedOn": "2026-11-11"
         }
       ],
       "declaredRecurring": true,
-      "lastSeen": "2026-10-27",
+      "lastSeen": "2026-11-10",
       "status": "weekly",
       "weekday": "Tuesday"
     },
@@ -1124,7 +1130,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/bambuloungetfe/p/DfUpSsVjfqJ/",
+      "url": "https://www.instagram.com/bambuloungetfe/p/Dfkgn0VDTbW/",
       "firstSeen": "2026-09-30",
       "sightings": [
         {
@@ -1162,9 +1168,15 @@
           "weekday": "Sunday",
           "postUrl": "https://www.instagram.com/bambuloungetfe/p/DfUpSsVjfqJ/",
           "recordedOn": "2026-11-05"
+        },
+        {
+          "eventDate": "2026-11-15",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/bambuloungetfe/p/Dfkgn0VDTbW/",
+          "recordedOn": "2026-11-11"
         }
       ],
-      "lastSeen": "2026-11-08",
+      "lastSeen": "2026-11-15",
       "status": "weekly",
       "weekday": "Sunday",
       "declaredRecurring": true
@@ -1178,7 +1190,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/p/Dff-fNWIfBU/",
+      "url": "https://www.instagram.com/salajuanitomascopas/p/Dfk4KMmuHQf/",
       "firstSeen": "2026-10-06",
       "sightings": [
         {
@@ -1731,7 +1743,7 @@
       "stylesEn": "Salsa & Bachata",
       "stylesEs": "Salsa y Bachata",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/tenerifelatinsocial/",
+      "url": "https://www.instagram.com/maxxsalsatenerife/p/Dfj30OQFXfM/",
       "firstSeen": "2026-10-30",
       "sightings": [
         {
@@ -1739,10 +1751,16 @@
           "weekday": "Friday",
           "postUrl": "https://www.instagram.com/stories/tenerifelatinsocial/4019263546621602513/",
           "recordedOn": "2026-10-30"
+        },
+        {
+          "eventDate": "2026-11-13",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/maxxsalsatenerife/p/Dfj30OQFXfM/",
+          "recordedOn": "2026-11-11"
         }
       ],
-      "lastSeen": "2026-10-30",
-      "status": "past",
+      "lastSeen": "2026-11-13",
+      "status": "upcoming",
       "weekday": null
     },
     "tardeoenmikasa|mikasasurfcamp": {

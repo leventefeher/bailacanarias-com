@@ -53,7 +53,7 @@ parties:
     eventsRaw: |-
       Social 100% Zouk | Santa Cruz | Zouk | Zouk | https://www.instagram.com/zoukcanaryislands/p/DfUtNIZMk1c/ | https://www.google.com/maps/search/?api=1&query=Av.%20de%20las%20Hesp%C3%A9rides%2060%2C%20Santa%20Cruz%2C%20Tenerife | North
 
-      Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/bambuloungetfe/p/DfUpSsVjfqJ/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
+      Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/bambuloungetfe/p/Dfkgn0VDTbW/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
 oneOffEvents:
   - name: Ritmo
     date: '2026-11-12'
@@ -64,6 +64,15 @@ oneOffEvents:
     stylesEs: Salsa y Bachata
     url: https://www.instagram.com/fuegopegao/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Tramps%2C%20Playa%20de%20las%20Am%C3%A9ricas%2C%20Tenerife
+  - name: Bailongos Social
+    date: '2026-11-13'
+    location: Palapa Beach Club, Playa de las Américas
+    region: South
+    address: Playa del Camisón
+    stylesEn: Salsa & Bachata
+    stylesEs: Salsa y Bachata
+    url: https://www.instagram.com/maxxsalsatenerife/p/Dfj30OQFXfM/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Palapa%20Beach%20Club%2C%20Playa%20del%20Camis%C3%B3n%2C%20Playa%20de%20las%20Am%C3%A9ricas%2C%20Tenerife
   - name: Bacanal
     date: '2026-11-14'
     location: Sala Juanito + Copas, La Laguna
@@ -77,11 +86,11 @@ oneOffEvents:
     date: '2026-11-14'
     location: Las Chafiras
     region: South
-    address: Av. Daniel Feo 9
+    address: Av. Daniel Feo Feo 9
     stylesEn: Salsa, Bachata, Kizomba & Zouk
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/p/DffOS_1Mlc7/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Av.%20Daniel%20Feo%209%2C%20Las%20Chafiras%2C%20Tenerife
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Av.%20Daniel%20Feo%20Feo%209%2C%20Las%20Chafiras%2C%20Tenerife
   - name: Embrujo
     date: '2026-11-20'
     location: Santa Cruz
@@ -158,11 +167,11 @@ oneOffEvents:
     date: '2026-12-19'
     location: Las Chafiras
     region: South
-    address: Av. Daniel Feo 9
+    address: Av. Daniel Feo Feo 9
     stylesEn: Salsa, Bachata, Kizomba & Zouk
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/p/DffOS_1Mlc7/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Av.%20Daniel%20Feo%209%2C%20Las%20Chafiras%2C%20Tenerife
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Av.%20Daniel%20Feo%20Feo%209%2C%20Las%20Chafiras%2C%20Tenerife
   - name: Fiesta Fin de Año
     date: '2026-12-31'
     location: Sala Bali, Bambú Lounge Bar, Santa Cruz
@@ -190,4 +199,4 @@ oneOffEvents:
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/fieston_sbk_canarias/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
-lastModified: '2026-11-10T09:14:43.440Z'
+lastModified: '2026-11-11T09:20:28.874Z'
