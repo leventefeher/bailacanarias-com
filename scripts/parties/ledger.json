@@ -447,7 +447,7 @@
       "stylesEn": "Salsa & Bachata",
       "stylesEs": "Salsa y Bachata",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/lacrematenerife/reel/De9Nsrcolt4/",
+      "url": "https://www.instagram.com/lacrematenerife/reel/DfmNuKPRsuO/",
       "firstSeen": "2026-09-23",
       "sightings": [
         {
@@ -461,10 +461,16 @@
           "weekday": "Saturday",
           "postUrl": "https://www.instagram.com/lacrematenerife/p/DedzrbfIh-j/",
           "recordedOn": "2026-10-16"
+        },
+        {
+          "eventDate": "2026-11-21",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/lacrematenerife/reel/DfmNuKPRsuO/",
+          "recordedOn": "2026-11-12"
         }
       ],
-      "lastSeen": "2026-10-31",
-      "status": "past",
+      "lastSeen": "2026-11-21",
+      "status": "upcoming",
       "weekday": null
     },
     "tueligessbkz|lamoviesocialclub": {
@@ -476,7 +482,7 @@
       "stylesEn": "Salsa, Bachata, Kizomba & Zouk",
       "stylesEs": "Salsa, Bachata, Kizomba y Zouk",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/tueliges_sbk/reel/DfUl_ubgZt6/",
+      "url": "https://www.instagram.com/tueliges_sbk/reel/DfmNHHti3AC/",
       "firstSeen": "2026-09-23",
       "sightings": [
         {
@@ -502,10 +508,16 @@
           "weekday": "Friday",
           "postUrl": "https://www.instagram.com/tueliges_sbk/reel/DfUl_ubgZt6/",
           "recordedOn": "2026-11-05"
+        },
+        {
+          "eventDate": "2026-11-13",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/tueliges_sbk/reel/DfmNHHti3AC/",
+          "recordedOn": "2026-11-12"
         }
       ],
-      "lastSeen": "2026-11-06",
-      "status": "past",
+      "lastSeen": "2026-11-13",
+      "status": "upcoming",
       "weekday": null
     },
     "social100zouk|synergy": {
@@ -593,7 +605,7 @@
       "stylesEn": "Salsa",
       "stylesEs": "Salsa",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/lasalsera_solosalsa/p/De9_MX7DAtg/",
+      "url": "https://www.instagram.com/salajuanitomascopas/",
       "firstSeen": "2026-09-23",
       "sightings": [
         {
@@ -613,10 +625,16 @@
           "weekday": "Saturday",
           "postUrl": "https://www.instagram.com/stories/salajuanitomascopas/4010014202521227817/",
           "recordedOn": "2026-10-18"
+        },
+        {
+          "eventDate": "2026-12-05",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/stories/salajuanitomascopas/4028082197550218425/",
+          "recordedOn": "2026-11-12"
         }
       ],
-      "lastSeen": "2026-11-07",
-      "status": "past",
+      "lastSeen": "2026-12-05",
+      "status": "upcoming",
       "weekday": null
     },
     "laconsultitakizombera|oceanorooftophoteloceano": {
@@ -896,7 +914,7 @@
       "stylesEn": "Salsa, Bachata, Kizomba & Zouk",
       "stylesEs": "Salsa, Bachata, Kizomba y Zouk",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/p/DffOS_1Mlc7/",
+      "url": "https://www.instagram.com/fieston_sbk_canarias/p/DffOS_1Mlc7/",
       "firstSeen": "2026-09-28",
       "sightings": [
         {
@@ -1130,7 +1148,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/bambuloungetfe/p/Dfkgn0VDTbW/",
+      "url": "https://www.instagram.com/bambuloungetfe/p/Dfm3_4FDZ0C/",
       "firstSeen": "2026-09-30",
       "sightings": [
         {
@@ -1898,6 +1916,29 @@
         }
       ],
       "lastSeen": "2026-11-28",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "supertardeodenavidad|": {
+      "name": "Super Tardeo de Navidad",
+      "venue": "",
+      "area": "Playa Paraíso",
+      "region": "",
+      "address": "",
+      "stylesEn": "",
+      "stylesEs": "",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/fieston_sbk_canarias/",
+      "firstSeen": "2026-11-12",
+      "sightings": [
+        {
+          "eventDate": "2026-12-13",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/stories/fieston_sbk_canarias/4028064639304349531/",
+          "recordedOn": "2026-11-12"
+        }
+      ],
+      "lastSeen": "2026-12-13",
       "status": "upcoming",
       "weekday": null
     }

@@ -753,6 +753,30 @@
       "handle": "damiantorresf",
       "seenOn": "tenerifelatinsocial",
       "firstSeen": "2026-11-11",
+      "status": "rejected",
+      "checkedOn": "2026-11-12",
+      "reason": "personal dancer account (bio: Bailarin SBK), not an organiser or venue"
+    },
+    {
+      "handle": "pablosalsa",
+      "seenOn": "bailesocialsbktenerife",
+      "firstSeen": "2026-11-12",
+      "status": "rejected",
+      "checkedOn": "2026-11-12",
+      "reason": "academy director (Dile Que Si dance schools), personal account; same person as the pablo.casaviejamedina Facebook secondary source"
+    },
+    {
+      "handle": "almazoukfestival",
+      "seenOn": "zoukcanaryislands",
+      "firstSeen": "2026-11-12",
+      "status": "rejected",
+      "checkedOn": "2026-11-12",
+      "reason": "Alma Brazilian Zouk Festival, Barcelona (May 2027) - not Tenerife"
+    },
+    {
+      "handle": "luxia.club",
+      "seenOn": "bambuloungetfe",
+      "firstSeen": "2026-11-12",
       "status": "unverified"
     }
   ],
