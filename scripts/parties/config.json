@@ -777,7 +777,17 @@
       "handle": "luxia.club",
       "seenOn": "bambuloungetfe",
       "firstSeen": "2026-11-12",
-      "status": "unverified"
+      "status": "rejected",
+      "reason": "commercial club night brand (bio: smart dress code, +18 sunset sessions at Bambú; tickets on fourvenues) - not a dance social",
+      "checkedOn": "2026-11-13"
+    },
+    {
+      "handle": "lia_dora",
+      "seenOn": "dondebailoentenerife",
+      "firstSeen": "2026-11-13",
+      "status": "rejected",
+      "reason": "dancer/teacher personal account (bio: Bailarina y profesora en @socialdance_studio)",
+      "checkedOn": "2026-11-13"
     }
   ],
   "secondarySources": [
