@@ -15,7 +15,7 @@ parties:
     eventsRaw: |-
       Martes Salvajes | Salvaje La Tejita, El Médano | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/richydj_/p/De-Uvm2MmnX/ | https://www.google.com/maps/search/?api=1&query=Salvaje%20La%20Tejita%2C%20Street%20Market%20La%20Tejita%2C%20C.%20Hern%C3%A1n%20Cort%C3%A9s%2029%2C%20El%20M%C3%A9dano%2C%20Tenerife | South
 
-      Tenerife Latin Social | El Médano | Salsa & Bachata | Salsa y Bachata | https://www.instagram.com/reel/DffpSwxh_e1/ |  | South
+      Tenerife Latin Social | Las Chafiras | Salsa & Bachata | Salsa y Bachata | https://www.instagram.com/tenerifelatinsocial/reel/DfsjdnRBN80/ |  | South
   - dayEn: Wednesday
     dayEs: Miércoles
     eventsRaw: |-
@@ -55,24 +55,6 @@ parties:
 
       Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/bambuloungetfe/p/Dfkgn0VDTbW/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
 oneOffEvents:
-  - name: Bailongos Social
-    date: '2026-11-13'
-    location: Palapa Beach Club, Playa de las Américas
-    region: South
-    address: Playa del Camisón
-    stylesEn: Salsa & Bachata
-    stylesEs: Salsa y Bachata
-    url: https://www.instagram.com/maxxsalsatenerife/p/Dfj30OQFXfM/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Palapa%20Beach%20Club%2C%20Playa%20del%20Camis%C3%B3n%2C%20Playa%20de%20las%20Am%C3%A9ricas%2C%20Tenerife
-  - name: Tú Eliges SBKZ
-    date: '2026-11-13'
-    location: La Movie Social Club, Santa Cruz
-    region: North
-    address: Paseo Milicias de Garachico 1
-    stylesEn: Salsa, Bachata, Kizomba & Zouk
-    stylesEs: Salsa, Bachata, Kizomba y Zouk
-    url: https://www.instagram.com/tueliges_sbk/reel/DfmNHHti3AC/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=La%20Movie%20Social%20Club%2C%20Paseo%20Milicias%20de%20Garachico%201%2C%20Santa%20Cruz%2C%20Tenerife
   - name: Bacanal
     date: '2026-11-14'
     location: Sala Juanito + Copas, La Laguna
@@ -98,7 +80,7 @@ oneOffEvents:
     address: Calle Aceviño 21
     stylesEn: Salsa, Bachata, Kizomba & Merengue
     stylesEs: Salsa, Bachata, Kizomba y Merengue
-    url: https://www.instagram.com/guinda_chillout/
+    url: https://www.instagram.com/guinda_chillout/reel/Dfrx261I1ld/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife
   - name: Social 100% Zouk
     date: '2026-11-15'
@@ -262,4 +244,4 @@ oneOffEvents:
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/chavy_kizomba/p/DfkUW4fxumY/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
-lastModified: '2026-11-13T09:40:47.799Z'
+lastModified: '2026-11-14T11:52:53.856Z'

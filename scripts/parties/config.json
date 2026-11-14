@@ -788,6 +788,22 @@
       "status": "rejected",
       "reason": "dancer/teacher personal account (bio: Bailarina y profesora en @socialdance_studio)",
       "checkedOn": "2026-11-13"
+    },
+    {
+      "handle": "katellebaldacci",
+      "seenOn": "dondebailoentenerife",
+      "firstSeen": "2026-11-14",
+      "status": "rejected",
+      "reason": "personal dancer/instructor account (bio: bailarina, clases), not an event organiser or venue",
+      "checkedOn": "2026-11-14"
+    },
+    {
+      "handle": "kbsrevilo",
+      "seenOn": "fieston_sbk_canarias",
+      "firstSeen": "2026-11-14",
+      "status": "rejected",
+      "reason": "private personal account (bio: Salsa bachata kizomba); posts not visible",
+      "checkedOn": "2026-11-14"
     }
   ],
   "secondarySources": [
