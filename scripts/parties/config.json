@@ -804,6 +804,14 @@
       "status": "rejected",
       "reason": "private personal account (bio: Salsa bachata kizomba); posts not visible",
       "checkedOn": "2026-11-14"
+    },
+    {
+      "handle": "dondebailo.oficial",
+      "seenOn": "dondebailoentenerife",
+      "firstSeen": "2026-11-15",
+      "status": "rejected",
+      "reason": "event-listing app/website (Dónde Bailo), based in Andalucía; not a Tenerife organiser or venue",
+      "checkedOn": "2026-11-15"
     }
   ],
   "secondarySources": [
