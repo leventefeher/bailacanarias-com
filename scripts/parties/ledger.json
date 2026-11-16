@@ -564,7 +564,7 @@
         }
       ],
       "lastSeen": "2026-11-15",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "golosinasession|camerino74": {
@@ -1520,7 +1520,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/dr.love_kizombadj/p/DeOxeiPxA06/",
+      "url": "https://www.instagram.com/richydj_/",
       "firstSeen": "2026-10-10",
       "sightings": [
         {
@@ -1528,10 +1528,16 @@
           "weekday": "Sunday",
           "postUrl": "https://www.instagram.com/dr.love_kizombadj/p/DeOxeiPxA06/",
           "recordedOn": "2026-10-10"
+        },
+        {
+          "eventDate": "2026-11-22",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/stories/chavy_kizomba/4031221717770681745/",
+          "recordedOn": "2026-11-16"
         }
       ],
-      "lastSeen": "2026-10-11",
-      "status": "past",
+      "lastSeen": "2026-11-22",
+      "status": "upcoming",
       "weekday": null
     },
     "alocubano|laguindachillout": {
@@ -1891,10 +1897,16 @@
           "weekday": "Thursday",
           "postUrl": "https://www.instagram.com/stories/fuegopegao/4025502464685418703/",
           "recordedOn": "2026-11-08"
+        },
+        {
+          "eventDate": "2026-11-19",
+          "weekday": "Thursday",
+          "postUrl": "https://www.instagram.com/stories/fuegopegao/4031159834061404626/",
+          "recordedOn": "2026-11-16"
         }
       ],
-      "lastSeen": "2026-11-12",
-      "status": "past",
+      "lastSeen": "2026-11-19",
+      "status": "upcoming",
       "weekday": null
     },
     "kizombasbknight|salvajelatejita": {
@@ -2009,6 +2021,29 @@
         }
       ],
       "lastSeen": "2026-11-15",
+      "status": "past",
+      "weekday": null
+    },
+    "rutasalsera|plazasecundinodelgado": {
+      "name": "Ruta Salsera",
+      "venue": "Plaza Secundino Delgado",
+      "area": "La Laguna",
+      "region": "North",
+      "address": "",
+      "stylesEn": "Salsa, Bachata & Merengue",
+      "stylesEs": "Salsa, Bachata y Merengue",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/dondebailoentenerife/",
+      "firstSeen": "2026-11-16",
+      "sightings": [
+        {
+          "eventDate": "2026-11-28",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/stories/dondebailoentenerife/4031037680326079903/",
+          "recordedOn": "2026-11-16"
+        }
+      ],
+      "lastSeen": "2026-11-28",
       "status": "upcoming",
       "weekday": null
     }

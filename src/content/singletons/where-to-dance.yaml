@@ -55,24 +55,15 @@ parties:
 
       Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/bambuloungetfe/p/Dfkgn0VDTbW/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
 oneOffEvents:
-  - name: DJ Guillén
-    date: '2026-11-15'
-    location: La Guinda Chill Out, Puerto de la Cruz
-    region: North
-    address: Calle Aceviño 21
-    stylesEn: Salsa, Bachata, Kizomba & Merengue
-    stylesEs: Salsa, Bachata, Kizomba y Merengue
-    url: https://www.instagram.com/guinda_chillout/reel/Dfrx261I1ld/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife
-  - name: Social 100% Zouk
-    date: '2026-11-15'
-    location: Synergy, Santa Cruz
-    region: North
-    address: Avd. Hespérides 60
-    stylesEn: Zouk
-    stylesEs: Zouk
-    url: https://www.instagram.com/zoukcanaryislands/p/DfpYG64u8ib/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Synergy%2C%20Avd.%20Hesp%C3%A9rides%2060%2C%20Santa%20Cruz%2C%20Tenerife
+  - name: Ritmo
+    date: '2026-11-19'
+    location: Tramps, Playa de las Américas
+    region: South
+    address: ""
+    stylesEn: Salsa & Bachata
+    stylesEs: Salsa y Bachata
+    url: https://www.instagram.com/fuegopegao/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Tramps%2C%20Playa%20de%20las%20Am%C3%A9ricas%2C%20Tenerife
   - name: Embrujo
     date: '2026-11-20'
     location: Santa Cruz
@@ -118,6 +109,15 @@ oneOffEvents:
     stylesEs: Timba, Salsa y Reparto
     url: https://www.instagram.com/alocubano.tf/p/Dfhoy69AWrF/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife
+  - name: Salvajeo SBK
+    date: '2026-11-22'
+    location: Salvaje La Tejita, El Médano
+    region: South
+    address: Street Market La Tejita, C. Hernán Cortés 29
+    stylesEn: Salsa, Bachata & Kizomba
+    stylesEs: Salsa, Bachata y Kizomba
+    url: https://www.instagram.com/richydj_/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Salvaje%20La%20Tejita%2C%20Street%20Market%20La%20Tejita%2C%20C.%20Hern%C3%A1n%20Cort%C3%A9s%2029%2C%20El%20M%C3%A9dano%2C%20Tenerife
   - name: Exotic SBK
     date: '2026-11-28'
     location: Bambú Lounge Bar, Santa Cruz
@@ -127,6 +127,15 @@ oneOffEvents:
     stylesEs: Salsa, Bachata y Kizomba
     url: https://www.instagram.com/dondebailoentenerife/reel/DfPpIk2sfg_/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife
+  - name: Ruta Salsera
+    date: '2026-11-28'
+    location: Plaza Secundino Delgado, La Laguna
+    region: North
+    address: ""
+    stylesEn: Salsa, Bachata & Merengue
+    stylesEs: Salsa, Bachata y Merengue
+    url: https://www.instagram.com/dondebailoentenerife/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Plaza%20Secundino%20Delgado%2C%20La%20Laguna%2C%20Tenerife
   - name: Sabroso Latino
     date: '2026-11-28'
     location: Montaña Roja 2, Las Chafiras
@@ -226,4 +235,4 @@ oneOffEvents:
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/chavy_kizomba/p/DfkUW4fxumY/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
-lastModified: '2026-11-15T09:20:56.188Z'
+lastModified: '2026-11-16T09:32:08.773Z'
