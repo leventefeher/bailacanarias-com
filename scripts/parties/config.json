@@ -818,6 +818,38 @@
       "status": "rejected",
       "reason": "event-listing app/website (Dónde Bailo), based in Andalucía; not a Tenerife organiser or venue",
       "checkedOn": "2026-11-15"
+    },
+    {
+      "handle": "nastydog16",
+      "seenOn": "salvajelatejita",
+      "firstSeen": "2026-11-17",
+      "status": "rejected",
+      "reason": "vocalist of rock bands Panthyger / Mar de Leva; personal musician account",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "handle": "eventorocktenerife",
+      "seenOn": "salvajelatejita",
+      "firstSeen": "2026-11-17",
+      "status": "rejected",
+      "reason": "rock/metal music association; organises rock concerts, not dance socials",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "handle": "chebo.oficial",
+      "seenOn": "salvajelatejita",
+      "firstSeen": "2026-11-17",
+      "status": "rejected",
+      "reason": "musician/band (cumbia, ska, reggae, rock); not a dance-social organiser",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "handle": "josearbelo",
+      "seenOn": "salvajelatejita",
+      "firstSeen": "2026-11-17",
+      "status": "rejected",
+      "reason": "singer-songwriter; personal musician account",
+      "checkedOn": "2026-11-17"
     }
   ],
   "secondarySources": [
