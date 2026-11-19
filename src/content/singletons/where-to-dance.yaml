@@ -53,7 +53,7 @@ parties:
   - dayEn: Sunday
     dayEs: Domingo
     eventsRaw: |-
-      Social 100% Zouk | Santa Cruz | Zouk | Zouk | https://www.instagram.com/zoukcanaryislands/p/DfUtNIZMk1c/ | https://www.google.com/maps/search/?api=1&query=Av.%20de%20las%20Hesp%C3%A9rides%2060%2C%20Santa%20Cruz%2C%20Tenerife | North
+      Social 100% Zouk | Santa Cruz | Zouk | Zouk | https://www.instagram.com/zoukcanaryislands/p/Df5tqtQsWsz/ | https://www.google.com/maps/search/?api=1&query=Av.%20de%20las%20Hesp%C3%A9rides%2060%2C%20Santa%20Cruz%2C%20Tenerife | North
 
       Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/p/Df2cgc8jf_X/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
 oneOffEvents:
@@ -118,7 +118,7 @@ oneOffEvents:
     address: Street Market La Tejita, C. Hernán Cortés 29
     stylesEn: Salsa, Bachata & Kizomba
     stylesEs: Salsa, Bachata y Kizomba
-    url: https://www.instagram.com/richydj_/
+    url: https://www.instagram.com/richydj_/p/Df2e-PnMYs7/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Salvaje%20La%20Tejita%2C%20Street%20Market%20La%20Tejita%2C%20C.%20Hern%C3%A1n%20Cort%C3%A9s%2029%2C%20El%20M%C3%A9dano%2C%20Tenerife
   - name: Exotic SBK
     date: '2026-11-28'
@@ -163,7 +163,7 @@ oneOffEvents:
     address: Ctra. La Esperanza, km 2
     stylesEn: Salsa
     stylesEs: Salsa
-    url: https://www.instagram.com/lasalsera_solosalsa/
+    url: https://www.instagram.com/lasalsera_solosalsa/p/Df5EPiAASYS/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife
   - name: Fiestón SBK
     date: '2026-12-07'
@@ -237,4 +237,4 @@ oneOffEvents:
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/chavy_kizomba/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
-lastModified: '2026-11-19T10:04:09.873Z'
+lastModified: '2026-11-19T10:12:27.661Z'
