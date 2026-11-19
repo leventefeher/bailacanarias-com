@@ -1190,7 +1190,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/bambuloungetfe/p/Dfm3_4FDZ0C/",
+      "url": "https://eventoenlista.com/index.php",
       "firstSeen": "2026-09-30",
       "sightings": [
         {
@@ -1234,9 +1234,15 @@
           "weekday": "Sunday",
           "postUrl": "https://www.instagram.com/bambuloungetfe/p/Dfkgn0VDTbW/",
           "recordedOn": "2026-11-11"
+        },
+        {
+          "eventDate": "2026-11-22",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/p/Df2cgc8jf_X/",
+          "recordedOn": "2026-11-19"
         }
       ],
-      "lastSeen": "2026-11-15",
+      "lastSeen": "2026-11-22",
       "status": "weekly",
       "weekday": "Sunday",
       "declaredRecurring": true
@@ -1544,7 +1550,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/salvajelatejita/",
+      "url": "https://www.instagram.com/richydj_/",
       "firstSeen": "2026-10-10",
       "sightings": [
         {
@@ -2104,7 +2110,7 @@
         }
       ],
       "lastSeen": "2026-11-18",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     }
   },

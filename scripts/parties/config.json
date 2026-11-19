@@ -850,6 +850,30 @@
       "status": "rejected",
       "reason": "singer-songwriter; personal musician account",
       "checkedOn": "2026-11-17"
+    },
+    {
+      "handle": "lamoon.events",
+      "seenOn": "guinda_chillout",
+      "firstSeen": "2026-11-19",
+      "status": "rejected",
+      "reason": "electronic-music party collective (bio: musica electronica); not a dance-social organiser",
+      "checkedOn": "2026-11-19"
+    },
+    {
+      "handle": "enlatarimaoficial",
+      "seenOn": "guinda_chillout",
+      "firstSeen": "2026-11-19",
+      "status": "rejected",
+      "reason": "radio presenter / marketing and branding account; posted La Guinda NYE party but is not an organiser",
+      "checkedOn": "2026-11-19"
+    },
+    {
+      "handle": "aquaclubtermal",
+      "seenOn": "maxxsalsatenerife",
+      "firstSeen": "2026-11-19",
+      "status": "rejected",
+      "reason": "spa/gym club (Health & wellness); hosts members salsa classes and an occasional social run by DJ Maxx, not an event source",
+      "checkedOn": "2026-11-19"
     }
   ],
   "secondarySources": [
