@@ -57,15 +57,6 @@ parties:
 
       Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/p/Df2cgc8jf_X/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
 oneOffEvents:
-  - name: Ritmo
-    date: '2026-11-19'
-    location: Tramps, Playa de las Américas
-    region: South
-    address: ""
-    stylesEn: Salsa & Bachata
-    stylesEs: Salsa y Bachata
-    url: https://www.instagram.com/fuegopegao/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Tramps%2C%20Playa%20de%20las%20Am%C3%A9ricas%2C%20Tenerife
   - name: Embrujo
     date: '2026-11-20'
     location: Santa Cruz
@@ -75,6 +66,15 @@ oneOffEvents:
     stylesEs: Bachata y Salsa
     url: https://www.instagram.com/embrujotenerife/p/DfRamu-tdwk/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife
+  - name: Latin Party
+    date: '2026-11-20'
+    location: Salvaje La Tejita, El Médano
+    region: South
+    address: Street Market La Tejita, C. Hernán Cortés 29
+    stylesEn: Salsa
+    stylesEs: Salsa
+    url: https://www.instagram.com/salvajelatejita/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Salvaje%20La%20Tejita%2C%20Street%20Market%20La%20Tejita%2C%20C.%20Hern%C3%A1n%20Cort%C3%A9s%2029%2C%20El%20M%C3%A9dano%2C%20Tenerife
   - name: La Crema
     date: '2026-11-21'
     location: Sala Juanito + Copas, La Laguna
@@ -127,7 +127,7 @@ oneOffEvents:
     address: Calle Fernando Arozena Quintero 5
     stylesEn: Salsa, Bachata & Kizomba
     stylesEs: Salsa, Bachata y Kizomba
-    url: https://eventoenlista.com/index.php
+    url: https://eventoenlista.com/index.php?q=inscripcion&evento=ca6c2ad1-d77c-11f1-887e-ac1f6bb3e906
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife
   - name: Ruta Salsera
     date: '2026-11-28'
@@ -172,7 +172,7 @@ oneOffEvents:
     address: ""
     stylesEn: Salsa, Bachata, Kizomba & Zouk
     stylesEs: Salsa, Bachata, Kizomba y Zouk
-    url: https://www.instagram.com/chavy_kizomba/
+    url: https://www.instagram.com/fieston_sbk_canarias/p/Df7Nbq1sV-F/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
   - name: Guajira Latino
     date: '2026-12-12'
@@ -235,6 +235,6 @@ oneOffEvents:
     address: ""
     stylesEn: Salsa, Bachata, Kizomba & Zouk
     stylesEs: Salsa, Bachata, Kizomba y Zouk
-    url: https://www.instagram.com/chavy_kizomba/
+    url: https://www.instagram.com/fieston_sbk_canarias/p/Df7Nbq1sV-F/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
-lastModified: '2026-11-19T10:12:27.661Z'
+lastModified: '2026-11-20T09:55:57.411Z'

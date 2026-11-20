@@ -277,7 +277,7 @@
       "stylesEn": "Salsa, Bachata, Kizomba & Zouk",
       "stylesEs": "Salsa, Bachata, Kizomba y Zouk",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/chavy_kizomba/",
+      "url": "https://www.instagram.com/fieston_sbk_canarias/p/Df7Nbq1sV-F/",
       "firstSeen": "2026-09-22",
       "sightings": [
         {
@@ -471,7 +471,7 @@
       "stylesEn": "Salsa & Bachata",
       "stylesEs": "Salsa y Bachata",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/lacrematenerife/reel/DfmNuKPRsuO/",
+      "url": "https://www.instagram.com/sbkcanary/p/Dfpfbdot1yf/",
       "firstSeen": "2026-09-23",
       "sightings": [
         {
@@ -1167,7 +1167,7 @@
       "stylesEn": "Bachata & Salsa",
       "stylesEs": "Bachata y Salsa",
       "mapsUrl": "",
-      "url": "https://eventoenlista.com/index.php",
+      "url": "https://eventoenlista.com/index.php?q=inscripcion&evento=032d8f6c-d76a-11f1-887e-ac1f6bb3e906",
       "firstSeen": "2026-09-30",
       "sightings": [
         {
@@ -1886,7 +1886,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://eventoenlista.com/index.php",
+      "url": "https://eventoenlista.com/index.php?q=inscripcion&evento=ca6c2ad1-d77c-11f1-887e-ac1f6bb3e906",
       "firstSeen": "2026-11-03",
       "sightings": [
         {
@@ -1949,7 +1949,7 @@
         }
       ],
       "lastSeen": "2026-11-19",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "kizombasbknight|salvajelatejita": {
@@ -2117,6 +2117,29 @@
       ],
       "lastSeen": "2026-11-18",
       "status": "past",
+      "weekday": null
+    },
+    "latinparty|salvajelatejita": {
+      "name": "Latin Party",
+      "venue": "Salvaje La Tejita",
+      "area": "El Médano",
+      "region": "South",
+      "address": "Street Market La Tejita, C. Hernán Cortés 29",
+      "stylesEn": "Salsa",
+      "stylesEs": "Salsa",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/salvajelatejita/",
+      "firstSeen": "2026-11-20",
+      "sightings": [
+        {
+          "eventDate": "2026-11-20",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/stories/salvajelatejita/4034022395077361049/",
+          "recordedOn": "2026-11-20"
+        }
+      ],
+      "lastSeen": "2026-11-20",
+      "status": "upcoming",
       "weekday": null
     }
   },
