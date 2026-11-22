@@ -37,7 +37,7 @@ parties:
     eventsRaw: |-
       Rumbatón | Sala Juanito + Copas, La Laguna | Salsa, Bachata & Merengue | Salsa, Bachata y Merengue | https://www.instagram.com/salajuanitomascopas/p/Df0ZuxHsoNW/ | https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife | North
 
-      DJ Kiko | La Guinda Chill Out, Puerto de la Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/guinda_chillout/ | https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife | North
+      DJ Kiko | La Guinda Chill Out, Puerto de la Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/guinda_chillout/reel/DgAc1gxIuQp/ | https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife | North
 
       Fiesta Latina | Xanadú Restaurante, Guargacho | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/richydj_/p/DfDs1HdM-KO/ | https://www.google.com/maps/search/?api=1&query=Xanad%C3%BA%20Restaurante%2C%20Guargacho%2C%20Tenerife | South
 
@@ -57,51 +57,6 @@ parties:
 
       Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/p/Df2cgc8jf_X/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
 oneOffEvents:
-  - name: Embrujo
-    date: '2026-11-20'
-    location: Santa Cruz
-    region: North
-    address: Calle Fernando Arozena Quintero 5
-    stylesEn: Bachata & Salsa
-    stylesEs: Bachata y Salsa
-    url: https://www.instagram.com/embrujotenerife/p/DfRamu-tdwk/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife
-  - name: Latin Party
-    date: '2026-11-20'
-    location: Salvaje La Tejita, El Médano
-    region: South
-    address: Street Market La Tejita, C. Hernán Cortés 29
-    stylesEn: Salsa
-    stylesEs: Salsa
-    url: https://www.instagram.com/salvajelatejita/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Salvaje%20La%20Tejita%2C%20Street%20Market%20La%20Tejita%2C%20C.%20Hern%C3%A1n%20Cort%C3%A9s%2029%2C%20El%20M%C3%A9dano%2C%20Tenerife
-  - name: La Crema
-    date: '2026-11-21'
-    location: Sala Juanito + Copas, La Laguna
-    region: North
-    address: Ctra La Esperanza km 2
-    stylesEn: Salsa & Bachata
-    stylesEs: Salsa y Bachata
-    url: https://www.instagram.com/lacrematenerife/reel/DfmNuKPRsuO/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra%20La%20Esperanza%20km%202%2C%20La%20Laguna%2C%20Tenerife
-  - name: Origen Latino
-    date: '2026-11-21'
-    location: Montaña Roja 2, Las Chafiras
-    region: South
-    address: Avd Daniel Feo 7
-    stylesEn: Salsa & Bachata
-    stylesEs: Salsa y Bachata
-    url: https://www.instagram.com/guaguancoevents_tnfe/p/DdOQ6TvxCcN/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Monta%C3%B1a%20Roja%202%2C%20Avd%20Daniel%20Feo%207%2C%20Las%20Chafiras%2C%20Tenerife
-  - name: Ruta Salsera
-    date: '2026-11-21'
-    location: Plaza del Tranvía, La Cuesta
-    region: North
-    address: ""
-    stylesEn: Salsa, Bachata & Merengue
-    stylesEs: Salsa, Bachata y Merengue
-    url: https://www.facebook.com/photo/?fbid=10239417506948653
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Plaza%20del%20Tranv%C3%ADa%2C%20La%20Cuesta%2C%20Tenerife
   - name: A Lo Cubano
     date: '2026-11-22'
     location: La Guinda Chill Out, Puerto de la Cruz
@@ -118,8 +73,17 @@ oneOffEvents:
     address: Street Market La Tejita, C. Hernán Cortés 29
     stylesEn: Salsa, Bachata & Kizomba
     stylesEs: Salsa, Bachata y Kizomba
-    url: https://www.instagram.com/richydj_/p/Df2e-PnMYs7/
+    url: https://www.instagram.com/salvajelatejita/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Salvaje%20La%20Tejita%2C%20Street%20Market%20La%20Tejita%2C%20C.%20Hern%C3%A1n%20Cort%C3%A9s%2029%2C%20El%20M%C3%A9dano%2C%20Tenerife
+  - name: Inauguración Sala Goiter
+    date: '2026-11-25'
+    location: Sala Goiter, El Médano
+    region: South
+    address: Avda. José Miguel Galván Bello, Edificio Magallanes 6, Local 9
+    stylesEn: SBK
+    stylesEs: SBK
+    url: https://www.instagram.com/reel/Df_8WGwxPxb/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Goiter%2C%20Avda.%20Jos%C3%A9%20Miguel%20Galv%C3%A1n%20Bello%2C%20Edificio%20Magallanes%206%2C%20Local%209%2C%20El%20M%C3%A9dano%2C%20Tenerife
   - name: Exotic SBK
     date: '2026-11-28'
     location: Bambú Lounge Bar, Santa Cruz
@@ -127,7 +91,7 @@ oneOffEvents:
     address: Calle Fernando Arozena Quintero 5
     stylesEn: Salsa, Bachata & Kizomba
     stylesEs: Salsa, Bachata y Kizomba
-    url: https://eventoenlista.com/index.php?q=inscripcion&evento=ca6c2ad1-d77c-11f1-887e-ac1f6bb3e906
+    url: https://www.instagram.com/fieston_sbk_canarias/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife
   - name: Ruta Salsera
     date: '2026-11-28'
@@ -156,6 +120,15 @@ oneOffEvents:
     stylesEs: Bachata y Salsa
     url: https://www.instagram.com/tardeobachatero/reel/Dfp6UVJIK7W/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=B.Heaven%2C%20Barcel%C3%B3%20Santa%20Cruz%20Contempor%C3%A1neo%2C%20Santa%20Cruz%2C%20Tenerife
+  - name: Tardeo Oasis
+    date: '2026-11-28'
+    location: Oasis de los Gigantes, Los Gigantes
+    region: West
+    address: ""
+    stylesEn: Salsa, Bachata & Kizomba
+    stylesEs: Salsa, Bachata y Kizomba
+    url: https://www.instagram.com/dondebailoentenerife/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Oasis%20de%20los%20Gigantes%2C%20Los%20Gigantes%2C%20Tenerife
   - name: La Salsera
     date: '2026-12-05'
     location: Sala Juanito + Copas, La Laguna
@@ -163,7 +136,7 @@ oneOffEvents:
     address: Ctra. La Esperanza, km 2
     stylesEn: Salsa
     stylesEs: Salsa
-    url: https://www.instagram.com/lasalsera_solosalsa/p/Df5EPiAASYS/
+    url: https://www.instagram.com/sbkcanary/p/Df5H20NMqmQ/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife
   - name: Fiestón SBK
     date: '2026-12-07'
@@ -237,4 +210,4 @@ oneOffEvents:
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/fieston_sbk_canarias/p/Df7Nbq1sV-F/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
-lastModified: '2026-11-20T09:55:57.411Z'
+lastModified: '2026-11-22T11:15:27.039Z'

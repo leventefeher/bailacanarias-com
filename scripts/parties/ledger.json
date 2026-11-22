@@ -70,7 +70,7 @@
         }
       ],
       "lastSeen": "2026-11-21",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null,
       "address": "Avd Daniel Feo 7"
     },
@@ -494,7 +494,7 @@
         }
       ],
       "lastSeen": "2026-11-21",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "tueligessbkz|lamoviesocialclub": {
@@ -641,7 +641,7 @@
       "stylesEn": "Salsa",
       "stylesEs": "Salsa",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/lasalsera_solosalsa/p/Df5EPiAASYS/",
+      "url": "https://www.instagram.com/sbkcanary/p/Df5H20NMqmQ/",
       "firstSeen": "2026-09-23",
       "sightings": [
         {
@@ -810,7 +810,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/guinda_chillout/",
+      "url": "https://www.instagram.com/guinda_chillout/reel/DgAc1gxIuQp/",
       "firstSeen": "2026-09-25",
       "sightings": [
         {
@@ -866,9 +866,27 @@
           "weekday": "Friday",
           "postUrl": "https://www.instagram.com/stories/guinda_chillout/4028787314656620492/",
           "recordedOn": "2026-11-13"
+        },
+        {
+          "eventDate": "2026-11-29",
+          "weekday": "Sunday",
+          "postUrl": "https://www.instagram.com/guinda_chillout/reel/DgAcYOrIsJd/",
+          "recordedOn": "2026-11-22"
+        },
+        {
+          "eventDate": "2026-12-04",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/guinda_chillout/reel/DgAc1gxIuQp/",
+          "recordedOn": "2026-11-22"
+        },
+        {
+          "eventDate": "2026-12-05",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/guinda_chillout/reel/DgAc1gxIuQp/",
+          "recordedOn": "2026-11-22"
         }
       ],
-      "lastSeen": "2026-11-13",
+      "lastSeen": "2026-12-05",
       "status": "weekly",
       "weekday": "Friday"
     },
@@ -1184,7 +1202,7 @@
         }
       ],
       "lastSeen": "2026-11-20",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "domingodemalecon|bambuloungebar": {
@@ -1196,7 +1214,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://eventoenlista.com/index.php",
+      "url": "https://www.instagram.com/bambuloungetfe/",
       "firstSeen": "2026-09-30",
       "sightings": [
         {
@@ -1556,7 +1574,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/richydj_/p/Df2e-PnMYs7/",
+      "url": "https://www.instagram.com/salvajelatejita/",
       "firstSeen": "2026-10-10",
       "sightings": [
         {
@@ -1694,7 +1712,7 @@
         }
       ],
       "lastSeen": "2026-11-21",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "tardeooasis|oasisdelosgigantes": {
@@ -1714,10 +1732,16 @@
           "weekday": "Saturday",
           "postUrl": "https://www.instagram.com/stories/dondebailoentenerife/4009262911918466468/",
           "recordedOn": "2026-10-17"
+        },
+        {
+          "eventDate": "2026-11-28",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/stories/dondebailoentenerife/4035652109244060770/",
+          "recordedOn": "2026-11-22"
         }
       ],
-      "lastSeen": "2026-10-24",
-      "status": "past",
+      "lastSeen": "2026-11-28",
+      "status": "upcoming",
       "weekday": null
     },
     "bailedelcorazon|hotelaluatenerife": {
@@ -1886,7 +1910,7 @@
       "stylesEn": "Salsa, Bachata & Kizomba",
       "stylesEs": "Salsa, Bachata y Kizomba",
       "mapsUrl": "",
-      "url": "https://eventoenlista.com/index.php?q=inscripcion&evento=ca6c2ad1-d77c-11f1-887e-ac1f6bb3e906",
+      "url": "https://www.instagram.com/fieston_sbk_canarias/",
       "firstSeen": "2026-11-03",
       "sightings": [
         {
@@ -2139,6 +2163,29 @@
         }
       ],
       "lastSeen": "2026-11-20",
+      "status": "past",
+      "weekday": null
+    },
+    "inauguracionsalagoiter|salagoiter": {
+      "name": "Inauguración Sala Goiter",
+      "venue": "Sala Goiter",
+      "area": "El Médano",
+      "region": "South",
+      "address": "Avda. José Miguel Galván Bello, Edificio Magallanes 6, Local 9",
+      "stylesEn": "SBK",
+      "stylesEs": "SBK",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/reel/Df_8WGwxPxb/",
+      "firstSeen": "2026-11-22",
+      "sightings": [
+        {
+          "eventDate": "2026-11-25",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/reel/Df_8WGwxPxb/",
+          "recordedOn": "2026-11-22"
+        }
+      ],
+      "lastSeen": "2026-11-25",
       "status": "upcoming",
       "weekday": null
     }
