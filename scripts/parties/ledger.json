@@ -186,9 +186,15 @@
           "weekday": "Wednesday",
           "postUrl": "https://www.instagram.com/sesionesbailetenerife/p/DfzMDSbx9hZ/",
           "recordedOn": "2026-11-17"
+        },
+        {
+          "eventDate": "2026-11-25",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/p/DgFOLchOrED/",
+          "recordedOn": "2026-11-24"
         }
       ],
-      "lastSeen": "2026-11-18",
+      "lastSeen": "2026-11-25",
       "status": "weekly",
       "weekday": "Wednesday",
       "address": "Paseo Milicias de Garachico 1"
@@ -641,7 +647,7 @@
       "stylesEn": "Salsa",
       "stylesEs": "Salsa",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/sbkcanary/p/Df5H20NMqmQ/",
+      "url": "https://www.instagram.com/lasalsera_solosalsa/",
       "firstSeen": "2026-09-23",
       "sightings": [
         {
@@ -795,9 +801,15 @@
           "weekday": "Wednesday",
           "postUrl": "https://www.instagram.com/stories/fuegopegao/4025502004385711595/",
           "recordedOn": "2026-11-08"
+        },
+        {
+          "eventDate": "2026-11-25",
+          "weekday": "Wednesday",
+          "postUrl": "https://www.instagram.com/stories/fuegopegao/4036701749875629089/",
+          "recordedOn": "2026-11-24"
         }
       ],
-      "lastSeen": "2026-11-11",
+      "lastSeen": "2026-11-25",
       "status": "weekly",
       "weekday": "Wednesday"
     },
@@ -1326,13 +1338,13 @@
     "tenerifelatinsocial|": {
       "name": "Tenerife Latin Social",
       "venue": "",
-      "area": "Las Chafiras",
+      "area": "El Médano",
       "region": "South",
       "address": "",
       "stylesEn": "Salsa & Bachata",
       "stylesEs": "Salsa y Bachata",
       "mapsUrl": "",
-      "url": "https://www.instagram.com/tenerifelatinsocial/reel/DfsjdnRBN80/",
+      "url": "https://www.instagram.com/tenerifelatinsocial/reel/DgC3B99NQc0/",
       "firstSeen": "2026-10-06",
       "sightings": [
         {
@@ -1388,9 +1400,15 @@
           "weekday": "Monday",
           "postUrl": "https://www.instagram.com/tenerifelatinsocial/reel/DfsjdnRBN80/",
           "recordedOn": "2026-11-14"
+        },
+        {
+          "eventDate": "2026-11-23",
+          "weekday": "Monday",
+          "postUrl": "https://www.instagram.com/tenerifelatinsocial/reel/DgC3B99NQc0/",
+          "recordedOn": "2026-11-24"
         }
       ],
-      "lastSeen": "2026-11-16",
+      "lastSeen": "2026-11-23",
       "status": "weekly",
       "weekday": "Monday"
     },
@@ -1591,7 +1609,7 @@
         }
       ],
       "lastSeen": "2026-11-22",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "alocubano|laguindachillout": {
@@ -1620,7 +1638,7 @@
         }
       ],
       "lastSeen": "2026-11-22",
-      "status": "upcoming",
+      "status": "past",
       "weekday": null
     },
     "pinktober|hardrockcafetenerife": {
@@ -1970,11 +1988,17 @@
           "weekday": "Thursday",
           "postUrl": "https://www.instagram.com/stories/fuegopegao/4031159834061404626/",
           "recordedOn": "2026-11-16"
+        },
+        {
+          "eventDate": "2026-11-26",
+          "weekday": "Thursday",
+          "postUrl": "https://www.instagram.com/stories/fuegopegao/4036701947066595513/",
+          "recordedOn": "2026-11-24"
         }
       ],
-      "lastSeen": "2026-11-19",
-      "status": "past",
-      "weekday": null
+      "lastSeen": "2026-11-26",
+      "status": "weekly",
+      "weekday": "Thursday"
     },
     "kizombasbknight|salvajelatejita": {
       "name": "Kizomba + SBK Night",
@@ -2005,8 +2029,8 @@
       "area": "Las Chafiras",
       "region": "South",
       "address": "",
-      "stylesEn": "",
-      "stylesEs": "",
+      "stylesEn": "Salsa & Bachata",
+      "stylesEs": "Salsa y Bachata",
       "mapsUrl": "",
       "url": "https://www.instagram.com/fuegopegao/",
       "firstSeen": "2026-11-09",
@@ -2186,6 +2210,29 @@
         }
       ],
       "lastSeen": "2026-11-25",
+      "status": "upcoming",
+      "weekday": null
+    },
+    "bailongossocialpractice|aquaclubtermal": {
+      "name": "Bailongo's Social Practice",
+      "venue": "Aqua Club Termal",
+      "area": "Torviscas Alto",
+      "region": "South",
+      "address": "Calle Galicia 6",
+      "stylesEn": "Salsa & Bachata",
+      "stylesEs": "Salsa y Bachata",
+      "mapsUrl": "",
+      "url": "https://www.instagram.com/maxxsalsatenerife/",
+      "firstSeen": "2026-11-24",
+      "sightings": [
+        {
+          "eventDate": "2026-11-28",
+          "weekday": "Saturday",
+          "postUrl": "https://www.instagram.com/reel/Df5AEeRRU21/",
+          "recordedOn": "2026-11-24"
+        }
+      ],
+      "lastSeen": "2026-11-28",
       "status": "upcoming",
       "weekday": null
     }

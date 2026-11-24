@@ -888,6 +888,30 @@
       "status": "rejected",
       "reason": "dance instructor (bio: international dancer, teacher at Studio 54); not an event organiser",
       "checkedOn": "2026-11-20"
+    },
+    {
+      "handle": "minze.club",
+      "seenOn": "lamoviesocialclub",
+      "firstSeen": "2026-11-24",
+      "status": "rejected",
+      "reason": "social running club (bio: Club de running social); its La Movie post is an after-run party, not a dance event",
+      "checkedOn": "2026-11-24"
+    },
+    {
+      "handle": "zoukfund.eu",
+      "seenOn": "zoukcanaryislands",
+      "firstSeen": "2026-11-24",
+      "status": "rejected",
+      "reason": "Brazilian Zouk scholarship/funding info account for Europe; not a Tenerife organiser or venue",
+      "checkedOn": "2026-11-24"
+    },
+    {
+      "handle": "hesperidesproject",
+      "seenOn": "chavy_kizomba",
+      "firstSeen": "2026-11-24",
+      "status": "rejected",
+      "reason": "dance training project / Hesperides Dance Festival in Lanzarote (bio); not Tenerife",
+      "checkedOn": "2026-11-24"
     }
   ],
   "secondarySources": [
