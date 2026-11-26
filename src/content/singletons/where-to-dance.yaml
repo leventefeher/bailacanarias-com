@@ -21,7 +21,7 @@ parties:
     eventsRaw: |-
       Bachatón | La Movie Social Club, Santa Cruz | Bachata | Bachata | https://www.instagram.com/p/DgFOLchOrED/ | https://www.google.com/maps/search/?api=1&query=La%20Movie%20Social%20Club%2C%20Paseo%20Milicias%20de%20Garachico%201%2C%20Santa%20Cruz%2C%20Tenerife | North
 
-      Papacito | Wild Tenerife, Los Cristianos | Salsa, Bachata & Reggaeton | Salsa, Bachata y Reggaeton | https://www.instagram.com/fuegopegao/ | https://www.google.com/maps/search/?api=1&query=Wild%20Tenerife%2C%20CC%20San%20Telmo%2C%20Av.%20La%20Habana%2011%2C%20Los%20Cristianos%2C%20Tenerife | South
+      Papacito | Wild Tenerife, Los Cristianos | Salsa, Bachata & Reggaeton | Salsa, Bachata y Reggaeton | https://www.instagram.com/bailesocialsbktenerife/ | https://www.google.com/maps/search/?api=1&query=Wild%20Tenerife%2C%20CC%20San%20Telmo%2C%20Av.%20La%20Habana%2011%2C%20Los%20Cristianos%2C%20Tenerife | South
   - dayEn: Thursday
     dayEs: Jueves
     dayNoteEn: Check Instagram for Thursday events.
@@ -33,7 +33,7 @@ parties:
 
       Jueves Latinos | La Guinda Chill Out, Puerto de la Cruz | Salsa, Bachata & Reggaeton | Salsa, Bachata y Reggaeton | https://www.instagram.com/guinda_chillout/reel/DfZJsN4oBmG/ | https://www.google.com/maps/search/?api=1&query=La%20Guinda%20Chill%20Out%2C%20Calle%20Acevi%C3%B1o%2021%2C%20Puerto%20de%20la%20Cruz%2C%20Tenerife | North
 
-      Ritmo | Tramps, Playa de las Américas | Salsa & Bachata | Salsa y Bachata | https://www.instagram.com/leobailetenerife/ | https://www.google.com/maps/search/?api=1&query=Tramps%2C%20Playa%20de%20las%20Am%C3%A9ricas%2C%20Tenerife | South
+      Ritmo | Tramps, Playa de las Américas | Salsa & Bachata | Salsa y Bachata | https://www.instagram.com/bailesocialsbktenerife/ | https://www.google.com/maps/search/?api=1&query=Tramps%2C%20Playa%20de%20las%20Am%C3%A9ricas%2C%20Tenerife | South
   - dayEn: Friday
     dayEs: Viernes
     eventsRaw: |-
@@ -59,15 +59,6 @@ parties:
 
       Domingo de Malecón | Bambú Lounge Bar, Santa Cruz | Salsa, Bachata & Kizomba | Salsa, Bachata y Kizomba | https://www.instagram.com/p/DgIc6tJDbWW/ | https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife | North
 oneOffEvents:
-  - name: Inauguración Sala Goiter
-    date: '2026-11-25'
-    location: Sala Goiter, El Médano
-    region: South
-    address: Avda. José Miguel Galván Bello, Edificio Magallanes 6, Local 9
-    stylesEn: SBK
-    stylesEs: SBK
-    url: https://www.instagram.com/reel/Df_8WGwxPxb/
-    mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Goiter%2C%20Avda.%20Jos%C3%A9%20Miguel%20Galv%C3%A1n%20Bello%2C%20Edificio%20Magallanes%206%2C%20Local%209%2C%20El%20M%C3%A9dano%2C%20Tenerife
   - name: Bailongo's Social Practice
     date: '2026-11-28'
     location: Aqua Club Termal, Torviscas Alto
@@ -84,7 +75,7 @@ oneOffEvents:
     address: Calle Fernando Arozena Quintero 5
     stylesEn: Salsa, Bachata & Kizomba
     stylesEs: Salsa, Bachata y Kizomba
-    url: https://www.instagram.com/dondebailoentenerife/
+    url: https://eventoenlista.com/index.php?q=inscripcion&evento=ca6c2ad1-d77c-11f1-887e-ac1f6bb3e906
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife
   - name: Ruta Salsera
     date: '2026-11-28'
@@ -93,8 +84,17 @@ oneOffEvents:
     address: ""
     stylesEn: Salsa, Bachata & Merengue
     stylesEs: Salsa, Bachata y Merengue
-    url: https://www.instagram.com/dondebailoentenerife/
+    url: https://www.instagram.com/bailesocialsbktenerife/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Plaza%20Secundino%20Delgado%2C%20La%20Laguna%2C%20Tenerife
+  - name: Ruta Salsera
+    date: '2026-11-28'
+    location: Plaza de Las Cuevecitas, Las Cuevecitas, Candelaria
+    region: Southeast
+    address: C. San Andrés 13
+    stylesEn: Salsa, Bachata & Merengue
+    stylesEs: Salsa, Bachata y Merengue
+    url: https://www.instagram.com/bailesocialsbktenerife/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Plaza%20de%20Las%20Cuevecitas%2C%20C.%20San%20Andr%C3%A9s%2013%2C%20Las%20Cuevecitas%2C%20Candelaria%2C%20Tenerife
   - name: Sabroso Latino
     date: '2026-11-28'
     location: Montaña Roja 2, Las Chafiras
@@ -102,7 +102,7 @@ oneOffEvents:
     address: Avd Daniel Feo 7
     stylesEn: Salsa & Bachata
     stylesEs: Salsa y Bachata
-    url: https://www.instagram.com/fuegopegao/
+    url: https://www.instagram.com/maxxsalsatenerife/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Monta%C3%B1a%20Roja%202%2C%20Avd%20Daniel%20Feo%207%2C%20Las%20Chafiras%2C%20Tenerife
   - name: Tardeo Bachatero
     date: '2026-11-28'
@@ -122,6 +122,15 @@ oneOffEvents:
     stylesEs: Salsa, Bachata y Kizomba
     url: https://www.instagram.com/dondebailoentenerife/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Oasis%20de%20los%20Gigantes%2C%20Los%20Gigantes%2C%20Tenerife
+  - name: Bacanal Latinos
+    date: '2026-12-05'
+    location: Sala Montaña Roja, Las Chafiras
+    region: South
+    address: Avenida Daniel Feo 9
+    stylesEn: Salsa, Bachata & Kizomba
+    stylesEs: Salsa, Bachata y Kizomba
+    url: https://www.instagram.com/bailesocialsbktenerife/
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Monta%C3%B1a%20Roja%2C%20Avenida%20Daniel%20Feo%209%2C%20Las%20Chafiras%2C%20Tenerife
   - name: La Salsera
     date: '2026-12-05'
     location: Sala Juanito + Copas, La Laguna
@@ -129,7 +138,7 @@ oneOffEvents:
     address: Ctra. La Esperanza, km 2
     stylesEn: Salsa
     stylesEs: Salsa
-    url: https://www.instagram.com/p/Df5EPiAASYS/
+    url: https://www.instagram.com/sbkcanary/p/Df5H20NMqmQ/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Juanito%20%2B%20Copas%2C%20Ctra.%20La%20Esperanza%2C%20km%202%2C%20La%20Laguna%2C%20Tenerife
   - name: Sunday Party
     date: '2026-12-06'
@@ -176,14 +185,23 @@ oneOffEvents:
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/fieston_sbk_canarias/p/DffOS_1Mlc7/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Av.%20Daniel%20Feo%209%2C%20Las%20Chafiras%2C%20Tenerife
+  - name: Noche de Maestros Internacionales
+    date: '2026-12-19'
+    location: Bambú Lounge Bar, Santa Cruz
+    region: North
+    address: Calle Fernando Arozena Quintero 5
+    stylesEn: Bachata
+    stylesEs: Bachata
+    url: https://eventoenlista.com/index.php?q=inscripcion&evento=628831ba-e8b3-11f1-ba05-ac1f6bb3e906
+    mapsUrl: https://www.google.com/maps/search/?api=1&query=Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife
   - name: Fiesta Fin de Año
     date: '2026-12-31'
     location: Sala Bali, Bambú Lounge Bar, Santa Cruz
     region: North
     address: Calle Fernando Arozena Quintero 5
-    stylesEn: Salsa, Bachata & Kizomba
-    stylesEs: Salsa, Bachata y Kizomba
-    url: https://www.instagram.com/p/DgInHpctMqg/
+    stylesEn: Merengue, Salsa, Bachata & Kizomba
+    stylesEs: Merengue, Salsa, Bachata y Kizomba
+    url: https://www.instagram.com/latin_events_tenerife/p/DgInHpctMqg/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Sala%20Bali%2C%20Bamb%C3%BA%20Lounge%20Bar%2C%20Calle%20Fernando%20Arozena%20Quintero%205%2C%20Santa%20Cruz%2C%20Tenerife
   - name: Fin de Año La Gran Fiesta Latina
     date: '2026-12-31'
@@ -212,4 +230,4 @@ oneOffEvents:
     stylesEs: Salsa, Bachata, Kizomba y Zouk
     url: https://www.instagram.com/fieston_sbk_canarias/
     mapsUrl: https://www.google.com/maps/search/?api=1&query=Studio%2054%20Liceo%20Taoro%2C%20La%20Orotava%2C%20Tenerife
-lastModified: '2026-11-25T09:22:50.904Z'
+lastModified: '2026-11-26T09:35:48.911Z'
