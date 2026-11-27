@@ -151,7 +151,7 @@
       "handle": "tenerifelatinsocial",
       "url": "https://www.instagram.com/tenerifelatinsocial/",
       "addedOn": "2026-10-06",
-      "note": "organiser of free weekly Monday street socials (\"Tenerife Latin Social\") in the south; location changes week to week (Plaza Roja El Médano, Parque Las Chafiras). Co-hosts Fiestón SBK pool parties"
+      "note": "organiser of free weekly Monday street socials (\"Tenerife Latin Social\") in the south; held outdoors, not in a venue; the spot changes week to week (e.g. Plaza Roja El Médano, Parque Las Chafiras). Confirmed by the user 2026-11-27: always record it with an EMPTY venue (keeps one ledger key, tenerifelatinsocial|), put the specific outdoor spot from the latest post in area (e.g. \"Plaza Roja, El Médano\" or \"Parque Las Chafiras, Las Chafiras\"), and set mapsUrl to a Google Maps search link for that spot + Tenerife. Do not flag the missing venue as a change to report. Co-hosts Fiestón SBK pool parties"
     },
     {
       "handle": "alocubano.tf",
