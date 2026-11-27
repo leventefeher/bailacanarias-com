@@ -1377,9 +1377,9 @@
       "status": "past",
       "weekday": null
     },
-    "tenerifelatinsocial|plazaroja": {
+    "tenerifelatinsocial|": {
       "name": "Tenerife Latin Social",
-      "venue": "Plaza Roja",
+      "venue": "",
       "area": "El Médano",
       "region": "South",
       "address": "",
