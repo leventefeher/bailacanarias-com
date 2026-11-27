@@ -912,6 +912,22 @@
       "status": "rejected",
       "reason": "dance training project / Hesperides Dance Festival in Lanzarote (bio); not Tenerife",
       "checkedOn": "2026-11-24"
+    },
+    {
+      "handle": "adrianodeoliveira.jiujitsu",
+      "seenOn": "zoukcanaryislands",
+      "firstSeen": "2026-11-27",
+      "status": "rejected",
+      "reason": "personal account: Brazilian Jiu-Jitsu instructor and zouk dancer (bio); not an organiser or venue",
+      "checkedOn": "2026-11-27"
+    },
+    {
+      "handle": "merlynbriceno",
+      "seenOn": "salvajelatejita",
+      "firstSeen": "2026-11-27",
+      "status": "rejected",
+      "reason": "Venezuelan cuatro musician based in Barcelona (bio); concert artist, not a dance organiser or venue",
+      "checkedOn": "2026-11-27"
     }
   ],
   "secondarySources": [

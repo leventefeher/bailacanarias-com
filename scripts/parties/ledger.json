@@ -1607,9 +1607,15 @@
           "weekday": "Friday",
           "postUrl": "https://www.facebook.com/photo/?fbid=10246945380316357",
           "recordedOn": "2026-11-25"
+        },
+        {
+          "eventDate": "2026-11-27",
+          "weekday": "Friday",
+          "postUrl": "https://www.instagram.com/stories/tenerifelatinsocial/4038938256690384948/",
+          "recordedOn": "2026-11-27"
         }
       ],
-      "lastSeen": "2026-11-20",
+      "lastSeen": "2026-11-27",
       "declaredRecurring": true,
       "status": "weekly",
       "weekday": "Friday"
